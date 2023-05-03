@@ -107,9 +107,8 @@
 				<damageDef>Electrical</damageDef>
 				<multiplier>0</multiplier>
 		  </li>
-		</damageMultipliers>
+	</damageMultipliers>
  	 </ThingDef>
-
   	<ThingDef ParentName="BaseArtilleryWeapon"> 
 		<defName>FTC_Katyusha_Gun</defName>
 		<label>multi-railed rocket</label>

@@ -599,7 +599,6 @@
 		<specialDisplayRadius>11.9</specialDisplayRadius>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
-			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
@@ -757,7 +756,6 @@
 		</building>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
-			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
@@ -895,7 +893,6 @@
 		</building>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
-			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
@@ -973,22 +970,22 @@
 		<defName>FT_Bunker_HowitzerShell</defName>
 		<label>heavy explosive shell</label>
 		<graphicData>
-			<texPath>Things/FTC_Shell_HE</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>TransparentPostLight</shaderType>
+		<texPath>Things/FTC_Shell_HE</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
-		<projectile>
-			<damageDef>Bomb</damageDef>
-			<damageAmountBase>75</damageAmountBase>
-			<speed>50</speed>
-			<explosionRadius>3.5</explosionRadius>
-			<flyOverhead>true</flyOverhead>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>MortarBomb_Explode</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-		</projectile>
-	</ThingDef>
+			<projectile>
+				<damageDef>Bomb</damageDef>
+				<damageAmountBase>75</damageAmountBase>
+				<speed>50</speed>
+				<explosionRadius>3.5</explosionRadius>
+				<flyOverhead>true</flyOverhead>
+				<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+				<soundExplode>MortarBomb_Explode</soundExplode>
+				<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+				<soundAmbient>MortarRound_Ambient</soundAmbient>
+			</projectile>
+  	</ThingDef>
 
 </Defs>	
