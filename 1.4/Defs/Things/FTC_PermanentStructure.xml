@@ -33,8 +33,36 @@
 			<multiplier>0.1</multiplier>
 		  </li>
 		  <li>
+			<damageDef>Crush</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Stab</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Scratch</damageDef>
+			<multiplier>0.05</multiplier>
+		  </li>
+		   <li>
+			<damageDef>ScratchToxic</damageDef>
+			<multiplier>0.05</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Bite</damageDef>
+			<multiplier>0.05</multiplier>
+		  </li>
+		  <li>
+			<damageDef>ToxicBite</damageDef>
+			<multiplier>0.05</multiplier>
+		  </li>
+		  <li>
 			<damageDef>Blunt</damageDef>
-			<multiplier>0.5</multiplier>
+			<multiplier>0.25</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Poke</damageDef>
+			<multiplier>0.25</multiplier>
 		  </li>
 		  <li>
 			<damageDef>Bomb</damageDef>
@@ -46,16 +74,116 @@
 		  </li>	  
 		  <li>
 			<damageDef>Demolish</damageDef>
-			<multiplier>0.1</multiplier>
+			<multiplier>0.5</multiplier>
 		  </li>
 		  <li>
 			<damageDef>Thump</damageDef>
-			<multiplier>0.25</multiplier>
+			<multiplier>0.35</multiplier>
 		  </li>
 		  <li>
 			<damageDef>Bullet</damageDef>
 			<multiplier>0.5</multiplier>
 		  </li>
+		  <li>
+			<damageDef>Arrow</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>ArrowHighVelocity</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Flame</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Burn</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Frostbite</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>TornadoScratch</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Mining</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>EMP</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Stun</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+<!--Biotech DLC -->
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>Vaporize</damageDef>
+				<multiplier>0.13</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>BulletToxic</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>AcidBurn</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>Beam</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>MechBandShockwave</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+<!--==========-->
+<!-- Combat Extended -->
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Beanbag</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Taser</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Fragment</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>PrometheumFlame</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Bomb_Secondary</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Flame_Secondary</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>ArrowVenom</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>ArrowFire</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Tranquilizer</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Electrical</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+<!--==========-->
 		</damageMultipliers>
 	</ThingDef>
 
@@ -152,7 +280,7 @@
 		<graphicData>
 			<texPath>Things/CitadelWall_Embrasure</texPath>
 		</graphicData>
-		<fillPercent>0.85</fillPercent>
+		<fillPercent>0.75</fillPercent>
 		<building>
 		 	<blueprintGraphicData>
 				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>

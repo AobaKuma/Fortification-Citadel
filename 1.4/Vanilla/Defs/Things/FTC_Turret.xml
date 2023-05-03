@@ -26,7 +26,7 @@
 		<stealable>false</stealable>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
-		<fillPercent>0.2</fillPercent>
+		<fillPercent>0.75</fillPercent>
 		<tickerType>Normal</tickerType>
 		<designationCategory>Security</designationCategory>
 		<inspectorTabs>
@@ -90,7 +90,26 @@
 		</building>
 		<uiIconPath>Things/RailedLauncher_icon</uiIconPath>
 		<uiIconScale>1</uiIconScale>
+	<damageMultipliers>
+		  <li>
+			<damageDef>EMP</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Stun</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>MechBandShockwave</damageDef>
+				<multiplier>0</multiplier>
+		  </li>
+		  <li MayRequire="CETeam.CombatExtended">
+				<damageDef>Electrical</damageDef>
+				<multiplier>0</multiplier>
+		  </li>
+		</damageMultipliers>
  	 </ThingDef>
+
   	<ThingDef ParentName="BaseArtilleryWeapon"> 
 		<defName>FTC_Katyusha_Gun</defName>
 		<label>multi-railed rocket</label>
@@ -152,7 +171,7 @@
 
  <!-- 砲塔類，進入後不可控制指令，不耗電 -->
 	<ThingDef ParentName="FTC_BasePermanentStructure" Name="FTC_BasePermanentTurret" Abstract="True">
-		<thingClass>FortificationFacility.Building_TurretCapacity</thingClass>
+		<thingClass>Fortification.Building_TurretCapacity</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -200,7 +219,7 @@
 			<MaxHitPoints>950</MaxHitPoints>
 			<WorkToBuild>2000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.85</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.93</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
@@ -226,12 +245,12 @@
 					<li>Steel</li>
 				</thingDefs>
 				</fuelFilter>
-				<fuelCapacity>600</fuelCapacity>
+				<fuelCapacity>1200</fuelCapacity>                   <!-- 120 burst -->
 				<initialFuelPercent>1</initialFuelPercent>
 				<autoRefuelPercent>0.75</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
-				<fuelMultiplier>3</fuelMultiplier>
+				<fuelMultiplier>8</fuelMultiplier>                  <!-- 1 Steel=8 ammo -->
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
@@ -267,7 +286,7 @@
 				<soundCast>GunShotA</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
-				<consumeFuelPerShot>0.5</consumeFuelPerShot>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
 		 	 </li>
 		</verbs>
 	</ThingDef>
@@ -296,7 +315,7 @@
 			<MaxHitPoints>950</MaxHitPoints>
 			<WorkToBuild>2000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.98</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>175</Steel>
@@ -319,15 +338,15 @@
 				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
 				<fuelFilter>
 				<thingDefs>
-					<li>Steel</li>
+					<li>Uranium</li>
 				</thingDefs>
 				</fuelFilter>
-				<fuelCapacity>300</fuelCapacity>
+				<fuelCapacity>750</fuelCapacity>                   <!-- 150 burst -->
 				<initialFuelPercent>1</initialFuelPercent>
 				<autoRefuelPercent>0.75</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
-				<fuelMultiplier>2</fuelMultiplier>
+				<fuelMultiplier>4</fuelMultiplier>                 <!-- 1 Uranium=4 ammo -->
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<outOfFuelMessage>Cannot shoot: Needs new barrels</outOfFuelMessage>
@@ -362,7 +381,7 @@
 				<soundCast>FT_AutoCannonShot</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>12</muzzleFlashScale>
-				<consumeFuelPerShot>0.4</consumeFuelPerShot>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
 		 	 </li>
 		</verbs>
 	</ThingDef>	

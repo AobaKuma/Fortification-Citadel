@@ -32,9 +32,8 @@ after we died , we will live in the casket made by concrete.
    </li>
   </modDependencies>
   <loadAfter>
-	<li>vanillaexpanded.achievements</li>
+	  <li>vanillaexpanded.achievements</li>
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-	<li>Aoba.Fortress.Industrial</li>
+	  <li>Aoba.Fortress.Industrial</li>
   </loadAfter>
 </ModMetaData>
-

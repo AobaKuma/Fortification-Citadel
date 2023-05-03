@@ -51,6 +51,7 @@
           <nearMapCenter>True</nearMapCenter>
           <chooseFrom>
             <li>FTC_CitadelBunkerStart</li>
+            <li>FTC_CitadelBunkerStart_B</li>
           </chooseFrom>
         </li>
       </parts>

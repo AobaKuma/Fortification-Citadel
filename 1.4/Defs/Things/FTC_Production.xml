@@ -40,7 +40,7 @@
     <staticSunShadowHeight>0.50</staticSunShadowHeight>
     <costList>
       <Steel>750</Steel>
-	    <FT_ConcreteCompressed>16</FT_ConcreteCompressed>
+	  <FT_ConcreteCompressed>16</FT_ConcreteCompressed>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <statBases>
@@ -277,7 +277,12 @@
             <li>Chemfuel</li>
           </thingDefs>
         </fuelFilter>
-        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+		<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+		<initialConfigurableTargetFuelLevel>600</initialConfigurableTargetFuelLevel>
+		<autoRefuelPercent>100</autoRefuelPercent>
+		<drawFuelGaugeInMap>true</drawFuelGaugeInMap>
+		<showFuelGizmo>true</showFuelGizmo>
+		<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>10</glowRadius>
@@ -303,7 +308,7 @@
     <designationCategory>Power</designationCategory>
     <constructEffect>ConstructMetal</constructEffect>
     <researchPrerequisites>
-      <li>FT_ENIAC</li>
+      <li>FTC_PermanentStructure</li>
     </researchPrerequisites>
     <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
   </ThingDef>
@@ -380,6 +385,9 @@
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
@@ -396,7 +404,12 @@
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+		<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+		<initialConfigurableTargetFuelLevel>50</initialConfigurableTargetFuelLevel>
+		<autoRefuelPercent>100</autoRefuelPercent>
+		<drawFuelGaugeInMap>true</drawFuelGaugeInMap>
+		<showFuelGizmo>true</showFuelGizmo>
+		<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>

@@ -2,7 +2,7 @@
 <LanguageData>
 
   <FT_ExtractChemFuelByCorpses.label>Pyrolyze corpses (360)</FT_ExtractChemFuelByCorpses.label>
-  <FT_ExtractChemFuelByCorpses.description>Pyrolyze 360 kilograms of corpses (about 6 grown-up humans) into 150 chemfuel. Corpses must be non-mechanical in nature.</FT_ExtractChemFuelByCorpses.description>
+  <FT_ExtractChemFuelByCorpses.description>Pyrolyze 360 kilograms of corpses (about 6 grown-up humans) into chemfuel. Corpses must be non-mechanical in nature.</FT_ExtractChemFuelByCorpses.description>
   <FT_ExtractChemFuelByCorpses.jobString>Pyrolyzing chemfuel from materials</FT_ExtractChemFuelByCorpses.jobString>
 
   <FT_ExtractChemFuelByJunks.label>Pyrolyze junk (4)</FT_ExtractChemFuelByJunks.label>

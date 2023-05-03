@@ -54,11 +54,14 @@
 		<neverMultiSelect>true</neverMultiSelect>
 		<holdsRoof>false</holdsRoof>
 		<castEdgeShadows>false</castEdgeShadows>
-			<building>
-				<allowAutoroof>false</allowAutoroof>
-				<isInert>true</isInert>
-				<ai_chillDestination>false</ai_chillDestination>
-			</building>
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+		 	<blueprintGraphicData>
+				<texPath>Things/ConcreteWall/FT_Wall_Blueprint</texPath>
+		  	</blueprintGraphicData>	
+		</building>
 		<blockLight>false</blockLight>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<filthLeaving>Filth_RubbleBuilding</filthLeaving>

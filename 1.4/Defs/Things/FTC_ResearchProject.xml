@@ -51,7 +51,7 @@
     <baseCost>750</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>FT_IndustrialCannon</li>
+      <li>GunTurrets</li>
       <li>FTC_PermanentStructure</li>
     </prerequisites>
 	<researchViewX>10.00</researchViewX>

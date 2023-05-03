@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <!-- 碉堡類，進入後可控制指令，耗電 -->
+  <ThingDef ParentName="FTC_BasePermanentTurret" Name="FTC_BasePermanentBunker" Abstract="True">
+  	<thingClass>Fortification.Building_TurretCapacity</thingClass>
+    <stealable>false</stealable>
+	<passability>PassThroughOnly</passability>
+	<coversFloor>true</coversFloor>
+    <blockWind>false</blockWind>
+    <comps>
+		<li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<basePowerConsumption>200</basePowerConsumption>
+			<transmitsPower>true</transmitsPower>
+		</li>
+		<li Class="CompProperties_Flickable"/>
+		<li Class="Fortification.CompProperties_ForceTargetable"/>
+    </comps>
+  </ThingDef>
+
+<!-- Quad MG Bunker -->
+	<ThingDef ParentName="FTC_BasePermanentBunker">
+		<defName>FTC_Bunker_Turret</defName>
+		<label>quad machinegun bunker</label>
+		<description>a manned stationary machinegun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/FortifiedBunker/QuadMGBunker_north</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+    	<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<graphicData>
+			<texPath>Things/FortifiedBunker/QuadMGBunker</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Beauty>-5</Beauty>
+			<ShootingAccuracyTurret>0.85</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+   		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
+		</costList>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>FTC_Bunker_Gun</turretGunDef>	 
+			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstCooldownTime>0.75</turretBurstCooldownTime>			
+		</building>
+		<researchPrerequisites>
+			<li>FTC_PermanentBunker</li>
+		</researchPrerequisites>
+  	</ThingDef>
+
+  	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>FTC_Bunker_Gun</defName>
+		<label>quad machine gun</label>
+		<description>four machinegun mounted inside the bunker.</description>
+		<graphicData>
+			<texPath>None</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		<SightsEfficiency>1</SightsEfficiency>
+		<ShotSpread>0.2</ShotSpread>
+		<SwayFactor>1.67</SwayFactor>
+		<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+		<li Class="CombatExtended.VerbPropertiesCE">
+			<recoilAmount>2.25</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>55</range>
+			<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+			<burstShotCount>20</burstShotCount>
+			<soundCast>GunShotA</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<recoilPattern>Mounted</recoilPattern>
+			<minRange>1.5</minRange>
+		</li>
+		</verbs>
+		<comps>
+		<li Class="CombatExtended.CompProperties_AmmoUser">
+			<magazineSize>800</magazineSize>
+         	<reloadTime>10</reloadTime>
+         	<ammoSet>AmmoSet_303British</ammoSet>
+		</li>
+		<li Class="CombatExtended.CompProperties_FireModes">
+			<aiUseBurstMode>false</aiUseBurstMode>
+			<aiAimMode>SuppressFire</aiAimMode>
+			<aimedBurstShotCount>10</aimedBurstShotCount>
+			<noSingleShot>true</noSingleShot>
+		</li>
+		</comps>
+  	</ThingDef>
+
+<!-- Wall Mounted Flame Bunker -->
+
+<!--	<ThingDef ParentName="FTC_BasePermanentBunker">
+		<defName>FTC_Wall_Flame</defName>
+		<label>flamethrower bunker</label>
+		<description>a manned stationary machinegun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+    	<passability>Impassable</passability>
+		<fillPercent>0.7</fillPercent>
+		<graphicData>
+			<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.91</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<size>(3,2)</size>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Beauty>-5</Beauty>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+   		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
+		</costList>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>FTC_Wall_Flame_Gun</turretGunDef>	 
+			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>
+			<turretBurstCooldownTime>0.5</turretBurstCooldownTime>			
+		</building>
+		<researchPrerequisites>
+			<li>FTC_PermanentBunker</li>
+		</researchPrerequisites>
+  	</ThingDef>
+
+  	<ThingDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="BaseWeaponTurret">
+		<defName>FTC_Wall_Flame_Gun</defName>
+		<label>flame thrower</label>
+		<description>flame thrower mounted inside the bunker.</description>
+		<graphicData>
+			<texPath>None</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		<ShotSpread>0.5</ShotSpread>
+		<SightsEfficiency>1</SightsEfficiency>
+		<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_FT_Flamethrower_Napalm</defaultProjectile>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<warmupTime>1</warmupTime>
+				<range>14.9</range>
+				<minRange>2.9</minRange>
+				<burstShotCount>10</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>Shot_MiniFlameblaster</soundCast>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+			</li>
+		</verbs>
+		<comps>
+		<li Class="CombatExtended.CompProperties_AmmoUser">
+			<magazineSize>300</magazineSize>
+         	<reloadTime>10</reloadTime>
+         	<ammoSet>AmmoSet_FT_Flamethrower</ammoSet>
+		</li>
+		</comps>
+  	</ThingDef>-->
+	
+	<!-- .303 Wall Mounted MG Bunker -->
+
+	<ThingDef ParentName="FTC_BasePermanentBunker">
+		<defName>FTC_Wall_MG</defName>
+		<label>.303 machinegun bunker(1)</label>
+		<description>a manned stationary machinegun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+    	<passability>Impassable</passability>
+		<fillPercent>0.7</fillPercent>
+		<graphicData>
+			<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.91</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<size>(3,2)</size>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<statBases>
+			<MaxHitPoints>1750</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Beauty>-5</Beauty>
+			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+   		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
+		</costList>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>FTC_Wall_MG_Gun</turretGunDef>	 
+			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstCooldownTime>1</turretBurstCooldownTime>			
+		</building>
+		<researchPrerequisites>
+			<li>FTC_PermanentBunker</li>
+		</researchPrerequisites>
+  	</ThingDef>
+
+  	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>FTC_Wall_MG_Gun</defName>
+		<label>.303 machine gun</label>
+		<description>a machinegun mounted inside the bunker.</description>
+		<graphicData>
+			<texPath>None</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		<SightsEfficiency>1</SightsEfficiency>
+		<ShotSpread>0.02</ShotSpread>
+		<SwayFactor>0.25</SwayFactor>
+		<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+		<li Class="CombatExtended.VerbPropertiesCE">
+			<recoilAmount>0.55</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>55</range>
+			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+			<burstShotCount>10</burstShotCount>
+			<soundCast>GunShotA</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>3</muzzleFlashScale>
+			<recoilPattern>Mounted</recoilPattern>
+			<minRange>1.5</minRange>
+		</li>
+		</verbs>
+		<comps>
+		<li Class="CombatExtended.CompProperties_AmmoUser">
+			<magazineSize>800</magazineSize>
+         	<reloadTime>10</reloadTime>
+         	<ammoSet>AmmoSet_303British</ammoSet>
+		</li>
+		<li Class="CombatExtended.CompProperties_FireModes">
+			<aiUseBurstMode>false</aiUseBurstMode>
+			<aiAimMode>Snapshot</aiAimMode>
+			<aimedBurstShotCount>5</aimedBurstShotCount>
+		</li>
+		</comps>
+  	</ThingDef>
+	
+<!-- 37mmAT Wall Mounted Bunker -->
+
+	<ThingDef ParentName="FTC_BasePermanentBunker">
+		<defName>FTC_Wall_AT</defName>
+		<label>37mm ATgun bunker</label>
+		<description>a manned stationary 37mm ATgun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<passability>Impassable</passability>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.7</fillPercent>
+		<graphicData>
+			<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.91</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<size>(3,2)</size>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<statBases>
+			<MaxHitPoints>1750</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Beauty>-5</Beauty>
+			<ShootingAccuracyTurret>0.99</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+   		  	<FT_ConcreteCompressed>5</FT_ConcreteCompressed>
+			<ReinforcedBarrel>1</ReinforcedBarrel>
+		</costList>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>FTC_Wall_AT_Gun</turretGunDef>	 
+			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstCooldownTime>3</turretBurstCooldownTime>			
+		</building>
+		<researchPrerequisites>
+			<li>FT_IndustrialCannon</li>
+			<li>FTC_PermanentBunker</li>
+		</researchPrerequisites>
+  	</ThingDef>
+
+  	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>FTC_Wall_AT_Gun</defName>
+		<label>37mm ATgun</label>
+		<description>a 37mm ATgun mounted inside the bunker.</description>
+		<graphicData>
+			<texPath>None</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		<SightsEfficiency>1</SightsEfficiency>
+		<RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+		<ShotSpread>0.01</ShotSpread>
+        <SwayFactor>1.05</SwayFactor>
+		</statBases>
+		<verbs>
+		<li Class="CombatExtended.VerbPropertiesCE">
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_37x223mmR_HE</defaultProjectile>
+			<warmupTime>2.5</warmupTime>
+			<minRange>3.9</minRange>
+			<range>80</range>
+			<soundCast>FT_CannonLaunchA</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+			<recoilPattern>Mounted</recoilPattern>
+		</li>
+		</verbs>
+		<comps>
+		<li Class="CombatExtended.CompProperties_AmmoUser">
+			<magazineSize>40</magazineSize>
+         	<reloadTime>10</reloadTime>
+         	<ammoSet>AmmoSet_37x223mmR</ammoSet>
+		</li>
+		<li Class="CombatExtended.CompProperties_FireModes">
+			<aiUseBurstMode>false</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</li>
+		</comps>
+  	</ThingDef>
+	
+<!-- Autocannon Bunker -->
+
+	<ThingDef ParentName="FTC_BasePermanentBunker">
+		<defName>FTC_Autocannon_Bunker</defName>
+		<label>autocannon bunker</label>
+		<description>a manned stationary autocannon bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Autocannon_south</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<fillPercent>0.7</fillPercent>
+		<graphicData>
+			<texPath>Things/Wall_Bunker/Citadel_Autocannon</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.91</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<statBases>
+			<MaxHitPoints>1750</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Beauty>-5</Beauty>
+			<ShootingAccuracyTurret>1</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Steel>175</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+   		  	<FT_ConcreteCompressed>6</FT_ConcreteCompressed>
+		</costList>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>FTC_Autocannon_Bunker_Gun</turretGunDef>	 
+			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstCooldownTime>1.25</turretBurstCooldownTime>			
+		</building>
+		<researchPrerequisites>
+			<li>FTC_PermanentBunker</li>
+		</researchPrerequisites>
+  	</ThingDef>
+
+  	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>FTC_Autocannon_Bunker_Gun</defName>
+		<label>autocannon bunker gun</label>
+		<description>an autocannon mounted inside the bunker.</description>
+		<graphicData>
+			<texPath>None</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.01</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+		<li Class="CombatExtended.VerbPropertiesCE">
+			<recoilAmount>1.5</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>True</hasStandardCommand>
+			<defaultProjectile>Bullet_20x110mmHispano_AP</defaultProjectile>
+			<warmupTime>1.25</warmupTime>
+			<range>70</range>
+			<minRange>1.5</minRange>
+			<burstShotCount>6</burstShotCount>
+			<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+			<soundCast>Shot_Autocannon</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+			<recoilPattern>Mounted</recoilPattern>
+		</li>
+		</verbs>
+		<comps>
+		<li Class="CombatExtended.CompProperties_AmmoUser">
+          <magazineSize>240</magazineSize>
+          <reloadTime>3</reloadTime>
+          <ammoSet>AmmoSet_20x110mmHispano</ammoSet>
+		</li>
+		<li Class="CombatExtended.CompProperties_FireModes">
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>Snapshot</aiAimMode>
+			<aimedBurstShotCount>3</aimedBurstShotCount>
+		</li>
+		</comps>
+  	</ThingDef>
+
+
+<!-- Anti Tank Turret Bunker -->
+	<ThingDef ParentName="FTC_BasePermanentBunker">
+		<defName>FTC_AntiTank_Turret</defName>
+		<label>Tank Bunker</label><!-- 戰車砲塔工事 -->
+		<description>a fixed tank turret mounting on a half-buried concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/TankTurretBunker_icon</uiIconPath>
+		<uiIconScale>1.05</uiIconScale>
+		<passability>PassThroughOnly</passability>
+		<graphicData>
+			<texPath>Things/TurretArtillery_Base</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.5</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<interactionCellOffset>(-1,0,-1)</interactionCellOffset>
+		<size>(3,3)</size>
+		<rotatable>true</rotatable>
+		<coversFloor>true</coversFloor>
+		<statBases>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<WorkToBuild>7500</WorkToBuild>
+			<Beauty>-5</Beauty>
+			<ShootingAccuracyTurret>0.99</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
+			<Steel>425</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ReinforcedBarrel>2</ReinforcedBarrel>
+		</costList>
+		<building>
+			<turretGunDef>FTC_AntiTank_Gun</turretGunDef>
+			<turretTopDrawSize>5</turretTopDrawSize>		 
+			<turretBurstWarmupTime>1.75</turretBurstWarmupTime>
+			<turretBurstCooldownTime>5.0</turretBurstCooldownTime>
+			<turretTopOffset>(0,0.1)</turretTopOffset>
+		</building>
+		<researchPrerequisites>
+			<li>FTC_TurretBunker</li>
+			<li>FTC_PermanentBunker</li>
+			<li>FT_HeavyArtillery</li>
+		</researchPrerequisites>
+  	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>FTC_AntiTank_Gun</defName>
+		<label>anti tank cannon turret</label>
+		<description>an anti tank cannon mounted on an armoured turret.</description>
+		<graphicData>
+			<texPath>Things/TurretBunker_AntiTankTurret</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<RangedWeapon_Cooldown>5.3</RangedWeapon_Cooldown>
+          	<SightsEfficiency>2.18</SightsEfficiency>
+         	<ShotSpread>0.01</ShotSpread>
+         	<SwayFactor>0.17</SwayFactor>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        	  	<hasStandardCommand>true</hasStandardCommand>
+          		<defaultProjectile>Bullet_762x385mmRCannonShell_HE</defaultProjectile>
+          		<warmupTime>1.5</warmupTime>
+          		<range>125</range>
+          		<soundCast>FT_CannonLaunchA</soundCast>
+          		<soundCastTail>GunTail_Heavy</soundCastTail>
+          		<muzzleFlashScale>12</muzzleFlashScale>
+          		<targetParams>
+            		<canTargetLocations>true</canTargetLocations>
+          		</targetParams>
+          		<recoilPattern>Mounted</recoilPattern>
+				<minRange>5</minRange>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>20</magazineSize>
+          		<reloadTime>10</reloadTime>
+        		<ammoSet>AmmoSet_762x385mmRCannonShell</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<noSingleShot>false</noSingleShot>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	 
+
+<!-- Batterey Bunker -->
+<!-- 原版打大口徑砲彈,CE打155 -->
+	<ThingDef ParentName="FTC_BasePermanentBunker">
+		<defName>FTC_Batterey_Turret</defName>
+		<label>coastal batterey</label>
+		<description>A heavy navy gun mounted on a large concrete bunker can effectively destroy enemies within range. n\n as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/CoastalArtillery/ArtilleryBunker_icon</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+    	<passability>PassThroughOnly</passability>
+		<fillPercent>0.85</fillPercent>
+		<graphicData>
+			<texPath>Things/CoastalArtillery/ArtilleryBunker</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>6</drawSize>
+			<drawOffset>(0,0,-0.15)</drawOffset>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<interactionCellOffset>(0,0,-3)</interactionCellOffset>
+		<size>(5,5)</size>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<pathCost>200</pathCost>
+		<statBases>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<WorkToBuild>12500</WorkToBuild>
+			<Beauty>-5</Beauty>
+			<ShootingAccuracyTurret>1.85</ShootingAccuracyTurret>
+		</statBases>
+		<specialDisplayRadius>20</specialDisplayRadius>
+		<costList>
+			<Steel>500</Steel>
+			<ReinforcedBarrel>3</ReinforcedBarrel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+   		  	<FT_ConcreteCompressed>12</FT_ConcreteCompressed>
+		</costList>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>FTC_Batterey_Gun</turretGunDef>	 
+			<turretTopDrawSize>6</turretTopDrawSize>
+			<turretBurstWarmupTime>2.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstCooldownTime>7.5</turretBurstCooldownTime>			
+		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>FTC_PermanentBunker</li>
+			<li>FT_HeavyArtillery</li>
+			<li>FTC_TurretBunker</li>
+		</researchPrerequisites>
+		<comps>
+			<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
+				<worldTileRange>35</worldTileRange>
+				<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
+				<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
+			</li>
+		</comps>
+  	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>FTC_Batterey_Gun</defName>
+		<label>coastal artillery</label>
+		<description>a navy gun turret, two operater is required to man this gun.</description>
+		<graphicData>
+			<texPath>Things/CoastalArtillery/ArtilleryBunker_gun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<SightsEfficiency>1.5</SightsEfficiency>
+			<ShotSpread>0.01</ShotSpread>
+			<SwayFactor>0.98</SwayFactor>
+			<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_155mmHowitzerShell_HE_directfire</defaultProjectile>
+				<warmupTime>4</warmupTime>
+				<minRange>20</minRange>
+				<range>1000</range>
+				<soundCast>FT_CannonLaunchC</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>32</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<recoilPattern>Mounted</recoilPattern>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>25</magazineSize>
+				<reloadTime>10</reloadTime>
+				<ammoSet>AmmoSet_155mmHowitzerShell_directfire</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<noSingleShot>false</noSingleShot>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+		</comps>
+  	</ThingDef>
+	
+	
+	<!-- 測距塔 -->
+	<ThingDef ParentName="FTC_BasePermanentBunker">
+		<defName>FTC_SpotterBunker</defName>
+		<label>artillery spotter</label>
+		<description>artillery spotter</description>
+		<uiIconPath>Things/RangeFinderStational/Base</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+    	<passability>PassThroughOnly</passability>
+		<fillPercent>1.5</fillPercent>
+		<graphicData>
+			<texPath>Things/RangeFinderStational/Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>6</drawSize>
+			<drawOffset>(0,0,0.1)</drawOffset>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<size>(5,5)</size>
+		<rotatable>false</rotatable>
+		<coversFloor>false</coversFloor>
+		<pathCost>200</pathCost>
+		<statBases>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<WorkToBuild>12500</WorkToBuild>
+			<Beauty>-5</Beauty>
+		</statBases>
+		<costList>
+			<Steel>500</Steel>
+			<ReinforcedBarrel>3</ReinforcedBarrel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+   		  	<FT_ConcreteCompressed>12</FT_ConcreteCompressed>
+		</costList>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>FTC_SpotterBunker_Gun</turretGunDef>	 
+			<turretTopDrawSize>7</turretTopDrawSize>
+			<turretBurstWarmupTime>2.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstCooldownTime>7.5</turretBurstCooldownTime>			
+		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>FTC_PermanentBunker</li>
+			<li>FT_HeavyArtillery</li>
+		</researchPrerequisites>
+  	</ThingDef>
+
+  	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>FTC_SpotterBunker_Gun</defName>
+		<label>artillery spotter</label>
+		<description>A manned artillery scope with radio. Useful to coordinate artillery strikes.\n\nUsing this on a target will mark it, removing the indirect fire penalty from any artillery pieces targeting it. Additionally, any directed fire will use the aiming accuracy and efficiency of the spotter, rather than the artillery operator to determine final accuracy.</description>
+	    <graphicData>
+				<texPath>Things/RangeFinderStational/Gun</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>5</drawSize>
+  		</graphicData>
+		<statBases>
+			<SightsEfficiency>5</SightsEfficiency>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_MarkForArtillery</verbClass>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<hasStandardCommand>true</hasStandardCommand>
+				<requireLineOfSight>false</requireLineOfSight>
+				<defaultProjectile>Bullet_Dummy</defaultProjectile>
+				<warmupTime>5</warmupTime>
+				<range>1000</range>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+  	</ThingDef>
+	
+<!--81mm Mortar Bunker-->
+	<ThingDef ParentName="FTC_BasePermanentBunker">
+		<defName>FTC_Mortar_Bunker</defName>
+		<label>81mm mortar bunker</label>
+		<description>a mortar bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/Mortar_Bunker</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+    	<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
+		<graphicData>
+			<texPath>Things/Mortar_Bunker</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3.5</drawSize>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<size>(3,3)</size>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<pathCost>200</pathCost>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Beauty>-5</Beauty>
+		</statBases>
+		<specialDisplayRadius>30</specialDisplayRadius>
+		<costList>
+			<Steel>250</Steel>
+			<ReinforcedBarrel>1</ReinforcedBarrel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+   		  	<FT_ConcreteCompressed>5</FT_ConcreteCompressed>
+		</costList>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>FTC_Bunker_Mortar</turretGunDef>	 
+			<turretTopDrawSize>1</turretTopDrawSize>
+			<turretBurstWarmupTime>3.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstCooldownTime>5</turretBurstCooldownTime>			
+		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>FTC_PermanentBunker</li>
+			<li>FT_HeavyArtillery</li>
+		</researchPrerequisites>
+		 <comps>
+			<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
+			<worldTileRange>5</worldTileRange>
+			<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
+			<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
+			</li>
+		</comps>
+  	</ThingDef>
+	
+	<ThingDef ParentName="BaseArtilleryWeapon"> 
+		<defName>FTC_Bunker_Mortar</defName>
+		<label>81mm mortar</label>
+		<description>a mortar mounted inside the bunker.</description>
+		<graphicData>
+			<texPath>None</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<SightsEfficiency>0.5</SightsEfficiency>
+			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_81mmMortarShell_HE</defaultProjectile>
+				<warmupTime>3.5</warmupTime>
+				<minRange>30</minRange>
+				<range>1000</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Mortar_LaunchA</soundCast>
+				<muzzleFlashScale>20</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<recoilPattern>Mounted</recoilPattern>
+				<circularError>1</circularError>
+				<indirectFirePenalty>0.3</indirectFirePenalty>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>20</magazineSize>
+				<reloadTime>10</reloadTime>
+				<ammoSet>AmmoSet_81mmMortarShell</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<noSingleShot>false</noSingleShot>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+  	</ThingDef>
+	
+<!-- 105mm Artillery Wall Mounted Bunker -->
+
+	<ThingDef ParentName="FTC_BasePermanentBunker">
+		<defName>FTC_Wall_Howitzer</defName>
+		<label>105mm howitzer bunker</label>
+		<description>a fixed Self-propelled artillery turret mounting on a concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Howitzer_south</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+    	<passability>Impassable</passability>
+		<fillPercent>0.8</fillPercent>
+		<graphicData>
+			<texPath>Things/Wall_Bunker/Citadel_Wall_Howitzer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.91</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<size>(3,2)</size>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<pathCost>200</pathCost>
+		<statBases>
+			<MaxHitPoints>1750</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Beauty>-5</Beauty>
+		</statBases>
+		<specialDisplayRadius>30</specialDisplayRadius>
+		<costList>
+   		  	<FT_ConcreteCompressed>5</FT_ConcreteCompressed>
+			<Steel>400</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ReinforcedBarrel>2</ReinforcedBarrel>
+		</costList>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>FTC_Wall_Howitzer_Turret</turretGunDef>	 
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<turretBurstWarmupTime>3.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstCooldownTime>5</turretBurstCooldownTime>			
+		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>FTC_TurretBunker</li>
+			<li>FTC_PermanentBunker</li>
+			<li>FT_HeavyArtillery</li>
+		</researchPrerequisites>
+		 <comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="Fortification.CompProperties_ForceTargetable"/>
+			<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
+			<worldTileRange>10</worldTileRange>
+			<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
+			<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
+			</li>
+		</comps>
+  	</ThingDef>
+	
+	<ThingDef ParentName="BaseArtilleryWeapon"> 
+		<defName>FTC_Wall_Howitzer_Turret</defName>
+		<label>105mm howitzer bunker</label>
+		<description>an howitzer mounted on an armoured turret.</description>
+		<graphicData>
+			<texPath>Things/Duke_Gun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<SightsEfficiency>0.5</SightsEfficiency>
+			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_105mmHowitzerShell_HE</defaultProjectile>
+				<warmupTime>4</warmupTime>
+				<minRange>35</minRange>
+				<range>1000</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>FT_CannonLaunchB</soundCast>
+				<muzzleFlashScale>25</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<recoilPattern>Mounted</recoilPattern>
+				<circularError>1</circularError>
+				<indirectFirePenalty>0.4</indirectFirePenalty>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>15</magazineSize>
+				<reloadTime>10</reloadTime>
+				<ammoSet>AmmoSet_105mmHowitzerShell</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<noSingleShot>false</noSingleShot>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+  	</ThingDef>
+
+</Defs>

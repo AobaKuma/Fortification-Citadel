@@ -304,7 +304,7 @@
 
 <KCSG.SymbolDef>
   <defName>FT_TableConcrete_North</defName>
-  <thing>FT_TableConcrete</thing>
+  <thing>FT_TableConcreteMixer</thing>
   <rotation>North</rotation>
 </KCSG.SymbolDef>
 
@@ -358,6 +358,519 @@
 <KCSG.SymbolDef>
   <defName>FTC_FloorDeco_FT_BlocksConcrete</defName>
   <thing>FTC_FloorDeco</thing>
+  <stuff>FT_BlocksConcrete</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>FTC_CitadelBunkerStart_B</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,.,.,.,.,.,.,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.</li>
+      <li>.,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,Sandbags_Cloth,.,.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.</li>
+      <li>.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,Sandbags_Cloth,.,.,.,.,.,.,.,.,.,.,FT_TurretAT_South,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.</li>
+      <li>.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,Sandbags_Cloth,.,.,FTC_TwinMG_Turret_South,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.</li>
+      <li>.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_SandBag1x2c_Cloth_South,.,.,FTC_SandBag1x2c_Cloth_South,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Door_Steel,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,FTC_SandBag1x2c_Cloth_South,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TurretPrince_North,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,Door_Steel,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,Door_Steel,.,.,FTC_SandBag1x2c_Cloth_South,.,Shelf_Steel_South,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_SandBag1x2c_Cloth_South,.,.,FTC_SandBag1x2c_Cloth_South,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Door_Steel,.,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,Wall_FT_BlocksConcrete,Table1x2c_Steel_North,DiningChair_Steel_West,.,.,Door_Steel,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,FT_AntennaTower,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,Wall_FT_BlocksConcrete,.,.,.,Table1x2c_Steel_North,Wall_FT_BlocksConcrete,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.</li>
+      <li>.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FT_FuelGenerator_East,.,.,.,.,FTC_SandBag1x2c_Cloth_South,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,DiningChair_Steel_South,.,DiningChair_Steel_East,.,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,Wall_FT_BlocksConcrete,.,.,.,.,Bed_Steel_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Door_Steel,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,Wall_FT_BlocksConcrete,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,Wall_FT_BlocksConcrete,.,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,Wall_FT_BlocksConcrete,StandingLamp,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,StandingLamp,.,.,Wall_FT_BlocksConcrete,StandingLamp,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,Wall_FT_BlocksConcrete,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,Wall_FT_BlocksConcrete,.,StandingLamp,FTC_FloorDeco_BlocksMarble,.,FTC_CitadelWall_FT_BlocksConcrete,TubeTelevision_East,.,.,.,Bed_Steel_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.</li>
+      <li>.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,Door_Steel,.,.,.,Door_WoodLog,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,Door_WoodLog,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,.,.,Shelf_Steel_South,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,.,.,Wall_FT_BlocksConcrete,.,.,.,.,Wall_FT_BlocksConcrete,FTC_PowerConduit,.,.,.,Wall_FT_BlocksConcrete,.,Shelf_Steel_South,.,.,HospitalBed_Steel_West,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.</li>
+      <li>.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_PowerConduit,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_PowerConduit,.,.,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,PlantPot_Steel,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,.,.,Wall_FT_BlocksConcrete,.,.,DiningChair_Steel_East,FT_Radio_West,Wall_FT_BlocksConcrete,FTC_PowerConduit,.,.,.,Wall_FT_BlocksConcrete,Shelf_Steel_North,.,.,.,.,Wall_FT_BlocksConcrete,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Bed_Steel_South,.,.,.,Door_WoodLog,.,FTC_PowerConduit,.,.,Door_WoodLog,.,.,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,Wall_FT_BlocksConcrete,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,.,FT_TurretAT_North,.,Door_Steel,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,EndTable_Steel_South,StandingLamp,.,Dresser_WoodLog_South,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,.,Shelf_Steel_South,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_PowerConduit,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,Wall_FT_BlocksConcrete,FT_Maxim4M_North,Sandbags_Cloth,.,.,.,Wall_FT_BlocksConcrete,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_PowerConduit,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_PowerConduit,FTC_FloorDeco_BlocksMarble,Sandbags_Cloth,Sandbags_Cloth,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_SandBag1x2c_Cloth_South,.,.,FTC_SandBag1x2c_Cloth_South,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,PlantPot_Steel,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,FT_transformer_North,.,.,.,.,.,Wall_FT_BlocksConcrete,FTC_PowerConduit,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,.,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,.,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.</li>
+      <li>.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Bed_Steel_South,.,.,.,Door_WoodLog,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,FT_transformer_North,.,.,.,FT_HeavyChem_South,.,Wall_FT_BlocksConcrete,FTC_PowerConduit,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,.,FTC_FloorDecoC_BlocksMarble,StandingLamp,.,FTC_FloorDecoC_BlocksMarble,FT_Barrier_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,EndTable_Steel_South,StandingLamp,.,Dresser_WoodLog_South,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,FT_transformer_North,.,.,.,.,.,Wall_FT_BlocksConcrete,FTC_PowerConduit,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,Wall_FT_BlocksConcrete,.,Shelf_Steel_South,.,FTC_FloorDecoC_BlocksMarble,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,ToolCabinet_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,DiningChair_Steel_South,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_PowerConduit,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_SandBag1x2c_Cloth_South,.,.,FTC_SandBag1x2c_Cloth_South,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,.,.,.,.,.,.,Wall_FT_BlocksConcrete,FTC_PowerConduit,FTC_FloorDeco_BlocksMarble,FTC_FloorDeco_BlocksMarble,.,Wall_FT_BlocksConcrete,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,.,FTC_FloorDecoC_BlocksMarble,Shelf_Steel_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,DoubleBed_Steel_South,EndTable_Steel_South,.,Door_WoodLog,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,ToolCabinet_West,ElectricTailoringBench_Steel_West,DiningChair_Steel_West,.,DiningChair_Steel_North,.,Door_WoodLog,FTC_PowerConduit,.,.,.,Wall_FT_BlocksConcrete,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,.,Sandbags_Cloth,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.</li>
+      <li>.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,Dresser_WoodLog_South,StandingLamp,PlantPot_Steel,Wall_FT_BlocksConcrete,StandingLamp,FTC_PowerConduit,Wall_FT_BlocksConcrete,.,.,StandingLamp,.,FT_TableLathe_North,.,Wall_FT_BlocksConcrete,FTC_PowerConduit,StandingLamp,.,.,Wall_FT_BlocksConcrete,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,.,.,Shelf_Steel_South,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_PowerConduit,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_PowerConduit,.,.,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.</li>
+      <li>.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,.,.,.,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,Wall_FT_BlocksConcrete,Shelf_Steel_North,.,Shelf_Steel_North,.,Wall_FT_BlocksConcrete,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,Door_Steel,.,.,.,Door_WoodLog,.,FTC_PowerConduit,FTC_SandBag1x2c_Cloth_South,.,.,FTC_SandBag1x2c_Cloth_South,.,.,.,.,.,.,.,.,Door_WoodLog,.,.,.,.,Door_Steel,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.</li>
+      <li>.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,StandingLamp,.,.,Wall_FT_BlocksConcrete,.,.,Battery_West,.,Battery_West,.,.,.,.,FT_CitadelGenerator_North,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,StandingLamp,Wall_FT_BlocksConcrete,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Door_Steel,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,Battery_West,.,Battery_West,FTC_PowerConduit,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Door_Steel,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.</li>
+      <li>.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.</li>
+      <li>.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,Grave_South,.,Grave_South,.,Grave_South,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.,FT_TankTrap,.,.,FT_TankTrap,.,.,.,.,.,.,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,FT_TankTrap,.,.,FT_TankTrap,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,MedicineIndustrial,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_Barrier_West,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_FloorDecoC_BlocksMarble,.,.,.,.,.,.,.,.,.,.,FTC_FloorDeco_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Door_WoodLog,.,.,.,.,Door_WoodLog,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_BlocksConcrete,MedicineIndustrial,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_BlocksConcrete,Beer,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_BlocksConcrete,FTC_FloorDecoC_BlocksMarble,.,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Door_WoodLog,.,.,.,.,.,.,.,.,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_BlocksConcrete,Gun_BoltActionRifle,.,.,.,.,.,.,.,.,.,.,.,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,.,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Door_WoodLog,.,.,.,.,.,.,.,.,.,.,FTC_FloorDeco_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_FloorDecoC_BlocksMarble,.,.,FTC_FloorDecoC_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_BlocksConcrete,FTC_FloorDecoC_BlocksMarble,.,.,FTC_FloorDecoC_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,.,FTC_FloorDecoC_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Shelf_Steel_East,Sandbags_Cloth,.,FTC_FloorDecoC_BlocksMarble,FTC_FloorDecoC_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_SandBag1x2c_Cloth_South,.,Steel,FTC_FloorDecoC_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Door_WoodLog,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_BlocksConcrete,.,.,MedicineIndustrial,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,WakeUp,MealSurvivalPack,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,MedicineIndustrial,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,MealSurvivalPack,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,Gun_BoltActionRifle,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_BlocksConcrete,Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Gun_LMG,.,.,.,Apparel_AdvancedHelmet,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Gun_LMG,.,.,.,Shell_HighExplosive,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_FloorDecoC_BlocksMarble,Shell_HighExplosive,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,WoodLog,MealSurvivalPack,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,MedicineIndustrial,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,WoodLog,Apparel_BasicShirt,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_FloorDecoC_BlocksMarble,MealSurvivalPack,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Leather_Wolf,Gun_BoltActionRifle,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_FloorDecoC_BlocksMarble,ComponentIndustrial,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Apparel_AdvancedHelmet,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Gun_LMG,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Apparel_Pants,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,MealSurvivalPack,FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <roofGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </roofGrid>
+  <terrainGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,Concrete,Concrete,.,.,.,.,.,.,Concrete,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,.,Concrete,Concrete,Concrete,.,Concrete,.,.,.,.,Concrete,.,.,.,.,Concrete,Concrete,.,Concrete,Concrete,Concrete,Concrete,.,Concrete,.,Concrete,.,Concrete,.,Concrete,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,Concrete,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.</li>
+    <li>.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.</li>
+    <li>.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,Concrete,Concrete,Concrete,Concrete,.,Concrete,Concrete,Concrete,.,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.</li>
+    <li>.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.</li>
+    <li>.,.,.,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,PavedTile,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.</li>
+    <li>.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,.,.,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.</li>
+    <li>.,Concrete,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.</li>
+    <li>.,Concrete,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.</li>
+    <li>.,Concrete,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.</li>
+    <li>.,.,Concrete,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.</li>
+    <li>.,.,Concrete,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.</li>
+    <li>.,Concrete,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.</li>
+    <li>.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.</li>
+    <li>.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.</li>
+    <li>.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.</li>
+    <li>.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.</li>
+    <li>.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.</li>
+    <li>.,.,Concrete,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.</li>
+    <li>.,.,Concrete,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.</li>
+    <li>.,Concrete,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.</li>
+    <li>.,Concrete,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.</li>
+    <li>.,Concrete,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.</li>
+    <li>.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,.,.,.,.</li>
+    <li>.,.,.,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.</li>
+    <li>.,.,.,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,Concrete,Concrete,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,Concrete,Concrete,.,.,.,.,.,.,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,.,Concrete,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,Concrete,Concrete,.,.,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <modRequirements>
+    <li>aoba.fortress.industrial</li>
+    <li>aoba.fortress.industrial.citadel</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_TurretAT_South</defName>
+  <thing>FT_TurretAT</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_FloorDeco_BlocksMarble</defName>
+  <thing>FTC_FloorDeco</thing>
+  <stuff>BlocksMarble</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_FloorDecoC_BlocksMarble</defName>
+  <thing>FTC_FloorDecoC</thing>
+  <stuff>BlocksMarble</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_TurretAT_North</defName>
+  <thing>FT_TurretAT</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_Maxim4M_North</defName>
+  <thing>FT_Maxim4M</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_HeavyChem_South</defName>
+  <thing>FT_HeavyChem</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_transformer_North</defName>
+  <thing>FT_transformer</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_Barrier_West</defName>
+  <thing>FT_Barrier</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_RecoillessGun_South</defName>
+  <thing>FT_RecoillessGun</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_TableLathe_North</defName>
+  <thing>FT_TableLathe</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_CitadelGenerator_North</defName>
+  <thing>FT_CitadelGenerator</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_CitadelWall_Embrasure_FT_BlocksConcrete</defName>
+  <thing>FTC_CitadelWall_Embrasure</thing>
   <stuff>FT_BlocksConcrete</stuff>
 </KCSG.SymbolDef>
 
