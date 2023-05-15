@@ -315,22 +315,22 @@
   		</graphicData>
 		<statBases>
 			<SightsEfficiency>0.5</SightsEfficiency>
-			<ShotSpread>1</ShotSpread>
+			<ShotSpread>2</ShotSpread>
 			<SwayFactor>0.5</SwayFactor>
 			<RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
 		</statBases>
 		<comps>
-			<!-- <li Class="CombatExtended.CompProperties_Charges"> -->
-				<!-- <chargeSpeeds> -->
-				  <!-- <li>30</li> -->
-				  <!-- <li>50</li> -->
-				  <!-- <li>70</li> -->
-				  <!-- <li>90</li> -->
-				<!-- </chargeSpeeds> -->
-			<!-- </li> -->
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+				  <li>30</li>
+				  <li>50</li>
+				  <li>70</li>
+				  <li>90</li>
+				</chargeSpeeds>
+			</li>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>16</magazineSize>
-				<reloadTime>15</reloadTime>
+				<reloadTime>60</reloadTime>
 				<ammoSet>AmmoSet_132mmM13</ammoSet>      
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
@@ -347,7 +347,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
 				<defaultProjectile>Bullet_132mmM13_HE</defaultProjectile>
-				<warmupTime>10</warmupTime>
+				<warmupTime>4</warmupTime>
 				<minRange>40</minRange>
 				<range>1000</range>
 				<burstShotCount>16</burstShotCount>

@@ -113,19 +113,19 @@
 
 <!-- Wall Mounted Flame Bunker -->
 
-<!--	<ThingDef ParentName="FTC_BasePermanentBunker">
+	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_Flame</defName>
 		<label>flamethrower bunker</label>
-		<description>a manned stationary machinegun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
-		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
+		<description>a manned stationary flame thrower bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Flame_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
     	<passability>Impassable</passability>
 		<fillPercent>0.7</fillPercent>
 		<graphicData>
-			<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
+			<texPath>Things/Wall_Bunker/Citadel_Wall_Flame</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -136,7 +136,7 @@
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
 		<statBases>
-			<MaxHitPoints>750</MaxHitPoints>
+			<MaxHitPoints>1750</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
 		</statBases>
@@ -151,6 +151,10 @@
 			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>
 			<turretBurstCooldownTime>0.5</turretBurstCooldownTime>			
 		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
 		</researchPrerequisites>
@@ -165,7 +169,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-		<ShotSpread>0.5</ShotSpread>
+		<ShotSpread>0.01</ShotSpread>
 		<SightsEfficiency>1</SightsEfficiency>
 		<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
 		</statBases>
@@ -178,10 +182,10 @@
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<warmupTime>1</warmupTime>
-				<range>14.9</range>
-				<minRange>2.9</minRange>
-				<burstShotCount>10</burstShotCount>
-				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<range>15.5</range>
+				<minRange>1.5</minRange>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>Shot_MiniFlameblaster</soundCast>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
@@ -194,7 +198,7 @@
          	<ammoSet>AmmoSet_FT_Flamethrower</ammoSet>
 		</li>
 		</comps>
-  	</ThingDef>-->
+  	</ThingDef>
 	
 	<!-- .303 Wall Mounted MG Bunker -->
 
@@ -210,7 +214,7 @@
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -237,6 +241,10 @@
 			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
 			<turretBurstCooldownTime>1</turretBurstCooldownTime>			
 		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
 		</researchPrerequisites>
@@ -293,15 +301,15 @@
 		<defName>FTC_Wall_AT</defName>
 		<label>37mm ATgun bunker</label>
 		<description>a manned stationary 37mm ATgun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
-		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_AT_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<passability>Impassable</passability>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.7</fillPercent>
 		<graphicData>
-			<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
+			<texPath>Things/Wall_Bunker/Citadel_Wall_AT</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -329,6 +337,10 @@
 			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
 			<turretBurstCooldownTime>3</turretBurstCooldownTime>			
 		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>FT_IndustrialCannon</li>
 			<li>FTC_PermanentBunker</li>
@@ -356,7 +368,7 @@
 			<defaultProjectile>Bullet_37x223mmR_HE</defaultProjectile>
 			<warmupTime>2.5</warmupTime>
 			<minRange>3.9</minRange>
-			<range>80</range>
+			<range>85</range>
 			<soundCast>FT_CannonLaunchA</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>12</muzzleFlashScale>
@@ -393,7 +405,7 @@
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Autocannon</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -770,7 +782,7 @@
 			<texPath>Things/Mortar_Bunker</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>3.5</drawSize>
-			<color>(160,160,160)</color>
+			<color>(200,200,200)</color>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
 			</damageData>
@@ -872,7 +884,7 @@
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_Howitzer</defName>
 		<label>105mm howitzer bunker</label>
-		<description>a fixed Self-propelled artillery turret mounting on a concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
+		<description>a fixed artillery turret mounting on a concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
 		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Howitzer_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
@@ -881,9 +893,9 @@
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Wall_Howitzer</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<color>(200,200,200)</color>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
-			<color>(160,160,160)</color>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
 			</damageData>
@@ -914,6 +926,7 @@
 		</building>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
+			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>FTC_TurretBunker</li>

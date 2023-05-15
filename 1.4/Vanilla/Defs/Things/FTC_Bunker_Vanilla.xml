@@ -70,12 +70,14 @@
 				<fuelCapacity>2400</fuelCapacity>       <!-- 200 bursts -->
 				<fuelMultiplier>8</fuelMultiplier> <!-- 1 steel=8ammo -->
 				<initialFuelPercent>1</initialFuelPercent>
-				<autoRefuelPercent>0.5</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>2400</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 		</comps>
   	</ThingDef>
@@ -121,6 +123,140 @@
 		</verbs>
 	</ThingDef>
 	
+<!-- Wall Mounted Flame Bunker -->
+	<ThingDef ParentName="FTC_BasePermanentBunker">
+		<defName>FTC_Wall_Flame</defName>
+		<label>flamethrower bunker</label>
+		<description>a manned stationary flame thrower bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Flame_south</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+    	<passability>Impassable</passability>
+		<graphicData>
+		<texPath>Things/Wall_Bunker/Citadel_Wall_Flame</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<size>(3,2)</size>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Beauty>-5</Beauty>
+			<ShootingAccuracyTurret>1</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Steel>125</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+   		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
+		</costList>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>FTC_Wall_Flame_Gun</turretGunDef>	 
+			<turretBurstWarmupTime>1</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstCooldownTime>1.5</turretBurstCooldownTime>			
+		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>FTC_PermanentBunker</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until ammo exhaust</fuelLabel>
+				<fuelGizmoLabel>Ammunition</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs ammo</outOfFuelMessage>
+				<fuelFilter><thingDefs><li>Chemfuel</li></thingDefs></fuelFilter>
+				<fuelCapacity>50</fuelCapacity>  <!-- 50 bursts -->
+				<fuelMultiplier>1</fuelMultiplier> <!-- 1 Chemfuel=1 ammo -->
+				<initialFuelPercent>1</initialFuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>50</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
+      		</li>
+		</comps>
+  	</ThingDef>
+ 	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>FTC_Wall_Flame_Gun</defName>
+		<label>flame thrower</label>
+		<description>flame thrower mounted inside the bunker.</description>
+		<graphicData>
+		<texPath>None</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		<AccuracyTouch>1</AccuracyTouch>
+		<AccuracyShort>1</AccuracyShort>
+		<AccuracyMedium>1</AccuracyMedium>
+		<AccuracyLong>1</AccuracyLong>
+		<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+		<DeteriorationRate>0</DeteriorationRate>
+		<Mass>5</Mass>
+		<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>FT_Bullet_InfernoSpewer</defaultProjectile>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<warmupTime>1.25</warmupTime>
+				<range>15.5</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>VFE_Shot_InfernoSpewer</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<minRange>1.5</minRange>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<targetable>true</targetable>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>FT_Bullet_InfernoSpewer</defName>
+		<label>inferno spewer shot</label>
+		<thingClass>VFECore.FlamethrowProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Proj_FlameBurn</texPath>
+			<texPathFadeOut>Things/Projectile/Proj_FlameFade</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<speed>50</speed>
+			<damageAmountBase>5</damageAmountBase>
+		</projectile>
+
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>100</lifeTimeDuration>
+		<widthScaleFactor>0.75</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>1.15</totalSizeScale>
+		<tickFrameRate>2</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+	</VFECore.ExpandableProjectileDef>
+	
 <!-- Wall Mounted MG Bunker  -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_MG</defName>
@@ -133,7 +269,7 @@
 		<graphicData>
 		<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -160,6 +296,10 @@
 			<turretBurstWarmupTime>1</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
 			<turretBurstCooldownTime>1.5</turretBurstCooldownTime>			
 		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
 		</researchPrerequisites>
@@ -172,12 +312,14 @@
 				<fuelCapacity>1200</fuelCapacity>  <!-- 100 bursts -->
 				<fuelMultiplier>8</fuelMultiplier> <!-- 1 steel=8 ammo -->
 				<initialFuelPercent>1</initialFuelPercent>
-				<autoRefuelPercent>0.5</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>1200</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 		</comps>
   	</ThingDef>
@@ -228,15 +370,15 @@
 		<defName>FTC_Wall_AT</defName>
 		<label>ATgun bunker</label>
 		<description>a manned stationary ATgun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
-		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_AT_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<passability>Impassable</passability>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.7</fillPercent>
 		<graphicData>
-			<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
+			<texPath>Things/Wall_Bunker/Citadel_Wall_AT</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -266,6 +408,10 @@
 			<turretBurstCooldownTime>5.0</turretBurstCooldownTime>
 			<turretTopOffset>(0,0.1)</turretTopOffset>
 		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>FT_IndustrialCannon</li>
 			<li>FTC_PermanentBunker</li>
@@ -284,8 +430,10 @@
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<initialAllowAutoRefuel>true</initialAllowAutoRefuel>
-				<autoRefuelPercent>0</autoRefuelPercent>
 				<fuelIconPath>Things/Item/Resource/ReinforcedBarrel/ReinforcedBarrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>120</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
 			</li>
 		</comps>
   	</ThingDef>
@@ -323,7 +471,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<!--<forcedMissRadius>0.1</forcedMissRadius>-->
+				<forcedMissRadius>0.1</forcedMissRadius>
 			</li>
 		</verbs>
 	</ThingDef>
@@ -340,7 +488,7 @@
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Autocannon</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -386,8 +534,10 @@
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<initialAllowAutoRefuel>true</initialAllowAutoRefuel>
-				<autoRefuelPercent>0</autoRefuelPercent>
 				<fuelIconPath>Things/Item/Resource/ReinforcedBarrel/ReinforcedBarrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>750</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
 			</li>
 		</comps>
   	</ThingDef>
@@ -485,8 +635,10 @@
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<initialAllowAutoRefuel>true</initialAllowAutoRefuel>
-				<autoRefuelPercent>0</autoRefuelPercent>
 				<fuelIconPath>Things/Item/Resource/ReinforcedBarrel/ReinforcedBarrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>120</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
 			</li>
 		</comps>
   	</ThingDef>
@@ -547,7 +699,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<!--<forcedMissRadius>0.1</forcedMissRadius>-->
+				<forcedMissRadius>0.1</forcedMissRadius>
 			</li>
 		</verbs>
 	</ThingDef>
@@ -611,20 +763,22 @@
 				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
 				<outOfFuelMessage>Cannot shoot: Needs new reinforced barrel</outOfFuelMessage>
 				<fuelFilter>
-				<thingDefs>
-					<li>ReinforcedBarrel</li>
-				</thingDefs>
+					<thingDefs>
+						<li>ReinforcedBarrel</li>
+					</thingDefs>
 				</fuelFilter>
 				<fuelIsMortarBarrel>true</fuelIsMortarBarrel>
 				<fuelCapacity>60</fuelCapacity>                    <!-- 30 burst -->
-				<initialFuelPercent>1</initialFuelPercent>
-				<autoRefuelPercent>0.5</autoRefuelPercent>
+				<initialFuelPercent>0.1</initialFuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<fuelMultiplier>3</fuelMultiplier>                 <!-- 2 barrel=3 ammo -->
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>60</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 			<!-- <li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 				<worldTileRange>45</worldTileRange>
@@ -725,7 +879,7 @@
 			<texPath>Things/Mortar_Bunker</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>3.5</drawSize>
-			<color>(160,160,160)</color>
+			<color>(200,200,200)</color>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
 			</damageData>
@@ -774,13 +928,15 @@
 				<fuelIsMortarBarrel>true</fuelIsMortarBarrel>
 				<fuelCapacity>90</fuelCapacity>                    <!-- 90 burst -->
 				<initialFuelPercent>1</initialFuelPercent>
-				<autoRefuelPercent>0.5</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<fuelMultiplier>30</fuelMultiplier>                 <!-- 1 barrel=30 ammo -->
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>90</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 				<worldTileRange>5</worldTileRange>
@@ -853,7 +1009,7 @@
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_Howitzer</defName>
 		<label>howitzer bunker</label>
-		<description>a fixed Self-propelled artillery turret mounting on a concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
+		<description>a fixed artillery turret mounting on a concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
 		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Howitzer_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
@@ -861,8 +1017,8 @@
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Wall_Howitzer</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
-			<color>(160,160,160)</color>
+			<color>(200,200,200)</color>
+			<drawSize>4</drawSize>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
 			</damageData>
@@ -893,6 +1049,7 @@
 		</building>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
+			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
@@ -912,13 +1069,15 @@
 				<fuelIsMortarBarrel>true</fuelIsMortarBarrel>
 				<fuelCapacity>60</fuelCapacity>                    <!-- 60 burst -->
 				<initialFuelPercent>1</initialFuelPercent>
-				<autoRefuelPercent>0.5</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<fuelMultiplier>30</fuelMultiplier>                 <!-- 1 barrel=30 ammo -->
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>60</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 				<worldTileRange>5</worldTileRange>
@@ -946,12 +1105,11 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
-				<defaultProjectile>FT_Bunker_HowitzerShell</defaultProjectile>
+				<defaultProjectile>FT_Test_HowitzerShell_AB</defaultProjectile>
 				<warmupTime>1</warmupTime>
 				<range>500.0</range>
 				<requireLineOfSight>false</requireLineOfSight>
 				<minRange>11.9</minRange>
-				<forcedMissRadius>5</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>FT_CannonLaunchC</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -966,6 +1124,36 @@
 		</verbs>
 	</ThingDef>
 	
+<ThingDef ParentName="BaseBullet">
+        <defName>FT_Test_HowitzerShell_AB</defName>
+        <label>heavy explosive shell air burst</label>
+        <graphicData>
+        <texPath>Things/FTC_Shell_HE</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <thingClass>Fortification.Projectile_ClusterBomb</thingClass>
+        <projectile>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>75</damageAmountBase>
+            <speed>50</speed>
+            <explosionRadius>3.5</explosionRadius>
+            <flyOverhead>true</flyOverhead>
+            <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+            <soundExplode>MortarBomb_Explode</soundExplode>
+            <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+            <soundAmbient>MortarRound_Ambient</soundAmbient>
+        </projectile>
+        <comps>
+        <li Class="Fortification.CompProperties_ClusterBomb">
+                <clusterBurstCount>10</clusterBurstCount> <!-- 破片數量 -->
+                <projectile>FT_Bunker_HowitzerShell</projectile><!-- 作為破片的子彈ThingDef -->
+                <forceMissingRange>5</forceMissingRange><!-- 散射範圍(以母彈目標為圓心擴散) -->
+                <TDDistance>5~10</TDDistance><!--距離目標多遠時分裂(最小/最大距離) -->
+              </li>
+        </comps>
+      </ThingDef>
+	
 	<ThingDef ParentName="BaseBullet">
 		<defName>FT_Bunker_HowitzerShell</defName>
 		<label>heavy explosive shell</label>
@@ -977,9 +1165,8 @@
 		<thingClass>Projectile_Explosive</thingClass>
 			<projectile>
 				<damageDef>Bomb</damageDef>
-				<damageAmountBase>75</damageAmountBase>
 				<speed>50</speed>
-				<explosionRadius>3.5</explosionRadius>
+				<explosionRadius>1.1</explosionRadius>
 				<flyOverhead>true</flyOverhead>
 				<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 				<soundExplode>MortarBomb_Explode</soundExplode>

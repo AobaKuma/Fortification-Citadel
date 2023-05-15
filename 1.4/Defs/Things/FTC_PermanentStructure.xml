@@ -157,7 +157,7 @@
 			</li>
 			<li MayRequire="CETeam.CombatExtended">
 				<damageDef>PrometheumFlame</damageDef>
-				<multiplier>0.25</multiplier>
+				<multiplier>0</multiplier>
 			</li>
 			<li MayRequire="CETeam.CombatExtended">
 				<damageDef>Bomb_Secondary</damageDef>
