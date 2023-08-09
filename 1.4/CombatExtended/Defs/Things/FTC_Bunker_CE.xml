@@ -401,7 +401,7 @@
 		<uiIconPath>Things/Wall_Bunker/Citadel_Autocannon_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
-		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<fillPercent>0.7</fillPercent>
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Autocannon</texPath>
@@ -995,6 +995,15 @@
 				</chargeSpeeds>
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(9,9)</drawSize>
+				<offsets>
+					<li>(1.5,0)</li>
+				</offsets>
+			</li>
+		</modExtensions>
   	</ThingDef>
 
 </Defs>
