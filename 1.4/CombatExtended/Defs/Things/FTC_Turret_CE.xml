@@ -53,7 +53,7 @@
 			<MaxHitPoints>2500</MaxHitPoints>
 			<WorkToBuild>7500</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.85</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.93</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
@@ -65,7 +65,7 @@
 			<turretGunDef>FTC_TwinMG_Gun</turretGunDef>
 			<turretTopDrawSize>3</turretTopDrawSize>		 
 			<turretBurstWarmupTime>0.20</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
-			<turretBurstCooldownTime>0.5</turretBurstCooldownTime>
+			<turretBurstCooldownTime>0.75</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>FTC_TurretBunker</li>
@@ -89,7 +89,7 @@
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>1.78</recoilAmount>
+				<recoilAmount>0.55</recoilAmount>
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
@@ -147,7 +147,7 @@
 			<MaxHitPoints>2500</MaxHitPoints>
 			<WorkToBuild>7500</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.98</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>175</Steel>
@@ -175,14 +175,14 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
 			<SightsEfficiency>2.5</SightsEfficiency>
-			<ShotSpread>0.02</ShotSpread>
+			<ShotSpread>0.01</ShotSpread>
 			<SwayFactor>0.5</SwayFactor>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				 <recoilAmount>1</recoilAmount>
+				 <recoilAmount>1.35</recoilAmount>
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>True</hasStandardCommand>
 				<defaultProjectile>Bullet_20x110mmHispano_AP</defaultProjectile>

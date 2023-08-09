@@ -77,6 +77,7 @@
       <li Class="Fortification.CompProperties_ClusterBomb">
         <clusterBurstCount>0</clusterBurstCount> <!-- 破片數量 -->
         <forceMissingRange>6</forceMissingRange><!-- 散射範圍(以母彈目標為圓心擴散) -->
+		<safetyDistance>1.5</safetyDistance><!-- 安全距離 -->
         <!--<doDismantlExplosion>true</doDismantlExplosion>--><!-- 分裂時爆炸 -->
         <!--<dismantlExplosionDam>Smoke</dismantlExplosionDam>--><!-- 分裂爆炸的DamageDef -->
         <!--<dismantlExplosionRadius>0.5</dismantlExplosionRadius>--><!-- 分裂爆炸的範圍 -->

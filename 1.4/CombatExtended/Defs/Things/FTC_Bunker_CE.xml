@@ -47,7 +47,7 @@
 			<MaxHitPoints>2000</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.85</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
@@ -81,7 +81,7 @@
 		</statBases>
 		<verbs>
 		<li Class="CombatExtended.VerbPropertiesCE">
-			<recoilAmount>2.25</recoilAmount>
+			<recoilAmount>0.7</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
@@ -189,6 +189,7 @@
 				<soundCast>Shot_MiniFlameblaster</soundCast>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+				<recoilPattern>Mounted</recoilPattern>
 			</li>
 		</verbs>
 		<comps>
@@ -239,7 +240,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Wall_MG_Gun</turretGunDef>	 
 			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
-			<turretBurstCooldownTime>1</turretBurstCooldownTime>			
+			<turretBurstCooldownTime>0.75</turretBurstCooldownTime>			
 		</building>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
@@ -266,7 +267,7 @@
 		</statBases>
 		<verbs>
 		<li Class="CombatExtended.VerbPropertiesCE">
-			<recoilAmount>0.55</recoilAmount>
+			<recoilAmount>0.7</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
@@ -323,7 +324,7 @@
 			<MaxHitPoints>1750</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.99</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>350</Steel>
@@ -416,10 +417,10 @@
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
 		<statBases>
-			<MaxHitPoints>1750</MaxHitPoints>
+			<MaxHitPoints>2000</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>1</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>175</Steel>
@@ -430,7 +431,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Autocannon_Bunker_Gun</turretGunDef>	 
 			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
-			<turretBurstCooldownTime>1.25</turretBurstCooldownTime>			
+			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>			
 		</building>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
@@ -509,7 +510,7 @@
 			<MaxHitPoints>2500</MaxHitPoints>
 			<WorkToBuild>7500</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.99</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>1.25</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
@@ -714,11 +715,11 @@
 			<MaxHitPoints>4000</MaxHitPoints>
 			<WorkToBuild>12500</WorkToBuild>
 			<Beauty>-5</Beauty>
+			<ShootingAccuracyTurret>100</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
-			<Steel>500</Steel>
-			<ReinforcedBarrel>3</ReinforcedBarrel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<Steel>550</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>12</FT_ConcreteCompressed>
 		</costList>
 		<building>
