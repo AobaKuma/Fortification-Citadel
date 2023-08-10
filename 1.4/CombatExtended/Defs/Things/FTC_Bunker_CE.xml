@@ -205,7 +205,7 @@
 
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_MG</defName>
-		<label>.303 machinegun bunker(1)</label>
+		<label>.303 machinegun bunker</label>
 		<description>a manned stationary machinegun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
 		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
@@ -576,10 +576,8 @@
 		</comps>
 	</ThingDef>
 	
-	 
-
-<!-- Batterey Bunker -->
-<!-- 原版打大口徑砲彈,CE打155 -->
+	<!-- Batterey Bunker -->
+	<!-- 原版打大口徑砲彈,CE打155 -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Batterey_Turret</defName>
 		<label>coastal batterey</label>
@@ -684,8 +682,7 @@
 			</li>
 		</comps>
   	</ThingDef>
-	
-	
+		
 	<!-- 測距塔 -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_SpotterBunker</defName>

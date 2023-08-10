@@ -133,11 +133,11 @@
 		<altitudeLayer>Building</altitudeLayer>
     	<passability>Impassable</passability>
 		<graphicData>
-		<texPath>Things/Wall_Bunker/Citadel_Wall_Flame</texPath>
+			<texPath>Things/Wall_Bunker/Citadel_Wall_Flame</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>4</drawSize>
-			<drawOffset>(0,0,0)</drawOffset>
-			<color>(160,160,160)</color>
+			<drawOffset>(0,0.25,0)</drawOffset>
+			<color>(150,150,150)</color>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
 			</damageData>
@@ -270,8 +270,8 @@
 		<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>4</drawSize>
-			<drawOffset>(0,0,0)</drawOffset>
-			<color>(160,160,160)</color>
+			<drawOffset>(0,0.25,0)</drawOffset>
+			<color>(150,150,150)</color>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
 			</damageData>
@@ -332,14 +332,14 @@
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-		<AccuracyTouch>0.85</AccuracyTouch>
-		<AccuracyShort>0.90</AccuracyShort>
-		<AccuracyMedium>0.86</AccuracyMedium>
-		<AccuracyLong>0.77</AccuracyLong>
-		<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
-		<DeteriorationRate>0</DeteriorationRate>
-		<Mass>5</Mass>
-		<Flammability>0</Flammability>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.86</AccuracyMedium>
+			<AccuracyLong>0.77</AccuracyLong>
+			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
 		</statBases>
 		<verbs>
 			<li>
@@ -379,8 +379,8 @@
 			<texPath>Things/Wall_Bunker/Citadel_Wall_AT</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>4</drawSize>
-			<drawOffset>(0,0,0)</drawOffset>
-			<color>(160,160,160)</color>
+			<drawOffset>(0,0.25,0)</drawOffset>
+			<color>(150,150,150)</color>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
 			</damageData>

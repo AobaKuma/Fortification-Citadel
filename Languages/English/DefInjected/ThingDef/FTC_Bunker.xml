@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- MG Bunker -->
@@ -29,5 +29,47 @@
 
   <FT_Bullet_BatteryShell.label>Heavy explosive shell</FT_Bullet_BatteryShell.label>
 
+  <!-- 火控測距儀 -->
+  <FTC_SpotterBunker.label>火控觀測塔</FTC_SpotterBunker.label>
+  <FTC_SpotterBunker.description>透過光線反射三角測距來反推距離的測距儀,加高的基座使其能夠越過山體標定打擊目標.</FTC_SpotterBunker.description>
+
+  <!-- 機槍碉堡 -->
+
+  <FTC_Bunker_Turret.label>quad machinegun bunker</FTC_Bunker_Turret.label>
+  <FTC_Bunker_Turret.description>a manned stationary machinegun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</FTC_Bunker_Turret.description>
+
+  <FTC_Bunker_Gun.label>quad machine gun</FTC_Bunker_Gun.label>
+  <FTC_Bunker_Gun.description>four machinegun mounted inside bunker.</FTC_Bunker_Gun.description>
+
+  <!-- 噴火碉堡 -->
+
+  <FTC_Wall_Flame.label>flamethrower bunker</FTC_Wall_Flame.label>
+  <FTC_Wall_Flame.description>a manned stationary flame thrower bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</FTC_Wall_Flame.description>
+
+  <FTC_Wall_Flame_Gun.label>flame thrower</FTC_Wall_Flame_Gun.label>
+  <FTC_Wall_Flame_Gun.description>flame thrower mounted inside the bunker.</FTC_Wall_Flame_Gun.description>
+
+  <FT_Bullet_InfernoSpewer.label>inferno spewer shot</FT_Bullet_InfernoSpewer.label>
+
+  <!-- 機槍碉堡 -->
+  <FTC_Wall_MG.label>Pillbox</FTC_Wall_MG.label>
+  <FTC_Wall_MG.description>a manned stationary machinegun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</FTC_Wall_MG.description>
+
+  <FTC_Wall_MG_Gun.label>quad machine gun</FTC_Wall_MG_Gun.label>
+  <FTC_Wall_MG_Gun.description>four machinegun mounted inside bunker.</FTC_Wall_MG_Gun.description>
+
+  <!-- 反坦克碉堡 -->
+  <FTC_Wall_AT.label>Anti Tank gun bunker</FTC_Wall_AT.label>
+  <FTC_Wall_AT.description>a manned stationary ATgun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</FTC_Wall_AT.description>
+
+  <FTC_Wall_AT_Gun.label>anti tank gun</FTC_Wall_AT_Gun.label>
+  <FTC_Wall_AT_Gun.description>an anti tank cannon mounted on an armoured turret.</FTC_Wall_AT_Gun.description>
+
+  <!-- 自動砲碉堡 -->
+  <FTC_Autocannon_Bunker.label>autocannon bunker</FTC_Autocannon_Bunker.label>
+  <FTC_Autocannon_Bunker.description>a manned stationary autocannon bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</FTC_Autocannon_Bunker.description>
+
+  <FTC_Autocannon_Bunker_Gun.label>autocannon</FTC_Autocannon_Bunker_Gun.label>
+  <FTC_Autocannon_Bunker_Gun.description>an autocannon mounted inside the bunker.</FTC_Autocannon_Bunker_Gun.description>
 
 </LanguageData>
