@@ -111,7 +111,7 @@
 				<burstShotCount>12</burstShotCount>
 				<soundCast>GunShotA</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
+				<muzzleFlashScale>6</muzzleFlashScale>
 				<consumeFuelPerShot>1</consumeFuelPerShot>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -218,7 +218,7 @@
 				<burstShotCount>1</burstShotCount>
 				<soundCast>VFE_Shot_InfernoSpewer</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>14</muzzleFlashScale>
+				<muzzleFlashScale>50</muzzleFlashScale>
 				<minRange>1.5</minRange>
 				<consumeFuelPerShot>1</consumeFuelPerShot>
 				<targetParams>
@@ -349,11 +349,11 @@
 				<range>31.9</range>
 				<minRange>1.9</minRange>
 				<requireLineOfSight>false</requireLineOfSight>
-				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 				<burstShotCount>12</burstShotCount>
 				<soundCast>GunShotA</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>3</muzzleFlashScale>
+				<muzzleFlashScale>6</muzzleFlashScale>
 				<consumeFuelPerShot>1</consumeFuelPerShot>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -568,7 +568,7 @@
 				<burstShotCount>5</burstShotCount>
 				<soundCast>FT_AutoCannonShot</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>12</muzzleFlashScale>
+				<muzzleFlashScale>9</muzzleFlashScale>
 				<consumeFuelPerShot>1</consumeFuelPerShot>
 			</li>
 		</verbs>
@@ -1152,6 +1152,15 @@
                 <TDDistance>5~10</TDDistance><!--距離目標多遠時分裂(最小/最大距離) -->
               </li>
         </comps>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(9,9)</drawSize>
+				<offsets>
+					<li>(1.5,0)</li>
+				</offsets>
+			</li>
+		</modExtensions>
       </ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">

@@ -91,7 +91,7 @@
 			<burstShotCount>20</burstShotCount>
 			<soundCast>GunShotA</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
-			<muzzleFlashScale>9</muzzleFlashScale>
+			<muzzleFlashScale>6</muzzleFlashScale>
 			<recoilPattern>Mounted</recoilPattern>
 			<minRange>1.5</minRange>
 		</li>
@@ -126,7 +126,7 @@
 			<texPath>Things/Wall_Bunker/Citadel_Wall_Flame</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>4</drawSize>
-			<drawOffset>(0,0,0)</drawOffset>
+			<drawOffset>(0,0.25,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
@@ -187,7 +187,7 @@
 				<burstShotCount>5</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>Shot_MiniFlameblaster</soundCast>
-				<muzzleFlashScale>9</muzzleFlashScale>
+				<muzzleFlashScale>50</muzzleFlashScale>
 				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
 				<recoilPattern>Mounted</recoilPattern>
 			</li>
@@ -216,7 +216,7 @@
 			<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>4</drawSize>
-			<drawOffset>(0,0,0)</drawOffset>
+			<drawOffset>(0,0.25,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
@@ -273,11 +273,11 @@
 			<defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
 			<warmupTime>1</warmupTime>
 			<range>55</range>
-			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+			<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 			<burstShotCount>10</burstShotCount>
 			<soundCast>GunShotA</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
-			<muzzleFlashScale>3</muzzleFlashScale>
+			<muzzleFlashScale>6</muzzleFlashScale>
 			<recoilPattern>Mounted</recoilPattern>
 			<minRange>1.5</minRange>
 		</li>
@@ -311,7 +311,7 @@
 			<texPath>Things/Wall_Bunker/Citadel_Wall_AT</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>4</drawSize>
-			<drawOffset>(0,0,0)</drawOffset>
+			<drawOffset>(0,0.25,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
@@ -465,7 +465,7 @@
 			<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 			<soundCast>Shot_Autocannon</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
-			<muzzleFlashScale>12</muzzleFlashScale>
+			<muzzleFlashScale>9</muzzleFlashScale>
 			<recoilPattern>Mounted</recoilPattern>
 		</li>
 		</verbs>
