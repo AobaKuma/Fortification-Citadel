@@ -28,6 +28,7 @@
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
     	<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
 		<graphicData>
 			<texPath>Things/FortifiedBunker/QuadMGBunker</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -132,6 +133,7 @@
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
     	<passability>Impassable</passability>
+		<fillPercent>0.9</fillPercent>
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Wall_Flame</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -266,6 +268,7 @@
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
     	<passability>Impassable</passability>
+		<fillPercent>0.9</fillPercent>
 		<graphicData>
 		<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -374,7 +377,7 @@
 		<uiIconScale>1</uiIconScale>
 		<passability>Impassable</passability>
 		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.7</fillPercent>
+		<fillPercent>0.9</fillPercent>
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Wall_AT</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -483,8 +486,9 @@
 		<description>a manned stationary autocannon bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
 		<uiIconPath>Things/Wall_Bunker/Citadel_Autocannon_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.7</fillPercent>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+    	<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Autocannon</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -592,6 +596,7 @@
 			</damageData>
 		</graphicData>
 		<passability>PassThroughOnly</passability>
+		<fillPercent>0.7</fillPercent>
 		<interactionCellOffset>(-1,0,-1)</interactionCellOffset>
 		<size>(3,3)</size>
 		<rotatable>true</rotatable>
@@ -1010,10 +1015,11 @@
 		<defName>FTC_Wall_Howitzer</defName>
 		<label>howitzer bunker</label>
 		<description>a fixed artillery turret mounting on a concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
-		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Howitzer_south</uiIconPath>
-		<uiIconScale>1</uiIconScale>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Howitzer_Icon</uiIconPath>
+		<uiIconScale>1.5</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
+		<fillPercent>0.9</fillPercent>
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Wall_Howitzer</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -1027,7 +1033,6 @@
 		<size>(3,2)</size>
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
-		<fillPercent>0.7</fillPercent>
 		<statBases>
 			<MaxHitPoints>1000</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>

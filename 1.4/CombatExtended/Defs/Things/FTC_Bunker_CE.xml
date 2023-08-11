@@ -400,9 +400,10 @@
 		<description>a manned stationary autocannon bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
 		<uiIconPath>Things/Wall_Bunker/Citadel_Autocannon_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
-		<altitudeLayer>Building</altitudeLayer>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<fillPercent>0.7</fillPercent>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+    	<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Autocannon</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -431,7 +432,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Autocannon_Bunker_Gun</turretGunDef>	 
 			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
-			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>			
+			<turretBurstCooldownTime>1</turretBurstCooldownTime>			
 		</building>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
@@ -688,7 +689,7 @@
 		<defName>FTC_SpotterBunker</defName>
 		<label>artillery spotter</label>
 		<description>artillery spotter</description>
-		<uiIconPath>Things/RangeFinderStational/Base</uiIconPath>
+		<uiIconPath>Things/RangeFinderStational/RangeFinderStational_Icon</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
     	<passability>PassThroughOnly</passability>
@@ -883,8 +884,8 @@
 		<defName>FTC_Wall_Howitzer</defName>
 		<label>105mm howitzer bunker</label>
 		<description>a fixed artillery turret mounting on a concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
-		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Howitzer_south</uiIconPath>
-		<uiIconScale>1</uiIconScale>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Howitzer_Icon</uiIconPath>
+		<uiIconScale>1.5</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
     	<passability>Impassable</passability>
 		<fillPercent>0.8</fillPercent>

@@ -216,11 +216,12 @@
 		<size>(3,3)</size>
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
+		<fillPercent>0.7</fillPercent>
 		<statBases>
 			<MaxHitPoints>950</MaxHitPoints>
 			<WorkToBuild>2000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.93</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
@@ -314,6 +315,7 @@
 		<size>(3,3)</size>
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
+		<fillPercent>0.7</fillPercent>
 		<statBases>
 			<MaxHitPoints>950</MaxHitPoints>
 			<WorkToBuild>2000</WorkToBuild>

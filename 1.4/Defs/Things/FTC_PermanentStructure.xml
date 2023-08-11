@@ -120,6 +120,10 @@
 			<damageDef>Stun</damageDef>
 			<multiplier>0</multiplier>
 		  </li>
+		  <li>
+			<damageDef>Smoke</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
 <!--Biotech DLC -->
 			<li MayRequire="Ludeon.RimWorld.Biotech">
 				<damageDef>Vaporize</damageDef>
@@ -180,7 +184,25 @@
 				<multiplier>0.5</multiplier>
 			</li>
 			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Thermobaric</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
 				<damageDef>Electrical</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+<!--==========-->
+<!--3HSTltd Plasma Weapons-->
+			<li MayRequire="3HSTltd.Weapons.Plasma">
+				<damageDef>LizionExplosion</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="3HSTltd.Weapons.Plasma">
+				<damageDef>LizionPlasma</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="3HSTltd.Weapons.Plasma">
+				<damageDef>LizionPlasmaFlamer</damageDef>
 				<multiplier>0</multiplier>
 			</li>
 <!--==========-->

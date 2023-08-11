@@ -53,7 +53,7 @@
 			<MaxHitPoints>2500</MaxHitPoints>
 			<WorkToBuild>7500</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.93</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
@@ -159,7 +159,7 @@
 			<turretGunDef>FTC_Autocannon_Gun</turretGunDef>
 			<turretTopDrawSize>3</turretTopDrawSize>		 
 			<turretBurstWarmupTime>0.20</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
-			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+			<turretBurstCooldownTime>1</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>FTC_TurretBunker</li>
