@@ -1023,7 +1023,8 @@
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Wall_Howitzer</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<color>(200,200,200)</color>
+			<drawOffset>(0,0.01,0)</drawOffset>
+			<color>(150,150,150)</color>
 			<drawSize>4</drawSize>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
