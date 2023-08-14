@@ -271,7 +271,7 @@
         	  	<hasStandardCommand>true</hasStandardCommand>
           		<defaultProjectile>Bullet_762x385mmRCannonShell_HE</defaultProjectile>
           		<warmupTime>1.5</warmupTime>
-          		<range>125</range>
+          		<range>110</range>
           		<soundCast>FT_CannonLaunchA</soundCast>
           		<soundCastTail>GunTail_Heavy</soundCastTail>
           		<muzzleFlashScale>12</muzzleFlashScale>
