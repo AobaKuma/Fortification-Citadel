@@ -350,11 +350,11 @@
 			<li>FTC_TurretBunker</li>
 		</researchPrerequisites>
 		<comps>
-			<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
+			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 				<worldTileRange>35</worldTileRange>
 				<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
 				<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
-			</li>
+			</li>-->
 		</comps>
   	</ThingDef>
 
@@ -535,12 +535,12 @@
 			<li>FTC_PermanentBunker</li>
 			<li>FT_HeavyArtillery</li>
 		</researchPrerequisites>
-		 <comps>
-			<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
+		<comps>
+			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 			<worldTileRange>5</worldTileRange>
 			<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
 			<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
-			</li>
+			</li>-->
 		</comps>
   	</ThingDef>	
 	<ThingDef ParentName="BaseArtilleryWeapon"> 
@@ -932,11 +932,11 @@
 		 <comps>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="Fortification.CompProperties_ForceTargetable"/>
-			<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
+			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 			<worldTileRange>10</worldTileRange>
 			<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
 			<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
-			</li>
+			</li>-->
 		</comps>
   	</ThingDef>
 	
