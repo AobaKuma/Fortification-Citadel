@@ -160,7 +160,7 @@
 			<turretGunDef>FTC_Autocannon_Gun</turretGunDef>
 			<turretTopDrawSize>3</turretTopDrawSize>		 
 			<turretBurstWarmupTime>0.20</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
-			<turretBurstCooldownTime>1</turretBurstCooldownTime>
+			<turretBurstCooldownTime>1.25</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>FTC_TurretBunker</li>

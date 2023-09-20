@@ -309,7 +309,7 @@
 		<graphicData>
 			<texPath>Things/CoastalArtillery/ArtilleryBunker</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>6</drawSize>
+			<drawSize>6.5</drawSize>
 			<drawOffset>(0,0,-0.15)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -337,7 +337,7 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Batterey_Gun</turretGunDef>	 
-			<turretTopDrawSize>6</turretTopDrawSize>
+			<turretTopDrawSize>7</turretTopDrawSize>
 			<turretBurstWarmupTime>2.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
 			<turretBurstCooldownTime>7.5</turretBurstCooldownTime>			
 		</building>
