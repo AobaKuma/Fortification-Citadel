@@ -280,7 +280,7 @@
 		</statBases>
 		<verbs>
 		  	<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Fortification.Verb_NewShoot</verbClass>
 				<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>30.9</range>
@@ -378,7 +378,7 @@
 		</statBases>
 		<verbs>
 		  	<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Fortification.Verb_NewShoot</verbClass>
 				<defaultProjectile>Bullet_AutocannonTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<minRange>1.9</minRange>

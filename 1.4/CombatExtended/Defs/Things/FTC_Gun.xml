@@ -206,17 +206,10 @@
 			<RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
 		</statBases>
 		<comps>
-			<li Class="CombatExtended.CompProperties_Charges">
-				<chargeSpeeds>
-				  <li>30</li>
-				  <li>50</li>
-				  <li>70</li>
-				  <li>90</li>
-				</chargeSpeeds>
-			</li>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>16</magazineSize>
-				<reloadTime>60</reloadTime>
+				<reloadTime>3.75</reloadTime>
+				<reloadOneAtATime>true</reloadOneAtATime>
 				<ammoSet>AmmoSet_132mmM13</ammoSet>      
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">

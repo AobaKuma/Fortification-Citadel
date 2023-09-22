@@ -14,7 +14,7 @@
 		<coversFloor>false</coversFloor>
 		<blockWind>false</blockWind>
 		<tickerType>Normal</tickerType>
-		<fillPercent>0.8</fillPercent>
+		<fillPercent>0.85</fillPercent>
 		
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
@@ -112,7 +112,7 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>600</magazineSize>
+				<magazineSize>1200</magazineSize>
           		<reloadTime>8</reloadTime>
          		<ammoSet>AmmoSet_303British</ammoSet>
 			</li>
@@ -202,7 +202,7 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>180</magazineSize>
+				<magazineSize>240</magazineSize>
         	 	<reloadTime>8</reloadTime>
          		<ammoSet>AmmoSet_20x110mmHispano</ammoSet>
 			</li>

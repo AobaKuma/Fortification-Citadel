@@ -98,7 +98,7 @@
 		</verbs>
 		<comps>
 		<li Class="CombatExtended.CompProperties_AmmoUser">
-			<magazineSize>800</magazineSize>
+			<magazineSize>1600</magazineSize>
          	<reloadTime>10</reloadTime>
          	<ammoSet>AmmoSet_303British</ammoSet>
 		</li>
@@ -191,7 +191,7 @@
 		</verbs>
 		<comps>
 		<li Class="CombatExtended.CompProperties_AmmoUser">
-          <magazineSize>240</magazineSize>
+          <magazineSize>300</magazineSize>
           <reloadTime>3</reloadTime>
           <ammoSet>AmmoSet_20x110mmHispano</ammoSet>
 		</li>
@@ -305,7 +305,7 @@
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
     	<passability>PassThroughOnly</passability>
-		<fillPercent>0.85</fillPercent>
+		<fillPercent>0.9</fillPercent>
 		<graphicData>
 			<texPath>Things/CoastalArtillery/ArtilleryBunker</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -605,7 +605,7 @@
 	<uiIconScale>1</uiIconScale>
 	<altitudeLayer>Building</altitudeLayer>
 	<passability>Impassable</passability>
-	<fillPercent>0.7</fillPercent>
+	<fillPercent>0.9</fillPercent>
 	<graphicData>
 		<texPath>Things/Wall_Bunker/Citadel_Wall_Flame</texPath>
 		<graphicClass>Graphic_Multi</graphicClass>
@@ -695,7 +695,7 @@
 	<uiIconScale>1</uiIconScale>
 	<altitudeLayer>Building</altitudeLayer>
 	<passability>Impassable</passability>
-	<fillPercent>0.7</fillPercent>
+	<fillPercent>0.9</fillPercent>
 	<graphicData>
 		<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
 		<graphicClass>Graphic_Multi</graphicClass>
@@ -768,7 +768,7 @@
 	</verbs>
 	<comps>
 	<li Class="CombatExtended.CompProperties_AmmoUser">
-		<magazineSize>800</magazineSize>
+		<magazineSize>1600</magazineSize>
 		 <reloadTime>10</reloadTime>
 		 <ammoSet>AmmoSet_303British</ammoSet>
 	</li>
@@ -790,7 +790,7 @@
 	<uiIconScale>1</uiIconScale>
 	<passability>Impassable</passability>
 	<altitudeLayer>Building</altitudeLayer>
-	<fillPercent>0.7</fillPercent>
+	<fillPercent>0.9</fillPercent>
 	<graphicData>
 		<texPath>Things/Wall_Bunker/Citadel_Wall_AT</texPath>
 		<graphicClass>Graphic_Multi</graphicClass>
@@ -885,7 +885,7 @@
 		<uiIconScale>1.5</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
     	<passability>Impassable</passability>
-		<fillPercent>0.99</fillPercent>
+		<fillPercent>0.9</fillPercent>
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Wall_Howitzer</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

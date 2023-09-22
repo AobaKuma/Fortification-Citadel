@@ -102,7 +102,7 @@
 		</statBases>
 		<verbs>
 			<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Fortification.Verb_NewShoot</verbClass>
 				<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>31.9</range>
@@ -207,7 +207,7 @@
 		</statBases>
 		<verbs>
 			<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Fortification.Verb_NewShoot</verbClass>
 				<defaultProjectile>Bullet_AutocannonTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<minRange>1.9</minRange>
@@ -331,7 +331,7 @@
 		</comps>
 		<verbs>
 			<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Fortification.Verb_NewShoot</verbClass>
 				<defaultProjectile>FT_Bullet_ATShell</defaultProjectile>
 				<requireLineOfSight>true</requireLineOfSight>
 				<isMortar>false</isMortar>
@@ -452,7 +452,7 @@
 		</statBases>
 		<verbs>
 			<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Fortification.Verb_NewShoot</verbClass>
 				<defaultProjectile>FT_Bullet_BatteryShell</defaultProjectile>
 				<warmupTime>2</warmupTime>
 				<range>500.0</range>
@@ -608,7 +608,7 @@
 		</statBases>
 		<verbs>
 			<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Fortification.Verb_NewShoot</verbClass>
 				<defaultProjectile>FT_Bunker_MortarShell</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>500.0</range>
@@ -736,7 +736,7 @@
 		</statBases>
 		<verbs>
 			<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Fortification.Verb_NewShoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>FT_Bullet_InfernoSpewer</defaultProjectile>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
@@ -870,7 +870,7 @@
 		</statBases>
 		<verbs>
 			<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Fortification.Verb_NewShoot</verbClass>
 				<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>31.9</range>
@@ -981,7 +981,7 @@
 		</statBases>
 		<verbs>
 			<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Fortification.Verb_NewShoot</verbClass>
 				<defaultProjectile>FT_Bullet_ATShell</defaultProjectile>
 				<requireLineOfSight>true</requireLineOfSight>
 				<isMortar>false</isMortar>
@@ -1102,7 +1102,7 @@
 		</statBases>
 		<verbs>
 			<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Fortification.Verb_NewShoot</verbClass>
 				<defaultProjectile>FT_Test_HowitzerShell_AB</defaultProjectile>
 				<warmupTime>1</warmupTime>
 				<range>500.0</range>
