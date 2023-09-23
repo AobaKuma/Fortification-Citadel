@@ -18,6 +18,10 @@
 		<li Class="CompProperties_Flickable"/>
 		<li Class="Fortification.CompProperties_ForceTargetable"/>
     </comps>
+	<statBases>
+		<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+		<AimingAccuracy>1.0</AimingAccuracy>
+	</statBases>
   </ThingDef>
 
 <!-- Quad MG Bunker -->
@@ -644,7 +648,7 @@
 		<ai_combatDangerous>true</ai_combatDangerous>
 		<turretGunDef>FTC_Wall_Flame_Gun</turretGunDef>	 
 		<turretBurstWarmupTime>0.25</turretBurstWarmupTime>
-		<turretBurstCooldownTime>0.5</turretBurstCooldownTime>			
+		<turretBurstCooldownTime>0.5</turretBurstCooldownTime>	
 	</building>
 	<placeWorkers Inherit="false">
 		<li>PlaceWorker_TurretTop</li>
@@ -665,8 +669,8 @@
 	</graphicData>
 	<statBases>
 	<SightsEfficiency>1</SightsEfficiency>
-	<ShotSpread>1</ShotSpread>
-	<SwayFactor>15</SwayFactor>
+	<ShotSpread>1.0</ShotSpread>
+	<SwayFactor>1.0</SwayFactor>
 	<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
 	</statBases>
 	<verbs>

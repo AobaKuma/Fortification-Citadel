@@ -155,6 +155,8 @@
 			<Flammability>0.2</Flammability>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-20</Beauty>
+			<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+			<AimingAccuracy>1.0</AimingAccuracy>
 		</statBases>
 		<specialDisplayRadius>40</specialDisplayRadius>
 		<costList>

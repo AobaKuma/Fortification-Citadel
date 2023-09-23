@@ -122,7 +122,7 @@
   		</graphicData>
 		<verbs>
 		<li>
-			<verbClass>Fortification.Verb_NewShoot</verbClass>
+			<verbClass>Verb_Shoot</verbClass>
 			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 			<warmupTime>84.0</warmupTime>
 			<forcedMissRadius>10</forcedMissRadius>
@@ -195,7 +195,6 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 		</building>
 	</ThingDef>
-
 <!-- Twin MG Bunker -->
 	<ThingDef ParentName="FTC_BasePermanentTurret">
 		<defName>FTC_TwinMG_Turret</defName>
@@ -280,7 +279,7 @@
 		</statBases>
 		<verbs>
 		  	<li>
-				<verbClass>Fortification.Verb_NewShoot</verbClass>
+				<verbClass>Verb_Shoot</verbClass>
 				<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>30.9</range>
@@ -378,7 +377,7 @@
 		</statBases>
 		<verbs>
 		  	<li>
-				<verbClass>Fortification.Verb_NewShoot</verbClass>
+				<verbClass>Verb_Shoot</verbClass>
 				<defaultProjectile>Bullet_AutocannonTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<minRange>1.9</minRange>

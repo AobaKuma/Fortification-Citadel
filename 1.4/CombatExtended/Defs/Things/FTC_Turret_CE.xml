@@ -15,7 +15,10 @@
 		<blockWind>false</blockWind>
 		<tickerType>Normal</tickerType>
 		<fillPercent>0.85</fillPercent>
-		
+		<statBases>
+			<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+			<AimingAccuracy>1.0</AimingAccuracy>
+		</statBases>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Breakdownable"/>				
