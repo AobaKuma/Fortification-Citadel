@@ -84,8 +84,8 @@
 		</graphicData>
 		<statBases>
 			<SightsEfficiency>2.5</SightsEfficiency>
-			<ShotSpread>0.01</ShotSpread>
-			<SwayFactor>0.48</SwayFactor>
+			<ShotSpread>0.15</ShotSpread>
+			<SwayFactor>1.55</SwayFactor>
 			<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -112,7 +112,7 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>1200</magazineSize>
+				<magazineSize>800</magazineSize>
           		<reloadTime>8</reloadTime>
          		<ammoSet>AmmoSet_303British</ammoSet>
 			</li>
@@ -179,7 +179,7 @@
 			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
 			<SightsEfficiency>2.5</SightsEfficiency>
 			<ShotSpread>0.01</ShotSpread>
-			<SwayFactor>0.5</SwayFactor>
+			<SwayFactor>1.20</SwayFactor>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">

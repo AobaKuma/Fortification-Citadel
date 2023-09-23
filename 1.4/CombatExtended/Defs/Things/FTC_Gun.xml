@@ -217,7 +217,44 @@
 				<aiUseBurstMode>True</aiUseBurstMode>
 				<aiAimMode>SuppressFire</aiAimMode>
 				<noSingleShot>true</noSingleShot>		
-			</li>		
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>35</li>
+					<li>40</li>
+					<li>45</li>
+					<li>50</li>
+					<li>55</li>
+					<li>60</li>
+					<li>65</li>
+					<li>70</li>
+					<li>75</li>
+					<li>80</li>
+					<li>85</li>
+					<li>90</li>
+					<li>95</li>
+					<li>100</li>
+				</chargeSpeeds>
+			</li>
+			<li Class="Fortification.CompProperties_CastFlecker"><!-- 後方揚塵-->
+				<fleck>DustPuffThick</fleck>
+				<burstAmount>15</burstAmount>
+				<burstSway>20</burstSway>
+				<burstAngle>180</burstAngle>
+				<fleckSizeRange>(1,8)</fleckSizeRange>
+				<burstSpeedRange>(1,1.5)</burstSpeedRange>
+				<burstOffsetRange>(1,1.5)</burstOffsetRange> 
+			</li>
+			<li Class="Fortification.CompProperties_CastFlecker"><!-- 後方揚塵-->
+				<fleck>Smoke</fleck><!--生成的Fleck,參考原版-->
+				<burstAmount>15</burstAmount><!--一次射擊生成的數量-->
+				<burstSway>20</burstSway><!--噴射角度的左右隨機偏移範圍-->
+				<burstAngle>180</burstAngle><!--生成偏移子彈發射方向的噴射角度(0 = 與發射角度同向)-->
+				<fleckSizeRange>(1,8)</fleckSizeRange><!--Fleck的生成大小隨機區間-->
+				<burstSpeedRange>(1,1.5)</burstSpeedRange><!--Fleck的飛行速度隨機區間-->
+				<burstOffsetRange>(1,1.5)</burstOffsetRange> <!--Fleck的生成位置偏移旋轉中心點的距離區間-->
+			</li>
 		</comps>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
