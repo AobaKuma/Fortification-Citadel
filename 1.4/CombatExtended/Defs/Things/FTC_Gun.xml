@@ -212,7 +212,7 @@
 				<magazineSize>16</magazineSize>
 				<reloadTime>3.75</reloadTime>
 				<reloadOneAtATime>true</reloadOneAtATime>
-				<ammoSet>AmmoSet_132mmM13</ammoSet>      
+				<ammoSet>AmmoSet_FT_132mmM13</ammoSet>      
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
 				<aimedBurstShotCount>8</aimedBurstShotCount>
@@ -264,7 +264,7 @@
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
-				<defaultProjectile>Bullet_132mmM13_HE</defaultProjectile>
+				<defaultProjectile>Bullet_FT_132mmM13_HE</defaultProjectile>
 				<warmupTime>4</warmupTime>
 				<minRange>40</minRange>
 				<range>1000</range>

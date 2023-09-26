@@ -866,8 +866,8 @@
 	<li Class="CombatExtended.VerbPropertiesCE">
 		<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 		<hasStandardCommand>true</hasStandardCommand>
-		<defaultProjectile>Bullet_37x223mmR_HE</defaultProjectile>
-		<warmupTime>2.5</warmupTime>
+		<defaultProjectile>Bullet_FT_37x223mmR_Canister</defaultProjectile>
+		<warmupTime>1.5</warmupTime>
 		<minRange>3.9</minRange>
 		<range>85</range>
 		<soundCast>FT_CannonLaunchA</soundCast>
@@ -883,7 +883,7 @@
 	<li Class="CombatExtended.CompProperties_AmmoUser">
 		<magazineSize>40</magazineSize>
 		 <reloadTime>10</reloadTime>
-		 <ammoSet>AmmoSet_37x223mmR</ammoSet>
+		 <ammoSet>AmmoSet_FT_37x223mmR</ammoSet>
 	</li>
 	<li Class="CombatExtended.CompProperties_FireModes">
 		<aiUseBurstMode>false</aiUseBurstMode>
