@@ -35,6 +35,7 @@
 				<range>20</range>
 				<damage>0.23</damage>
 			</shellingProps>
+			<gravityFactor>50</gravityFactor>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_Fragments">

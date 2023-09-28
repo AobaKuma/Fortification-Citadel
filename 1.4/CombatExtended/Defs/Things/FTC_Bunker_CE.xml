@@ -836,7 +836,7 @@
 		<ai_combatDangerous>true</ai_combatDangerous>
 		<turretGunDef>FTC_Wall_AT_Gun</turretGunDef>	 
 		<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
-		<turretBurstCooldownTime>3</turretBurstCooldownTime>			
+		<turretBurstCooldownTime>2</turretBurstCooldownTime>			
 	</building>
 	<placeWorkers Inherit="false">
 		<li>PlaceWorker_TurretTop</li>

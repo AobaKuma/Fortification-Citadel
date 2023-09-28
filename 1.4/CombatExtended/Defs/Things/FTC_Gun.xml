@@ -203,8 +203,8 @@
   		</graphicData>
 		<statBases>
 			<SightsEfficiency>0.5</SightsEfficiency>
-			<ShotSpread>2</ShotSpread>
-			<SwayFactor>0.5</SwayFactor>
+			<ShotSpread>0.5</ShotSpread>
+			<!--<SwayFactor>0.5</SwayFactor>-->
 			<RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
 		</statBases>
 		<comps>
@@ -222,21 +222,41 @@
 			</li>
 			<li Class="CombatExtended.CompProperties_Charges">
 				<chargeSpeeds>
-					<li>30</li>
-					<li>35</li>
-					<li>40</li>
-					<li>45</li>
-					<li>50</li>
-					<li>55</li>
-					<li>60</li>
-					<li>65</li>
-					<li>70</li>
-					<li>75</li>
-					<li>80</li>
-					<li>85</li>
-					<li>90</li>
-					<li>95</li>
-					<li>100</li>
+								<li>30</li>
+								<li>35</li>
+								<li>40</li>
+								<li>45</li>
+								<li>50</li>
+								<li>55</li>
+								<li>60</li>
+								<li>65</li>
+								<li>70</li>
+								<li>75</li>
+								<li>80</li>
+								<li>85</li>
+								<li>90</li>
+								<li>95</li>
+								<li>100</li>
+								<li>105</li>
+								<li>110</li>
+								<li>115</li>
+								<li>120</li>
+								<li>125</li>
+								<li>130</li>
+								<li>135</li>
+								<li>140</li>
+								<li>145</li>
+								<li>150</li>
+								<li>155</li>
+								<li>160</li>
+								<li>165</li>
+								<li>170</li>
+								<li>175</li>
+								<li>180</li>
+								<li>185</li>
+								<li>190</li>
+								<li>195</li>
+								<li>200</li>
 				</chargeSpeeds>
 			</li>
 			<li Class="Fortification.CompProperties_CastFlecker"><!-- 後方揚塵-->
