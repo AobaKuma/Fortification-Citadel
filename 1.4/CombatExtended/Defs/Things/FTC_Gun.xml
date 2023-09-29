@@ -204,8 +204,7 @@
 		<statBases>
 			<SightsEfficiency>0.5</SightsEfficiency>
 			<ShotSpread>0.5</ShotSpread>
-			<!--<SwayFactor>0.5</SwayFactor>-->
-			<RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 		</statBases>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
@@ -217,8 +216,7 @@
 			<li Class="CombatExtended.CompProperties_FireModes">
 				<aimedBurstShotCount>8</aimedBurstShotCount>
 				<aiUseBurstMode>True</aiUseBurstMode>
-				<aiAimMode>SuppressFire</aiAimMode>
-				<noSingleShot>true</noSingleShot>		
+				<aiAimMode>SuppressFire</aiAimMode>	
 			</li>
 			<li Class="CombatExtended.CompProperties_Charges">
 				<chargeSpeeds>
@@ -285,7 +283,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
 				<defaultProjectile>Bullet_FT_132mmM13_HE</defaultProjectile>
-				<warmupTime>4</warmupTime>
+				<warmupTime>3</warmupTime>
 				<minRange>40</minRange>
 				<range>1000</range>
 				<burstShotCount>16</burstShotCount>
