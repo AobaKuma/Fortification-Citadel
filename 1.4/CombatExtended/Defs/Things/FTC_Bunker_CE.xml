@@ -40,9 +40,6 @@
 			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<size>(3,3)</size>
 		<rotatable>true</rotatable>
@@ -102,7 +99,7 @@
 		</verbs>
 		<comps>
 		<li Class="CombatExtended.CompProperties_AmmoUser">
-			<magazineSize>1200</magazineSize>
+			<magazineSize>4000</magazineSize>
          	<reloadTime>10</reloadTime>
          	<ammoSet>AmmoSet_303British</ammoSet>
 		</li>
@@ -133,9 +130,6 @@
 			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<size>(3,3)</size>
 		<rotatable>true</rotatable>
@@ -195,9 +189,9 @@
 		</verbs>
 		<comps>
 		<li Class="CombatExtended.CompProperties_AmmoUser">
-          <magazineSize>300</magazineSize>
-          <reloadTime>3</reloadTime>
-          <ammoSet>AmmoSet_20x110mmHispano</ammoSet>
+          <magazineSize>500</magazineSize>
+          <reloadTime>10</reloadTime>
+          <ammoSet>AmmoSet_20x138mmB</ammoSet>
 		</li>
 		<li Class="CombatExtended.CompProperties_FireModes">
 			<aiUseBurstMode>FALSE</aiUseBurstMode>
@@ -221,9 +215,6 @@
 			<drawSize>3.5</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<interactionCellOffset>(-1,0,-1)</interactionCellOffset>
 		<size>(3,3)</size>
@@ -288,8 +279,9 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>20</magazineSize>
-          		<reloadTime>10</reloadTime>
+				<magazineSize>50</magazineSize>
+          		<reloadTime>2.5</reloadTime>
+				<reloadOneAtATime>true</reloadOneAtATime>
         		<ammoSet>AmmoSet_762x385mmRCannonShell</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
@@ -316,9 +308,6 @@
 			<drawSize>6.5</drawSize>
 			<drawOffset>(0,0,-0.15)</drawOffset>
 			<color>(160,160,160)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<interactionCellOffset>(0,0,-3)</interactionCellOffset>
 		<size>(5,5)</size>
@@ -359,6 +348,9 @@
 				<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
 				<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
 			</li>-->
+			<li MayRequire="3HSTltd.Framework">
+				<compClass>BillDoorsFramework.CompTurretFix</compClass>
+			</li>
 		</comps>
   	</ThingDef>
 
@@ -374,11 +366,12 @@
 			<SightsEfficiency>1.5</SightsEfficiency>
 			<ShotSpread>0.01</ShotSpread>
 			<SwayFactor>1.50</SwayFactor>
-			<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>7.5</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_155mmHowitzerShell_HE_directfire</defaultProjectile>
 				<warmupTime>4</warmupTime>
@@ -391,17 +384,49 @@
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<recoilPattern>Mounted</recoilPattern>
+				<recoilAmount>0.0</recoilAmount>
 			</li>
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>25</magazineSize>
-				<reloadTime>10</reloadTime>
+				<reloadTime>4</reloadTime>
+				<reloadOneAtATime>true</reloadOneAtATime>
 				<ammoSet>AmmoSet_155mmHowitzerShell_directfire</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
 				<noSingleShot>false</noSingleShot>
 				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li MayRequire="3HSTltd.Framework" Class="BillDoorsFramework.CompProperties_SecondaryAmmo">
+				<secondaryVerb>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_155mmHowitzerShell_HE_directfire</defaultProjectile>
+					<warmupTime>4</warmupTime>
+					<minRange>14.9</minRange>
+					<range>1000</range>
+					<soundCast>FT_CannonLaunchC</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>32</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<recoilPattern>Mounted</recoilPattern>
+					<recoilAmount>0.0</recoilAmount>
+				</secondaryVerb>
+				<secondaryAmmoProps>
+				<magazineSize>25</magazineSize>
+				<reloadTime>4</reloadTime>
+				<reloadOneAtATime>true</reloadOneAtATime>
+					<ammoSet>AmmoSet_155mmHowitzerShell_directfire</ammoSet>
+				</secondaryAmmoProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>switch firing mode</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
 			</li>
 		</comps>
   	</ThingDef>
@@ -422,9 +447,6 @@
 			<drawSize>6</drawSize>
 			<drawOffset>(0,0,0.1)</drawOffset>
 			<color>(160,160,160)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<size>(5,5)</size>
@@ -435,7 +457,8 @@
 			<MaxHitPoints>4000</MaxHitPoints>
 			<WorkToBuild>12500</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>100</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>10</ShootingAccuracyTurret>
+			<AimingAccuracy>10</AimingAccuracy>
 		</statBases>
 		<costList>
 			<Steel>550</Steel>
@@ -504,9 +527,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>3.5</drawSize>
 			<color>(200,200,200)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<size>(3,3)</size>
@@ -580,8 +600,9 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>20</magazineSize>
-				<reloadTime>10</reloadTime>
+				<magazineSize>50</magazineSize>
+				<reloadOneAtATime>true</reloadOneAtATime>
+				<reloadTime>2</reloadTime>
 				<ammoSet>AmmoSet_81mmMortarShell</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
@@ -605,6 +626,26 @@
 					<li>90</li>
 					<li>95</li>
 					<li>100</li>
+					<li>105</li>
+					<li>110</li>
+					<li>115</li>
+					<li>120</li>
+					<li>125</li>
+					<li>130</li>
+					<li>135</li>
+					<li>140</li>
+					<li>145</li>
+					<li>150</li>
+					<li>155</li>
+					<li>160</li>
+					<li>165</li>
+					<li>170</li>
+					<li>175</li>
+					<li>180</li>
+					<li>185</li>
+					<li>190</li>
+					<li>195</li>
+					<li>200</li>
 				</chargeSpeeds>
 			</li>
 		</comps>
@@ -627,9 +668,6 @@
 		<drawSize>4</drawSize>
 		<drawOffset>(0,0.01,0)</drawOffset>
 		<color>(160,160,160)</color>
-		<damageData>
-			<rect>(0.3,0.3,0.3,0.3)</rect>
-		</damageData>
 	</graphicData>
 	<size>(3,2)</size>
 	<rotatable>true</rotatable>
@@ -695,8 +733,9 @@
 	<comps>
 	<li Class="CombatExtended.CompProperties_AmmoUser">
 		<magazineSize>300</magazineSize>
-		 <reloadTime>10</reloadTime>
-		 <ammoSet>AmmoSet_FT_Flamethrower</ammoSet>
+		<reloadTime>0.05</reloadTime>
+		<reloadOneAtATime>true</reloadOneAtATime>
+		<ammoSet>AmmoSet_FT_Flamethrower</ammoSet>
 	</li>
 	</comps>
   </ThingDef>
@@ -718,9 +757,6 @@
 		<drawSize>4</drawSize>
 		<drawOffset>(0,0.01,0)</drawOffset>
 		<color>(160,160,160)</color>
-		<damageData>
-			<rect>(0.3,0.3,0.3,0.3)</rect>
-		</damageData>
 	</graphicData>
 	<size>(3,2)</size>
 	<rotatable>true</rotatable>
@@ -774,7 +810,7 @@
 		<warmupTime>1</warmupTime>
 		<range>55</range>
 		<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-		<burstShotCount>10</burstShotCount>
+		<burstShotCount>20</burstShotCount>
 		<soundCast>GunShotA</soundCast>
 		<soundCastTail>GunTail_Light</soundCastTail>
 		<muzzleFlashScale>6</muzzleFlashScale>
@@ -784,14 +820,14 @@
 	</verbs>
 	<comps>
 	<li Class="CombatExtended.CompProperties_AmmoUser">
-		<magazineSize>1200</magazineSize>
+		<magazineSize>4000</magazineSize>
 		 <reloadTime>10</reloadTime>
 		 <ammoSet>AmmoSet_303British</ammoSet>
 	</li>
 	<li Class="CombatExtended.CompProperties_FireModes">
 		<aiUseBurstMode>false</aiUseBurstMode>
 		<aiAimMode>Snapshot</aiAimMode>
-		<aimedBurstShotCount>5</aimedBurstShotCount>
+		<aimedBurstShotCount>10</aimedBurstShotCount>
 	</li>
 	</comps>
   </ThingDef>
@@ -813,9 +849,6 @@
 		<drawSize>4</drawSize>
 		<drawOffset>(0,0.01,0)</drawOffset>
 		<color>(160,160,160)</color>
-		<damageData>
-			<rect>(0.3,0.3,0.3,0.3)</rect>
-		</damageData>
 	</graphicData>
 	<size>(3,2)</size>
 	<rotatable>true</rotatable>
@@ -881,9 +914,10 @@
 	</verbs>
 	<comps>
 	<li Class="CombatExtended.CompProperties_AmmoUser">
-		<magazineSize>40</magazineSize>
-		 <reloadTime>10</reloadTime>
-		 <ammoSet>AmmoSet_FT_37x223mmR</ammoSet>
+		<magazineSize>100</magazineSize>
+		<reloadOneAtATime>true</reloadOneAtATime>
+		<reloadTime>1</reloadTime>
+		<ammoSet>AmmoSet_FT_37x223mmR</ammoSet>
 	</li>
 	<li Class="CombatExtended.CompProperties_FireModes">
 		<aiUseBurstMode>false</aiUseBurstMode>
@@ -908,9 +942,6 @@
 			<color>(200,200,200)</color>
 			<drawSize>4</drawSize>
 			<drawOffset>(0,0.01,0)</drawOffset>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<size>(3,2)</size>
@@ -953,6 +984,9 @@
 			<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
 			<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
 			</li>-->
+			<li MayRequire="3HSTltd.Framework">
+				<compClass>BillDoorsFramework.CompTurretFix</compClass>
+			</li>
 		</comps>
   	</ThingDef>
 	
@@ -965,32 +999,37 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<SightsEfficiency>0.5</SightsEfficiency>
+			<SightsEfficiency>2.5</SightsEfficiency>
 			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+			<ShotSpread MayRequire="3HSTltd.Framework">0.01</ShotSpread>
+			<SwayFactor MayRequire="3HSTltd.Framework">0.05</SwayFactor>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_105mmHowitzerShell_HE</defaultProjectile>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<hasStandardCommand>true</hasStandardCommand>
+				<requireLineOfSight>false</requireLineOfSight>
 				<warmupTime>4</warmupTime>
-				<minRange>35</minRange>
+				<minRange>50</minRange>
 				<range>1000</range>
-				<burstShotCount>1</burstShotCount>
 				<soundCast>FT_CannonLaunchB</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>25</muzzleFlashScale>
+				<indirectFirePenalty>0.4</indirectFirePenalty>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<recoilPattern>Mounted</recoilPattern>
-				<circularError>1</circularError>
-				<indirectFirePenalty>0.4</indirectFirePenalty>
+				<recoilAmount>0.0</recoilAmount>
 			</li>
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>15</magazineSize>
-				<reloadTime>10</reloadTime>
+				<magazineSize>40</magazineSize>
+				<reloadOneAtATime>true</reloadOneAtATime>
+				<reloadTime>3</reloadTime>
 				<ammoSet>AmmoSet_105mmHowitzerShell</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
@@ -1014,7 +1053,62 @@
 					<li>90</li>
 					<li>95</li>
 					<li>100</li>
+					<li>105</li>
+					<li>110</li>
+					<li>115</li>
+					<li>120</li>
+					<li>125</li>
+					<li>130</li>
+					<li>135</li>
+					<li>140</li>
+					<li>145</li>
+					<li>150</li>
+					<li>155</li>
+					<li>160</li>
+					<li>165</li>
+					<li>170</li>
+					<li>175</li>
+					<li>180</li>
+					<li>185</li>
+					<li>190</li>
+					<li>195</li>
+					<li>200</li>
 				</chargeSpeeds>
+			</li>
+			<li MayRequire="3HSTltd.Framework" Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>false</aiUseBurstMode>
+			</li>
+			<li MayRequire="3HSTltd.Framework" Class="BillDoorsFramework.CompProperties_SecondaryAmmo">
+				<secondaryVerb>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+					<hasStandardCommand>true</hasStandardCommand>
+					<requireLineOfSight>false</requireLineOfSight>
+					<defaultProjectile>Bullet_105mmHowitzerShell_HE_directfire</defaultProjectile>
+					<warmupTime>4</warmupTime>
+					<minRange>14.9</minRange>
+					<range>1000</range>
+					<soundCast>FT_CannonLaunchB</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>25</muzzleFlashScale>
+					<indirectFirePenalty>0.4</indirectFirePenalty>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<recoilPattern>Mounted</recoilPattern>
+					<recoilAmount>0.0</recoilAmount>
+				</secondaryVerb>
+				<secondaryAmmoProps>
+					<magazineSize>40</magazineSize>
+					<reloadOneAtATime>true</reloadOneAtATime>
+					<reloadTime>3</reloadTime>
+					<ammoSet>AmmoSet_FT_105mmHowitzerShell_directfire</ammoSet>
+				</secondaryAmmoProps>
+				<mainWeaponLabel>direct fire</mainWeaponLabel>
+				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<description>switch firing mode</description>
+				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
+				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
 			</li>
 		</comps>
 		<modExtensions>

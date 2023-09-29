@@ -1,114 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!-- 
-	<ThingDef ParentName="BuildingBase">
-		<defName>FTC_SpotterLight_Turret</defName>
-		<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
-		<label>mobile artillery spotter</label>
-		<description>A manned artillery scope with radio. Useful to coordinate artillery strikes.\n\nUsing this on a target will mark it, removing the indirect fire penalty from any artillery pieces targeting it. Additionally, any directed fire will use the aiming accuracy and efficiency of the spotter, rather than the artillery operator to determine final accuracy.</description>
-		<graphicData>
-			<texPath>InfantryTurret/FT_Tripod</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-			<drawOffset>(0,0,-0.1)</drawOffset>
-			<damageData>
-				<rect>(0.2,0.2,0.6,0.6)</rect>
-			</damageData>
-			<shadowData>
-				<volume>(0.27,0.25,0.27)</volume>
-				<offset>(0,0,0)</offset>
-			</shadowData>
-		</graphicData>
-		<thingCategories>
-      		<li>BuildingsSecurity</li>
-  	  	</thingCategories>
-		<size>(3,3)</size>
-   		<hasTooltip>true</hasTooltip>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<altitudeLayer>Building</altitudeLayer>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<stealable>false</stealable>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-		<fillPercent>0.5</fillPercent>
-		<tickerType>Normal</tickerType>
-		<designationCategory>Security</designationCategory>
-		<specialDisplayRadius>150</specialDisplayRadius>
-		<placeWorkers Inherit="false">
-			<li>PlaceWorker_TurretTop</li>
-			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
-		</placeWorkers>
-   	 	<minifiedDef>MinifiedThing</minifiedDef>
-		<researchPrerequisites>
-			<li>FT_HeavyArtillery</li>
-		</researchPrerequisites>
-		<comps>
-			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Mannable">
-				<manWorkType>Violent</manWorkType>
-			</li>
-		</comps>
-		<statBases>
-			<MaxHitPoints>250</MaxHitPoints>
-			<Flammability>0.2</Flammability>
-			<WorkToBuild>3000</WorkToBuild>
-			<Beauty>-2</Beauty>
-			<Mass>12</Mass>
-			<Bulk>15</Bulk>
-		</statBases>
-		<costList>
-			<Steel>175</Steel>
-			<ComponentIndustrial>8</ComponentIndustrial>
-		</costList>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<building>
-    	  	<ai_combatDangerous>false</ai_combatDangerous>
-			<turretBurstWarmupTime>2.0</turretBurstWarmupTime>
-			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
-			<turretTopDrawSize>3</turretTopDrawSize>	
-			<turretGunDef>FTC_SpotterLight_Gun</turretGunDef>
-		</building>
-		<uiIconPath>Things/ArtilleryRangeFinder_Icon</uiIconPath>
-		<uiIconScale>1</uiIconScale>
- 	</ThingDef>
-	
-  	<ThingDef ParentName="BaseArtilleryWeapon"> 
-		<thingClass>Building_TurretGun</thingClass>
-		<defName>FTC_SpotterLight_Gun</defName>
-		<label>mobile artillery spotter</label>
-		<description>A manned artillery scope with radio. Useful to coordinate artillery strikes.\n\nUsing this on a target will mark it, removing the indirect fire penalty from any artillery pieces targeting it. Additionally, any directed fire will use the aiming accuracy and efficiency of the spotter, rather than the artillery operator to determine final accuracy.</description>
-	    <graphicData>
-			<texPath>Things/ArtilleryRangeFinder_Gun</texPath>
-			<drawSize>3</drawSize>
-  		</graphicData>
-		<statBases>
-      		<Bulk>1.5</Bulk>
-      		<Mass>2.25</Mass>
-			<SightsEfficiency>2.0</SightsEfficiency>
-			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
-		</statBases>
-		  <verbs>
-        <li Class="CombatExtended.VerbPropertiesCE">
-          <verbClass>CombatExtended.Verb_MarkForArtillery</verbClass>
-          <hasStandardCommand>true</hasStandardCommand>
-          <defaultProjectile>Bullet_Dummy</defaultProjectile>
-          <warmupTime>2.8</warmupTime>
-          <range>150</range>
-          <muzzleFlashScale>0</muzzleFlashScale>
-          <onlyManualCast>true</onlyManualCast>
-          <targetParams>
-            <canTargetLocations>true</canTargetLocations>
-          </targetParams>
-          <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
-        </li>
-      </verbs>
-  	</ThingDef>
-	 -->
-
-
 <!-- 噴煙者加強版 -->
  	<ThingDef ParentName="BuildingBase">
 		<defName>FTC_Katyusha_Turret</defName>
@@ -120,9 +12,6 @@
 			<drawSize>3.5</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<size>(3,3)</size>
 		<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
@@ -175,6 +64,90 @@
 		<uiIconScale>1</uiIconScale>
 		<damageMultipliers>
 		  <li>
+			<damageDef>Cut</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Crush</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Stab</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Scratch</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		   <li>
+			<damageDef>ScratchToxic</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Bite</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>ToxicBite</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Blunt</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Poke</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Bomb</damageDef>
+			<multiplier>0.75</multiplier>
+		  </li>
+		  <li>
+			<damageDef>BombSuper</damageDef>
+			<multiplier>0.75</multiplier>
+		  </li>	  
+		  <li>
+			<damageDef>Demolish</damageDef>
+			<multiplier>0.75</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Thump</damageDef>
+			<multiplier>1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Bullet</damageDef>
+			<multiplier>0.75</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Arrow</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>ArrowHighVelocity</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Flame</damageDef>
+			<multiplier>0.25</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Burn</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Frostbite</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>TornadoScratch</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Mining</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
 			<damageDef>EMP</damageDef>
 			<multiplier>0</multiplier>
 		  </li>
@@ -182,14 +155,101 @@
 			<damageDef>Stun</damageDef>
 			<multiplier>0</multiplier>
 		  </li>
-		  <li MayRequire="Ludeon.RimWorld.Biotech">
+		  <li>
+			<damageDef>Smoke</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+<!--Biotech DLC -->
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>Vaporize</damageDef>
+				<multiplier>1</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>BulletToxic</damageDef>
+				<multiplier>0.75</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>AcidBurn</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>Beam</damageDef>
+				<multiplier>0.75</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
 				<damageDef>MechBandShockwave</damageDef>
 				<multiplier>0</multiplier>
-		  </li>
-		  <li MayRequire="CETeam.CombatExtended">
+			</li>
+<!--==========-->
+<!-- Combat Extended -->
+			<li>
+				<damageDef>Beanbag</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Taser</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Fragment</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li>
+				<damageDef>PrometheumFlame</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>Bomb_Secondary</damageDef>
+				<multiplier>0.75</multiplier>
+			</li>
+			<li>
+				<damageDef>Flame_Secondary</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>ArrowVenom</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li>
+				<damageDef>ArrowFire</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li>
+				<damageDef>Tranquilizer</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Thermobaric</damageDef>
+				<multiplier>0.75</multiplier>
+			</li>
+			<li>
 				<damageDef>Electrical</damageDef>
 				<multiplier>0</multiplier>
-		  </li>
+			</li>
+<!--==========-->
+<!--3HSTltd Plasma Weapons-->
+			<li MayRequire="3HSTltd.Weapons.Plasma">
+				<damageDef>LizionExplosion</damageDef>
+				<multiplier>0.75</multiplier>
+			</li>
+			<li MayRequire="3HSTltd.Weapons.Plasma">
+				<damageDef>LizionPlasma</damageDef>
+				<multiplier>0.75</multiplier>
+			</li>
+			<li MayRequire="3HSTltd.Weapons.Plasma">
+				<damageDef>LizionPlasmaFlamer</damageDef>
+				<multiplier>0.75</multiplier>
+			</li>
+<!--==========-->
+<!--3HSTltd Rail Guns-->
+			<li MayRequire="3HSTltd.Weapons.Base">
+				<damageDef>DamageDef_Shockwave</damageDef>
+				<multiplier>0.75</multiplier>
+			</li>
+			<li MayRequire="3HSTltd.Weapons.Base">
+				<damageDef>BDRG_HighCalRailgun</damageDef>
+				<multiplier>0.75</multiplier>
+			</li>
 		</damageMultipliers>
  	 </ThingDef>
 

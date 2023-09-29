@@ -46,9 +46,6 @@
 			<drawSize>2</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(200,200,200)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<size>(3,3)</size>
 		<rotatable>true</rotatable>
@@ -101,7 +98,7 @@
 				<warmupTime>2</warmupTime>
 				<range>65</range>
 				<!--<burstShotCount>20</burstShotCount>-->
-				<burstShotCount>12</burstShotCount>
+				<burstShotCount>25</burstShotCount>
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<soundCast>GunShotA</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
@@ -115,7 +112,7 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>800</magazineSize>
+				<magazineSize>2250</magazineSize>
           		<reloadTime>8</reloadTime>
          		<ammoSet>AmmoSet_303British</ammoSet>
 			</li>
@@ -140,9 +137,6 @@
 			<drawSize>2</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(200,200,200)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<size>(3,3)</size>
 		<rotatable>true</rotatable>
@@ -205,9 +199,9 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>240</magazineSize>
+				<magazineSize>260</magazineSize>
         	 	<reloadTime>8</reloadTime>
-         		<ammoSet>AmmoSet_20x110mmHispano</ammoSet>
+         		<ammoSet>AmmoSet_20x138mmB</ammoSet>
 			</li>
 			<!--<li Class="CombatExtended.CompProperties_FireModes">
 				<aiUseBurstMode>true</aiUseBurstMode>

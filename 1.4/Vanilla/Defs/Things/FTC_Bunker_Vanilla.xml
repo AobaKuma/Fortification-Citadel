@@ -35,9 +35,6 @@
 			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<size>(3,3)</size>
 		<rotatable>true</rotatable>
@@ -57,7 +54,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Bunker_Gun</turretGunDef>	 
 			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
-			<turretBurstCooldownTime>1.25</turretBurstCooldownTime>			
+			<turretBurstCooldownTime>1</turretBurstCooldownTime>			
 		</building>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
@@ -68,7 +65,7 @@
 				<fuelGizmoLabel>Ammunition</fuelGizmoLabel>
 				<outOfFuelMessage>Cannot shoot: Needs ammo</outOfFuelMessage>
 				<fuelFilter><thingDefs><li>Steel</li></thingDefs></fuelFilter>
-				<fuelCapacity>2400</fuelCapacity>       <!-- 200 bursts -->
+				<fuelCapacity>1200</fuelCapacity>       <!-- 100 bursts -->
 				<fuelMultiplier>8</fuelMultiplier> <!-- 1 steel=8ammo -->
 				<initialFuelPercent>1</initialFuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
@@ -105,10 +102,10 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
-				<range>31.9</range>
+				<range>30.9</range>
 				<minRange>1.9</minRange>
 				<requireLineOfSight>false</requireLineOfSight>
-				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<burstShotCount>12</burstShotCount>
 				<soundCast>GunShotA</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
@@ -140,9 +137,6 @@
 			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<size>(3,3)</size>
@@ -211,7 +205,7 @@
 				<defaultProjectile>Bullet_AutocannonTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<minRange>1.9</minRange>
-				<range>32.9</range>
+				<range>34.9</range>
 				<ticksBetweenBurstShots>17</ticksBetweenBurstShots>
 				<burstShotCount>5</burstShotCount>
 				<soundCast>FT_AutoCannonShot</soundCast>
@@ -235,9 +229,6 @@
 			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.7</fillPercent>
@@ -365,12 +356,9 @@
 		<graphicData>
 			<texPath>Things/CoastalArtillery/ArtilleryBunker</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>6</drawSize>
+			<drawSize>6.5</drawSize>
 			<drawOffset>(0,0,-0.15)</drawOffset>
 			<color>(160,160,160)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<interactionCellOffset>(0,0,-3)</interactionCellOffset>
 		<size>(5,5)</size>
@@ -392,7 +380,7 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Batterey_Gun</turretGunDef>	 
-			<turretTopDrawSize>6</turretTopDrawSize>
+			<turretTopDrawSize>7</turretTopDrawSize>
 			<turretBurstWarmupTime>2.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
 			<turretBurstCooldownTime>7.5</turretBurstCooldownTime>			
 		</building>
@@ -526,9 +514,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>3.5</drawSize>
 			<color>(200,200,200)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<size>(3,3)</size>
@@ -665,9 +650,6 @@
 			<drawSize>4</drawSize>
 			<drawOffset>(0,0.01,0)</drawOffset>
 			<color>(150,150,150)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<size>(3,2)</size>
 		<rotatable>true</rotatable>
@@ -799,9 +781,6 @@
 			<drawSize>4</drawSize>
 			<drawOffset>(0,0.01,0)</drawOffset>
 			<color>(150,150,150)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<size>(3,2)</size>
 		<rotatable>true</rotatable>
@@ -821,7 +800,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Wall_MG_Gun</turretGunDef>	 
 			<turretBurstWarmupTime>1</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
-			<turretBurstCooldownTime>1.5</turretBurstCooldownTime>			
+			<turretBurstCooldownTime>1</turretBurstCooldownTime>			
 		</building>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
@@ -873,10 +852,10 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
-				<range>31.9</range>
+				<range>30.9</range>
 				<minRange>1.9</minRange>
 				<requireLineOfSight>false</requireLineOfSight>
-				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<burstShotCount>12</burstShotCount>
 				<soundCast>GunShotA</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
@@ -908,9 +887,6 @@
 			<drawSize>4</drawSize>
 			<drawOffset>(0,0.01,0)</drawOffset>
 			<color>(150,150,150)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<size>(3,2)</size>
@@ -988,7 +964,7 @@
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
 				<warmupTime>1.75</warmupTime>
 				<minRange>3.9</minRange>
-				<range>44.9</range>
+				<range>50</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>FT_CannonLaunchA</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -1018,9 +994,6 @@
 			<drawOffset>(0,0.01,0)</drawOffset>
 			<color>(150,150,150)</color>
 			<drawSize>4</drawSize>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<size>(3,2)</size>

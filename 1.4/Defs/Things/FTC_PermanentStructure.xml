@@ -42,19 +42,19 @@
 		  </li>
 		  <li>
 			<damageDef>Scratch</damageDef>
-			<multiplier>0.05</multiplier>
+			<multiplier>0</multiplier>
 		  </li>
 		   <li>
 			<damageDef>ScratchToxic</damageDef>
-			<multiplier>0.05</multiplier>
+			<multiplier>0</multiplier>
 		  </li>
 		  <li>
 			<damageDef>Bite</damageDef>
-			<multiplier>0.05</multiplier>
+			<multiplier>0</multiplier>
 		  </li>
 		  <li>
 			<damageDef>ToxicBite</damageDef>
-			<multiplier>0.05</multiplier>
+			<multiplier>0</multiplier>
 		  </li>
 		  <li>
 			<damageDef>Blunt</damageDef>
@@ -78,7 +78,7 @@
 		  </li>
 		  <li>
 			<damageDef>Thump</damageDef>
-			<multiplier>0.35</multiplier>
+			<multiplier>0.5</multiplier>
 		  </li>
 		  <li>
 			<damageDef>Bullet</damageDef>
@@ -181,7 +181,7 @@
 			</li>
 			<li MayRequire="CETeam.CombatExtended">
 				<damageDef>Tranquilizer</damageDef>
-				<multiplier>0.5</multiplier>
+				<multiplier>0</multiplier>
 			</li>
 			<li MayRequire="CETeam.CombatExtended">
 				<damageDef>Thermobaric</damageDef>
@@ -195,17 +195,26 @@
 <!--3HSTltd Plasma Weapons-->
 			<li MayRequire="3HSTltd.Weapons.Plasma">
 				<damageDef>LizionExplosion</damageDef>
-				<multiplier>0</multiplier>
+				<multiplier>0.25</multiplier>
 			</li>
 			<li MayRequire="3HSTltd.Weapons.Plasma">
 				<damageDef>LizionPlasma</damageDef>
-				<multiplier>0</multiplier>
+				<multiplier>0.25</multiplier>
 			</li>
 			<li MayRequire="3HSTltd.Weapons.Plasma">
 				<damageDef>LizionPlasmaFlamer</damageDef>
-				<multiplier>0</multiplier>
+				<multiplier>0.25</multiplier>
 			</li>
 <!--==========-->
+<!--3HSTltd Rail Guns-->
+			<li MayRequire="3HSTltd.Weapons.Base">
+				<damageDef>DamageDef_Shockwave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="3HSTltd.Weapons.Base">
+				<damageDef>BDRG_HighCalRailgun</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
 		</damageMultipliers>
 	</ThingDef>
 

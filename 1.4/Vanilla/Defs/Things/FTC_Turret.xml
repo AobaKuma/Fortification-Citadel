@@ -13,9 +13,6 @@
 			<drawSize>3.5</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<size>(3,3)</size>
 		<thingClass>Building_TurretGun</thingClass>
@@ -208,9 +205,6 @@
 			<drawSize>2</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(200,200,200)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<size>(3,3)</size>
 		<rotatable>true</rotatable>
@@ -246,7 +240,7 @@
 					<li>Steel</li>
 				</thingDefs>
 				</fuelFilter>
-				<fuelCapacity>1200</fuelCapacity>                   <!-- 120 burst -->
+				<fuelCapacity>1200</fuelCapacity>                   <!-- 100 burst -->
 				<initialFuelPercent>1</initialFuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
@@ -284,8 +278,8 @@
 				<warmupTime>0</warmupTime>
 				<range>30.9</range>
 				<minRange>1.9</minRange>
-				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-				<burstShotCount>10</burstShotCount>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<burstShotCount>12</burstShotCount>
 				<soundCast>GunShotA</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -307,9 +301,6 @@
 			<drawSize>2</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(200,200,200)</color>
-			<damageData>
-				<rect>(0.3,0.3,0.3,0.3)</rect>
-			</damageData>
 		</graphicData>
 		<size>(3,3)</size>
 		<rotatable>true</rotatable>
@@ -381,7 +372,7 @@
 				<defaultProjectile>Bullet_AutocannonTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<minRange>1.9</minRange>
-				<range>32.9</range>
+				<range>34.9</range>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<burstShotCount>5</burstShotCount>
 				<soundCast>FT_AutoCannonShot</soundCast>
