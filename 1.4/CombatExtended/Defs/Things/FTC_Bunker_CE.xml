@@ -363,9 +363,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<SightsEfficiency>1.5</SightsEfficiency>
+			<SightsEfficiency>2.5</SightsEfficiency>
 			<ShotSpread>0.01</ShotSpread>
-			<SwayFactor>1.50</SwayFactor>
+			<SwayFactor>0.05</SwayFactor>
 			<RangedWeapon_Cooldown>7.5</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -398,6 +398,45 @@
 				<noSingleShot>false</noSingleShot>
 				<aiAimMode>AimedShot</aiAimMode>
 			</li>
+			<li MayRequire="3HSTltd.Framework" Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>35</li>
+					<li>40</li>
+					<li>45</li>
+					<li>50</li>
+					<li>55</li>
+					<li>60</li>
+					<li>65</li>
+					<li>70</li>
+					<li>75</li>
+					<li>80</li>
+					<li>85</li>
+					<li>90</li>
+					<li>95</li>
+					<li>100</li>
+					<li>105</li>
+					<li>110</li>
+					<li>115</li>
+					<li>120</li>
+					<li>125</li>
+					<li>130</li>
+					<li>135</li>
+					<li>140</li>
+					<li>145</li>
+					<li>150</li>
+					<li>155</li>
+					<li>160</li>
+					<li>165</li>
+					<li>170</li>
+					<li>175</li>
+					<li>180</li>
+					<li>185</li>
+					<li>190</li>
+					<li>195</li>
+					<li>200</li>
+				</chargeSpeeds>
+			</li>
 			<li MayRequire="3HSTltd.Framework" Class="BillDoorsFramework.CompProperties_SecondaryAmmo">
 				<secondaryVerb>
 					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -422,11 +461,11 @@
 				<reloadOneAtATime>true</reloadOneAtATime>
 					<ammoSet>AmmoSet_155mmHowitzerShell_directfire</ammoSet>
 				</secondaryAmmoProps>
-				<mainWeaponLabel>direct fire</mainWeaponLabel>
-				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<mainWeaponLabel>indirect fire</mainWeaponLabel>
+				<secondaryWeaponLabel>direct fire</secondaryWeaponLabel>
 				<description>switch firing mode</description>
-				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
-				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+				<mainCommandIcon>Indirect</mainCommandIcon>
+				<secondaryCommandIcon>Direct</secondaryCommandIcon>
 			</li>
 		</comps>
   	</ThingDef>
@@ -1104,11 +1143,11 @@
 					<reloadTime>3</reloadTime>
 					<ammoSet>AmmoSet_FT_105mmHowitzerShell_directfire</ammoSet>
 				</secondaryAmmoProps>
-				<mainWeaponLabel>direct fire</mainWeaponLabel>
-				<secondaryWeaponLabel>indirect fire</secondaryWeaponLabel>
+				<mainWeaponLabel>indirect fire</mainWeaponLabel>
+				<secondaryWeaponLabel>direct fire</secondaryWeaponLabel>
 				<description>switch firing mode</description>
-				<mainCommandIcon>UI/Icons/FireModes/Direct</mainCommandIcon>
-				<secondaryCommandIcon>UI/Icons/FireModes/Indirect</secondaryCommandIcon>
+				<mainCommandIcon>Indirect</mainCommandIcon>
+				<secondaryCommandIcon>Direct</secondaryCommandIcon>
 			</li>
 		</comps>
 		<modExtensions>

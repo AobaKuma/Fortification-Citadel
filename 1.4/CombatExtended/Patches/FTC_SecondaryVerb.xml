@@ -8,6 +8,13 @@
 	<match Class="PatchOperationSequence">
 		<operations>			
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="FTC_Wall_Howitzer_Turret"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/verbClass</xpath>
+				<value>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofCE</verbClass>
+				</value>
+            </li>
+		
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/defaultProjectile</xpath>
 				<value>
 					<defaultProjectile>Bullet_155mmHowitzerShell_HE</defaultProjectile>
@@ -22,7 +29,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/verbClass</xpath>
 				<value>
-					<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofCE</verbClass>
 				</value>
             </li>
 			<li Class="PatchOperationReplace">
