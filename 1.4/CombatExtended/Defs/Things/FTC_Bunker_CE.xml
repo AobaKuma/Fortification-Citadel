@@ -99,7 +99,7 @@
 		</verbs>
 		<comps>
 		<li Class="CombatExtended.CompProperties_AmmoUser">
-			<magazineSize>4000</magazineSize>
+			<magazineSize>2400</magazineSize>
          	<reloadTime>10</reloadTime>
          	<ammoSet>AmmoSet_303British</ammoSet>
 		</li>
@@ -189,7 +189,7 @@
 		</verbs>
 		<comps>
 		<li Class="CombatExtended.CompProperties_AmmoUser">
-          <magazineSize>500</magazineSize>
+          <magazineSize>330</magazineSize>
           <reloadTime>10</reloadTime>
           <ammoSet>AmmoSet_20x138mmB</ammoSet>
 		</li>
@@ -820,7 +820,7 @@
 	</verbs>
 	<comps>
 	<li Class="CombatExtended.CompProperties_AmmoUser">
-		<magazineSize>4000</magazineSize>
+		<magazineSize>2400</magazineSize>
 		 <reloadTime>10</reloadTime>
 		 <ammoSet>AmmoSet_303British</ammoSet>
 	</li>

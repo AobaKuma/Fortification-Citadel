@@ -127,7 +127,7 @@
 <!--Biotech DLC -->
 			<li MayRequire="Ludeon.RimWorld.Biotech">
 				<damageDef>Vaporize</damageDef>
-				<multiplier>0.13</multiplier>
+				<multiplier>0.25</multiplier>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">
 				<damageDef>BulletToxic</damageDef>
@@ -215,6 +215,12 @@
 				<damageDef>BDRG_HighCalRailgun</damageDef>
 				<multiplier>0.25</multiplier>
 			</li>
+<!--==========-->
+<!--FT HESH-->
+			<li>
+			<damageDef>HESH_ShockWave</damageDef>
+			<multiplier>0.25</multiplier>
+		  </li>
 		</damageMultipliers>
 	</ThingDef>
 
