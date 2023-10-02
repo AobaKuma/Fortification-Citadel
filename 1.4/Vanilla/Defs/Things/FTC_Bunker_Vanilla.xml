@@ -47,7 +47,7 @@
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>10</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -150,7 +150,7 @@
 		</statBases>
 		<costList>
 			<Steel>175</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentIndustrial>6</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>6</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -245,7 +245,7 @@
 		<costList>
 			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
 			<Steel>425</Steel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>6</ComponentIndustrial>
 			<ReinforcedBarrel>2</ReinforcedBarrel>
 		</costList>
 		<building>
@@ -374,7 +374,7 @@
 		<costList>
 			<Steel>500</Steel>
 			<ReinforcedBarrel>3</ReinforcedBarrel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>12</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -529,7 +529,7 @@
 		<costList>
 			<Steel>250</Steel>
 			<ReinforcedBarrel>1</ReinforcedBarrel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>5</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -662,7 +662,7 @@
 		</statBases>
 		<costList>
 			<Steel>125</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -793,7 +793,7 @@
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>10</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -1008,7 +1008,7 @@
 		<costList>
 			<Steel>400</Steel>
 			<ReinforcedBarrel>2</ReinforcedBarrel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>6</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>5</FT_ConcreteCompressed>
 		</costList>
 		<building>

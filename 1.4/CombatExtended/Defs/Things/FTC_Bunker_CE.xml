@@ -52,7 +52,7 @@
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>10</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -142,7 +142,7 @@
 		</statBases>
 		<costList>
 			<Steel>175</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentIndustrial>6</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>6</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -180,7 +180,7 @@
 			<range>70</range>
 			<minRange>1.5</minRange>
 			<burstShotCount>6</burstShotCount>
-			<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+			<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 			<soundCast>Shot_Autocannon</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -229,7 +229,7 @@
 		<costList>
 			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
 			<Steel>425</Steel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>6</ComponentIndustrial>
 			<ReinforcedBarrel>2</ReinforcedBarrel>
 		</costList>
 		<building>
@@ -324,7 +324,7 @@
 		<costList>
 			<Steel>500</Steel>
 			<ReinforcedBarrel>3</ReinforcedBarrel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>12</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -501,7 +501,7 @@
 		</statBases>
 		<costList>
 			<Steel>550</Steel>
-			<ComponentIndustrial>7</ComponentIndustrial>
+			<ComponentIndustrial>10</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>12</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -581,7 +581,7 @@
 		<costList>
 			<Steel>250</Steel>
 			<ReinforcedBarrel>1</ReinforcedBarrel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>5</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -692,7 +692,7 @@
 
 <!-- Wall Mounted Flame Bunker -->
 
-<ThingDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="FTC_BasePermanentBunker">
+<ThingDef ParentName="FTC_BasePermanentBunker">
 	<defName>FTC_Wall_Flame</defName>
 	<label>flamethrower bunker</label>
 	<description>a manned stationary flame thrower bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
@@ -718,7 +718,7 @@
 	</statBases>
 	<costList>
 		<Steel>150</Steel>
-		<ComponentIndustrial>3</ComponentIndustrial>
+		<ComponentIndustrial>5</ComponentIndustrial>
 			 <FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 	</costList>
 	<building>
@@ -736,7 +736,7 @@
 	</researchPrerequisites>
   </ThingDef>
 
-  <ThingDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="BaseWeaponTurret">
+  <ThingDef ParentName="BaseWeaponTurret">
 	<defName>FTC_Wall_Flame_Gun</defName>
 	<label>flame thrower</label>
 	<description>flame thrower mounted inside the bunker.</description>
@@ -808,7 +808,7 @@
 	</statBases>
 	<costList>
 		<Steel>150</Steel>
-		<ComponentIndustrial>3</ComponentIndustrial>
+		<ComponentIndustrial>10</ComponentIndustrial>
 			 <FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 	</costList>
 	<building>
@@ -996,7 +996,7 @@
 		<costList>
    		  	<FT_ConcreteCompressed>5</FT_ConcreteCompressed>
 			<Steel>400</Steel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>6</ComponentIndustrial>
 			<ReinforcedBarrel>2</ReinforcedBarrel>
 		</costList>
 		<building>

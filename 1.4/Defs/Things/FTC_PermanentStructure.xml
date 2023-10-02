@@ -217,7 +217,7 @@
 			</li>
 <!--==========-->
 <!--FT HESH-->
-			<li>
+			<li MayRequire="CETeam.CombatExtended">
 			<damageDef>HESH_ShockWave</damageDef>
 			<multiplier>0.25</multiplier>
 		  </li>
