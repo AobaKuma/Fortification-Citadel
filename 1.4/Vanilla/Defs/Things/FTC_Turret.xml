@@ -218,7 +218,7 @@
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentIndustrial>2</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -240,7 +240,7 @@
 					<li>Steel</li>
 				</thingDefs>
 				</fuelFilter>
-				<fuelCapacity>1200</fuelCapacity>                   <!-- 100 burst -->
+				<fuelCapacity>1600</fuelCapacity>                   <!-- 100 burst -->
 				<initialFuelPercent>1</initialFuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
@@ -265,21 +265,21 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<AccuracyTouch>0.64</AccuracyTouch>
-			<AccuracyShort>0.75</AccuracyShort>
-			<AccuracyMedium>0.94</AccuracyMedium>
-			<AccuracyLong>0.50</AccuracyLong>
+			<AccuracyTouch>0.22</AccuracyTouch>
+			<AccuracyShort>0.37</AccuracyShort>
+			<AccuracyMedium>0.37</AccuracyMedium>
+			<AccuracyLong>0.27</AccuracyLong>
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 		  	<li>
 				<verbClass>Verb_Shoot</verbClass>
-				<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
+				<defaultProjectile>Bullet_Minigun</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>30.9</range>
 				<minRange>1.9</minRange>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-				<burstShotCount>12</burstShotCount>
+				<burstShotCount>16</burstShotCount>
 				<soundCast>GunShotA</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -314,7 +314,7 @@
 		</statBases>
 		<costList>
 			<Steel>175</Steel>
-			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -336,7 +336,7 @@
 					<li>Uranium</li>
 				</thingDefs>
 				</fuelFilter>
-				<fuelCapacity>750</fuelCapacity>                   <!-- 150 burst -->
+				<fuelCapacity>760</fuelCapacity>                   <!-- 152 burst -->
 				<initialFuelPercent>1</initialFuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
@@ -360,10 +360,10 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<AccuracyTouch>0.85</AccuracyTouch>
-			<AccuracyShort>0.85</AccuracyShort>
-			<AccuracyMedium>0.95</AccuracyMedium>
-			<AccuracyLong>0.65</AccuracyLong>
+			<AccuracyTouch>0.28</AccuracyTouch>
+			<AccuracyShort>0.72</AccuracyShort>
+			<AccuracyMedium>0.66</AccuracyMedium>
+			<AccuracyLong>0.50</AccuracyLong>
 			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>

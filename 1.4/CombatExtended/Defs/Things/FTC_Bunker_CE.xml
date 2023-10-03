@@ -52,7 +52,7 @@
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentIndustrial>2</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -142,7 +142,7 @@
 		</statBases>
 		<costList>
 			<Steel>175</Steel>
-			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentIndustrial>2</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>6</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -718,7 +718,7 @@
 	</statBases>
 	<costList>
 		<Steel>150</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+		<ComponentIndustrial>3</ComponentIndustrial>
 			 <FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 	</costList>
 	<building>
@@ -808,7 +808,7 @@
 	</statBases>
 	<costList>
 		<Steel>150</Steel>
-		<ComponentIndustrial>10</ComponentIndustrial>
+		<ComponentIndustrial>2</ComponentIndustrial>
 			 <FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 	</costList>
 	<building>
