@@ -150,6 +150,7 @@
 		<costList>
 			<Steel>175</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
+			<ReinforcedBarrel>1</ReinforcedBarrel>
 			<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
 		<building>
