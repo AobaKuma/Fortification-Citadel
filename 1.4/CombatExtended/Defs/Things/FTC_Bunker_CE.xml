@@ -386,6 +386,7 @@
 				</targetParams>
 				<recoilPattern>Mounted</recoilPattern>
 				<recoilAmount>0.0</recoilAmount>
+				<indirectFirePenalty MayRequire="3HSTltd.Framework">0.4</indirectFirePenalty>
 			</li>
 		</verbs>
 		<comps>
@@ -607,7 +608,7 @@
 			</li>-->
 		</comps>
   	</ThingDef>	
-	<ThingDef ParentName="BaseArtilleryWeapon"> 
+	<ThingDef ParentName="BaseWeaponTurret"> 
 		<defName>FTC_Bunker_Mortar</defName>
 		<label>81mm mortar</label>
 		<description>a mortar mounted inside the bunker.</description>
@@ -1030,7 +1031,7 @@
 		</comps>
   	</ThingDef>
 	
-	<ThingDef ParentName="BaseArtilleryWeapon"> 
+	<ThingDef ParentName="BaseWeaponTurret"> 
 		<defName>FTC_Wall_Howitzer_Turret</defName>
 		<label>105mm howitzer bunker</label>
 		<description>an howitzer mounted on an armoured turret.</description>
@@ -1071,10 +1072,6 @@
 				<reloadOneAtATime>true</reloadOneAtATime>
 				<reloadTime>3</reloadTime>
 				<ammoSet>AmmoSet_105mmHowitzerShell</ammoSet>
-			</li>
-			<li Class="CombatExtended.CompProperties_FireModes">
-				<noSingleShot>false</noSingleShot>
-				<aiAimMode>AimedShot</aiAimMode>
 			</li>
 			<li Class="CombatExtended.CompProperties_Charges">
 				<chargeSpeeds>

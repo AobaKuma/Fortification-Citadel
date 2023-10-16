@@ -7,12 +7,12 @@
     </mods>
 	<match Class="PatchOperationSequence">
 		<operations>			
-			<li Class="PatchOperationReplace">
+			<!--<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="FTC_Wall_Howitzer_Turret"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/verbClass</xpath>
 				<value>
 					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofCE</verbClass>
 				</value>
-            </li>
+            </li>-->
 		
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/defaultProjectile</xpath>
@@ -29,7 +29,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/verbClass</xpath>
 				<value>
-					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofCE</verbClass>
+					<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
 				</value>
             </li>
 			<li Class="PatchOperationReplace">
