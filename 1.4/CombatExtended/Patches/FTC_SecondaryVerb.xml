@@ -7,17 +7,17 @@
     </mods>
 	<match Class="PatchOperationSequence">
 		<operations>			
-			<!--<li Class="PatchOperationReplace">
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="FTC_Wall_Howitzer_Turret"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/verbClass</xpath>
 				<value>
-					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofCE</verbClass>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofMortarCE</verbClass>
 				</value>
-            </li>-->
+            </li>
 		
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/defaultProjectile</xpath>
 				<value>
-					<defaultProjectile>Bullet_155mmHowitzerShell_HE</defaultProjectile>
+					<defaultProjectile>Bullet_FT_155mmHowitzerShell_HE</defaultProjectile>
 				</value>
             </li>
 			<li Class="PatchOperationReplace">
@@ -29,13 +29,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/verbClass</xpath>
 				<value>
-					<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofMortarCE</verbClass>
 				</value>
             </li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/ammoSet</xpath>
 				<value>
-					<ammoSet>AmmoSet_155mmHowitzerShell</ammoSet>
+					<ammoSet>AmmoSet_FT_155mmHowitzerShell</ammoSet>
 				</value>
             </li>
 		</operations>
