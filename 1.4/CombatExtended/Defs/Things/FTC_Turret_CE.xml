@@ -17,11 +17,12 @@
 		<fillPercent>0.85</fillPercent>
 		<statBases>
 			<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
-			<AimingAccuracy>1.0</AimingAccuracy>
+			<AimingAccuracy>1.5</AimingAccuracy>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Breakdownable"/>				
+			<li Class="CompProperties_Breakdownable"/>	
+			<li Class="Fortification.CompProperties_ForceTargetable"/>
 		</comps>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<placeWorkers>
@@ -74,7 +75,7 @@
   	</ThingDef>
 
 	<!--<ThingDef ParentName="BaseAutoTurretGun">-->
-	<ThingDef ParentName="BaseAutoTurretGun">
+	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_TwinMG_Gun</defName>
 		<label>machine gun turret</label>
 		<description>Twin machine gun mounted on an armoured turret.</description>
@@ -116,11 +117,11 @@
           		<reloadTime>8</reloadTime>
          		<ammoSet>AmmoSet_303British</ammoSet>
 			</li>
-			<!--<li Class="CombatExtended.CompProperties_FireModes">
+			<li Class="CombatExtended.CompProperties_FireModes">
 				<aiAimMode>SuppressFire</aiAimMode>
 				<aimedBurstShotCount>10</aimedBurstShotCount>
           		<noSingleShot>true</noSingleShot>
-			</li>-->
+			</li>
 		</comps>
 	</ThingDef>
 
@@ -165,7 +166,7 @@
 		</researchPrerequisites>
   	</ThingDef>
 	<!--<ThingDef ParentName="BaseAutoTurretGun">-->
-	<ThingDef ParentName="BaseAutoTurretGun">
+	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Autocannon_Gun</defName>
 		<label>autocannon turret</label>
 		<description>an autocannon mounted on an armoured turret.</description>
@@ -204,12 +205,11 @@
         	 	<reloadTime>8</reloadTime>
          		<ammoSet>AmmoSet_20x138mmB</ammoSet>
 			</li>
-			<!--<li Class="CombatExtended.CompProperties_FireModes">
-				<aiUseBurstMode>true</aiUseBurstMode>
-				<aiAimMode>SuppressFire</aiAimMode>
-				<aimedBurstShotCount>4</aimedBurstShotCount>
-				<noSingleShot>true</noSingleShot>
-			</li>-->
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>Snapshot</aiAimMode>
+				<aimedBurstShotCount>3</aimedBurstShotCount>
+			</li>
 		</comps>
 	</ThingDef>
 </Defs>	

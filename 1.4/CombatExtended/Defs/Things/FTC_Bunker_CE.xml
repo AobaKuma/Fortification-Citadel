@@ -20,7 +20,7 @@
     </comps>
 	<statBases>
 		<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
-		<AimingAccuracy>1.0</AimingAccuracy>
+		<AimingAccuracy>1.5</AimingAccuracy>
 	</statBases>
   </ThingDef>
 
@@ -432,7 +432,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-            <li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof">
+            <li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof" MayRequire="3HSTltd.Framework">
                 <appliesInSecondaryMode>false</appliesInSecondaryMode>
             </li>
         </modExtensions>
@@ -729,7 +729,7 @@
 			<warmupTime>1</warmupTime>
 			<range>15.5</range>
 			<minRange>1.5</minRange>
-			<burstShotCount>5</burstShotCount>
+			<burstShotCount>10</burstShotCount>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<soundCast>Shot_MiniFlameblaster</soundCast>
 			<muzzleFlashScale>50</muzzleFlashScale>
@@ -743,6 +743,11 @@
 		<reloadTime>0.05</reloadTime>
 		<reloadOneAtATime>true</reloadOneAtATime>
 		<ammoSet>AmmoSet_FT_Flamethrower</ammoSet>
+	</li>
+	<li Class="CombatExtended.CompProperties_FireModes">
+		<aiUseBurstMode>false</aiUseBurstMode>
+		<aiAimMode>Snapshot</aiAimMode>
+		<aimedBurstShotCount>5</aimedBurstShotCount>
 	</li>
 	</comps>
   </ThingDef>
@@ -1082,7 +1087,7 @@
 					<li>(1.5,0)</li>
 				</offsets>
 			</li>
-            <li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof">
+            <li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof" MayRequire="3HSTltd.Framework">
                 <appliesInSecondaryMode>false</appliesInSecondaryMode>
             </li>
         </modExtensions>
