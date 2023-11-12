@@ -15,8 +15,10 @@
 			<transmitsPower>true</transmitsPower>
 		</li>
 		<li Class="CompProperties_Flickable"/>
-		<li Class="Fortification.CompProperties_ForceTargetable"/>    
     </comps>
+	<modExtensions>
+		<li Class="Fortification.ModExtension_ForceTargetable"/>    
+	</modExtensions>
   </ThingDef>
 
 <!-- MG Bunker -->
@@ -470,8 +472,8 @@
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
-		<comps>
-			<li Class="Fortification.CompProperties_CompositeExplosion">
+		<modExtensions>
+			<li Class="Fortification.ModExtension_CompositeExplosion">
 				<compositeExplosions>
 					<li>
 					<!--核爆心-->
@@ -484,7 +486,7 @@
 					</li>
 				</compositeExplosions>
 			</li>
-		</comps>
+		</modExtensions>
 		<projectile>
 		<damageDef>Stun</damageDef>
 		<speed>80</speed>
@@ -1115,15 +1117,13 @@
             <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
             <soundAmbient>MortarRound_Ambient</soundAmbient>
         </projectile>
-        <comps>
-        <li Class="Fortification.CompProperties_ClusterBomb">
+		<modExtensions>
+			<li Class="Fortification.ModExtension_ClusterBomb">
                 <clusterBurstCount>10</clusterBurstCount> <!-- 破片數量 -->
                 <projectile>FT_Bunker_HowitzerShell</projectile><!-- 作為破片的子彈ThingDef -->
                 <forceMissingRange>5</forceMissingRange><!-- 散射範圍(以母彈目標為圓心擴散) -->
                 <TDDistance>5~10</TDDistance><!--距離目標多遠時分裂(最小/最大距離) -->
               </li>
-        </comps>
-		<modExtensions>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
 				<def>MF_StandardMuzzleFalshTwo</def>
 				<drawSize>(9,9)</drawSize>
