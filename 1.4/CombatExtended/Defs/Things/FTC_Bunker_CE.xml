@@ -16,8 +16,10 @@
 			<transmitsPower>true</transmitsPower>
 		</li>
 		<li Class="CompProperties_Flickable"/>
-		<li Class="Fortification.CompProperties_ForceTargetable"/>
     </comps>
+	<modExtensions>
+		<li Class="Fortification.ModExtension_ForceTargetable"/>    
+	</modExtensions>
 	<statBases>
 		<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
 		<AimingAccuracy>1.5</AimingAccuracy>
@@ -687,7 +689,7 @@
 	<costList>
 		<Steel>150</Steel>
 		<ComponentIndustrial>3</ComponentIndustrial>
-			 <FT_ConcreteCompressed>4</FT_ConcreteCompressed>
+		<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 	</costList>
 	<building>
 		<ai_combatDangerous>true</ai_combatDangerous>

@@ -41,7 +41,16 @@
 	  <speed>100</speed>
     </projectile>
     <comps>
-      <li Class="Fortification.CompProperties_ClusterBomb">
+      <li Class="CombatExtended.CompProperties_Fragments">
+        <fragments>
+          <Fragment_Flame>50</Fragment_Flame>
+        </fragments>
+				<fragAngleRange>-10~0</fragAngleRange>
+				<fragXZAngleRange>-5~5</fragXZAngleRange>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="Fortification.ModExtension_ClusterBomb">
         <clusterBurstCount>0</clusterBurstCount> <!-- 破片數量 -->
         <forceMissingRange>6</forceMissingRange><!-- 散射範圍(以母彈目標為圓心擴散) -->
         <!--<doDismantlExplosion>true</doDismantlExplosion>--><!-- 分裂時爆炸 -->
@@ -52,14 +61,8 @@
         <!--<dismantlExplosionSound>ExtinguisherExplosion</dismantlExplosionSound>--><!-- 分裂爆炸的音效SoundDef -->
         <TDDistance>500~550</TDDistance><!--距離目標多遠時分裂(最小/最大距離) -->
       </li>
-      <li Class="CombatExtended.CompProperties_Fragments">
-        <fragments>
-          <Fragment_Flame>50</Fragment_Flame>
-        </fragments>
-				<fragAngleRange>-10~0</fragAngleRange>
-				<fragXZAngleRange>-5~5</fragXZAngleRange>
-      </li>
-    </comps>
+    </modExtensions>
+
   </ThingDef>
 
   <ThingDef ParentName="BaseFlamethrowerBullet">
