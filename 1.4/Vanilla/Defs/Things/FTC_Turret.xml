@@ -218,7 +218,7 @@
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
 		<building>
@@ -314,7 +314,7 @@
 		</statBases>
 		<costList>
 			<Steel>175</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
 			<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
 		<building>
