@@ -53,6 +53,7 @@
       <li Class="Fortification.ModExtension_ClusterBomb">
         <clusterBurstCount>0</clusterBurstCount> <!-- 破片數量 -->
         <forceMissingRange>6</forceMissingRange><!-- 散射範圍(以母彈目標為圓心擴散) -->
+		<safetyDistance>1.5</safetyDistance><!-- 安全距離 -->
         <!--<doDismantlExplosion>true</doDismantlExplosion>--><!-- 分裂時爆炸 -->
         <!--<dismantlExplosionDam>Smoke</dismantlExplosionDam>--><!-- 分裂爆炸的DamageDef -->
         <!--<dismantlExplosionRadius>0.5</dismantlExplosionRadius>--><!-- 分裂爆炸的範圍 -->
@@ -77,7 +78,16 @@
 	  <speed>150</speed>
     </projectile>
     <comps>
-      <li Class="Fortification.CompProperties_ClusterBomb">
+      <li Class="CombatExtended.CompProperties_Fragments">
+        <fragments>
+          <Fragment_Prometheum>50</Fragment_Prometheum>
+        </fragments>
+				<fragAngleRange>-10~0</fragAngleRange>
+				<fragXZAngleRange>-5~5</fragXZAngleRange>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="Fortification.ModExtension_ClusterBomb">
         <clusterBurstCount>0</clusterBurstCount> <!-- 破片數量 -->
         <forceMissingRange>6</forceMissingRange><!-- 散射範圍(以母彈目標為圓心擴散) -->
 		<safetyDistance>1.5</safetyDistance><!-- 安全距離 -->
@@ -89,14 +99,7 @@
         <!--<dismantlExplosionSound>ExtinguisherExplosion</dismantlExplosionSound>--><!-- 分裂爆炸的音效SoundDef -->
         <TDDistance>500~550</TDDistance><!--距離目標多遠時分裂(最小/最大距離) -->
       </li>
-      <li Class="CombatExtended.CompProperties_Fragments">
-        <fragments>
-          <Fragment_Prometheum>50</Fragment_Prometheum>
-        </fragments>
-				<fragAngleRange>-10~0</fragAngleRange>
-				<fragXZAngleRange>-5~5</fragXZAngleRange>
-      </li>
-    </comps>
+    </modExtensions>
   </ThingDef>
   
   <!-- ==================== Fragment ========================== -->

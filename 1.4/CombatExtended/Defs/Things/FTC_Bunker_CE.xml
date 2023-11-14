@@ -992,7 +992,6 @@
 		</researchPrerequisites>
 		 <comps>
 			<li Class="CompProperties_Flickable"/>
-			<li Class="Fortification.CompProperties_ForceTargetable"/>
 			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 			<worldTileRange>10</worldTileRange>
 			<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>

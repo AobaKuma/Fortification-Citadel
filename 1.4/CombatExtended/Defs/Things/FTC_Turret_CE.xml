@@ -22,8 +22,10 @@
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Breakdownable"/>	
-			<li Class="Fortification.CompProperties_ForceTargetable"/>
 		</comps>
+		<modExtensions>
+			<li Class="Fortification.ModExtension_ForceTargetable"/>    
+		</modExtensions>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<placeWorkers>
 			<li>PlaceWorker_TurretTop</li>
