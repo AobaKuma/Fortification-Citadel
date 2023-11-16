@@ -4,7 +4,7 @@
 
  <!-- 砲塔類，進入後不可控制指令，不耗電 -->
 	<ThingDef ParentName="FTC_BasePermanentStructure" Name="FTC_BasePermanentTurret" Abstract="True">
-		<thingClass>Fortification.Building_TurretCapacity</thingClass>
+		<thingClass>Fortification.Building_TurretCapacityCE</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>

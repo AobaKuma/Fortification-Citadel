@@ -31,7 +31,7 @@
 
   <ThingDef ParentName="BaseFlamethrowerBullet">
     <defName>Bullet_FT_Flamethrower_Napalm</defName>
-    <thingClass>Fortification.Projectile_ClusterBomb</thingClass>
+    <thingClass>Fortification.ProjectileCE_ClusterBomb</thingClass>
     <label>jellied chemfuel stream</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageDef>Flame</damageDef>
@@ -53,7 +53,7 @@
       <li Class="Fortification.ModExtension_ClusterBomb">
         <clusterBurstCount>0</clusterBurstCount> <!-- 破片數量 -->
         <forceMissingRange>6</forceMissingRange><!-- 散射範圍(以母彈目標為圓心擴散) -->
-		<safetyDistance>1.5</safetyDistance><!-- 安全距離 -->
+		    <safetyDistance>1.5</safetyDistance><!-- 安全距離 -->
         <!--<doDismantlExplosion>true</doDismantlExplosion>--><!-- 分裂時爆炸 -->
         <!--<dismantlExplosionDam>Smoke</dismantlExplosionDam>--><!-- 分裂爆炸的DamageDef -->
         <!--<dismantlExplosionRadius>0.5</dismantlExplosionRadius>--><!-- 分裂爆炸的範圍 -->
@@ -68,7 +68,7 @@
 
   <ThingDef ParentName="BaseFlamethrowerBullet">
     <defName>Bullet_FT_Flamethrower_Prometheum</defName>
-    <thingClass>Fortification.Projectile_ClusterBomb</thingClass>
+    <thingClass>Fortification.ProjectileCE_ClusterBomb</thingClass>
     <label>jellied prometheum stream</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageDef>PrometheumFlame</damageDef>
@@ -90,7 +90,7 @@
       <li Class="Fortification.ModExtension_ClusterBomb">
         <clusterBurstCount>0</clusterBurstCount> <!-- 破片數量 -->
         <forceMissingRange>6</forceMissingRange><!-- 散射範圍(以母彈目標為圓心擴散) -->
-		<safetyDistance>1.5</safetyDistance><!-- 安全距離 -->
+		    <safetyDistance>1.5</safetyDistance><!-- 安全距離 -->
         <!--<doDismantlExplosion>true</doDismantlExplosion>--><!-- 分裂時爆炸 -->
         <!--<dismantlExplosionDam>Smoke</dismantlExplosionDam>--><!-- 分裂爆炸的DamageDef -->
         <!--<dismantlExplosionRadius>0.5</dismantlExplosionRadius>--><!-- 分裂爆炸的範圍 -->
@@ -122,8 +122,8 @@
       <explosionRadius>0.5</explosionRadius>
       <ai_IsIncendiary>true</ai_IsIncendiary>
       <screenShakeFactor>0</screenShakeFactor>
-	  <flyOverhead>false</flyOverhead>
-	  <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+	    <flyOverhead>false</flyOverhead>
+	    <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
       <speed>45</speed>
       <gravityFactor>5</gravityFactor>
     </projectile>
@@ -147,8 +147,8 @@
       <explosionRadius>0.5</explosionRadius>
       <ai_IsIncendiary>true</ai_IsIncendiary>
       <screenShakeFactor>0</screenShakeFactor>
-	  <flyOverhead>false</flyOverhead>
-	  <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+	    <flyOverhead>false</flyOverhead>
+	    <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
       <speed>45</speed>
       <gravityFactor>5</gravityFactor>
     </projectile>
