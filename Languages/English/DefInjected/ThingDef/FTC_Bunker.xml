@@ -30,8 +30,8 @@
   <FT_Bullet_BatteryShell.label>Heavy explosive shell</FT_Bullet_BatteryShell.label>
 
   <!-- 火控測距儀 -->
-  <FTC_SpotterBunker.label>Stational rangefinder</FTC_SpotterBunker.label>
-  <FTC_SpotterBunker.description>A rangefinder that uses light reflection triangulation to infer distance. Its elevated base enables it to cross mountains to calibrate and spot targets.</FTC_SpotterBunker.description>
+  <FTC_SpotterBunker.label>火控觀測塔</FTC_SpotterBunker.label>
+  <FTC_SpotterBunker.description>透過光線反射三角測距來反推距離的測距儀,加高的基座使其能夠越過山體標定打擊目標.</FTC_SpotterBunker.description>
 
   <!-- 機槍碉堡 -->
 

@@ -217,7 +217,7 @@
 			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
-			<Steel>150</Steel>
+			<Steel>250</Steel>
 			<ComponentIndustrial>8</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
@@ -313,7 +313,7 @@
 			<ShootingAccuracyTurret>0.98</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
-			<Steel>175</Steel>
+			<Steel>275</Steel>
 			<ComponentIndustrial>5</ComponentIndustrial>
 			<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>

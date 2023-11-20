@@ -53,7 +53,7 @@
 			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
-			<Steel>150</Steel>
+			<Steel>250</Steel>
 			<ComponentIndustrial>9</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
@@ -89,7 +89,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
 			<warmupTime>1</warmupTime>
-			<range>55</range>
+			<range>62</range>
 			<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 			<burstShotCount>20</burstShotCount>
 			<soundCast>GunShotA</soundCast>
@@ -143,7 +143,7 @@
 			<ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
-			<Steel>175</Steel>
+			<Steel>275</Steel>
 			<ComponentIndustrial>6</ComponentIndustrial>
 			<ReinforcedBarrel>1</ReinforcedBarrel>
    		  	<FT_ConcreteCompressed>6</FT_ConcreteCompressed>
@@ -180,7 +180,7 @@
 			<hasStandardCommand>True</hasStandardCommand>
 			<defaultProjectile>Bullet_20x110mmHispano_AP</defaultProjectile>
 			<warmupTime>1.25</warmupTime>
-			<range>70</range>
+			<range>80</range>
 			<minRange>1.5</minRange>
 			<burstShotCount>6</burstShotCount>
 			<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
@@ -231,7 +231,7 @@
 		</statBases>
 		<costList>
 			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
-			<Steel>425</Steel>
+			<Steel>525</Steel>
 			<ComponentIndustrial>6</ComponentIndustrial>
 			<ReinforcedBarrel>2</ReinforcedBarrel>
 		</costList>
@@ -325,7 +325,7 @@
 		</statBases>
 		<specialDisplayRadius>20</specialDisplayRadius>
 		<costList>
-			<Steel>500</Steel>
+			<Steel>600</Steel>
 			<ReinforcedBarrel>3</ReinforcedBarrel>
 			<ComponentIndustrial>8</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>12</FT_ConcreteCompressed>
@@ -470,7 +470,7 @@
 			<AimingAccuracy>10</AimingAccuracy>
 		</statBases>
 		<costList>
-			<Steel>550</Steel>
+			<Steel>650</Steel>
 			<ComponentIndustrial>10</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>12</FT_ConcreteCompressed>
 		</costList>
@@ -687,7 +687,7 @@
 		<Beauty>-5</Beauty>
 	</statBases>
 	<costList>
-		<Steel>150</Steel>
+		<Steel>225</Steel>
 		<ComponentIndustrial>3</ComponentIndustrial>
 		<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 	</costList>
@@ -782,7 +782,7 @@
 		<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
 	</statBases>
 	<costList>
-		<Steel>150</Steel>
+		<Steel>250</Steel>
 		<ComponentIndustrial>9</ComponentIndustrial>
 			 <FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 	</costList>
@@ -822,7 +822,7 @@
 		<hasStandardCommand>true</hasStandardCommand>
 		<defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
 		<warmupTime>1</warmupTime>
-		<range>55</range>
+		<range>62</range>
 		<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 		<burstShotCount>20</burstShotCount>
 		<soundCast>GunShotA</soundCast>
@@ -916,7 +916,7 @@
 		<defaultProjectile>Bullet_FT_37x223mmR_Canister</defaultProjectile>
 		<warmupTime>1.5</warmupTime>
 		<minRange>3.9</minRange>
-		<range>85</range>
+		<range>95</range>
 		<soundCast>FT_CannonLaunchA</soundCast>
 		<soundCastTail>GunTail_Heavy</soundCastTail>
 		<muzzleFlashScale>12</muzzleFlashScale>
@@ -970,7 +970,7 @@
 		<specialDisplayRadius>30</specialDisplayRadius>
 		<costList>
    		  	<FT_ConcreteCompressed>5</FT_ConcreteCompressed>
-			<Steel>400</Steel>
+			<Steel>500</Steel>
 			<ComponentIndustrial>6</ComponentIndustrial>
 			<ReinforcedBarrel>2</ReinforcedBarrel>
 		</costList>
