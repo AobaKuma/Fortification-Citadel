@@ -52,6 +52,8 @@
           <chooseFrom>
             <li>FTC_CitadelBunkerStart</li>
             <li>FTC_CitadelBunkerStart_B</li>
+            <li>FTC_CitadelBunkerStart_C</li>
+            <li>FTC_CitadelBunkerStart_D</li>
           </chooseFrom>
         </li>
       </parts>

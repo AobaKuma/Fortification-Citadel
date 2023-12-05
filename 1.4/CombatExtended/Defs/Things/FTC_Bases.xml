@@ -994,6 +994,777 @@
   <thing>FT_BlocksConcrete</thing>
 </KCSG.SymbolDef>
 
+<KCSG.StructureLayoutDef>
+  <defName>FTC_CitadelBunkerStart_C</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,.,.,Sandbags_Cloth,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_SandBag1x2c_Cloth_South,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_PowerConduit,.,.,.,.,.,.,.,.,FTC_SandBag1x2c_Cloth_South,.,FTC_Wall_MG_South,.,Sandbags_Cloth,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_PowerConduit,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,.,.,.,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Door_WoodLog,FTC_CitadelWall_FT_ReinforcedConcreteBag,Sandbags_Cloth,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Gun_Revolver,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Filth_Blood,.,Wall_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,Sarcophagus_Steel_East,.,FTC_PowerConduit,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,FTC_PowerConduit,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,Sarcophagus_Steel_East,.,FTC_PowerConduit,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,StandingLamp,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,FTC_SandBag1x2c_Cloth_South,.,.,.,FTC_SandBag1x2c_Cloth_South,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,ToolCabinet_North,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,TableMachining_West,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,.,FTC_PowerConduit,.,.,StandingLamp,.,.,.,Sarcophagus_Steel_East,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,Door_WoodLog,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,Shelf_Steel_North,.,Shelf_Steel_North,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ToolCabinet_North,.,.,ToolCabinet_North,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Shelf_Steel_East,.,.,StandingLamp,.,Shelf_Steel_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,StandingLamp,Wall_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,Sarcophagus_Steel_East,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,Door_WoodLog,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_SandBag1x2c_Cloth_East,FTC_CitadelWall_FT_BlocksConcrete,.,.,FTC_PowerConduit,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,Sarcophagus_Steel_East,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,.,.,.,.,FT_transformer_West,FT_transformer_West,FT_transformer_West,.,.,.,.,Wall_FT_BlocksConcrete,FT_Radio_East,DiningChair_Steel_West,Table1x2c_Steel_North,.,FTC_PowerConduit,.,Door_WoodLog,FTC_Wall_MG_East,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,Wall_FT_BlocksConcrete,ToolCabinet_North,.,.,.,.,.,.,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,Wall_FT_BlocksConcrete,.,Table1x2c_Steel_West,.,.,FTC_PowerConduit,ShelfSmall_Steel_South,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FT_FuelGenerator_East,.,StandingLamp,.,.,.,Sarcophagus_Steel_East,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,StandingLamp,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,.,FT_ArcFurnace_South,.,FT_transformer_West,FTC_CitadelWall_FT_ReinforcedConcreteBag,FT_transformer_West,.,.,FT_HeavyChem_South,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Door_WoodLog,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,Squirrel,Filth_Blood,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,Wall_FT_BlocksConcrete,.,Shelf_Steel_West,.,.,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,Shelf_Steel_East,.,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,Filth_Blood,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,FTC_PowerConduit,.,.,.,Filth_Dirt,.,.,.,.,.,.,.,.,.,Shelf_Steel_West,.,.,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,FTC_PowerConduit,.,StandingLamp,.,.,.,.,.,.,StandingLamp,.,.,.,.,.,Shelf_Steel_East,.,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,FTC_Wall_MG_West,Door_WoodLog,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,FT_TableConcreteMixer_North,.,FT_transformer_North,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,Door_WoodLog,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,FT_TableLathe_North,.,.,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,Shelf_Steel_South,.,Shelf_Steel_South,FTC_PowerConduit,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FT_Stony_Palisade_Corner_FT_BlocksConcrete,.,.,.,.,.,.,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,.,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,Door_Steel,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Door_WoodLog,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_PowerConduit,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FT_Stony_Palisade_Corner_FT_BlocksConcrete,.,.,.,.,.,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,.,.,.,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,FTC_SandBag1x2c_Cloth_South,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FT_Stony_Palisade_Corner_FT_BlocksConcrete,.,.,.,.,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,.,.,.,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,.,.,.,.,.,.,.,Sandbags_Cloth,.,.,.,Vent_West,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,Battery_North,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FT_Stony_Palisade_Corner_FT_BlocksConcrete,.,GoJuice,.,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,.,.,.,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,FT_TurretQuadAA_West,.,Wall_FT_BlocksConcrete,.,.,.,.,FT_CitadelGenerator_South,.,.,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,Wall_FT_BlocksConcrete,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FT_Stony_Palisade_Corner_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,Battery_North,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Door_Steel,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,FTC_SandBag1x2c_Cloth_South,.,.,FTC_SandBag1x2c_Cloth_South,Sandbags_Cloth,.,Sandbags_Cloth,.,FTC_SandBag1x2c_Cloth_South,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,.,.,.,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,.,.,.,FTC_PowerConduit,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Bed_Steel_North,.,Bed_Steel_North,.,Bed_Steel_North,Wall_FT_BlocksConcrete,.,FTC_SandBag1x2c_Cloth_South,.,.,.,Wall_FT_BlocksConcrete,SandbagRubble,.,.,.,.,Sandbags_Cloth,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,Battery_East,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,FTC_EnegryDecoy,.,.,Sandbags_Cloth,.,.,FTC_FloorDecoC_D_FT_BlocksConcrete,FT_Turret_Mortar_North,FTC_FloorDecoC_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,.,.,.,FT_CitadelGenerator_South,.,.,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,PowerSwitch,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,.,.,.,.,Door_WoodLog,.,FTC_InfrasonicDecoy,.,FT_transformer_West,.,Wall_FT_BlocksConcrete,.,.,.,.,.,Sandbags_Cloth,.,.,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,Vent_West,.,.,.,.,.,.,.,.,.,.,.,Wall_FT_BlocksConcrete,Battery_East,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,Sandbags_Cloth,FTC_CitadelWall_FT_BlocksConcrete,Battery_North,Wall_FT_BlocksConcrete,.,.,.,DiningChair_Steel_North,DiningChair_Steel_North,Wall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,FTC_FieldKitchen_North,.,FTC_FloorDecoC_D_FT_BlocksConcrete,FT_Turret_Mortar_North,FTC_FloorDecoC_D_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,.,FTC_SandBag1x2c_Cloth_South,StandingLamp,.,Table1x2c_Steel_West,Wall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,FTC_PowerConduit,.,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_D_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,ShelfSmall_Steel_East,.,Door_WoodLog,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Battery_North,Battery_North,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,Filth_Blood,.,FTC_SignalDecoy,.,FTC_PowerConduit,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_PowerConduit,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_CitadelWall_FT_ReinforcedConcreteBag,Barricade_FT_BlocksConcrete,Barricade_FT_BlocksConcrete,Shelf_FT_BlocksConcrete_North,.,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,.,HospitalBed_Steel_North,Filth_Blood,HospitalBed_Steel_North,Filth_Blood,Wall_FT_BlocksConcrete,.,.,.,.,.,Door_WoodLog,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Dirt,Door_WoodLog,.,.,.,.,.,Shelf_FT_BlocksConcrete_North,.,.,Shelf_FT_BlocksConcrete_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Battery_North,Battery_North,Battery_North,Wall_FT_BlocksConcrete,.,.,Filth_Blood,.,Filth_Blood,Wall_FT_BlocksConcrete,.,StandingLamp,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,StandingLamp,.,.,.,.,Shelf_Steel_South,.,Shelf_Steel_South,Wall_FT_BlocksConcrete,.,.,.,FTC_SandBag1x2c_Cloth_South,.,.,StandingLamp,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,Door_WoodLog,Filth_Blood,.,.,.,.,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Door_WoodLog,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Door_WoodLog,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Shelf_FT_BlocksConcrete_East,.,.,.,.,.,FTC_SandBag1x2c_Cloth_South,.,FT_Maxim4M_East,Shelf_FT_BlocksConcrete_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,PowerSwitch,.,.,Wall_FT_BlocksConcrete,Bed_Steel_East,.,.,.,Bed_Steel_West,Wall_FT_BlocksConcrete,.,.,.,.,Shelf_Steel_West,Wall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,.,DiningChair_Steel_North,.,.,.,Door_WoodLog,.,.,.,FT_TurretAT_East,.,.,FTC_SandBag1x2c_Cloth_South,.,Sandbags_Cloth,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,Shelf_Steel_East,.,FTC_SandBag1x2c_Cloth_South,.,.,Wall_FT_BlocksConcrete,Dresser_WoodLog_East,.,.,.,Bed_Steel_West,Wall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,.,PokerTable_WoodLog,.,DiningChair_Steel_West,.,Wall_FT_BlocksConcrete,Sandbags_Cloth,.,.,.,.,.,Shelf_FT_BlocksConcrete_South,.,.,FTC_SandBag1x2c_Cloth_South,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,Bed_Steel_East,.,.,.,Bed_Steel_West,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,EndTable_WoodLog_South,.,.,.,EndTable_WoodLog_South,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,.,.,.,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,DiningChair_Steel_East,.,.,FTC_FloorDeco_BlocksSlate,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Door_WoodLog,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,Shelf_Steel_West,Wall_FT_BlocksConcrete,.,.,Wall_FT_BlocksConcrete,Bed_Steel_East,.,StandingLamp,.,Bed_Steel_West,Wall_FT_BlocksConcrete,.,Dresser_WoodLog_South,EndTable_WoodLog_South,Bed_Steel_South,StandingLamp,Wall_FT_BlocksConcrete,ChessTable_WoodLog,DiningChair_Steel_South,FTC_FloorDeco_BlocksSlate,FTC_FloorDeco_BlocksSlate,.,Wall_FT_BlocksConcrete,PlantPot_BlocksMarble,.,.,Table1x2c_Steel_East,.,Wall_FT_BlocksConcrete,PlantPot_BlocksMarble,.,.,Table1x2c_Steel_East,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,.,FT_CitadelGenerator_West,.,.,Wall_FT_BlocksConcrete,Bed_Steel_East,.,.,StandingLamp,.,.,.,.,Wall_FT_BlocksConcrete,FTC_PowerConduit,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_FloorDeco_BlocksSlate,DiningChair_Steel_East,Table1x2c_Steel_North,.,Wall_FT_BlocksConcrete,.,.,.,DiningChair_Steel_South,.,Wall_FT_BlocksConcrete,.,.,.,DiningChair_Steel_South,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_SandBag1x2c_Cloth_East,.,.</li>
+      <li>.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,.,.,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_PowerConduit,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Table1x2c_Steel_South,DiningChair_Steel_West,StandingLamp,.,DiningChair_Steel_West,Wall_FT_BlocksConcrete,StandingLamp,.,.,.,.,Wall_FT_BlocksConcrete,StandingLamp,.,.,.,Dresser_WoodLog_West,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.</li>
+      <li>.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,Door_WoodLog,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,StandingLamp,.,.,.,.,.,Door_WoodLog,.,.,.,.,FT_AntennaTower,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_FloorDeco_BlocksSlate,FTC_FloorDeco_BlocksSlate,FTC_FloorDeco_BlocksSlate,.,Wall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Door_WoodLog,FTC_CitadelWall_FT_BlocksConcrete,.</li>
+      <li>.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,Door_Steel,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,Shelf_Steel_South,.,Shelf_Steel_South,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,FTC_SandBag1x2c_Cloth_South,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,FlatscreenTelevision_South,.,Wall_FT_BlocksConcrete,EndTable_WoodLog_South,.,DoubleBed_Steel_South,.,Dresser_WoodLog_South,Wall_FT_BlocksConcrete,EndTable_WoodLog_South,.,DoubleBed_Steel_South,.,.,Door_WoodLog,.,FTC_CitadelWall_FT_BlocksConcrete,.</li>
+      <li>.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,Door_WoodLog,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,.,.,.,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Door_WoodLog,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,.,FTC_SandBag1x2c_Cloth_South,.,.,FTC_SandBag1x2c_Cloth_South,.,.,.,.,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,FTC_CitadelWall_FT_BlocksConcrete,.</li>
+      <li>.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,FTC_Wall_MG_North,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_SandBag1x2c_Cloth_South,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,Door_WoodLog,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,Door_WoodLog,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,Corpse_Human,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,Door_Steel,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,Door_WoodLog,.,.,.,.,.,.,.,.,FTC_PowerConduit,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FTC_PowerConduit,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Door_Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_PowerConduit,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Door_WoodLog,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_FT_BlocksConcrete,FT_BlocksConcrete,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,FTC_PowerConduit,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Shelf_FT_BlocksConcrete_West,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_BlocksConcrete,.,Shelf_FT_BlocksConcrete_West,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,Door_WoodLog,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Door_WoodLog,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,FTC_FloorDecoC_D_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,Door_WoodLog,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,FTC_FloorDecoC_D_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,Steel,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,Door_Steel,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,.,.,.,.,.,FTC_PowerConduit,.,.,Steel,Steel,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,Cloth,Cloth,.,ComponentIndustrial,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,Gun_Revolver,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,ComponentIndustrial,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_FloorDeco_BlocksSlate,FTC_FloorDeco_BlocksSlate,FTC_FloorDeco_BlocksSlate,.,FTC_PowerConduit,.,.,.,.,.,FT_BlocksConcrete,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_FloorDeco_BlocksSlate,FTC_FloorDeco_BlocksSlate,.,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_FloorDeco_BlocksSlate,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,.,.,.,.,.,FTC_FloorDeco_BlocksSlate,FTC_FloorDeco_BlocksSlate,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,Door_WoodLog,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_FloorDeco_BlocksSlate,FTC_FloorDeco_BlocksSlate,FTC_FloorDeco_BlocksSlate,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,WoodLog,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,MedicineIndustrial,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Silver,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Cloth,Steel,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Cloth,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Gun_BoltActionRifle,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ComponentSpacer,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,WoodLog,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Cloth,Steel,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_BlocksConcrete,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteCompressed,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Cloth,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Steel,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <roofGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.</li>
+    <li>.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.</li>
+    <li>.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.</li>
+    <li>.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.</li>
+    <li>.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </roofGrid>
+  <terrainGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,PavedTile,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,MetalTile,MetalTile,MetalTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,.,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,PavedTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,MetalTile,MetalTile,MetalTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,MetalTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,MetalTile,FT_ConcreteTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,MetalTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,MetalTile,FT_ConcreteTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,MetalTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,MetalTile,FT_ConcreteTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,MetalTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,MetalTile,FT_ConcreteTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,PavedTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,MetalTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,MetalTile,FT_ConcreteTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,MetalTile,MetalTile,MetalTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.</li>
+    <li>.,Concrete,Concrete,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.</li>
+    <li>Concrete,Concrete,Concrete,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.</li>
+    <li>Concrete,.,Concrete,Concrete,Concrete,Concrete,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.</li>
+    <li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,Concrete,Concrete,Concrete,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,Concrete,Concrete,Concrete,Concrete,PavedTile,Concrete,Concrete,Concrete,Concrete,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,Concrete,Concrete,Concrete,Concrete,PavedTile,Concrete,Concrete,Concrete,Concrete,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,Concrete,Concrete,Concrete,Concrete,PavedTile,Concrete,Concrete,Concrete,Concrete,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,Concrete,Concrete,Concrete,Concrete,PavedTile,Concrete,Concrete,Concrete,Concrete,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,Concrete,Concrete,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,Concrete,Concrete,Concrete,Concrete,PavedTile,Concrete,Concrete,Concrete,Concrete,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.</li>
+    <li>.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,.,.,.</li>
+    <li>.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,Concrete,Concrete,Concrete</li>
+    <li>.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete</li>
+    <li>.,.,.,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.</li>
+    <li>.,.,.,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,TileMarble,TileMarble,TileMarble,TileMarble,TileMarble,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.</li>
+    <li>.,.,.,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.</li>
+    <li>.,.,.,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.</li>
+    <li>.,.,.,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Concrete,Concrete,.,.,.,.,.,.</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>CitadelBunkerStart</li>
+  </tags>
+  <modRequirements>
+    <li>aoba.fortress.industrial.citadel</li>
+    <li>aoba.fortress.industrial</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
 
+<KCSG.SymbolDef>
+  <defName>FTC_Wall_MG_South</defName>
+  <thing>FTC_Wall_MG</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_CitadelWall_FT_ReinforcedConcreteBag</defName>
+  <thing>FTC_CitadelWall</thing>
+  <stuff>FT_ReinforcedConcreteBag</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_Wall_MG_East</defName>
+  <thing>FTC_Wall_MG</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_Radio_East</defName>
+  <thing>FT_Radio</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_ArcFurnace_South</defName>
+  <thing>FT_ArcFurnace</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_Wall_MG_West</defName>
+  <thing>FTC_Wall_MG</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_TableConcreteMixer_North</defName>
+  <thing>FT_TableConcreteMixer</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_FloorDecoC_D_FT_BlocksConcrete</defName>
+  <thing>FTC_FloorDecoC_D</thing>
+  <stuff>FT_BlocksConcrete</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_TurretQuadAA_West</defName>
+  <thing>FT_TurretQuadAA</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_EnegryDecoy</defName>
+  <thing>FTC_EnegryDecoy</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_Turret_Mortar_North</defName>
+  <thing>FT_Turret_Mortar</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_FieldKitchen_North</defName>
+  <thing>FTC_FieldKitchen</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_SignalDecoy</defName>
+  <thing>FTC_SignalDecoy</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_TurretAT_East</defName>
+  <thing>FT_TurretAT</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_Maxim4M_East</defName>
+  <thing>FT_Maxim4M</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_FloorDeco_BlocksSlate</defName>
+  <thing>FTC_FloorDeco</thing>
+  <stuff>BlocksSlate</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_Wall_MG_North</defName>
+  <thing>FTC_Wall_MG</thing>
+</KCSG.SymbolDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>FTC_CitadelBunkerStart_D</defName>
+  <isStorage>true</isStorage>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.</li>
+      <li>FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_Wall_MG_West,Door_Steel,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,Door_Steel,FTC_Wall_MG_East,.,.,.</li>
+      <li>FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,Filth_Blood,Filth_Blood,FTC_PowerConduit,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_PowerConduit,Filth_Blood,FTC_CitadelWall_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.</li>
+      <li>FTC_CitadelWall_FT_BlocksConcrete,.,.,FT_TurretHexMortar_West,.,.,Door_Steel,Filth_Blood,StandingLamp,FTC_PowerConduit,Wall_FT_BlocksConcrete,Heater,Filth_Blood,Filth_Blood,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,FTC_PowerConduit,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.</li>
+      <li>FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,Wall_FT_BlocksConcrete,Filth_Blood,Filth_Blood,FTC_PowerConduit,Wall_FT_BlocksConcrete,HospitalBed_Steel_East,.,Filth_Blood,Shelf_Steel_West,Bed_Steel_North,.,Bed_Steel_North,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,Filth_Blood,.,.,FTC_CitadelWall_Embrasure_FT_ReinforcedConcreteBag,Door_Steel,FTC_PowerConduit,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.</li>
+      <li>FTC_CitadelWall_FT_BlocksConcrete,.,.,StandingLamp,.,.,Wall_FT_BlocksConcrete,.,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,.,Filth_Dirt,Filth_Blood,.,.,Filth_Blood,.,Wall_FT_BlocksConcrete,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,FTC_CitadelWall_Embrasure_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,FTC_PowerConduit,StandingLamp,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.</li>
+      <li>FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Door_Steel,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Filth_Blood,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,HospitalBed_Steel_East,.,Filth_Blood,Filth_Blood,Filth_Blood,Filth_Blood,StandingLamp,Wall_FT_BlocksConcrete,.,FT_TurretAT_East,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Door_Steel,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_PowerConduit,.,.,Battery_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,.</li>
+      <li>.,FTC_CitadelWall_FT_BlocksConcrete,.,.,Filth_Blood,.,Wall_FT_BlocksConcrete,.,Filth_Blood,FTC_PowerConduit,Wall_FT_BlocksConcrete,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,Wall_FT_BlocksConcrete,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FT_RecoillessGun_West,.,Wall_FT_BlocksConcrete,.,.,.,ElectricTailoringBench_Steel_South,.,FTC_PowerConduit,PowerSwitch,.,Battery_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,.</li>
+      <li>.,FTC_CitadelWall_FT_BlocksConcrete,Bed_Steel_South,Filth_Blood,.,.,Door_Steel,.,Filth_Blood,FTC_PowerConduit,Filth_Blood,Filth_Blood,Filth_Blood,Filth_Blood,Filth_Blood,Filth_Blood,Filth_Blood,Filth_Blood,Door_Steel,Filth_Blood,Filth_Blood,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FT_RecoillessGun_West,Filth_Blood,Door_Steel,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FT_FirefoamPopper,.,Battery_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,.</li>
+      <li>.,FTC_CitadelWall_FT_BlocksConcrete,EndTable_WoodLog_South,StandingLamp,.,Dresser_WoodLog_South,Wall_FT_BlocksConcrete,.,Filth_Trash,FTC_PowerConduit,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,Filth_Blood,Filth_Blood,Filth_Blood,.,Filth_Blood,Wall_FT_BlocksConcrete,.,Filth_Trash,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,Sarcophagus_WoodLog_West,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,.,Shelf_Steel_South,Filth_Blood,.,Shelf_Steel_South,.,Battery_West,FTC_CitadelWall_FT_BlocksConcrete,.,.,.</li>
+      <li>.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,.,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Door_Steel,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Filth_Trash,Filth_Blood,Filth_Blood,FTC_CitadelWall_FT_ReinforcedConcreteBag,Shelf_Steel_East,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,.,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Door_Steel,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.</li>
+      <li>.,.,FTC_CitadelWall_FT_BlocksConcrete,DiningChair_WoodLog_North,DiningChair_WoodLog_North,.,DiningChair_WoodLog_North,Wall_FT_BlocksConcrete,Filth_Blood,FTC_PowerConduit,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Hopper_North,Hopper_North,Cooler_East,Filth_Blood,Filth_Blood,Filth_Trash,Wall_FT_BlocksConcrete,.,.,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FloorDecoC_FT_BlocksConcrete,FTC_FieldKitchen_East,.,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,.,.,Filth_Blood,Filth_Blood,Shelf_Steel_North,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.</li>
+      <li>.,.,FTC_CitadelWall_FT_BlocksConcrete,.,Table1x2c_WoodLog_West,Filth_Blood,.,Wall_FT_BlocksConcrete,Filth_Blood,FTC_PowerConduit,.,.,.,.,Wall_FT_BlocksConcrete,Filth_Blood,Filth_Blood,Filth_Blood,Wall_FT_BlocksConcrete,Shelf_Steel_East,Sandbags_Cloth,Sandbags_Cloth,.,.,.,.,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,FT_transformer_North,.,Filth_Blood,.,.,.,SimpleResearchBench_Steel_East,.,FTC_CitadelWall_FT_BlocksConcrete,.,.</li>
+      <li>.,.,FTC_CitadelWall_FT_BlocksConcrete,DiningChair_WoodLog_South,Filth_Blood,Filth_Blood,Table1x2c_WoodLog_South,Wall_FT_BlocksConcrete,Filth_Blood,FTC_PowerConduit,.,.,NutrientPasteDispenser_West,.,Wall_FT_BlocksConcrete,Filth_Blood,Filth_Blood,Filth_Blood,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FT_Stony_Palisade_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_PowerConduit,FTC_PowerConduit,.,.,Filth_Blood,Sandbags_Cloth,Sandbags_Cloth,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.</li>
+      <li>.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Filth_Blood,Filth_Blood,Filth_Blood,Door_Steel,Filth_Blood,FTC_PowerConduit,.,.,.,.,Wall_FT_BlocksConcrete,.,Filth_Blood,Filth_Blood,FTC_CitadelWall_FT_BlocksConcrete,.,Filth_Blood,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_PowerConduit,Shelf_Steel_West,.,Filth_Blood,Shelf_Steel_West,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.</li>
+      <li>.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Filth_Dirt,TubeTelevision_South,.,Wall_FT_BlocksConcrete,Filth_Blood,FTC_PowerConduit,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Filth_Blood,Filth_Blood,Filth_Blood,Door_Steel,Filth_Blood,Sarcophagus_WoodLog_East,.,.,.,FTC_SandBag1x2c_Cloth_South,.,Door_Steel,.,FTC_PowerConduit,.,Shelf_Steel_East,StandingLamp,.,.,FT_HeavyChem_North,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.</li>
+      <li>.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Table1x2c_WoodLog_North,.,.,Wall_FT_BlocksConcrete,StandingLamp,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,Wall_FT_BlocksConcrete,.,.,StandingLamp,Filth_Blood,FTC_CitadelWall_FT_BlocksConcrete,Filth_Blood,Filth_Blood,Filth_Blood,Filth_Blood,.,FTC_SandBag1x2c_Cloth_South,.,FTC_CitadelWall_FT_BlocksConcrete,ToolCabinet_West,FTC_PowerConduit,.,.,Filth_Blood,Shelf_Steel_West,.,.,.,.,FT_transformer_West,FTC_CitadelWall_FT_BlocksConcrete,.</li>
+      <li>.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,StandingLamp,.,Wall_FT_BlocksConcrete,.,.,Filth_Blood,Filth_Blood,FTC_PowerConduit,Wall_FT_BlocksConcrete,.,.,Filth_Blood,Filth_Blood,FTC_CitadelWall_FT_BlocksConcrete,Filth_Blood,Sarcophagus_WoodLog_East,.,Filth_Blood,Filth_Blood,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_PowerConduit,FT_TableLathe_North,.,Filth_Blood,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.</li>
+      <li>.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Door_Steel,FTC_CitadelWall_FT_ReinforcedConcreteBag,Filth_Blood,Sarcophagus_WoodLog_East,.,Filth_Dirt,.,FTC_SandBag1x2c_Cloth_South,.,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Door_Steel,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.</li>
+      <li>.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Bed_Steel_East,.,.,.,Bed_Steel_West,Wall_FT_BlocksConcrete,Filth_Blood,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,FT_AntennaTower,.,.,FTC_Wall_Howitzer_North,.,Filth_Blood,Sarcophagus_WoodLog_East,.,Filth_Blood,.,FTC_SandBag1x2c_Cloth_South,.,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_PowerConduit,.,Filth_Blood,Filth_Blood,Filth_Blood,.,Filth_Blood,Filth_Blood,Filth_Blood,.,FTC_CitadelWall_FT_BlocksConcrete,.</li>
+      <li>.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,EndTable_WoodLog_South,.,.,.,EndTable_WoodLog_South,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,Filth_Blood,Filth_Blood,Filth_Blood,Filth_Blood,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,Filth_Blood,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_ReinforcedConcreteBag</li>
+      <li>.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Bed_Steel_East,.,.,.,Bed_Steel_West,Wall_FT_BlocksConcrete,Filth_Blood,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,Sarcophagus_WoodLog_North,Sarcophagus_WoodLog_North,.,FTC_SandBag1x2c_Cloth_South,.,FTC_CitadelWall_FT_BlocksConcrete,.,FTC_PowerConduit,FTC_PowerConduit,.,.,.,FT_CitadelGenerator_North,.,.,.,Filth_Blood,Filth_Blood,FTC_CitadelWall_Embrasure_FT_ReinforcedConcreteBag</li>
+      <li>.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,StandingLamp,.,.,Door_Steel,.,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,FTC_SandBag1x2c_Cloth_South,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,Filth_Blood,.,.,.,.,.,.,.,Filth_Blood,Wall_FT_BlocksConcrete,FTC_CitadelWall_Embrasure_FT_ReinforcedConcreteBag</li>
+      <li>.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Dresser_WoodLog_East,.,.,Bed_Steel_West,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,Shelf_Steel_South,FT_FirefoamPopper,.,.,.,Filth_Blood,Filth_Blood,Filth_Blood,Filth_Blood,.,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete</li>
+      <li>.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,Table1x2c_WoodLog_North,.,.,EndTable_WoodLog_South,Wall_FT_BlocksConcrete,Filth_Blood,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,FTC_SandBag1x2c_Cloth_East,FTC_SandBag1x2c_Cloth_East,.,FTC_SandBag1x2c_Cloth_East,FTC_SandBag1x2c_Cloth_East,.,.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Filth_Trash,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete</li>
+      <li>.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,DiningChair_WoodLog_West,.,Bed_Steel_West,Wall_FT_BlocksConcrete,.,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_CitadelWall_Embrasure_FT_ReinforcedConcreteBag,FTC_CitadelWall_Embrasure_FT_ReinforcedConcreteBag,FTC_CitadelWall_Embrasure_FT_ReinforcedConcreteBag,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete</li>
+      <li>.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_ReinforcedConcreteBag,.,Wall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,Battery_North,Battery_North,Battery_North,Filth_Blood,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_PowerConduit,.,PowerSwitch,FT_FirefoamPopper,StandingLamp,FTC_PowerConduit,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,FTC_Wall_MG_West,Door_Steel,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,Door_Steel,FTC_Wall_MG_East,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,FTC_CitadelWall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_TankTrap,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,Filth_Blood,Filth_Blood,Filth_Blood,Filth_Blood,FTC_PowerConduit,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,Filth_Blood,.,Filth_Blood,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,WoodLog,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,Filth_Blood,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,Filth_Blood,.,.,.,.,.,.,.,.,.,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Door_Steel,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,Wall_FT_BlocksConcrete,FTC_PowerConduit,.,.,FTC_FloorDecoC_FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.</li>
+      <li>.,.,Filth_Blood,.,.,.,.,.,.,Filth_Blood,Filth_Trash,.,.,.,Filth_Dirt,.,.,.,FTC_PowerConduit,.,.,StandingLamp,Filth_Blood,.,.,.,Filth_Blood,.,Filth_Blood,Filth_Blood,Filth_Blood,Filth_Blood,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,Filth_Blood,.,.,.,.,Filth_Blood,Wall_FT_BlocksConcrete,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,Sandbags_Cloth,Filth_Blood,.,.,.,.,.,Shelf_Steel_South,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,Filth_Blood,.,.,FTC_PowerConduit,.,.,Sandbags_Cloth,.,.,.,.,.,.,FTC_PowerConduit,.,.,Filth_Blood,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,Wall_FT_BlocksConcrete,.,.,.,.,.,Filth_Trash,.,.,FTC_PowerConduit,FT_BlocksConcrete,.,Filth_Blood,.,.,.,.,.,.,FT_TableConcreteMixer_West,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,Filth_Blood,.,Filth_Blood,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,MealSurvivalPack,Filth_RubbleBuilding,Filth_Blood,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,ToolCabinet_West,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,Filth_Blood,.,DiningChair_WoodLog_East,FT_Radio_West,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,Filth_Blood,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,FTC_PowerConduit,.,.,Filth_Blood,.,.,.,.,.,.,FTC_PowerConduit,.,.,Filth_Blood,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,Filth_Blood,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,Filth_Blood,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,FT_BlocksConcrete,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,FTC_PowerConduit,.,.,.,.,Filth_Blood,Filth_Blood,FTC_PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,Filth_Blood,.,.,.,Filth_Blood,Filth_Blood,Filth_Blood,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,Filth_Blood,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,Filth_Blood,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Filth_Blood,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,WoodLog,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <roofGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,.,.,.,.</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,.,.,.,.</li>
+    <li>1,1,.,.,.,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,.,.,.,.</li>
+    <li>1,1,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,.,.,.,.</li>
+    <li>1,1,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,1,1,1,1,1,1,.,.,.,.</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,1,1,1,1,1,1,1,.,.,.</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.</li>
+    <li>.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.</li>
+    <li>.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.</li>
+    <li>.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.</li>
+    <li>.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,.,.</li>
+    <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.</li>
+    <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.</li>
+    <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.</li>
+    <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.</li>
+    <li>.,.,.,.,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,.</li>
+    <li>.,.,.,.,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,.,.,.,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,.,.,.,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,.,.,.,.,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,.,.,.,.,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,.,.,.,.,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,1,1,1,1,1</li>
+    <li>.,.,.,.,.,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </roofGrid>
+  <terrainGrid>
+    <li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.</li>
+    <li>.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.</li>
+    <li>.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.</li>
+    <li>.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.</li>
+    <li>.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.</li>
+    <li>.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.</li>
+    <li>.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.</li>
+    <li>.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.</li>
+    <li>.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.</li>
+    <li>.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.</li>
+    <li>.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.</li>
+    <li>.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile</li>
+    <li>.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile</li>
+    <li>.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile</li>
+    <li>.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile</li>
+    <li>.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile</li>
+    <li>.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile</li>
+    <li>.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,Concrete,Concrete,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,FT_ConcreteTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </terrainGrid>
+  <forceGenerateRoof>true</forceGenerateRoof>
+  <tags>
+    <li>CitadelBunkerStart</li>
+  </tags>
+  <modRequirements>
+    <li>aoba.fortress.industrial.citadel</li>
+    <li>aoba.fortress.industrial</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_TurretHexMortar_West</defName>
+  <thing>FT_TurretHexMortar</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_CitadelWall_Embrasure_FT_ReinforcedConcreteBag</defName>
+  <thing>FTC_CitadelWall_Embrasure</thing>
+  <stuff>FT_ReinforcedConcreteBag</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_RecoillessGun_West</defName>
+  <thing>FT_RecoillessGun</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_FirefoamPopper</defName>
+  <thing>FT_FirefoamPopper</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_FieldKitchen_East</defName>
+  <thing>FTC_FieldKitchen</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_TableConcreteMixer_West</defName>
+  <thing>FT_TableConcreteMixer</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FT_HeavyChem_North</defName>
+  <thing>FT_HeavyChem</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>FTC_Wall_Howitzer_North</defName>
+  <thing>FTC_Wall_Howitzer</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Corpse_Human</defName>
+  <pawnKindDef>Mercenary_Elite</pawnKindDef>
+  <spawnPartOfFaction>false</spawnPartOfFaction>
+  <faction>OutlanderRough</faction>
+  <numberToSpawn>1</numberToSpawn>
+  <spawnDead>true</spawnDead>
+  <spawnRotten>true</spawnRotten>
+  <spawnFilthAround>true</spawnFilthAround>
+</KCSG.SymbolDef>
 
 </Defs>
