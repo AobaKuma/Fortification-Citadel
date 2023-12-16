@@ -76,7 +76,7 @@
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
-				<initialConfigurableTargetFuelLevel>2400</initialConfigurableTargetFuelLevel>
+				<initialConfigurableTargetFuelLevel>1500</initialConfigurableTargetFuelLevel>
 				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 		</comps>
