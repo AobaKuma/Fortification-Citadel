@@ -77,7 +77,7 @@
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
 				<initialConfigurableTargetFuelLevel>1500</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<autoRefuelPercent>1</autoRefuelPercent>
       		</li>
 		</comps>
   	</ThingDef>
@@ -182,7 +182,7 @@
 				<fuelIconPath>Things/Item/Resource/ReinforcedBarrel/ReinforcedBarrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
 				<initialConfigurableTargetFuelLevel>750</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<autoRefuelPercent>1</autoRefuelPercent>
 			</li>
 		</comps>
   	</ThingDef>
@@ -279,8 +279,8 @@
 				<initialAllowAutoRefuel>true</initialAllowAutoRefuel>
 				<fuelIconPath>Things/Item/Resource/ReinforcedBarrel/ReinforcedBarrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
-				<initialConfigurableTargetFuelLevel>120</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<initialConfigurableTargetFuelLevel>100</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>1</autoRefuelPercent>
 			</li>
 		</comps>
   	</ThingDef>
@@ -415,8 +415,8 @@
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
-				<initialConfigurableTargetFuelLevel>60</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<initialConfigurableTargetFuelLevel>30</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>1</autoRefuelPercent>
       		</li>
 			<!-- <li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 				<worldTileRange>45</worldTileRange>
@@ -568,8 +568,8 @@
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
-				<initialConfigurableTargetFuelLevel>90</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<initialConfigurableTargetFuelLevel>45</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>1</autoRefuelPercent>
       		</li>
 			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 				<worldTileRange>5</worldTileRange>
@@ -695,8 +695,8 @@
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
-				<initialConfigurableTargetFuelLevel>50</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<initialConfigurableTargetFuelLevel>25</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>1</autoRefuelPercent>
       		</li>
 		</comps>
   	</ThingDef>
@@ -827,7 +827,7 @@
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
 				<initialConfigurableTargetFuelLevel>1200</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<autoRefuelPercent>1</autoRefuelPercent>
       		</li>
 		</comps>
   	</ThingDef>
@@ -937,8 +937,8 @@
 				<initialAllowAutoRefuel>true</initialAllowAutoRefuel>
 				<fuelIconPath>Things/Item/Resource/ReinforcedBarrel/ReinforcedBarrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
-				<initialConfigurableTargetFuelLevel>120</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<initialConfigurableTargetFuelLevel>100</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>1</autoRefuelPercent>
 			</li>
 		</comps>
   	</ThingDef>
@@ -1049,8 +1049,8 @@
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
-				<initialConfigurableTargetFuelLevel>60</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<initialConfigurableTargetFuelLevel>30</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>1</autoRefuelPercent>
       		</li>
 			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 				<worldTileRange>5</worldTileRange>

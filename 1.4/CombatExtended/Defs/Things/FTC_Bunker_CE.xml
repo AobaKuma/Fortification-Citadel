@@ -346,11 +346,6 @@
 			<li>FTC_TurretBunker</li>
 		</researchPrerequisites>
 		<comps>
-			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
-				<worldTileRange>35</worldTileRange>
-				<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
-				<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
-			</li>-->
 			<li MayRequire="3HSTltd.Framework">
 				<compClass>BillDoorsFramework.CompTurretFix</compClass>
 			</li>
@@ -992,11 +987,6 @@
 		</researchPrerequisites>
 		 <comps>
 			<li Class="CompProperties_Flickable"/>
-			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
-			<worldTileRange>10</worldTileRange>
-			<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
-			<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
-			</li>-->
 			<li MayRequire="3HSTltd.Framework">
 				<compClass>BillDoorsFramework.CompTurretFix</compClass>
 			</li>

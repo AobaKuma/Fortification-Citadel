@@ -23,7 +23,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/minRange</xpath>
 				<value>
-					<minRange>100</minRange>
+					<minRange>60</minRange>
 				</value>
             </li>
 			<li Class="PatchOperationReplace">
