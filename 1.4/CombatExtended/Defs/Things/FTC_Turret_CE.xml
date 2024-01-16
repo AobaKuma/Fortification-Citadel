@@ -190,7 +190,7 @@
 				<defaultProjectile>Bullet_20x110mmHispano_AP</defaultProjectile>
 				<!--<warmupTime>5</warmupTime>-->
 				<warmupTime>2.5</warmupTime>
-				<range>85</range>
+				<range>90</range>
 				<!--<burstShotCount>8</burstShotCount>-->
 				<burstShotCount>6</burstShotCount>
 				<ticksBetweenBurstShots>17</ticksBetweenBurstShots>

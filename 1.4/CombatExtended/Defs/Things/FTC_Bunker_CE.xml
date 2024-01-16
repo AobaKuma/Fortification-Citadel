@@ -180,7 +180,7 @@
 			<hasStandardCommand>True</hasStandardCommand>
 			<defaultProjectile>Bullet_20x110mmHispano_AP</defaultProjectile>
 			<warmupTime>1.25</warmupTime>
-			<range>80</range>
+			<range>86</range>
 			<minRange>1.5</minRange>
 			<burstShotCount>6</burstShotCount>
 			<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
