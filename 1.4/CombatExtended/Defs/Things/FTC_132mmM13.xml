@@ -44,18 +44,6 @@
 					<Fragment_Small>80</Fragment_Small>
 				</fragments>
 			</li>
-			<li Class="AOBAUtilities.CompProperties_Flecker">
-				<fleck>FT_TrailSmoke</fleck>
-				<fleckSize>0.5</fleckSize>
-			</li>
-			<li Class="AOBAUtilities.CompProperties_Flecker">
-				<fleck>FT_ExhaustFlame</fleck>
-				<fleckSize>0.5</fleckSize>
-			</li>
-			<li Class="AOBAUtilities.CompProperties_Flecker">
-				<fleck>FT_ExhaustFlameGlow</fleck>
-				<fleckSize>0.5</fleckSize>
-			</li>
 		</comps>
 	</ThingDef>
 	
