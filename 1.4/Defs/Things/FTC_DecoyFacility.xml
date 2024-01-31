@@ -51,7 +51,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>1800</basePowerConsumption>
+        <basePowerConsumption>500</basePowerConsumption>
 			  <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Flickable"/>  
@@ -144,7 +144,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>4000</basePowerConsumption>
+        <basePowerConsumption>1000</basePowerConsumption>
 			  <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Flickable"/>  
@@ -239,7 +239,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>6000</basePowerConsumption>
+        <basePowerConsumption>2000</basePowerConsumption>
 			  <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Flickable"/>  
@@ -255,8 +255,7 @@
         <!-- Vanilla -->
           <li>MechCluster</li>
 		      <li>PsychicEmanatorShipPartCrash</li>
-		      <li>DefoliatorShipPartCrash</li>
-          
+		      <li>DefoliatorShipPartCrash</li>     
         </incidentsWhiteList>
       </li>
     </comps>
