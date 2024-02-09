@@ -63,7 +63,7 @@
         <wickTicks>30~60</wickTicks>
       </li>
       
-      <li Class="SingalTower.CompProperties_SignalTower">
+      <li Class="AOBAUtilities.CompProperties_SignalTower">
         <incidentsWhiteList>
 
         <!-- Vanilla -->
@@ -155,7 +155,7 @@
         <startWickHitPointsPercent>0.5</startWickHitPointsPercent>
         <wickTicks>30~60</wickTicks>
       </li>
-      <li Class="SingalTower.CompProperties_SignalTower">
+      <li Class="AOBAUtilities.CompProperties_SignalTower">
         <incidentsWhiteList>
 
         <!-- Vanilla -->
@@ -250,7 +250,7 @@
         <startWickHitPointsPercent>0.5</startWickHitPointsPercent>
         <wickTicks>30~60</wickTicks>
       </li>
-      <li Class="SingalTower.CompProperties_SignalTower">
+      <li Class="AOBAUtilities.CompProperties_SignalTower">
         <incidentsWhiteList>
         <!-- Vanilla -->
           <li>MechCluster</li>
