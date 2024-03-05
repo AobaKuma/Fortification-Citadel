@@ -646,6 +646,7 @@
 		</building>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_NotUnderRoof</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
@@ -1067,6 +1068,7 @@
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
 			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
+			<li>PlaceWorker_NotUnderRoof</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>FTC_TurretBunker</li>

@@ -12,11 +12,22 @@
 		</ammoTypes>
 		<isMortarAmmoSet>true</isMortarAmmoSet>
 	</CombatExtended.AmmoSetDef>
+	
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_FT_132mmM13_directfire</defName>
+		<label>132mm M13 Rockets</label>
+		<ammoTypes>
+			<Ammo_132mmM13_HE>Bullet_FT_132mmM13_HE_directfire</Ammo_132mmM13_HE>
+		</ammoTypes>
+		<isMortarAmmoSet>true</isMortarAmmoSet>
+	</CombatExtended.AmmoSetDef>
 
   <!-- ================== Projectiles ================== -->
-
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base130mmType63">
-		<defName>Bullet_FT_132mmM13_HE</defName>
+  
+	<!-- direct fire-->
+	
+	<ThingDef Name="BaseFTBase132mmM13_HE" Class="CombatExtended.AmmoDef" ParentName="Base130mmType63">
+		<defName>Bullet_FT_132mmM13_HE_directfire</defName>
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<label>132mm M13 Rocket (HE)</label>
 		<graphicData>
@@ -29,13 +40,8 @@
 			<damageAmountBase>337</damageAmountBase>
 			<explosionRadius>4</explosionRadius>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			<shellingProps>
-				<iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
-				<tilesPerTick>0.35</tilesPerTick>
-				<range>20</range>
-				<damage>0.23</damage>
-			</shellingProps>
-			<gravityFactor>50</gravityFactor>
+			<flyOverhead>false</flyOverhead>
+			<gravityFactor>20</gravityFactor>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_Fragments">
@@ -45,6 +51,21 @@
 				</fragments>
 			</li>
 		</comps>
+	</ThingDef>
+	
+	<!-- indirect fire-->
+	
+	<ThingDef ParentName="BaseFTBase132mmM13_HE">
+		<defName>Bullet_FT_132mmM13_HE</defName>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<flyOverhead>true</flyOverhead>
+			<shellingProps>
+				<iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
+				<tilesPerTick>0.35</tilesPerTick>
+				<range>20</range>
+				<damage>0.23</damage>
+			</shellingProps>
+		</projectile>
 	</ThingDef>
 	
 </Defs>

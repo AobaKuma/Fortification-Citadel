@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!-- 噴煙者加強版 -->
+<!-- BM-13 -->
  	<ThingDef ParentName="BuildingBase">
 		<defName>FTC_Katyusha_Turret</defName>
 		<label>multi-railed rocket Launcher</label>
@@ -37,6 +37,9 @@
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Mannable">
 				<manWorkType>Violent</manWorkType>
+			</li>
+			<li MayRequire="3HSTltd.Framework">
+				<compClass>BillDoorsFramework.CompTurretFix</compClass>
 			</li>
 		</comps>
 		<statBases>
@@ -266,76 +269,6 @@
 			<ShotSpread>0.5</ShotSpread>
 			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 		</statBases>
-		<comps>
-			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>16</magazineSize>
-				<reloadTime>3.75</reloadTime>
-				<reloadOneAtATime>true</reloadOneAtATime>
-				<ammoSet>AmmoSet_FT_132mmM13</ammoSet>      
-			</li>
-			<li Class="CombatExtended.CompProperties_FireModes">
-				<aimedBurstShotCount>8</aimedBurstShotCount>
-				<aiUseBurstMode>True</aiUseBurstMode>
-				<aiAimMode>SuppressFire</aiAimMode>	
-			</li>
-			<li Class="CombatExtended.CompProperties_Charges">
-				<chargeSpeeds>
-								<li>30</li>
-								<li>35</li>
-								<li>40</li>
-								<li>45</li>
-								<li>50</li>
-								<li>55</li>
-								<li>60</li>
-								<li>65</li>
-								<li>70</li>
-								<li>75</li>
-								<li>80</li>
-								<li>85</li>
-								<li>90</li>
-								<li>95</li>
-								<li>100</li>
-								<li>105</li>
-								<li>110</li>
-								<li>115</li>
-								<li>120</li>
-								<li>125</li>
-								<li>130</li>
-								<li>135</li>
-								<li>140</li>
-								<li>145</li>
-								<li>150</li>
-								<li>155</li>
-								<li>160</li>
-								<li>165</li>
-								<li>170</li>
-								<li>175</li>
-								<li>180</li>
-								<li>185</li>
-								<li>190</li>
-								<li>195</li>
-								<li>200</li>
-				</chargeSpeeds>
-			</li>
-			<li Class="Fortification.CompProperties_CastFlecker"><!-- 後方揚塵-->
-				<fleck>DustPuffThick</fleck>
-				<burstAmount>15</burstAmount>
-				<burstSway>20</burstSway>
-				<burstAngle>180</burstAngle>
-				<fleckSizeRange>(1,8)</fleckSizeRange>
-				<burstSpeedRange>(1,1.5)</burstSpeedRange>
-				<burstOffsetRange>(1,1.5)</burstOffsetRange> 
-			</li>
-			<li Class="Fortification.CompProperties_CastFlecker"><!-- 後方揚塵-->
-				<fleck>Smoke</fleck><!--生成的Fleck,參考原版-->
-				<burstAmount>15</burstAmount><!--一次射擊生成的數量-->
-				<burstSway>20</burstSway><!--噴射角度的左右隨機偏移範圍-->
-				<burstAngle>180</burstAngle><!--生成偏移子彈發射方向的噴射角度(0 = 與發射角度同向)-->
-				<fleckSizeRange>(1,8)</fleckSizeRange><!--Fleck的生成大小隨機區間-->
-				<burstSpeedRange>(1,1.5)</burstSpeedRange><!--Fleck的飛行速度隨機區間-->
-				<burstOffsetRange>(1,1.5)</burstOffsetRange> <!--Fleck的生成位置偏移旋轉中心點的距離區間-->
-			</li>
-		</comps>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
@@ -357,6 +290,97 @@
 				</targetParams>
 			</li>
 		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>16</magazineSize>
+				<reloadTime>3.75</reloadTime>
+				<reloadOneAtATime>true</reloadOneAtATime>
+				<ammoSet>AmmoSet_FT_132mmM13</ammoSet>      
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>8</aimedBurstShotCount>
+				<aiUseBurstMode>True</aiUseBurstMode>
+				<aiAimMode>SuppressFire</aiAimMode>	
+			</li>
+			<li Class="Fortification.CompProperties_CastFlecker"><!-- 後方揚塵-->
+				<fleck>DustPuffThick</fleck>
+				<burstAmount>15</burstAmount>
+				<burstSway>20</burstSway>
+				<burstAngle>180</burstAngle>
+				<fleckSizeRange>(1,8)</fleckSizeRange>
+				<burstSpeedRange>(1,1.5)</burstSpeedRange>
+				<burstOffsetRange>(1,1.5)</burstOffsetRange> 
+			</li>
+			<li Class="Fortification.CompProperties_CastFlecker"><!-- 後方揚塵-->
+				<fleck>Smoke</fleck><!--生成的Fleck,參考原版-->
+				<burstAmount>15</burstAmount><!--一次射擊生成的數量-->
+				<burstSway>20</burstSway><!--噴射角度的左右隨機偏移範圍-->
+				<burstAngle>180</burstAngle><!--生成偏移子彈發射方向的噴射角度(0 = 與發射角度同向)-->
+				<fleckSizeRange>(1,8)</fleckSizeRange><!--Fleck的生成大小隨機區間-->
+				<burstSpeedRange>(1,1.5)</burstSpeedRange><!--Fleck的飛行速度隨機區間-->
+				<burstOffsetRange>(1,1.5)</burstOffsetRange> <!--Fleck的生成位置偏移旋轉中心點的距離區間-->
+			</li>
+			<li MayRequire="3HSTltd.Framework" Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>false</aiUseBurstMode>
+			</li>
+			<li MayRequire="3HSTltd.Framework" Class="BillDoorsFramework.CompProperties_SecondaryAmmo">
+				<secondaryVerb>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofMortarCE</verbClass>
+					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_FT_132mmM13_HE_directfire</defaultProjectile>
+					<warmupTime>3</warmupTime>
+					<minRange>20</minRange>
+					<range>1000</range>
+					<burstShotCount>16</burstShotCount>
+					<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+					<soundCast>FT_NebelShot</soundCast>
+					<muzzleFlashScale>39</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<recoilPattern>Mounted</recoilPattern>
+					<recoilAmount>0.0</recoilAmount>
+					<circularError>10</circularError>
+					<!--<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>-->
+					<!--<requireLineOfSight>false</requireLineOfSight>-->
+				</secondaryVerb>
+				<secondaryAmmoProps>
+					<magazineSize>16</magazineSize>
+					<reloadTime>3.75</reloadTime>
+					<reloadOneAtATime>true</reloadOneAtATime>
+					<ammoSet>AmmoSet_FT_132mmM13_directfire</ammoSet>   
+				</secondaryAmmoProps>
+				<mainWeaponLabel>indirect fire</mainWeaponLabel>
+				<secondaryWeaponLabel>direct fire</secondaryWeaponLabel>
+				<description>switch firing mode</description>
+				<mainCommandIcon>Indirect</mainCommandIcon>
+				<secondaryCommandIcon>Direct</secondaryCommandIcon>
+				<secondaryWeaponChargeSpeeds>
+							<li>30</li>
+							<li>50</li>
+							<li>70</li>
+							<li>90</li>
+							<li>110</li>
+							<li>130</li>
+				</secondaryWeaponChargeSpeeds>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+							<li>30</li>
+							<li>50</li>
+							<li>70</li>
+							<li>90</li>
+							<li>110</li>
+							<li>130</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof" MayRequire="3HSTltd.Framework">
+                <appliesInSecondaryMode>false</appliesInSecondaryMode>
+            </li>
+        </modExtensions>
   	</ThingDef>
 
 
