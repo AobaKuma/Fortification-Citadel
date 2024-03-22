@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <RecipeDef>
+    <defName>FT_ExtractChemFuelByCorpses</defName>
+    <label>pyrolyzing corpses (360)</label>
+    <description>pyrolyzing 360 kilograms of corpses(about 6 human) and extract into 125 chemfuel. corpses must be biological.</description>
+    <ingredientValueGetterClass>AOBAUtilities.IngredientValueGetter_Mass</ingredientValueGetterClass>
+    <jobString>pyrolyzing chemfuel from material</jobString>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>400</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>360</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+
+    <defaultIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+    </defaultIngredientFilter>
+
+    <products>
+      <Chemfuel>125</Chemfuel>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>FT_ExtractChemFuelByJunks</defName>
+    <label>pyrolyzing junk (4)</label>
+    <description>pyrolyzing 4 kilograms of organical junk and extract into 7 chemfuel. junk must be made of non-smeltable and burnable material.</description>
+    <ingredientValueGetterClass>AOBAUtilities.IngredientValueGetter_Mass</ingredientValueGetterClass>
+    <jobString>pyrolyzing chemfuel from material</jobString>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>400</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Weapons</li>
+            <li>Apparel</li>
+          </categories>
+          <disallowedCategories>
+            <li MayRequire="CETeam.CombatExtended">Ammo</li>
+          </disallowedCategories>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+        <li>Apparel</li>
+      </categories>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowSmeltable</li>
+        <li>AllowSmeltableApparel</li>
+        <li>AllowNonBurnableApparel</li>
+        <li>AllowNonBurnableWeapons</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+
+    <forceHiddenSpecialFilters>
+      <li>AllowSmeltable</li>
+      <li>AllowSmeltableApparel</li>
+      <li>AllowNonBurnableApparel</li>
+      <li>AllowNonBurnableWeapons</li>
+    </forceHiddenSpecialFilters>
+
+    <defaultIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+        <li>Apparel</li>
+      </categories>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>Apparel_ShieldBelt</li>
+        <li>Apparel_SmokepopBelt</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+
+    <products>
+      <Chemfuel>5</Chemfuel>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>FT_ExtractChemFuelByJunksPlus</defName>
+    <label>pyrolyzing junk (28)</label>
+    <description>pyrolyzing 28 kilograms of organical junk and extract into 35 chemfuel. junk must be made of non-smeltable and burnable material.</description>
+    <ingredientValueGetterClass>AOBAUtilities.IngredientValueGetter_Mass</ingredientValueGetterClass>
+    <jobString>pyrolyzing chemfuel from material</jobString>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>400</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Weapons</li>
+            <li>Apparel</li>
+          </categories>
+          <disallowedCategories>
+            <li MayRequire="CETeam.CombatExtended">Ammo</li>
+          </disallowedCategories>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>28</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+        <li>Apparel</li>
+      </categories>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowSmeltable</li>
+        <li>AllowSmeltableApparel</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+
+    <forceHiddenSpecialFilters>
+      <li>AllowSmeltable</li>
+      <li>AllowSmeltableApparel</li>
+    </forceHiddenSpecialFilters>
+
+    <defaultIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+        <li>Apparel</li>
+      </categories>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>Apparel_ShieldBelt</li>
+        <li>Apparel_SmokepopBelt</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+
+    <products>
+      <Chemfuel>35</Chemfuel>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>FT_ExtractSteelByJunks</defName>
+    <label>recycling junk (8)</label>
+    <description>smelting 8 kilograms of junk and extract back into the material. junk must be made of smeltable material.</description>
+    <ingredientValueGetterClass>AOBAUtilities.IngredientValueGetter_Mass</ingredientValueGetterClass>
+    <jobString>extracting metal from material</jobString>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>400</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Weapons</li>
+            <li>Apparel</li>
+          </categories>
+          <disallowedCategories>
+            <li MayRequire="CETeam.CombatExtended">Ammo</li>
+          </disallowedCategories>
+          <thingDefs>
+            <li>ChunkSlagSteel</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+        <li>Apparel</li>
+      </categories>
+      <thingDefs>
+        <li>ChunkSlagSteel</li>
+      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowNonSmeltableWeapons</li>
+        <li>AllowNonSmeltableApparel</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+
+    <forceHiddenSpecialFilters>
+      <li>AllowNonSmeltableWeapons</li>
+      <li>AllowNonSmeltableApparel</li>
+    </forceHiddenSpecialFilters>
+
+    <defaultIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+        <li>Apparel</li>
+      </categories>
+      <disallowedCategories>
+			</disallowedCategories>
+      <thingDefs>
+        <li>ChunkSlagSteel</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>Apparel_ShieldBelt</li>
+        <li>Apparel_SmokepopBelt</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+
+    <specialProducts>
+      <li>Smelted</li>
+    </specialProducts>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>FT_ExtractSteelByJunksPlus</defName>
+    <label>recycling junk (32)</label>
+    <description>smelting 32 kilograms of junk and extract back into the material. junk must be made of smeltable material.</description>
+    <ingredientValueGetterClass>AOBAUtilities.IngredientValueGetter_Mass</ingredientValueGetterClass>
+    <jobString>extracting metal from material</jobString>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>800</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Weapons</li>
+            <li>Apparel</li>
+          </categories>
+          <disallowedCategories>
+            <li MayRequire="CETeam.CombatExtended">Ammo</li>
+          </disallowedCategories>
+          <thingDefs>
+            <li>ChunkSlagSteel</li>
+          </thingDefs>
+        </filter>
+        <count>32</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+        <li>Apparel</li>
+      </categories>
+      <thingDefs>
+        <li>ChunkSlagSteel</li>
+      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowNonSmeltableWeapons</li>
+        <li>AllowNonSmeltableApparel</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+
+    <forceHiddenSpecialFilters>
+      <li>AllowNonSmeltableWeapons</li>
+      <li>AllowNonSmeltableApparel</li>
+    </forceHiddenSpecialFilters>
+
+    <defaultIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+        <li>Apparel</li>
+      </categories>
+
+      <thingDefs>
+        <li>ChunkSlagSteel</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>Apparel_ShieldBelt</li>
+        <li>Apparel_SmokepopBelt</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+
+    <specialProducts>
+      <li>Smelted</li>
+    </specialProducts>
+  </RecipeDef>
+
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>FTC_KitchenCookMealSimple</defName>
+    <label>cook stew meal x8</label>
+    <description>Cook 8 straightforward meal from one ingredient.</description>
+    <jobString>Cooking stew meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <FTC_MealStew>8</FTC_MealStew>
+    </products>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+
+</Defs>	
