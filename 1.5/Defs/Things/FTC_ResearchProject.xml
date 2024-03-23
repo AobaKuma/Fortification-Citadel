@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
   <ResearchProjectDef>
     <defName>FTC_Decoy</defName>
     <label>Data:Strategic deception</label>
@@ -11,8 +10,8 @@
     <prerequisites>
       <li>FT_ENIAC</li>
     </prerequisites>
-	  <researchViewX>10.00</researchViewX>
-	  <researchViewY>1.50</researchViewY>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.60</researchViewY>
     <requiredResearchFacilities>
       <li>FT_ENIAC</li>
     </requiredResearchFacilities>
@@ -25,9 +24,9 @@
         <li>subject_story->included a strange data disc in the schematic</li>
         <li>subject_story->repeatedly mentioned that the Intelligence and organization are the foundation of any total war</li>
         <li>subject_story->wrote many messy notes in the margins of the schematic</li>
-        <li>subject_story->constantly conveys to people that war should only the final option.</li>
+        <li>subject_story->constantly conveys to people that war should only the final option</li>
         <li>subject_story->attached a brand logo sticker from Nara Industries on title</li>
-        <li>subject_story->summarized in great detail How to create fake colony communication using minimal radio transmitters.</li>
+        <li>subject_story->summarized in great detail How to create fake colony communication using minimal radio transmitters</li>
 
         <li>subject_gerund->psychology researching</li>
       </rulesStrings>
@@ -44,8 +43,8 @@
     <prerequisites>
       <li>FT_Concrete</li>
     </prerequisites>
-	<researchViewX>6.00</researchViewX>
-	<researchViewY>4.15</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>5.00</researchViewY>
   <generalRules>
     <rulesStrings>
       <li>subject->reinforced structure</li>
@@ -55,9 +54,9 @@
       <li>subject_story->included a schematic about the heavy bunker complex</li>
       <li>subject_story->repeatedly mentioned that permanent structures are not for housing</li>
       <li>subject_story->wrote many messy notes in the margins of the schematic</li>
-      <li>subject_story->constantly conveys to people that these structures are hard to deconstruct.</li>
+      <li>subject_story->constantly conveys to people that these structures are hard to deconstruct</li>
       <li>subject_story->attached a brand logo sticker from Nara Industries on title</li>
-      <li>subject_story->summarized in great detail How to create High-density steel reinforced permanent structure for strategic faciliy.</li>
+      <li>subject_story->summarized in great detail How to create High-density steel reinforced permanent structure for strategic faciliy</li>
 
       <li>subject_gerund->bunker fortificating</li>
       <li>subject_gerund->deconstructing</li>
@@ -76,8 +75,8 @@
       <li>GunTurrets</li>
       <li>FTC_PermanentStructure</li>
     </prerequisites>
-    <researchViewX>10.00</researchViewX>
-    <researchViewY>3.35</researchViewY>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>4.20</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->reinforced structure</li>
@@ -87,9 +86,9 @@
         <li>subject_story->included a schematic about the heavy bunker complex</li>
         <li>subject_story->repeatedly mentioned that permanent structures are not for housing</li>
         <li>subject_story->wrote many messy notes in the margins of the schematic</li>
-        <li>subject_story->constantly conveys to people that these structures are hard to deconstruct.</li>
+        <li>subject_story->constantly conveys to people that these structures are hard to deconstruct</li>
         <li>subject_story->attached a brand logo sticker from Nara Industries on title</li>
-        <li>subject_story->summarized in great detail How to create High-density steel reinforced permanent structure for strategic faciliy.</li>
+        <li>subject_story->summarized in great detail How to create High-density steel reinforced permanent structure for strategic faciliy</li>
 
         <li>subject_gerund->bunker fortificating</li>
         <li>subject_gerund->deconstructing</li>
@@ -108,20 +107,20 @@
       <li>GunTurrets</li>
       <li>FTC_PermanentStructure</li>
     </prerequisites>
-    <researchViewX>10.00</researchViewX>
-    <researchViewY>4.05</researchViewY>   
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>5.00</researchViewY> 
     <generalRules>
       <rulesStrings>
         <li>subject->reinforced structure</li>
         <li>subject->permanent fortification</li>
         <li>subject->fortification</li>
 
-        <li>subject_story->included a schematic about the heavy bunker complex</li>
+        <li>subject_story->included a schematic about the design of pillbox bunker</li>
         <li>subject_story->repeatedly mentioned that permanent structures are not for housing</li>
         <li>subject_story->wrote many messy notes in the margins of the schematic</li>
-        <li>subject_story->constantly conveys to people that these structures are hard to deconstruct.</li>
+        <li>subject_story->constantly conveys to people that these structures are hard to deconstruct</li>
         <li>subject_story->attached a brand logo sticker from Nara Industries on title</li>
-        <li>subject_story->summarized in great detail How to create High-density steel reinforced permanent structure for strategic faciliy.</li>
+        <li>subject_story->proof that attach turret in a concrete box is a good static defense fortification</li>
 
         <li>subject_gerund->bunker fortificating</li>
         <li>subject_gerund->deconstructing</li>

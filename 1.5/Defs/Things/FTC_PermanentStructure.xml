@@ -270,6 +270,7 @@
   			<isInert>true</isInert>
      		<isPlaceOverableWall>true</isPlaceOverableWall>
      		<ai_chillDestination>false</ai_chillDestination>
+			<supportsWallAttachments>true</supportsWallAttachments>
 		</building>	  
  	    <staticSunShadowHeight>1.0</staticSunShadowHeight>
   	 	<blockLight>true</blockLight>
