@@ -125,18 +125,18 @@
 			<damageDef>Smoke</damageDef>
 			<multiplier>0</multiplier>
 		  </li>
-<!--Biotech DLC -->
-			<li MayRequire="Ludeon.RimWorld.Biotech">
+			<li>
 				<damageDef>Vaporize</damageDef>
 				<multiplier>0.25</multiplier>
 			</li>
+			<li>
+				<damageDef>AcidBurn</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+<!--Biotech DLC -->
 			<li MayRequire="Ludeon.RimWorld.Biotech">
 				<damageDef>BulletToxic</damageDef>
 				<multiplier>0.5</multiplier>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Biotech">
-				<damageDef>AcidBurn</damageDef>
-				<multiplier>0.25</multiplier>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">
 				<damageDef>Beam</damageDef>
@@ -145,6 +145,39 @@
 			<li MayRequire="Ludeon.RimWorld.Biotech">
 				<damageDef>MechBandShockwave</damageDef>
 				<multiplier>0</multiplier>
+			</li>
+<!--Anomaly DLC -->
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>Nerve</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>EnergyBolt</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>Digested</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>ElectricalBurn</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>NerveStun</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>Psychic</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>DeadlifeDust</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>NociosphereVaporize</damageDef>
+				<multiplier>0.25</multiplier>
 			</li>
 <!--==========-->
 <!-- Combat Extended -->
