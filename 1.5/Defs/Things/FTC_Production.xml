@@ -383,6 +383,7 @@
       <li>ITab_Bills</li>
     </inspectorTabs>
     <building>
+      <isMealSource>true</isMealSource>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <researchPrerequisites>
