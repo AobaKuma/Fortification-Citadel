@@ -397,7 +397,7 @@
 				<noSingleShot>false</noSingleShot>
 				<aiAimMode>AimedShot</aiAimMode>
 			</li>
-			<li MayRequire="3HSTltd.Framework" Class="CombatExtended.CompProperties_Charges">
+			<li Class="CombatExtended.CompProperties_Charges">
 				<chargeSpeeds>
 					<li>50</li>
 					<li>55</li>
