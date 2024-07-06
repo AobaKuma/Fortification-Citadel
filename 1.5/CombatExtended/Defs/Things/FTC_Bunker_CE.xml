@@ -399,47 +399,12 @@
 			</li>
 			<li Class="CombatExtended.CompProperties_Charges">
 				<chargeSpeeds>
-					<li>50</li>
-					<li>55</li>
-					<li>60</li>
-					<li>65</li>
-					<li>70</li>
-					<li>75</li>
-					<li>80</li>
-					<li>85</li>
-					<li>90</li>
-					<li>95</li>
 					<li>100</li>
-					<li>105</li>
-					<li>110</li>
-					<li>115</li>
 					<li>120</li>
-					<li>125</li>
-					<li>130</li>
-					<li>135</li>
 					<li>140</li>
-					<li>145</li>
-					<li>150</li>
-					<li>155</li>
 					<li>160</li>
-					<li>165</li>
-					<li>170</li>
-					<li>175</li>
 					<li>180</li>
-					<li>185</li>
-					<li>190</li>
-					<li>195</li>
 					<li>200</li>
-					<li>205</li>
-					<li>210</li>
-					<li>215</li>
-					<li>220</li>
-					<li>225</li>
-					<li>230</li>
-					<li>235</li>
-					<li>240</li>
-					<li>245</li>
-					<li>250</li>
 				</chargeSpeeds>
 			</li>
 			<li MayRequire="3HSTltd.Framework" Class="BillDoorsFramework.CompProperties_SecondaryAmmo">
@@ -472,47 +437,12 @@
 				<mainCommandIcon>Indirect</mainCommandIcon>
 				<secondaryCommandIcon>Direct</secondaryCommandIcon>
 				<secondaryWeaponChargeSpeeds>
-					<li>50</li>
-					<li>55</li>
-					<li>60</li>
-					<li>65</li>
-					<li>70</li>
-					<li>75</li>
-					<li>80</li>
-					<li>85</li>
-					<li>90</li>
-					<li>95</li>
 					<li>100</li>
-					<li>105</li>
-					<li>110</li>
-					<li>115</li>
 					<li>120</li>
-					<li>125</li>
-					<li>130</li>
-					<li>135</li>
 					<li>140</li>
-					<li>145</li>
-					<li>150</li>
-					<li>155</li>
 					<li>160</li>
-					<li>165</li>
-					<li>170</li>
-					<li>175</li>
 					<li>180</li>
-					<li>185</li>
-					<li>190</li>
-					<li>195</li>
 					<li>200</li>
-					<li>205</li>
-					<li>210</li>
-					<li>215</li>
-					<li>220</li>
-					<li>225</li>
-					<li>230</li>
-					<li>235</li>
-					<li>240</li>
-					<li>245</li>
-					<li>250</li>
 				</secondaryWeaponChargeSpeeds>
 			</li>
 		</comps>
@@ -705,40 +635,9 @@
 			<li Class="CombatExtended.CompProperties_Charges">
 				<chargeSpeeds>
 					<li>30</li>
-					<li>35</li>
-					<li>40</li>
-					<li>45</li>
 					<li>50</li>
-					<li>55</li>
-					<li>60</li>
-					<li>65</li>
 					<li>70</li>
-					<li>75</li>
-					<li>80</li>
-					<li>85</li>
 					<li>90</li>
-					<li>95</li>
-					<li>100</li>
-					<li>105</li>
-					<li>110</li>
-					<li>115</li>
-					<li>120</li>
-					<li>125</li>
-					<li>130</li>
-					<li>135</li>
-					<li>140</li>
-					<li>145</li>
-					<li>150</li>
-					<li>155</li>
-					<li>160</li>
-					<li>165</li>
-					<li>170</li>
-					<li>175</li>
-					<li>180</li>
-					<li>185</li>
-					<li>190</li>
-					<li>195</li>
-					<li>200</li>
 				</chargeSpeeds>
 			</li>
 		</comps>
@@ -806,12 +705,9 @@
 	</statBases>
 	<verbs>
 		<li Class="CombatExtended.VerbPropertiesCE">
-			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_FT_Flamethrower_Napalm</defaultProjectile>
-			<targetParams>
-				<canTargetLocations>true</canTargetLocations>
-			</targetParams>
 			<warmupTime>1</warmupTime>
 			<range>15.5</range>
 			<minRange>1.5</minRange>
@@ -821,9 +717,18 @@
 			<muzzleFlashScale>50</muzzleFlashScale>
 			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
 			<recoilPattern>Mounted</recoilPattern>
+			<indirectFirePenalty>1.0</indirectFirePenalty>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
 		</li>
 	</verbs>
 	<comps>
+	<li Class="CombatExtended.CompProperties_Charges">
+		<chargeSpeeds>
+			<li>30</li>
+		</chargeSpeeds>
+	</li>
 	<li Class="CombatExtended.CompProperties_AmmoUser">
 		<magazineSize>300</magazineSize>
 		<reloadTime>0.05</reloadTime>
@@ -833,7 +738,7 @@
 	<li Class="CombatExtended.CompProperties_FireModes">
 		<aiUseBurstMode>false</aiUseBurstMode>
 		<aiAimMode>Snapshot</aiAimMode>
-		<aimedBurstShotCount>5</aimedBurstShotCount>
+		<noSingleShot>true</noSingleShot>
 	</li>
 	</comps>
   </ThingDef>
@@ -1127,41 +1032,12 @@
 			</li>
 			<li Class="CombatExtended.CompProperties_Charges">
 				<chargeSpeeds>
-							<li>30</li>
-							<li>35</li>
-							<li>40</li>
-							<li>45</li>
-							<li>50</li>
-							<li>55</li>
-							<li>60</li>
-							<li>65</li>
-							<li>70</li>
-							<li>75</li>
-							<li>80</li>
-							<li>85</li>
-							<li>90</li>
-							<li>95</li>
-							<li>100</li>
-							<li>105</li>
-							<li>110</li>
-							<li>115</li>
-							<li>120</li>
-							<li>125</li>
-							<li>130</li>
-							<li>135</li>
-							<li>140</li>
-							<li>145</li>
-							<li>150</li>
-							<li>155</li>
-							<li>160</li>
-							<li>165</li>
-							<li>170</li>
-							<li>175</li>
-							<li>180</li>
-							<li>185</li>
-							<li>190</li>
-							<li>195</li>
-							<li>200</li>
+					<li>55</li>
+					<li>75</li>
+					<li>95</li>
+					<li>115</li>
+					<li>135</li>
+					<li>155</li>
 				</chargeSpeeds>
 			</li>
 			<li MayRequire="3HSTltd.Framework" Class="CombatExtended.CompProperties_FireModes">
@@ -1198,41 +1074,12 @@
 				<mainCommandIcon>Indirect</mainCommandIcon>
 				<secondaryCommandIcon>Direct</secondaryCommandIcon>
 				<secondaryWeaponChargeSpeeds>
-					<li>30</li>
-					<li>35</li>
-					<li>40</li>
-					<li>45</li>
-					<li>50</li>
 					<li>55</li>
-					<li>60</li>
-					<li>65</li>
-					<li>70</li>
 					<li>75</li>
-					<li>80</li>
-					<li>85</li>
-					<li>90</li>
 					<li>95</li>
-					<li>100</li>
-					<li>105</li>
-					<li>110</li>
 					<li>115</li>
-					<li>120</li>
-					<li>125</li>
-					<li>130</li>
 					<li>135</li>
-					<li>140</li>
-					<li>145</li>
-					<li>150</li>
 					<li>155</li>
-					<li>160</li>
-					<li>165</li>
-					<li>170</li>
-					<li>175</li>
-					<li>180</li>
-					<li>185</li>
-					<li>190</li>
-					<li>195</li>
-					<li>200</li>
 				</secondaryWeaponChargeSpeeds>
 			</li>
 		</comps>

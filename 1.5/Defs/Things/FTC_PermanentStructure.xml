@@ -225,6 +225,22 @@
 				<damageDef>Electrical</damageDef>
 				<multiplier>0</multiplier>
 			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Neuralizer</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>CE_Laser</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>NerveBioferrite</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>BioferriteFlame</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
 <!--==========-->
 <!--3HSTltd Plasma Weapons-->
 			<li MayRequire="3HSTltd.Weapons.Plasma">
