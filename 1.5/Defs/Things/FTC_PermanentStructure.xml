@@ -233,11 +233,11 @@
 				<damageDef>CE_Laser</damageDef>
 				<multiplier>0.5</multiplier>
 			</li>
-			<li MayRequire="CETeam.CombatExtended">
+			<li MayRequire="CETeam.CombatExtended,Ludeon.RimWorld.Anomaly">
 				<damageDef>NerveBioferrite</damageDef>
 				<multiplier>0.1</multiplier>
 			</li>
-			<li MayRequire="CETeam.CombatExtended">
+			<li MayRequire="CETeam.CombatExtended,Ludeon.RimWorld.Anomaly">
 				<damageDef>BioferriteFlame</damageDef>
 				<multiplier>0.25</multiplier>
 			</li>
