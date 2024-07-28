@@ -283,8 +283,7 @@
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<soundCast>FT_NebelShot</soundCast>
 				<muzzleFlashScale>39</muzzleFlashScale>
-				<circularError>1.5</circularError>
-				<indirectFirePenalty>0.2</indirectFirePenalty>
+				<indirectFirePenalty>0.5</indirectFirePenalty>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -341,7 +340,7 @@
 					</targetParams>
 					<recoilPattern>Mounted</recoilPattern>
 					<recoilAmount>0.0</recoilAmount>
-					<circularError>10</circularError>
+					<indirectFirePenalty>1</indirectFirePenalty>
 					<!--<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>-->
 					<!--<requireLineOfSight>false</requireLineOfSight>-->
 				</secondaryVerb>

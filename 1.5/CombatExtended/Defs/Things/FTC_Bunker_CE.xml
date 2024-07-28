@@ -422,6 +422,7 @@
 					<targetParams>
 						<canTargetLocations>true</canTargetLocations>
 					</targetParams>
+					<indirectFirePenalty>1</indirectFirePenalty>
 					<recoilPattern>Mounted</recoilPattern>
 					<recoilAmount>0.0</recoilAmount>
 				</secondaryVerb>
@@ -1059,6 +1060,7 @@
 					<targetParams>
 						<canTargetLocations>true</canTargetLocations>
 					</targetParams>
+					<indirectFirePenalty>1</indirectFirePenalty>
 					<recoilPattern>Mounted</recoilPattern>
 					<recoilAmount>0.0</recoilAmount>
 				</secondaryVerb>
