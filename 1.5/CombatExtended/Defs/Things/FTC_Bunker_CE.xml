@@ -383,7 +383,7 @@
 				</targetParams>
 				<recoilPattern>Mounted</recoilPattern>
 				<recoilAmount>0.0</recoilAmount>
-				<indirectFirePenalty MayRequire="3HSTltd.Framework">0.75</indirectFirePenalty>
+				<indirectFirePenalty>0.2</indirectFirePenalty>
 			</li>
 		</verbs>
 		<comps>
@@ -422,7 +422,7 @@
 					<targetParams>
 						<canTargetLocations>true</canTargetLocations>
 					</targetParams>
-					<indirectFirePenalty>1</indirectFirePenalty>
+					<indirectFirePenalty>0</indirectFirePenalty>
 					<recoilPattern>Mounted</recoilPattern>
 					<recoilAmount>0.0</recoilAmount>
 				</secondaryVerb>
@@ -619,7 +619,7 @@
 				</targetParams>
 				<recoilPattern>Mounted</recoilPattern>
 				<circularError>1</circularError>
-				<indirectFirePenalty>0.3</indirectFirePenalty>
+				<indirectFirePenalty>0.2</indirectFirePenalty>
 			</li>
 		</verbs>
 		<comps>
@@ -718,7 +718,7 @@
 			<muzzleFlashScale>50</muzzleFlashScale>
 			<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
 			<recoilPattern>Mounted</recoilPattern>
-			<indirectFirePenalty>1.0</indirectFirePenalty>
+			<indirectFirePenalty>0</indirectFirePenalty>
 			<targetParams>
 				<canTargetLocations>true</canTargetLocations>
 			</targetParams>
@@ -1016,7 +1016,7 @@
 				<soundCast>FT_CannonLaunchB</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>25</muzzleFlashScale>
-				<indirectFirePenalty>0.75</indirectFirePenalty>
+				<indirectFirePenalty>0.2</indirectFirePenalty>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -1060,7 +1060,7 @@
 					<targetParams>
 						<canTargetLocations>true</canTargetLocations>
 					</targetParams>
-					<indirectFirePenalty>1</indirectFirePenalty>
+					<indirectFirePenalty>0</indirectFirePenalty>
 					<recoilPattern>Mounted</recoilPattern>
 					<recoilAmount>0.0</recoilAmount>
 				</secondaryVerb>
