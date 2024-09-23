@@ -706,7 +706,7 @@
 	</statBases>
 	<verbs>
 		<li Class="CombatExtended.VerbPropertiesCE">
-			<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_FT_Flamethrower_Napalm</defaultProjectile>
 			<warmupTime>1</warmupTime>
