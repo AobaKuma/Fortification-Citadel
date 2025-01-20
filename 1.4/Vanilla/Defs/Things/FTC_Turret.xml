@@ -58,7 +58,7 @@
 				<initialAllowAutoRefuel>true</initialAllowAutoRefuel>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
 				<initialConfigurableTargetFuelLevel>800</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<autoRefuelPercent>0.8</autoRefuelPercent>
 			</li>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Mannable">
@@ -251,7 +251,7 @@
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
 				<initialConfigurableTargetFuelLevel>1200</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<autoRefuelPercent>0.8</autoRefuelPercent>
 			</li>
 		</comps>
   	</ThingDef>
@@ -347,7 +347,7 @@
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
 				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
 				<initialConfigurableTargetFuelLevel>750</initialConfigurableTargetFuelLevel>
-				<autoRefuelPercent>100</autoRefuelPercent>
+				<autoRefuelPercent>0.8</autoRefuelPercent>
 			</li>
 		</comps>
   	</ThingDef>

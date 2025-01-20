@@ -279,7 +279,7 @@
         </fuelFilter>
 		<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
 		<initialConfigurableTargetFuelLevel>600</initialConfigurableTargetFuelLevel>
-		<autoRefuelPercent>100</autoRefuelPercent>
+		<autoRefuelPercent>0.8</autoRefuelPercent>
 		<drawFuelGaugeInMap>true</drawFuelGaugeInMap>
 		<showFuelGizmo>true</showFuelGizmo>
 		<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -406,7 +406,7 @@
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 		<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
 		<initialConfigurableTargetFuelLevel>50</initialConfigurableTargetFuelLevel>
-		<autoRefuelPercent>100</autoRefuelPercent>
+		<autoRefuelPercent>0.8</autoRefuelPercent>
 		<drawFuelGaugeInMap>true</drawFuelGaugeInMap>
 		<showFuelGizmo>true</showFuelGizmo>
 		<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
