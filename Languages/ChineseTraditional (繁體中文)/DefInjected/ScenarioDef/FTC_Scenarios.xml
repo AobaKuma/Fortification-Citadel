@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FTC_LostFortress.label>失落前線</FTC_LostFortress.label>
+  <FTC_LostFortress.description>你和另外兩個人在尋找過夜地點時發現了一座被棄置的碉堡.也不管這裡為什麼被廢棄,你們都決定在這裡定居下來.</FTC_LostFortress.description>
+  <FTC_LostFortress.scenario.name>失落前線</FTC_LostFortress.scenario.name>
+  <FTC_LostFortress.scenario.summary>一群流浪難民與一座謎團重重的棄置碉堡</FTC_LostFortress.scenario.summary>
+  <FTC_LostFortress.scenario.description>你和另外兩個人在尋找過夜地點時發現了一座被棄置的碉堡.也不管這裡為什麼被廢棄,你們都決定在這裡定居下來.</FTC_LostFortress.scenario.description>
+  <FTC_LostFortress.scenario.parts.6.text>一切似乎都是新的,設備,武器,甚至還有燃料和藥品在倉庫裡,就像一個星期前還在這裡一樣.\n\n關於過去擁有者的踪跡與下落都是個謎團,但他大概留下了一個不為人知的故事結局. 但可以肯定的是,關於我們的故事是從這裡開始的.</FTC_LostFortress.scenario.parts.6.text>
+
+
+</LanguageData>

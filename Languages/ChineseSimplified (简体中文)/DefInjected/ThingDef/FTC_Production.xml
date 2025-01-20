@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FT_ArcFurnace.label>电弧炉</FT_ArcFurnace.label>
+  <FT_ArcFurnace.description>能将金属回收成原料的重型电炉,会产生大量热量.</FT_ArcFurnace.description>
+
+  <FT_HeavyChem.label>裂解炉</FT_HeavyChem.label>
+  <FT_HeavyChem.description>一种能将各类有机材料与垃圾高温提取出化学物质的重型机器,会产生大量热量.</FT_HeavyChem.description>
+
+  <FT_transformer.label>变压器</FT_transformer.label>
+  <FT_transformer.description>在不改变用电量的状况下增加电器工作效率,放置在工作台附近时可提高工作速度.一个工作台最多可以使用八个变压器柜.损坏时爆炸.</FT_transformer.description>
+
+  <FT_CitadelGenerator.label>燃油发电设施</FT_CitadelGenerator.label>
+  <FT_CitadelGenerator.description>一种适用于大型堡垒的重型燃料发电机,它与地面结构高度集成以换取出色的安全性和燃料容量,但拆除起来相当麻烦.</FT_CitadelGenerator.description>
+
+  <FTC_FieldKitchen.label>野战餐车</FTC_FieldKitchen.label>
+  <FTC_FieldKitchen.description>一个可以在野外做饭的移动厨房,但由于厨具的限制因此菜单选择很少,需要使用化合燃料或木材作为燃料.</FTC_FieldKitchen.description>
+
+
+</LanguageData>

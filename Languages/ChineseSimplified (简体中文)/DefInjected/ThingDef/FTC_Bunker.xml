@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- MG Bunker -->
+
+  <FTC_Bunker_Turret.label>联装机枪碉堡</FTC_Bunker_Turret.label>
+  <FTC_Bunker_Turret.description>安装四联机枪的混凝土碉堡,能够持续的输出密集火力\n\n作为一种永备工事设施,操作者可以在安全的设施内部操作武器直到设施被摧毁,这类工事需要电力来运作,并且有联通电网的有线通讯能够收到外部的直接命令.</FTC_Bunker_Turret.description>
+
+  <FTC_Bunker_Gun.label>联装机枪</FTC_Bunker_Gun.label>
+  <FTC_Bunker_Gun.description>四联机枪</FTC_Bunker_Gun.description>
+
+
+  <!-- Anti Tank Turret Bunker -->
+
+  <FTC_AntiTank_Turret.label>战车炮塔工事</FTC_AntiTank_Turret.label>
+  <FTC_AntiTank_Turret.description>将战车炮塔安装在碉堡上的永备工事,能发射具有高贯穿性的大口径炮弹.\n\n作为一种永备工事设施,操作者可以在安全的设施内部操作武器直到设施被摧毁,这类工事需要电力来运作,并且有联通电网的有线通讯能够收到外部的直接命令.</FTC_AntiTank_Turret.description>
+
+  <FTC_AntiTank_Gun.label>反坦克炮塔</FTC_AntiTank_Gun.label>
+  <FTC_AntiTank_Gun.description>装载于炮塔上的反坦克加农炮.</FTC_AntiTank_Gun.description>
+
+
+  <!-- 原版打大口徑砲彈,CE打155 -->
+
+  <FTC_Batterey_Turret.label>岸防炮台</FTC_Batterey_Turret.label>
+  <FTC_Batterey_Turret.description>固定于大型混凝土炮台的海军驱逐舰炮塔\n\n作为一种永备工事设施,操作者可以在安全的设施内部操作武器直到设施被摧毁,这类工事需要电力来运作,并且有联通电网的有线通讯能够收到外部的直接命令.</FTC_Batterey_Turret.description>
+
+  <FTC_Batterey_Gun.label>海军舰炮</FTC_Batterey_Gun.label>
+  <FTC_Batterey_Gun.description>一门海军的轻型加农炮...当然是相对海军而言的轻</FTC_Batterey_Gun.description>
+
+  <FT_Bullet_BatteryShell.label>高爆弹</FT_Bullet_BatteryShell.label>
+
+
+<!-- 火控测距仪 -->
+<FTC_SpotterBunker.label>火控观测塔</FTC_SpotterBunker.label>
+<FTC_SpotterBunker.description>透过光线反射三角测距来反推距离的测距仪,加高的基座使其能够越过山体标定打击目标.</FTC_SpotterBunker.description>
+
+<!-- 喷火碉堡 -->
+
+<FTC_Wall_Flame.label> 喷火碉堡</FTC_Wall_Flame.label>
+<FTC_Wall_Flame.description>半埋在工事墙体上的防御性突出结构,使守方能够在安全的操作环境下喷射致命的火舌. \n\n 这是一种需要放置于墙体上的永备结构工事,与其他永备工事一样无法直接的拆除,所以请谨慎规划.</FTC_Wall_Flame.description>
+
+<FTC_Wall_Flame_Gun.label>火焰发射器</FTC_Wall_Flame_Gun.label>
+<FTC_Wall_Flame_Gun.description>安装在碉堡内的喷火器.</FTC_Wall_Flame_Gun.description>
+
+<FT_Bullet_InfernoSpewer.label>炼狱火舌</FT_Bullet_InfernoSpewer.label>
+
+<!-- 机枪碉堡 -->
+<FTC_Wall_MG.label>机枪暗堡</FTC_Wall_MG.label>
+<FTC_Wall_MG.description>半埋在工事墙体上的防御性突出结构,使守方能够在安全的操作环境下操作联装机枪扫荡步兵. \n\n 这是一种需要放置于墙体上的永备结构工事,与其他永备工事一样无法直接的拆除,所以请谨慎规划.</FTC_Wall_MG.description>
+
+<FTC_Wall_MG_Gun.label>联装机枪</FTC_Wall_MG_Gun.label>
+<FTC_Wall_MG_Gun.description>four machinegun mounted inside bunker.</FTC_Wall_MG_Gun.description>
+
+<!-- 反坦克碉堡 -->
+<FTC_Wall_AT.label>反坦克暗堡</FTC_Wall_AT.label>
+<FTC_Wall_AT.description>半埋在工事墙体上的防御性突出结构,使守方能够在安全的操作环境下操作反坦克炮歼灭装甲目标. \n\n 这是一种需要放置于墙体上的永备结构工事,与其他永备工事一样无法直接的拆除,所以请谨慎规划.</FTC_Wall_AT.description>
+
+<FTC_Wall_AT_Gun.label>反坦克战防炮</FTC_Wall_AT_Gun.label>
+<FTC_Wall_AT_Gun.description>安装在碉堡内的反坦克炮.</FTC_Wall_AT_Gun.description>
+
+<!-- 自动炮碉堡 -->
+<FTC_Autocannon_Bunker.label>自动炮暗堡</FTC_Autocannon_Bunker.label>
+<FTC_Autocannon_Bunker.description>半埋在工事墙体上的防御性突出结构,使守方能够在安全的操作环境下操作大口径自动炮压制敌方冲锋. \n\n 这是一种需要放置于墙体上的永备结构工事,与其他永备工事一样无法直接的拆除,所以请谨慎规划.</FTC_Autocannon_Bunker.description>
+
+<FTC_Autocannon_Bunker_Gun.label>自动炮</FTC_Autocannon_Bunker_Gun.label>
+<FTC_Autocannon_Bunker_Gun.description>安装在碉堡内的自动机炮.</FTC_Autocannon_Bunker_Gun.description>
+
+<!-- 迫击炮碉堡 -->
+<FTC_Mortar_Bunker.label>81mm 迫击炮碉堡</FTC_Mortar_Bunker.label>
+<FTC_Mortar_Bunker.description>安装在混凝土箱体工事内的81毫米迫击炮, \n\n 作为一种永备工事设施,操作者可以在安全的设施内部操作武器直到设施被摧毁,这类工事需要电力来运作,并且有联通电网的有线通讯能够收到外部的直接命令.</FTC_Mortar_Bunker.description>
+
+<FTC_Bunker_Mortar.label>81毫米迫击炮</FTC_Bunker_Mortar.label>
+<FTC_Bunker_Mortar.description>安装在碉堡内的81毫米迫击炮.</FTC_Bunker_Mortar.description>
+
+<!-- 固定炮塔 -->
+<FTC_Wall_Howitzer.label>榴弹炮碉堡</FTC_Wall_Howitzer.label>
+<FTC_Wall_Howitzer.description>安装在混凝土工事基座上的覆甲105毫米榴弹炮炮塔.\n\n 作为一种永备工事设施,操作者可以在安全的设施内部操作武器直到设施被摧毁,这类工事需要电力来运作,并且有联通电网的有线通讯能够收到外部的直接命令.</FTC_Wall_Howitzer.description>
+
+<FTC_Wall_Howitzer_Turret.label>105毫米榴弹炮</FTC_Wall_Howitzer_Turret.label>
+<FTC_Wall_Howitzer_Turret.description>安装在碉堡内的105毫米榴弹炮.</FTC_Wall_Howitzer_Turret.description>
+
+</LanguageData>

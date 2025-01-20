@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FTC_InfrasonicDecoy.label>次聲波誘導裝置</FTC_InfrasonicDecoy.label>
+  <FTC_InfrasonicDecoy.description>一種能夠發出人類聽不見頻段聲播的大型設施,能夠將憤怒的動物與蟲群誘導到設施所在的地區從而保護周圍殖民地的安全,需要供電來確保運行.</FTC_InfrasonicDecoy.description>
+
+  <FTC_SignalDecoy.label>電磁訊號偽裝塔</FTC_SignalDecoy.label>
+  <FTC_SignalDecoy.description>在能源充足的狀況下對外播送偽裝通訊與轉發廣播的訊號塔.只要在本地建造一座就能夠隱藏周圍殖民地的位置使襲擊隊伍無法找到.但由於其張揚的訊號廣播使得沒有找到目標的襲擊者們會轉而攻擊廣播塔所在的地區.</FTC_SignalDecoy.description>
+
+  <FTC_EnegryDecoy.label>高能量訊號偽裝裝置</FTC_EnegryDecoy.label>
+  <FTC_EnegryDecoy.description>能夠人為製造高能量訊號使得依靠能量反映選擇目標的敵意實體會將其判斷為優先目標,從而保護周圍的殖民地不受到威脅.</FTC_EnegryDecoy.description>
+
+
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FT_OperateFurnace.label>操作電弧爐</FT_OperateFurnace.label>
+  <FT_OperateFurnace.verb>操作</FT_OperateFurnace.verb>
+  <FT_OperateFurnace.gerund>操作於</FT_OperateFurnace.gerund>
+
+  <FT_OperateAutoChem.label>操作裂解爐</FT_OperateAutoChem.label>
+  <FT_OperateAutoChem.verb>操作</FT_OperateAutoChem.verb>
+  <FT_OperateAutoChem.gerund>操作於</FT_OperateAutoChem.gerund>
+
+  <FT_OperateKitchen.label>烹飪</FT_OperateKitchen.label>
+  <FT_OperateKitchen.verb>烹飪</FT_OperateKitchen.verb>
+  <FT_OperateKitchen.gerund>烹飪於</FT_OperateKitchen.gerund>
+
+
+</LanguageData>

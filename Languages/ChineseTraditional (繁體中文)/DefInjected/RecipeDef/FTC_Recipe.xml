@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FT_ExtractChemFuelByCorpses.label>裂解屍體 (360)</FT_ExtractChemFuelByCorpses.label>
+  <FT_ExtractChemFuelByCorpses.description>裂解總計360公斤的有機屍體(約六人)並提取化合燃料,雖然效率上並不如意但處理的速度相當快.</FT_ExtractChemFuelByCorpses.description>
+  <FT_ExtractChemFuelByCorpses.jobString>從材料中提取化合燃料</FT_ExtractChemFuelByCorpses.jobString>
+
+  <FT_ExtractChemFuelByJunks.label>回收有機物 (4)</FT_ExtractChemFuelByJunks.label>
+  <FT_ExtractChemFuelByJunks.description>裂解總計360公斤的有機垃圾並提取化合燃料,垃圾必須由可燃且無法融煉的材料製成.</FT_ExtractChemFuelByJunks.description>
+  <FT_ExtractChemFuelByJunks.jobString>從材料中提取化合燃料</FT_ExtractChemFuelByJunks.jobString>
+
+  <FT_ExtractChemFuelByJunksPlus.label>回收有機物 (28)</FT_ExtractChemFuelByJunksPlus.label>
+  <FT_ExtractChemFuelByJunksPlus.description>裂解總計28公斤的有機垃圾並提取化合燃料,垃圾必須由可燃且無法融煉的材料製成.</FT_ExtractChemFuelByJunksPlus.description>
+  <FT_ExtractChemFuelByJunksPlus.jobString>從材料中提取化合燃料</FT_ExtractChemFuelByJunksPlus.jobString>
+
+  <FT_ExtractSteelByJunks.label>回收金屬 (8)</FT_ExtractSteelByJunks.label>
+  <FT_ExtractSteelByJunks.description>將8公斤的可熔煉物品回收為金屬材料.</FT_ExtractSteelByJunks.description>
+  <FT_ExtractSteelByJunks.jobString>正在回收金屬</FT_ExtractSteelByJunks.jobString>
+
+  <FT_ExtractSteelByJunksPlus.label>回收金屬 (32)</FT_ExtractSteelByJunksPlus.label>
+  <FT_ExtractSteelByJunksPlus.description>將32公斤的可熔煉物品回收為金屬材料.</FT_ExtractSteelByJunksPlus.description>
+  <FT_ExtractSteelByJunksPlus.jobString>正在回收金屬</FT_ExtractSteelByJunksPlus.jobString>
+
+  <FTC_KitchenCookMealSimple.label>熬煮燉湯 x8</FTC_KitchenCookMealSimple.label>
+  <FTC_KitchenCookMealSimple.description>將食材熬煮為燉湯.</FTC_KitchenCookMealSimple.description>
+  <FTC_KitchenCookMealSimple.jobString>正在熬煮燉湯</FTC_KitchenCookMealSimple.jobString>
+
+
+</LanguageData>

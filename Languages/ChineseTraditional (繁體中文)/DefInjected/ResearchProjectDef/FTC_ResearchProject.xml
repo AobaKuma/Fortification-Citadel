@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FTC_Decoy.label>磁碟片:戰略欺詐</FTC_Decoy.label>
+  <FTC_Decoy.description>[資料解密完成]\n 使用精心設計的廣播與能量訊號在名為邊緣世界的黑暗森林中創造一個很難不被人注意到的目標,以保護那些真正重要的據點.___奈良重工</FTC_Decoy.description>
+
+  <FTC_PermanentStructure.label>永備結構工事</FTC_PermanentStructure.label>
+  <FTC_PermanentStructure.description>建造時間較長但更加堅固的建築結構,建設此類建築時需要謹慎的規劃否則拆除建築會是一件大工程.</FTC_PermanentStructure.description>
+
+  <FTC_PermanentBunker.label>永備防禦工事</FTC_PermanentBunker.label>
+  <FTC_PermanentBunker.description>這些設施被設計之初就沒有考慮過如何拆除,即便戰爭從這個世界上消失它也將留存於此,作為後人見證過去戰爭的無聲石碑.</FTC_PermanentBunker.description>
+
+  <FTC_TurretBunker.label>砲塔工事</FTC_TurretBunker.label>
+  <FTC_TurretBunker.description>把裝甲車輛上的砲塔安裝在固定的半埋混凝土結構中,能提供強勁的火力與安全的射擊環境,但由於無法接收無線電因此只能執行簡單的命令.</FTC_TurretBunker.description>
+
+
+</LanguageData>

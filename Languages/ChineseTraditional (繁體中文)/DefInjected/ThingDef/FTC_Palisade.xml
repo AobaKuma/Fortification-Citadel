@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Palisade -->
+
+  <FT_Stony_Palisade.label>混凝土外牆</FT_Stony_Palisade.label>
+  <FT_Stony_Palisade.description>...</FT_Stony_Palisade.description>
+  <FT_Stony_Palisade_Blueprint.label>混凝土外牆(藍圖)</FT_Stony_Palisade_Blueprint.label>
+  <FT_Stony_Palisade_Frame.label>混凝土外牆(建造中)</FT_Stony_Palisade_Frame.label>
+  <FT_Stony_Palisade_Frame.description>...</FT_Stony_Palisade_Frame.description>
+
+  <FT_Stony_Palisade_Corner.label>混凝土斜角外牆</FT_Stony_Palisade_Corner.label>
+  <FT_Stony_Palisade_Corner.description>...</FT_Stony_Palisade_Corner.description>
+  <FT_Stony_Palisade_Corner_Blueprint.label>混凝土斜角外牆(藍圖)</FT_Stony_Palisade_Corner_Blueprint.label>
+  <FT_Stony_Palisade_Corner_Frame.label>混凝土斜角外牆(建造中)</FT_Stony_Palisade_Corner_Frame.label>
+  <FT_Stony_Palisade_Corner_Frame.description>...</FT_Stony_Palisade_Corner_Frame.description>
+
+  <FT_Stony_Palisade_Embrasures.label>混凝土射擊牆</FT_Stony_Palisade_Embrasures.label>
+  <FT_Stony_Palisade_Embrasures.description>...</FT_Stony_Palisade_Embrasures.description>
+  <FT_Stony_Palisade_Embrasures_Blueprint.label>混凝土射擊牆(藍圖)</FT_Stony_Palisade_Embrasures_Blueprint.label>
+  <FT_Stony_Palisade_Embrasures_Frame.label>混凝土射擊牆(建造中)</FT_Stony_Palisade_Embrasures_Frame.label>
+  <FT_Stony_Palisade_Embrasures_Frame.description>...</FT_Stony_Palisade_Embrasures_Frame.description>
+
+  <FT_Stony_Palisade_CornerEmbrasures.label>混凝土斜角射擊牆</FT_Stony_Palisade_CornerEmbrasures.label>
+  <FT_Stony_Palisade_CornerEmbrasures.description>...</FT_Stony_Palisade_CornerEmbrasures.description>
+  <FT_Stony_Palisade_CornerEmbrasures_Blueprint.label>混凝土斜角射擊牆(藍圖)</FT_Stony_Palisade_CornerEmbrasures_Blueprint.label>
+  <FT_Stony_Palisade_CornerEmbrasures_Frame.label>混凝土斜角射擊牆(建造中)</FT_Stony_Palisade_CornerEmbrasures_Frame.label>
+  <FT_Stony_Palisade_CornerEmbrasures_Frame.description>...</FT_Stony_Palisade_CornerEmbrasures_Frame.description>
+
+
+</LanguageData>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- MG Bunker -->
+
+  <FTC_Bunker_Turret.label>聯裝機槍碉堡</FTC_Bunker_Turret.label>
+  <FTC_Bunker_Turret.description>安裝四聯機槍的混凝土碉堡,能夠持續的輸出密集火力\n\n 作為一種永備工事設施,操作者可以在安全的設施內部操作武器直到設施被摧毀,這類工事需要電力來運作,並且有聯通電網的有線通訊能夠收到外部的直接命令.</FTC_Bunker_Turret.description>
+
+  <FTC_Bunker_Gun.label>聯裝機槍</FTC_Bunker_Gun.label>
+  <FTC_Bunker_Gun.description>四聯機槍</FTC_Bunker_Gun.description>
+
+
+  <!-- Anti Tank Turret Bunker -->
+
+  <FTC_AntiTank_Turret.label>戰車砲塔工事</FTC_AntiTank_Turret.label>
+  <FTC_AntiTank_Turret.description>將戰車砲塔安裝在碉堡上的永備工事,能發射具有高貫穿性的大口徑砲彈.\n\n 作為一種永備工事設施,操作者可以在安全的設施內部操作武器直到設施被摧毀,這類工事需要電力來運作,並且有聯通電網的有線通訊能夠收到外部的直接命令.</FTC_AntiTank_Turret.description>
+
+  <FTC_AntiTank_Gun.label>反坦克炮塔</FTC_AntiTank_Gun.label>
+  <FTC_AntiTank_Gun.description>裝載於砲塔上的反坦克加農砲.</FTC_AntiTank_Gun.description>
+
+
+  <!-- 原版打大口徑砲彈,CE打155 -->
+
+  <FTC_Batterey_Turret.label>岸防砲台</FTC_Batterey_Turret.label>
+  <FTC_Batterey_Turret.description>固定於大型混凝土砲台的海軍驅逐艦砲塔\n\n 作為一種永備工事設施,操作者可以在安全的設施內部操作武器直到設施被摧毀,這類工事需要電力來運作,並且有聯通電網的有線通訊能夠收到外部的直接命令.</FTC_Batterey_Turret.description>
+
+  <FTC_Batterey_Gun.label>海軍艦砲</FTC_Batterey_Gun.label>
+  <FTC_Batterey_Gun.description>一門海軍的輕型加農砲...當然是相對海軍而言的輕</FTC_Batterey_Gun.description>
+
+  <FT_Bullet_BatteryShell.label>高爆彈</FT_Bullet_BatteryShell.label>
+
+
+  
+  <!-- 火控測距儀 -->
+  <FTC_SpotterBunker.label>火控觀測塔</FTC_SpotterBunker.label>
+  <FTC_SpotterBunker.description>帶無線電的大型固定式測距儀. 對於協調火砲打擊很有用因此常見於邊緣世界的大型永備工事中.\n\n在目標上使用此功能將對其進行標記，從而消除任何瞄準該目標的火砲的間接火力懲罰. 此外,任何定向火力都將使用觀察員的瞄準精度和效率,而不是砲兵操作員來確定最終精度.</FTC_SpotterBunker.description>
+
+  <FTC_SpotterBunker_Gun.label>測距儀</FTC_SpotterBunker_Gun.label>
+  <FTC_SpotterBunker_Gun.description>透過光線反射三角測距來反推距離的測距儀,加高的基座使其能夠越過山體標定打擊目標..</FTC_SpotterBunker_Gun.description>
+
+  <!-- 噴火碉堡 -->
+
+  <FTC_Wall_Flame.label> 噴火碉堡</FTC_Wall_Flame.label>
+  <FTC_Wall_Flame.description>半埋在工事牆體上的防禦性突出結構,使守方能夠在安全的操作環境下噴射致命的火舌. \n\n 這是一種需要放置於牆體上的永備結構工事,與其他永備工事一樣無法直接拆除,所以請謹慎規劃.</FTC_Wall_Flame.description>
+
+  <FTC_Wall_Flame_Gun.label>火焰發射器</FTC_Wall_Flame_Gun.label>
+  <FTC_Wall_Flame_Gun.description>安裝在碉堡內的噴火器.</FTC_Wall_Flame_Gun.description>
+
+  <FT_Bullet_InfernoSpewer.label>煉獄火舌</FT_Bullet_InfernoSpewer.label>
+
+  <!-- 機槍碉堡 -->
+  <FTC_Wall_MG.label>機槍暗堡</FTC_Wall_MG.label>
+  <FTC_Wall_MG.description>半埋在工事牆體上的防禦性突出結構,使守方能夠在安全的操作環境下操作聯裝機槍掃蕩步兵. \n\n 這是一種需要放置於牆體上的永備結構工事,與其他永備工事一樣無法直接拆除,所以請謹慎規劃.</FTC_Wall_MG.description>
+
+  <FTC_Wall_MG_Gun.label>聯裝機槍</FTC_Wall_MG_Gun.label>
+  <FTC_Wall_MG_Gun.description>安裝在碉堡內的四聯裝機槍.</FTC_Wall_MG_Gun.description>
+
+  <!-- 反坦克碉堡 -->
+  <FTC_Wall_AT.label>反坦克暗堡</FTC_Wall_AT.label>
+  <FTC_Wall_AT.description>半埋在工事牆體上的防禦性突出結構,使守方能夠在安全的操作環境下操作反坦克炮殲滅裝甲目標. \n\n 這是一種需要放置於牆體上的永備結構工事,與其他永備工事一樣無法直接拆除,所以請謹慎規劃.</FTC_Wall_AT.description>
+
+  <FTC_Wall_AT_Gun.label>37毫米反坦克戰防炮</FTC_Wall_AT_Gun.label>
+  <FTC_Wall_AT_Gun.description>安裝在碉堡內的37毫米反坦克戰防炮.</FTC_Wall_AT_Gun.description>
+
+  <!-- 自動砲碉堡 -->
+  <FTC_Autocannon_Bunker.label>自動炮暗堡</FTC_Autocannon_Bunker.label>
+  <FTC_Autocannon_Bunker.description>半埋在工事牆體上的防禦性突出結構,使守方能夠在安全的操作環境下操作大口徑自動砲壓制敵方衝鋒. \n\n 這是一種需要放置於牆體上的永備結構工事,與其他永備工事一樣無法直接拆除,所以請謹慎規劃.</FTC_Autocannon_Bunker.description>
+
+  <FTC_Autocannon_Bunker_Gun.label>自動炮</FTC_Autocannon_Bunker_Gun.label>
+  <FTC_Autocannon_Bunker_Gun.description>安裝在碉堡內的自動機砲.</FTC_Autocannon_Bunker_Gun.description>
+
+  <!-- 迫擊砲碉堡 -->
+  <FTC_Mortar_Bunker.label>81mm 迫擊砲碉堡</FTC_Mortar_Bunker.label>
+  <FTC_Mortar_Bunker.description>安裝在混凝土箱體工事內的81毫米迫擊砲, \n\n 作為一種永備工事設施,操作者可以在安全的設施內部操作武器直到設施被摧毀,這類工事需要電力來運作,並且有聯通電網的有線通訊能夠收到外部的直接命令.</FTC_Mortar_Bunker.description>
+
+  <FTC_Bunker_Mortar.label>81毫米迫擊砲</FTC_Bunker_Mortar.label>
+  <FTC_Bunker_Mortar.description>安裝在碉堡內的81毫米迫擊砲.</FTC_Bunker_Mortar.description>
+
+  <!-- 固定砲塔 -->
+  <FTC_Wall_Howitzer.label>榴彈砲碉堡</FTC_Wall_Howitzer.label>
+  <FTC_Wall_Howitzer.description>安裝在混凝土工事基座上的覆甲105毫米榴彈砲砲塔.\n\n 作為一種永備工事設施,操作者可以在安全的設施內部操作武器直到設施被摧毀,這類工事需要電力來運作,並且有聯通電網的有線通訊能夠收到外部的直接命令.</FTC_Wall_Howitzer.description>
+
+  <FTC_Wall_Howitzer_Turret.label>105毫米榴彈砲</FTC_Wall_Howitzer_Turret.label>
+  <FTC_Wall_Howitzer_Turret.description>安裝在碉堡內的105毫米榴彈砲.</FTC_Wall_Howitzer_Turret.description>
+
+
+</LanguageData>

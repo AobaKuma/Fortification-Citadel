@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SandBag -->
+
+  <FTC_SandBag1x2c.label>堆疊沙袋(1x2)</FTC_SandBag1x2c.label>
+  <FTC_SandBag1x2c.description>一堆沙袋,可以提供堅實的掩護或單純用作殖民地的裝飾.</FTC_SandBag1x2c.description>
+
+  <FTC_SandBag2x2c.label>堆疊沙袋(2x2)</FTC_SandBag2x2c.label>
+  <FTC_SandBag2x2c.description>一堆沙袋,可以提供堅實的掩護或單純用作殖民地的裝飾.</FTC_SandBag2x2c.description>
+
+  <FTC_PowerConduit.label>設施纜線</FTC_PowerConduit.label>
+  <FTC_PowerConduit.description>用於在防禦工事內部傳輸電力的半埋式電纜,因為在地板下所以對於美觀性與安全性相比一般電纜還來的好.</FTC_PowerConduit.description>
+
+  <FTC_FloorDeco.label>馬賽克地磚</FTC_FloorDeco.label>
+  <FTC_FloorDeco.description>一個交錯的裝飾地磚，可以讓住在地堡裡的人感覺房間能更好看些.</FTC_FloorDeco.description>
+  <FTC_FloorDeco_Blueprint.label>馬賽克地磚(藍圖)</FTC_FloorDeco_Blueprint.label>
+  <FTC_FloorDeco_Frame.label>馬賽克地磚(建造中)</FTC_FloorDeco_Frame.label>
+  <FTC_FloorDeco_Frame.description>裝飾地磚，可以讓住在地堡裡的人感覺房間能更好看些..</FTC_FloorDeco_Frame.description>
+
+  <FTC_FloorDecoB.label>直線地磚</FTC_FloorDecoB.label>
+  <FTC_FloorDecoB.description>裝飾地磚，可以讓住在地堡裡的人感覺房間能更好看些.</FTC_FloorDecoB.description>
+  <FTC_FloorDecoB_Blueprint.label>直線地磚(藍圖)</FTC_FloorDecoB_Blueprint.label>
+  <FTC_FloorDecoB_Frame.label>直線地磚(建造中)</FTC_FloorDecoB_Frame.label>
+  <FTC_FloorDecoB_Frame.description>裝飾地磚，可以讓住在地堡裡的人感覺房間能更好看些.</FTC_FloorDecoB_Frame.description>
+
+  <FTC_FloorDecoC.label>條紋地磚</FTC_FloorDecoC.label>
+  <FTC_FloorDecoC.description>裝飾地磚,可以讓住在地堡裡的人感覺房間能更好看些.</FTC_FloorDecoC.description>
+  <FTC_FloorDecoC_Blueprint.label>條紋地磚(藍圖)</FTC_FloorDecoC_Blueprint.label>
+  <FTC_FloorDecoC_Frame.label>條紋地磚(建造中)</FTC_FloorDecoC_Frame.label>
+  <FTC_FloorDecoC_Frame.description>裝飾地磚,可以讓住在地堡裡的人感覺房間能更好看些.</FTC_FloorDecoC_Frame.description>
+
+  <FTC_FloorDeco_D.label>對角馬賽克地磚</FTC_FloorDeco_D.label>
+  <FTC_FloorDeco_D.description>裝飾地磚,可以讓住在地堡裡的人感覺房間能更好看些.</FTC_FloorDeco_D.description>
+  <FTC_FloorDeco_D_Blueprint.label>對角馬賽克地磚(藍圖)</FTC_FloorDeco_D_Blueprint.label>
+  <FTC_FloorDeco_D_Frame.label>對角馬賽克地磚(建造中)</FTC_FloorDeco_D_Frame.label>
+  <FTC_FloorDeco_D_Frame.description>裝飾地磚,可以讓住在地堡裡的人感覺房間能更好看些.</FTC_FloorDeco_D_Frame.description>
+
+  <FTC_FloorDecoB_D.label>對角直線地磚</FTC_FloorDecoB_D.label>
+  <FTC_FloorDecoB_D.description>裝飾地磚,可以讓住在地堡裡的人感覺房間能更好看些.</FTC_FloorDecoB_D.description>
+  <FTC_FloorDecoB_D_Blueprint.label>對角直線地磚(藍圖)</FTC_FloorDecoB_D_Blueprint.label>
+  <FTC_FloorDecoB_D_Frame.label>對角直線地磚(建造中)</FTC_FloorDecoB_D_Frame.label>
+  <FTC_FloorDecoB_D_Frame.description>裝飾地磚,可以讓住在地堡裡的人感覺房間能更好看些.</FTC_FloorDecoB_D_Frame.description>
+
+  <FTC_FloorDecoC_D.label>對角條紋地磚</FTC_FloorDecoC_D.label>
+  <FTC_FloorDecoC_D.description>裝飾地磚,可以讓住在地堡裡的人感覺房間能更好看些.</FTC_FloorDecoC_D.description>
+  <FTC_FloorDecoC_D_Blueprint.label>對角條紋地磚(藍圖)</FTC_FloorDecoC_D_Blueprint.label>
+  <FTC_FloorDecoC_D_Frame.label>對角條紋地磚(建造中)</FTC_FloorDecoC_D_Frame.label>
+  <FTC_FloorDecoC_D_Frame.description>裝飾地磚,可以讓住在地堡裡的人感覺房間能更好看些.</FTC_FloorDecoC_D_Frame.description>
+
+
+</LanguageData>
