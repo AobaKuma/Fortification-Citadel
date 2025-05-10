@@ -277,7 +277,7 @@
             		<canTargetLocations>true</canTargetLocations>
           		</targetParams>
           		<recoilPattern>Mounted</recoilPattern>
-				<minRange>5</minRange>
+				<minRange>5.2</minRange>
 			</li>
 		</verbs>
 		<comps>
