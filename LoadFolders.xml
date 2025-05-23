@@ -4,19 +4,19 @@
   <v1.3>
     <li>/</li>
 	  <li>1.3</li>
-	  <li IfModActive="CETeam.CombatExtended">1.3/CombatExtended</li>
-	  <li IfModNotActive="CETeam.CombatExtended">1.3/Vanilla</li>
+	  <li IfModActive="CETeam.CombatExtended,CETeam.CombatExtended_steam">1.3/CombatExtended</li>
+	  <li IfModNotActive="CETeam.CombatExtended,CETeam.CombatExtended_steam">1.3/Vanilla</li>
   </v1.3>
    <v1.4>
     <li>/</li>
 	  <li>1.4</li>
-	  <li IfModActive="CETeam.CombatExtended">1.4/CombatExtended</li>
-	  <li IfModNotActive="CETeam.CombatExtended">1.4/Vanilla</li>
+	  <li IfModActive="CETeam.CombatExtended,CETeam.CombatExtended_steam">1.4/CombatExtended</li>
+	  <li IfModNotActive="CETeam.CombatExtended,CETeam.CombatExtended_steam">1.4/Vanilla</li>
   </v1.4>
   <v1.5>
    <li>/</li>
    <li>1.5</li>
-   <li IfModActive="CETeam.CombatExtended">1.5/CombatExtended</li>
-   <li IfModNotActive="CETeam.CombatExtended">1.5/Vanilla</li>
+   <li IfModActive="CETeam.CombatExtended,CETeam.CombatExtended_steam">1.5/CombatExtended</li>
+   <li IfModNotActive="CETeam.CombatExtended,CETeam.CombatExtended_steam">1.5/Vanilla</li>
  </v1.5>
 </loadFolders>

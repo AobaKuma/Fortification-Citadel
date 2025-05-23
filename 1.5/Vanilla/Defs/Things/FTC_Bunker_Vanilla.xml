@@ -299,29 +299,7 @@
 			<AccuracyLong>0.99</AccuracyLong>
 			<RangedWeapon_Cooldown>6.0</RangedWeapon_Cooldown>
 		</statBases>
-		<comps>
-			<!-- <li Class="WeaponUtility.CompProperties_SecondaryVerb">
-				<verbProps>
-					<verbClass>Verb_Shoot</verbClass>
-					<hasStandardCommand>true</hasStandardCommand>
-					<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
-					<warmupTime>0</warmupTime>
-					<range>30.9</range>
-					<minRange>1.9</minRange>
-					<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-					<burstShotCount>5</burstShotCount>
-					<soundCast>GunShotA</soundCast>
-					<soundCastTail>GunTail_Light</soundCastTail>
-					<muzzleFlashScale>9</muzzleFlashScale>
-					<consumeFuelPerShot>0.2</consumeFuelPerShot>
-				</verbProps>
-				<mainWeaponLabel>use main gun</mainWeaponLabel>
-				<mainCommandIcon>Things/MainGun_icon</mainCommandIcon>
-				<secondaryWeaponLabel>use coaxial machinegun</secondaryWeaponLabel>
-				<secondaryCommandIcon>Things/Coaxial_icon</secondaryCommandIcon>
-				<description>switch between main gun and coaxial machinegun</description>
-			</li> -->
-		</comps>
+		<comps/>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
