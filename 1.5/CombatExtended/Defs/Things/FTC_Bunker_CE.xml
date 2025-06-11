@@ -87,7 +87,7 @@
 			<recoilAmount>0.7</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
+			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
 			<warmupTime>1</warmupTime>
 			<range>62</range>
 			<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
@@ -103,7 +103,7 @@
 		<li Class="CombatExtended.CompProperties_AmmoUser">
 			<magazineSize>2400</magazineSize>
          	<reloadTime>10</reloadTime>
-         	<ammoSet>AmmoSet_303British</ammoSet>
+         	<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
 		</li>
 		<li Class="CombatExtended.CompProperties_FireModes">
 			<aiUseBurstMode>false</aiUseBurstMode>
@@ -744,11 +744,11 @@
 	</comps>
   </ThingDef>
 
-<!-- .303 Wall Mounted MG Bunker -->
+<!-- Wall Mounted MG Bunker -->
 
 <ThingDef ParentName="FTC_BasePermanentBunker">
 	<defName>FTC_Wall_MG</defName>
-	<label>.303 machinegun bunker</label>
+	<label>machinegun bunker</label>
 	<description>a manned stationary machinegun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
 	<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
 	<uiIconScale>1</uiIconScale>
@@ -793,7 +793,7 @@
 
   <ThingDef ParentName="BaseWeaponTurret">
 	<defName>FTC_Wall_MG_Gun</defName>
-	<label>.303 machine gun</label>
+	<label>machine gun</label>
 	<description>a machinegun mounted inside the bunker.</description>
 	<graphicData>
 		<texPath>None</texPath>
@@ -810,7 +810,7 @@
 		<recoilAmount>0.7</recoilAmount>
 		<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 		<hasStandardCommand>true</hasStandardCommand>
-		<defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
+		<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
 		<warmupTime>1</warmupTime>
 		<range>62</range>
 		<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
@@ -826,7 +826,7 @@
 	<li Class="CombatExtended.CompProperties_AmmoUser">
 		<magazineSize>2400</magazineSize>
 		 <reloadTime>10</reloadTime>
-		 <ammoSet>AmmoSet_303British</ammoSet>
+		 <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
 	</li>
 	<li Class="CombatExtended.CompProperties_FireModes">
 		<aiUseBurstMode>false</aiUseBurstMode>
