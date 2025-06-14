@@ -397,7 +397,7 @@
 				<noSingleShot>false</noSingleShot>
 				<aiAimMode>AimedShot</aiAimMode>
 			</li>
-			<li Class="CombatExtended.CompProperties_Charges">
+			<!--<li Class="CombatExtended.CompProperties_Charges">
 				<chargeSpeeds>
 					<li>100</li>
 					<li>120</li>
@@ -406,7 +406,7 @@
 					<li>180</li>
 					<li>200</li>
 				</chargeSpeeds>
-			</li>
+			</li>-->
 			<li MayRequire="3HSTltd.Framework" Class="BillDoorsFramework.CompProperties_SecondaryAmmo">
 				<secondaryVerb>
 					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofMortarCE</verbClass>
@@ -437,14 +437,14 @@
 				<description>switch firing mode</description>
 				<mainCommandIcon>Indirect</mainCommandIcon>
 				<secondaryCommandIcon>Direct</secondaryCommandIcon>
-				<secondaryWeaponChargeSpeeds>
+				<!--<secondaryWeaponChargeSpeeds>
 					<li>100</li>
 					<li>120</li>
 					<li>140</li>
 					<li>160</li>
 					<li>180</li>
 					<li>200</li>
-				</secondaryWeaponChargeSpeeds>
+				</secondaryWeaponChargeSpeeds>-->
 			</li>
 		</comps>
 		<modExtensions>
@@ -1031,7 +1031,7 @@
 				<reloadTime>3</reloadTime>
 				<ammoSet>AmmoSet_FT_105mmHowitzerShell</ammoSet>
 			</li>
-			<li Class="CombatExtended.CompProperties_Charges">
+			<!--<li Class="CombatExtended.CompProperties_Charges">
 				<chargeSpeeds>
 					<li>55</li>
 					<li>75</li>
@@ -1040,7 +1040,7 @@
 					<li>135</li>
 					<li>155</li>
 				</chargeSpeeds>
-			</li>
+			</li>-->
 			<li MayRequire="3HSTltd.Framework" Class="CombatExtended.CompProperties_FireModes">
 				<aiUseBurstMode>false</aiUseBurstMode>
 			</li>
@@ -1075,14 +1075,14 @@
 				<description>switch firing mode</description>
 				<mainCommandIcon>Indirect</mainCommandIcon>
 				<secondaryCommandIcon>Direct</secondaryCommandIcon>
-				<secondaryWeaponChargeSpeeds>
+				<!--<secondaryWeaponChargeSpeeds>
 					<li>55</li>
 					<li>75</li>
 					<li>95</li>
 					<li>115</li>
 					<li>135</li>
 					<li>155</li>
-				</secondaryWeaponChargeSpeeds>
+				</secondaryWeaponChargeSpeeds>-->
 			</li>
 		</comps>
 		<modExtensions>
