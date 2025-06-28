@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  
+	<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Bill Doors' Framework</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<operations>	
+		<!--BM-13-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="FTC_Katyusha_Gun"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/verbClass</xpath>
+				<value>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofMortarCE</verbClass>
+				</value>
+            </li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="FTC_Katyusha_Turret"]/placeWorkers/li["PlaceWorker_NotUnderRoof"]</xpath>
+            </li>
+		<!--Howitzer-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="FTC_Wall_Howitzer_Turret"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/verbClass</xpath>
+				<value>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofMortarCE</verbClass>
+				</value>
+            </li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="FTC_Wall_Howitzer"]/placeWorkers/li["PlaceWorker_NotUnderRoof"]</xpath>
+            </li>
+		<!--Batterey-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/defaultProjectile</xpath>
+				<value>
+					<defaultProjectile>Bullet_FT_155mmHowitzerShell_HE</defaultProjectile>
+				</value>
+            </li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/minRange</xpath>
+				<value>
+					<minRange>60</minRange>
+				</value>
+            </li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/verbClass</xpath>
+				<value>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofMortarCE</verbClass>
+				</value>
+            </li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/ammoSet</xpath>
+				<value>
+					<ammoSet>AmmoSet_FT_155mmHowitzerShell</ammoSet>
+				</value>
+            </li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- FTC Manned Turret abstract-->
+	
+	<ThingDef Name="FTC_BasePermanentTurret_Mannable" ParentName="BuildingBase" Abstract="True">
+		<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<designationCategory>FTC_PermanentStructure</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<hasTooltip>true</hasTooltip>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<stealable>false</stealable>
+		<rotatable>true</rotatable>
+		<passability>PassThroughOnly</passability>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<drawGUIOverlay>True</drawGUIOverlay>
+		<canOverlapZones>false</canOverlapZones>
+		<coversFloor>true</coversFloor>
+		<pathCost>50</pathCost>
+		<fillPercent>0.85</fillPercent>
+		<tickerType>Normal</tickerType>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<statBases>
+			<Bulk>1000</Bulk>
+			<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+			<AimingAccuracy>1.0</AimingAccuracy>
+			<Beauty>-5</Beauty>
+		</statBases>
+		<building>
+			<claimable>true</claimable>
+		</building>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretBurstWarmupTime>1.0</turretBurstWarmupTime>   <!--================冷卻與瞄準時間================-->
+			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+		</building>
+		<damageMultipliers>
+		<li>
+			<damageDef>Cut</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Crush</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Stab</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Scratch</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		   <li>
+			<damageDef>ScratchToxic</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Bite</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>ToxicBite</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Blunt</damageDef>
+			<multiplier>0.25</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Poke</damageDef>
+			<multiplier>0.25</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Bomb</damageDef>
+			<multiplier>0.25</multiplier>
+		  </li>
+		  <li>
+			<damageDef>BombSuper</damageDef>
+			<multiplier>0.25</multiplier>
+		  </li>	  
+		  <li>
+			<damageDef>Demolish</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Thump</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Bullet</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Arrow</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>ArrowHighVelocity</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Flame</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Burn</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Frostbite</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>TornadoScratch</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Mining</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>EMP</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Stun</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Smoke</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+			<li>
+				<damageDef>Vaporize</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>AcidBurn</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+<!--Biotech DLC -->
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>BulletToxic</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>Beam</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<damageDef>MechBandShockwave</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+<!--Anomaly DLC -->
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>Nerve</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>EnergyBolt</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>Digested</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>ElectricalBurn</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>NerveStun</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>Psychic</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>DeadlifeDust</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
+				<damageDef>NociosphereVaporize</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+<!--==========-->
+<!-- Combat Extended -->
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Beanbag</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Taser</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Fragment</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>PrometheumFlame</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Bomb_Secondary</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Flame_Secondary</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>ArrowVenom</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>ArrowFire</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Tranquilizer</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Thermobaric</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Electrical</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>Neuralizer</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended">
+				<damageDef>CE_Laser</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended,Ludeon.RimWorld.Anomaly">
+				<damageDef>NerveBioferrite</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="CETeam.CombatExtended,Ludeon.RimWorld.Anomaly">
+				<damageDef>BioferriteFlame</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+<!--==========-->
+<!--3HSTltd Plasma Weapons-->
+			<li MayRequire="3HSTltd.Weapons.Plasma">
+				<damageDef>LizionExplosion</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="3HSTltd.Weapons.Plasma">
+				<damageDef>LizionPlasma</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="3HSTltd.Weapons.Plasma">
+				<damageDef>LizionPlasmaFlamer</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+<!--==========-->
+<!--3HSTltd Rail Guns-->
+			<li MayRequire="3HSTltd.Weapons.Base">
+				<damageDef>DamageDef_Shockwave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="3HSTltd.Weapons.Base">
+				<damageDef>BDRG_HighCalRailgun</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+<!--==========-->
+<!--FT HESH-->
+			<li MayRequire="CETeam.CombatExtended">
+			<damageDef>HESH_ShockWave</damageDef>
+			<multiplier>0.25</multiplier>
+		  </li>
+		</damageMultipliers>
+	</ThingDef>
+	
+<!-- BM-13 -->
+ 	<ThingDef ParentName="FTC_BasePermanentTurret_Mannable">
+		<defName>FTC_Katyusha_Turret</defName>
+		<label>multi-railed rocket Launcher</label>
+		<description>A manned stationary rocket launcher with eight rails, each of which can attach 2 rockets, can shoot sixteen shells at one time, however, it's far from accurate and consumes a huge amount of chemfuel each time it fires.</description>
+		<graphicData>
+			<texPath>Things/TurretArtillery_Base</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.5</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<color>(160,160,160)</color>
+		</graphicData>
+		<size>(3,3)</size>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<designationCategory>Security</designationCategory>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>FT_HeavyArtillery</li>
+		</researchPrerequisites>
+		<comps>
+			<li MayRequire="3HSTltd.Framework">
+				<compClass>BillDoorsFramework.CompTurretFix</compClass>
+			</li>
+		</comps>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<WorkToBuild>5000</WorkToBuild>
+			<Beauty>-20</Beauty>
+			<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+			<AimingAccuracy>1.0</AimingAccuracy>
+		</statBases>
+		<specialDisplayRadius>40</specialDisplayRadius>
+		<costList>
+			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
+			<Steel>475</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<building>
+			<turretBurstWarmupTime>2.0</turretBurstWarmupTime>
+			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+			<turretTopDrawSize>4</turretTopDrawSize>	
+			<turretGunDef>FTC_Katyusha_Gun</turretGunDef>
+		</building>
+		<uiIconPath>Things/RailedLauncher_icon</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+ 	 </ThingDef>
+
+  	<ThingDef ParentName="BaseArtilleryWeapon"> 
+		<defName>FTC_Katyusha_Gun</defName>
+		<label>multi-railed rocket</label>
+		<description>A railed rocket launcher. Lobs rocket shells over walls. Very inaccurate but mass-amount.</description>
+	    <graphicData>
+			<texPath>Things/RailedLauncher</texPath>
+			<drawSize>(4,4)</drawSize>
+  		</graphicData>
+		<statBases>
+			<SightsEfficiency>0.5</SightsEfficiency>
+			<ShotSpread>3</ShotSpread>
+			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<hasStandardCommand>true</hasStandardCommand>
+				<requireLineOfSight>false</requireLineOfSight>
+				<defaultProjectile>Bullet_FT_132mmM13_HE</defaultProjectile>
+				<warmupTime>3</warmupTime>
+				<minRange>40</minRange>
+				<range>1000</range>
+				<burstShotCount>16</burstShotCount>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<soundCast>FT_NebelShot</soundCast>
+				<muzzleFlashScale>39</muzzleFlashScale>
+				<circularError>1.5</circularError>
+				<indirectFirePenalty>0.2</indirectFirePenalty>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>16</magazineSize>
+				<reloadTime>3.75</reloadTime>
+				<reloadOneAtATime>true</reloadOneAtATime>
+				<ammoSet>AmmoSet_FT_132mmM13</ammoSet>      
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>8</aimedBurstShotCount>
+				<aiUseBurstMode>True</aiUseBurstMode>
+				<aiAimMode>SuppressFire</aiAimMode>	
+			</li>
+			<li Class="Fortified.CompProperties_CastFlecker"><!-- 後方揚塵-->
+				<fleck>DustPuffThick</fleck>
+				<burstAmount>15</burstAmount>
+				<burstSway>20</burstSway>
+				<burstAngle>180</burstAngle>
+				<fleckSizeRange>(1,8)</fleckSizeRange>
+				<burstSpeedRange>(1,1.5)</burstSpeedRange>
+				<burstOffsetRange>(1,1.5)</burstOffsetRange> 
+			</li>
+			<li Class="Fortified.CompProperties_CastFlecker"><!-- 後方揚塵-->
+				<fleck>Smoke</fleck><!--生成的Fleck,參考原版-->
+				<burstAmount>15</burstAmount><!--一次射擊生成的數量-->
+				<burstSway>20</burstSway><!--噴射角度的左右隨機偏移範圍-->
+				<burstAngle>180</burstAngle><!--生成偏移子彈發射方向的噴射角度(0 = 與發射角度同向)-->
+				<fleckSizeRange>(1,8)</fleckSizeRange><!--Fleck的生成大小隨機區間-->
+				<burstSpeedRange>(1,1.5)</burstSpeedRange><!--Fleck的飛行速度隨機區間-->
+				<burstOffsetRange>(1,1.5)</burstOffsetRange> <!--Fleck的生成位置偏移旋轉中心點的距離區間-->
+			</li>
+			<li MayRequire="3HSTltd.Framework" Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>false</aiUseBurstMode>
+			</li>
+			<li MayRequire="3HSTltd.Framework" Class="BillDoorsFramework.CompProperties_SecondaryAmmo">
+				<secondaryVerb>
+					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofMortarCE</verbClass>
+					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_FT_132mmM13_HE_directfire</defaultProjectile>
+					<warmupTime>3</warmupTime>
+					<minRange>20</minRange>
+					<range>1000</range>
+					<burstShotCount>16</burstShotCount>
+					<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+					<soundCast>FT_NebelShot</soundCast>
+					<muzzleFlashScale>39</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<recoilPattern>Mounted</recoilPattern>
+					<recoilAmount>0.0</recoilAmount>
+					<indirectFirePenalty>0</indirectFirePenalty>
+					<!--<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>-->
+					<!--<requireLineOfSight>false</requireLineOfSight>-->
+				</secondaryVerb>
+				<secondaryAmmoProps>
+					<magazineSize>16</magazineSize>
+					<reloadTime>3.75</reloadTime>
+					<reloadOneAtATime>true</reloadOneAtATime>
+					<ammoSet>AmmoSet_FT_132mmM13_directfire</ammoSet>   
+				</secondaryAmmoProps>
+				<mainWeaponLabel>indirect fire</mainWeaponLabel>
+				<secondaryWeaponLabel>direct fire</secondaryWeaponLabel>
+				<description>switch firing mode</description>
+				<mainCommandIcon>Indirect</mainCommandIcon>
+				<secondaryCommandIcon>Direct</secondaryCommandIcon>
+				<secondaryWeaponChargeSpeeds>
+							<li>30</li>
+							<li>50</li>
+							<li>70</li>
+							<li>90</li>
+							<li>110</li>
+							<li>130</li>
+				</secondaryWeaponChargeSpeeds>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+							<li>30</li>
+							<li>50</li>
+							<li>70</li>
+							<li>90</li>
+							<li>110</li>
+							<li>130</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+		<modExtensions>
+            <li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof" MayRequire="3HSTltd.Framework">
+                <appliesInSecondaryMode>false</appliesInSecondaryMode>
+            </li>
+        </modExtensions>
+  	</ThingDef>
+
+	<!-- 雙聯裝重型防空炮 -->
+	<ThingDef ParentName="FTC_BasePermanentTurret_Mannable">
+		<defName>FTC_TurretTwinHeavyFlak</defName>
+		<thingClass>CombatExtended.Building_CIWS_CE</thingClass>
+		<label>Twin Heavy flak gun</label>
+		<description>A pair of high caliber flak been lay flat to engage ground target.</description>
+		<graphicData>
+			<texPath>Things/CoastalArtillery/ArtilleryBunker</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>6.5</drawSize>
+			<drawOffset>(0,0,-0.15)</drawOffset>
+			<color>(160,160,160)</color>
+		</graphicData>
+		<size>(5,5)</size>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<uiIconPath>Things/CoastalArtillery/Flak40_Sec_UI</uiIconPath>
+		<uiIconScale>1.5</uiIconScale>
+		<statBases>
+			<Bulk>2250</Bulk>
+			<Mass>3700</Mass>
+			<MaxHitPoints>3000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>12000</WorkToBuild>
+			<ShootingAccuracyTurret>1.25</ShootingAccuracyTurret>
+			<AimingAccuracy>1.25</AimingAccuracy>
+		</statBases>
+		<comps>
+		  <li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<basePowerConsumption>1000</basePowerConsumption>
+		  </li>
+		  <li Class="CompProperties_Flickable"/>
+		</comps>
+		<building>
+			<turretBurstWarmupTime>3.0</turretBurstWarmupTime>
+			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretTopDrawSize>7</turretTopDrawSize>
+			<turretGunDef>FTC_Gun_TurretTwinHeavyFlak</turretGunDef>
+		</building>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<costList>
+			<Steel>500</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ReinforcedBarrel>4</ReinforcedBarrel>
+			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
+		</costList>
+		<researchPrerequisites>
+			<li>FT_HeavyArtillery</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>FTC_Gun_TurretTwinHeavyFlak</defName>
+		<label>Twin Heavy Flak gun</label>
+		<description>A pair of high caliber flak cannon lay flat to engage ground target.</description>
+		<graphicData>
+			<texPath>Things/CoastalArtillery/Gun_Flak40_Sec</texPath>
+			<drawOffset>(0,0,0)</drawOffset>
+		</graphicData>
+		<uiIconPath>Things/CoastalArtillery/Gun_Flak40_Sec</uiIconPath>
+		<uiIconScale>1.2</uiIconScale>
+		<statBases>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>2.5</SightsEfficiency>
+			<ShotSpread>0.01</ShotSpread>
+			<SwayFactor>1.65</SwayFactor>
+		</statBases>
+		<weaponTags>
+			<li>TurretGun</li>
+		</weaponTags>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<recoilAmount>0</recoilAmount>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_128x958mmR_HE</defaultProjectile>
+				<warmupTime>3</warmupTime>
+				<minRange>8</minRange>
+				<range>110</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>120mm</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>32</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<recoilPattern>Mounted</recoilPattern>
+			</li>
+			<li Class="CombatExtended.VerbProperties_CIWSSkyfaller">
+				<verbClass>CombatExtended.VerbCIWSSkyfaller</verbClass>
+				<recoilAmount>0</recoilAmount>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_128x958mmR_HE</defaultProjectile>
+				<warmupTime>0.1</warmupTime>
+				<range>1000</range>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<burstShotCount>2</burstShotCount>
+				<soundCast>120mm</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>32</muzzleFlashScale>
+				<recoilPattern>Mounted</recoilPattern>
+				<holdFireLabel>HoldCloseInSkyfallersFire</holdFireLabel>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>2</magazineSize>
+				<reloadOneAtATime>true</reloadOneAtATime>
+				<reloadTime>2</reloadTime>
+				<ammoSet>AmmoSet_128x958mmR</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiAimMode>AimedShot</aiAimMode>
+				<aimedBurstShotCount>1</aimedBurstShotCount>
+			</li>
+			<li Class="Fortified.CompProperties_CastFlecker">
+				<fleck>DustPuff</fleck><!--生成的Fleck,參考原版-->
+				<onGroundOverride>true</onGroundOverride><!--根據砲塔下方地形決定是否產生-->
+				<burstAmount>20</burstAmount><!--一次射擊生成的數量-->
+				<burstSway>110</burstSway><!--噴射角度的左右隨機偏移範圍-->
+				<burstAngle>180</burstAngle><!--生成偏移子彈發射方向的噴射角度(0
+				= 與發射角度同向)-->
+				<fleckSizeRange>(3,5)</fleckSizeRange><!--Fleck的生成大小隨機區間-->
+				<burstSpeedRange>(0.2,0.5)</burstSpeedRange><!--Fleck的飛行速度隨機區間-->
+				<burstOffsetRange>(2,6)</burstOffsetRange> <!--Fleck的生成位置偏移旋轉中心點的距離區間-->
+			</li>
+			<li Class="Fortified.CompProperties_CastFlecker">
+				<fleck>DustPuff</fleck>
+				<onGroundOverride>true</onGroundOverride>
+				<burstAmount>20</burstAmount>
+				<burstSway>70</burstSway>
+				<burstAngle>180</burstAngle>
+				<fleckSizeRange>(3,5)</fleckSizeRange>
+				<burstSpeedRange>(0.2,0.5)</burstSpeedRange>
+				<burstOffsetRange>(2,6)</burstOffsetRange>
+				<rangeScaleFactor>(1,0.1)</rangeScaleFactor>
+			</li>
+			<li Class="Fortified.CompProperties_CastFlecker">
+				<fleck>DustPuff</fleck>
+				<onGroundOverride>true</onGroundOverride>
+				<burstAmount>25</burstAmount>
+				<burstSway>30</burstSway>
+				<burstAngle>0</burstAngle>
+				<fleckSizeRange>(1,2)</fleckSizeRange>
+				<burstSpeedRange>(-1.2,-0.7)</burstSpeedRange>
+				<burstOffsetRange>(2,6)</burstOffsetRange>
+			</li>
+		</comps>
+		<modExtensions>
+			<!-- will mass with targeting -->
+			<!--<li Class="CombatExtended.MultiBarrelExtension">
+				<offsets>
+					<li>-0.68,0.0</li>
+					<li>0.68,0.0</li>
+				</offsets>
+			</li>-->
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(8,6)</drawSize>
+				<offsets>
+					<li>(4.2,0.68)</li>
+					<li>(4.2,-0.68)</li>
+				</offsets>
+			</li>
+			<li Class="CombatExtended.GunDrawExtension">
+				<CasingAngleOffset>140</CasingAngleOffset> <!-- 拋彈方向 -->
+				<CasingOffset>(0,-1)</CasingOffset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+</Defs>

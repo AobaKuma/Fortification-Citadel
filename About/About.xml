@@ -8,6 +8,7 @@
 		<li>1.3</li>
 		<li>1.4</li>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 		<packageId>Aoba.Fortress.Industrial.Citadel</packageId>
 	<description>
@@ -17,7 +18,6 @@ we lure the enemy into casket made by concrete, welcoming them with gunfire.
 we live in the casket made by concrete ,protect us form the threat outside
 Our burial are those Mechanoid , Insectoid and of course, those social parasite
 after we died , we will live in the casket made by concrete.
-	
 	</description>
   <modDependencies>
   <li>

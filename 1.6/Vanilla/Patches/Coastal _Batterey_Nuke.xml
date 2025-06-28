@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fortification Industrial -Nuclear Dawn</li>
+		</mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="FTC_Batterey_Turret"]/comps/li/fuelFilter/thingDefs/li</xpath>
+                    <value>
+                        <li>FT_EnrichedUranium</li>
+                    </value>
+                </li>
+				
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="FTC_Batterey_Turret"]/comps/li/fuelCapacity</xpath>
+                    <value>
+                        <fuelCapacity>30</fuelCapacity>
+                    </value>
+                </li>
+				
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="FTC_Batterey_Turret"]/comps/li/initialConfigurableTargetFuelLevel</xpath>
+                    <value>
+                        <initialConfigurableTargetFuelLevel>30</initialConfigurableTargetFuelLevel>
+                    </value>
+                </li>
+
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="FTC_Batterey_Turret"]/comps/li/fuelIsMortarBarrel</xpath>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="FTC_Batterey_Gun"]/verbs/li/consumeFuelPerShot</xpath>
+                    <value>
+                        <consumeFuelPerShot>1</consumeFuelPerShot>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>FTC_Decoy</defName>
+    <label>Data:Strategic deception</label>
+    <description>[Data decryption completed] \n To protect those settlements that really matter to us, we need a stronghold, a fortified citadel that took everyone's attention.\n\n whatever, a place... that no one could ignore___Interstellar Industries Complex Nara</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HeavyIndustry</tab>
+    <prerequisites>
+      <li>FT_ENIAC</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.60</researchViewY>
+    <requiredResearchFacilities>
+      <li>FT_ENIAC</li>
+    </requiredResearchFacilities>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->art of war</li>
+        <li>subject->strategic deception</li>
+        <li>subject->war psychology</li>
+
+        <li>subject_story->included a strange data disc in the schematic</li>
+        <li>subject_story->repeatedly mentioned that the Intelligence and organization are the foundation of any total war</li>
+        <li>subject_story->wrote many messy notes in the margins of the schematic</li>
+        <li>subject_story->constantly conveys to people that war should only the final option</li>
+        <li>subject_story->attached a brand logo sticker from Nara Industries on title</li>
+        <li>subject_story->summarized in great detail How to create fake colony communication using minimal radio transmitters</li>
+
+        <li>subject_gerund->psychology researching</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>FTC_PermanentStructure</defName>
+    <label>Permanent structures</label>
+    <description>Unlock the construction of Permanent structures, these concrete structures were designed to be a non-deconstructible buildings. \n\n Even if war disappears from this world,they will remain there, as a silenced concreted stele, for future generations to witness the war of the past.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HeavyIndustry</tab>
+    <prerequisites>
+      <li>FT_Concrete</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>5.00</researchViewY>
+  <generalRules>
+    <rulesStrings>
+      <li>subject->reinforced structure</li>
+      <li>subject->permanent fortification</li>
+      <li>subject->fortification</li>
+
+      <li>subject_story->included a schematic about the heavy bunker complex</li>
+      <li>subject_story->repeatedly mentioned that permanent structures are not for housing</li>
+      <li>subject_story->wrote many messy notes in the margins of the schematic</li>
+      <li>subject_story->constantly conveys to people that these structures are hard to deconstruct</li>
+      <li>subject_story->attached a brand logo sticker from Nara Industries on title</li>
+      <li>subject_story->summarized in great detail How to create High-density steel reinforced permanent structure for strategic faciliy</li>
+
+      <li>subject_gerund->bunker fortificating</li>
+      <li>subject_gerund->deconstructing</li>
+    </rulesStrings>
+  </generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>FTC_PermanentBunker</defName>
+    <label>Permanent fortifications</label>
+    <description>Unlock the construction of Permanent fortifications, these concrete facilities were designed to be a non-deconstructible weapon platform. \n\n Even if war disappears from this world, they will remain there disarmed, as a silenced remain, for future generations to witness the war of the past.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HeavyIndustry</tab>
+    <prerequisites>
+      <li>GunTurrets</li>
+      <li>FTC_PermanentStructure</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>4.20</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->reinforced structure</li>
+        <li>subject->permanent fortification</li>
+        <li>subject->fortification</li>
+
+        <li>subject_story->included a schematic about the heavy bunker complex</li>
+        <li>subject_story->repeatedly mentioned that permanent structures are not for housing</li>
+        <li>subject_story->wrote many messy notes in the margins of the schematic</li>
+        <li>subject_story->constantly conveys to people that these structures are hard to deconstruct</li>
+        <li>subject_story->attached a brand logo sticker from Nara Industries on title</li>
+        <li>subject_story->summarized in great detail How to create High-density steel reinforced permanent structure for strategic faciliy</li>
+
+        <li>subject_gerund->bunker fortificating</li>
+        <li>subject_gerund->deconstructing</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>FTC_TurretBunker</defName>
+    <label>Tank Bunker</label>
+    <description>The installation of a tank turret in a semi-buried concrete structure can provide strong firepower and a safe shooting environment, but it can only execute simple orders because it cannot receive communications.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HeavyIndustry</tab>
+    <prerequisites>
+      <li>GunTurrets</li>
+      <li>FTC_PermanentStructure</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>5.00</researchViewY> 
+    <generalRules>
+      <rulesStrings>
+        <li>subject->reinforced structure</li>
+        <li>subject->permanent fortification</li>
+        <li>subject->fortification</li>
+
+        <li>subject_story->included a schematic about the design of pillbox bunker</li>
+        <li>subject_story->repeatedly mentioned that permanent structures are not for housing</li>
+        <li>subject_story->wrote many messy notes in the margins of the schematic</li>
+        <li>subject_story->constantly conveys to people that these structures are hard to deconstruct</li>
+        <li>subject_story->attached a brand logo sticker from Nara Industries on title</li>
+        <li>subject_story->proof that attach turret in a concrete box is a good static defense fortification</li>
+
+        <li>subject_gerund->bunker fortificating</li>
+        <li>subject_gerund->deconstructing</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+</Defs>
