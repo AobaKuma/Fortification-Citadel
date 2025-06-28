@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-
 	<!-- Base -->
-
 	<ThingDef Name="FTC_Palisade_Base" Abstract="True">
 		<category>Building</category>
 		<thingClass>Building</thingClass>

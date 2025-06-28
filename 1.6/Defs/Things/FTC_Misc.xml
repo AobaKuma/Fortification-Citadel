@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
-
- <DesignationCategoryDef>
+  <DesignationCategoryDef>
     <defName>FTC_PermanentStructure</defName>
     <label>permanent</label>
     <order>299</order>
@@ -10,6 +9,4 @@
       <li>Designator_Cancel</li>
     </specialDesignatorClasses>
   </DesignationCategoryDef>
-
-
 </Defs>	
