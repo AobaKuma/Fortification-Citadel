@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<KCSG.StructureLayoutDef>
+<KCSG.StructureLayoutDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_CitadelBunkerStart</defName>
   <layouts>
     <li>
@@ -224,149 +224,149 @@
   </modRequirements>
 </KCSG.StructureLayoutDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TankTrap</defName>
   <thing>FT_TankTrap</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_TwinMG_Turret_South</defName>
   <thing>FTC_TwinMG_Turret</thing>
   <rotation>South</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_Stony_Palisade_FT_BlocksConcrete</defName>
   <thing>FT_Stony_Palisade</thing>
   <stuff>FT_BlocksConcrete</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>Wall_FT_BlocksConcrete</defName>
   <thing>Wall</thing>
   <stuff>FT_BlocksConcrete</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_CitadelWall_FT_BlocksConcrete</defName>
   <thing>FTC_CitadelWall</thing>
   <stuff>FT_BlocksConcrete</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_Stony_Palisade_CornerEmbrasures_FT_BlocksConcrete</defName>
   <thing>FT_Stony_Palisade_CornerEmbrasures</thing>
   <stuff>FT_BlocksConcrete</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_Stony_Palisade_Corner_FT_BlocksConcrete</defName>
   <thing>FT_Stony_Palisade_Corner</thing>
   <stuff>FT_BlocksConcrete</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_Autocannon_Turret_East</defName>
   <thing>FTC_Autocannon_Turret</thing>
   <rotation>East</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_SandBag1x2c_Cloth_South</defName>
   <thing>FTC_SandBag1x2c</thing>
   <stuff>Cloth</stuff>
   <rotation>South</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_SandBag1x2c_Cloth_East</defName>
   <thing>FTC_SandBag1x2c</thing>
   <stuff>Cloth</stuff>
   <rotation>East</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_AntennaTower</defName>
   <thing>FT_AntennaTower</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_PowerConduit</defName>
   <thing>FTC_PowerConduit</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_FuelGenerator_North</defName>
   <thing>FT_FuelGenerator</thing>
   <rotation>North</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TableLathe_West</defName>
   <thing>FT_TableLathe</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TableConcrete_North</defName>
   <thing>FT_TableConcreteMixer</thing>
   <rotation>North</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_transformer_West</defName>
   <thing>FT_transformer</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_Sandbag_Cloth</defName>
   <thing>FT_Sandbag</thing>
   <stuff>Cloth</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_TwinMG_Turret_West</defName>
   <thing>FTC_TwinMG_Turret</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_Radio_West</defName>
   <thing>FT_Radio</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_BlocksConcrete</defName>
   <thing>FT_BlocksConcrete</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_ConcreteCompressed</defName>
   <thing>FT_ConcreteCompressed</thing>
 </KCSG.SymbolDef>
 
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_FieldKitchen_West</defName>
   <thing>FTC_FieldKitchen</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_CitadelGenerator_South</defName>
   <thing>FT_CitadelGenerator</thing>
   <rotation>South</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_FloorDeco_FT_BlocksConcrete</defName>
   <thing>FTC_FloorDeco</thing>
   <stuff>FT_BlocksConcrete</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.StructureLayoutDef>
+<KCSG.StructureLayoutDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_CitadelBunkerStart_B</defName>
   <spawnConduits>false</spawnConduits>
   <layouts>
@@ -815,74 +815,74 @@
   </modRequirements>
 </KCSG.StructureLayoutDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TurretAT_South</defName>
   <thing>FT_TurretAT</thing>
   <rotation>South</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_FloorDeco_BlocksMarble</defName>
   <thing>FTC_FloorDeco</thing>
   <stuff>BlocksMarble</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_FloorDecoC_BlocksMarble</defName>
   <thing>FTC_FloorDecoC</thing>
   <stuff>BlocksMarble</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TurretAT_North</defName>
   <thing>FT_TurretAT</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_Maxim4M_North</defName>
   <thing>FT_Maxim4M</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_HeavyChem_South</defName>
   <thing>FT_HeavyChem</thing>
   <rotation>South</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_transformer_North</defName>
   <thing>FT_transformer</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_Barrier_West</defName>
   <thing>FT_Barrier</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_RecoillessGun_South</defName>
   <thing>FT_RecoillessGun</thing>
   <rotation>South</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TableLathe_North</defName>
   <thing>FT_TableLathe</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_CitadelGenerator_North</defName>
   <thing>FT_CitadelGenerator</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_CitadelWall_Embrasure_FT_BlocksConcrete</defName>
   <thing>FTC_CitadelWall_Embrasure</thing>
   <stuff>FT_BlocksConcrete</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.StructureLayoutDef>
+<KCSG.StructureLayoutDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_CitadelBunkerStart_C</defName>
   <spawnConduits>false</spawnConduits>
   <layouts>
@@ -1282,126 +1282,126 @@
   </modRequirements>
 </KCSG.StructureLayoutDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_Wall_MG_South</defName>
   <thing>FTC_Wall_MG</thing>
   <rotation>South</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_CitadelWall_FT_ReinforcedConcreteBag</defName>
   <thing>FTC_CitadelWall</thing>
   <stuff>FT_ReinforcedConcreteBag</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_FloorDecoC_FT_BlocksConcrete</defName>
   <thing>FTC_FloorDecoC</thing>
   <stuff>FT_BlocksConcrete</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_Wall_MG_East</defName>
   <thing>FTC_Wall_MG</thing>
   <rotation>East</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_Radio_East</defName>
   <thing>FT_Radio</thing>
   <rotation>East</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_ArcFurnace_South</defName>
   <thing>FT_ArcFurnace</thing>
   <rotation>South</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_FuelGenerator_East</defName>
   <thing>FT_FuelGenerator</thing>
   <rotation>East</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_Wall_MG_West</defName>
   <thing>FTC_Wall_MG</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TableConcreteMixer_North</defName>
   <thing>FT_TableConcreteMixer</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_FloorDecoC_D_FT_BlocksConcrete</defName>
   <thing>FTC_FloorDecoC_D</thing>
   <stuff>FT_BlocksConcrete</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TurretQuadAA_West</defName>
   <thing>FT_TurretQuadAA</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_EnegryDecoy</defName>
   <thing>FTC_EnegryDecoy</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_Turret_Mortar_North</defName>
   <thing>FT_Turret_Mortar</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_InfrasonicDecoy</defName>
   <thing>FTC_InfrasonicDecoy</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_FieldKitchen_North</defName>
   <thing>FTC_FieldKitchen</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_SignalDecoy</defName>
   <thing>FTC_SignalDecoy</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TurretAT_East</defName>
   <thing>FT_TurretAT</thing>
   <rotation>East</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_Maxim4M_East</defName>
   <thing>FT_Maxim4M</thing>
   <rotation>East</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_CitadelGenerator_West</defName>
   <thing>FT_CitadelGenerator</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_FloorDeco_BlocksSlate</defName>
   <thing>FTC_FloorDeco</thing>
   <stuff>BlocksSlate</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_Wall_MG_North</defName>
   <thing>FTC_Wall_MG</thing>
 </KCSG.SymbolDef>
 
-<KCSG.StructureLayoutDef>
+<KCSG.StructureLayoutDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_CitadelBunkerStart_D</defName>
   <isStorage>true</isStorage>
   <spawnConduits>false</spawnConduits>
@@ -1622,52 +1622,52 @@
   </modRequirements>
 </KCSG.StructureLayoutDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TurretHexMortar_West</defName>
   <thing>FT_TurretHexMortar</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_CitadelWall_Embrasure_FT_ReinforcedConcreteBag</defName>
   <thing>FTC_CitadelWall_Embrasure</thing>
   <stuff>FT_ReinforcedConcreteBag</stuff>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_RecoillessGun_West</defName>
   <thing>FT_RecoillessGun</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_FirefoamPopper</defName>
   <thing>FT_FirefoamPopper</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_FieldKitchen_East</defName>
   <thing>FTC_FieldKitchen</thing>
   <rotation>East</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TableConcreteMixer_West</defName>
   <thing>FT_TableConcreteMixer</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_HeavyChem_North</defName>
   <thing>FT_HeavyChem</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_Wall_Howitzer_North</defName>
   <thing>FTC_Wall_Howitzer</thing>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>Corpse_Human</defName>
   <pawnKindDef>Mercenary_Elite</pawnKindDef>
   <spawnPartOfFaction>false</spawnPartOfFaction>
@@ -1678,7 +1678,7 @@
   <spawnFilthAround>true</spawnFilthAround>
 </KCSG.SymbolDef>
 
-<KCSG.StructureLayoutDef>
+<KCSG.StructureLayoutDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FTC_CitadelBunkerStart_E</defName>
   <isStorage>true</isStorage>
   <spawnConduits>false</spawnConduits>
@@ -1982,19 +1982,19 @@
   </modRequirements>
 </KCSG.StructureLayoutDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_TurretAT_West</defName>
   <thing>FT_TurretAT</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_AutoCannon_West</defName>
   <thing>FT_AutoCannon</thing>
   <rotation>West</rotation>
 </KCSG.SymbolDef>
 
-<KCSG.SymbolDef>
+<KCSG.SymbolDef MayRequire="oskarpotocki.vanillafactionsexpanded.core">
   <defName>FT_Radio_South</defName>
   <thing>FT_Radio</thing>
   <rotation>South</rotation>

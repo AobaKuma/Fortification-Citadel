@@ -1,40 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-	<name>Fortification Industrial - Citadel</name>
-	<author>AobaKuma</author>
-	<modIconPath IgnoreIfNoMatchingField="True">UI/NaraLogo</modIconPath>
-	<supportedVersions>
-		<li>1.3</li>
-		<li>1.4</li>
-		<li>1.5</li>
-		<li>1.6</li>
-	</supportedVersions>
-		<packageId>Aoba.Fortress.Industrial.Citadel</packageId>
-	<description>
-we made our colony a Fortress,a casket made by concrete
-we put our cannons into casket made by concrete, and we aim safely form inside.
-we lure the enemy into casket made by concrete, welcoming them with gunfire.
-we live in the casket made by concrete ,protect us form the threat outside
-Our burial are those Mechanoid , Insectoid and of course, those social parasite
-after we died , we will live in the casket made by concrete.
-	</description>
-  <modDependencies>
-  <li>
-    <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-    <displayName>Vanilla Expanded Framework</displayName>
-    <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
-    <downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
-  </li>
-   <li>
-    <packageId>Aoba.Fortress.Industrial</packageId>
-    <displayName>Fortifications - Industrial</displayName>
-    <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2561619583</steamWorkshopUrl>
-   </li>
-  </modDependencies>
+  <name>Fortification Industrial - Citadel</name>
+  <author>AobaKuma</author>
+  <modIconPath IgnoreIfNoMatchingField="True">UI/NaraLogo</modIconPath>
+  <supportedVersions>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <packageId>Aoba.Fortress.Industrial.Citadel</packageId>
+  <description>
+    we made our colony a Fortress,a casket made by concrete
+    we put our cannons into casket made by concrete, and we aim safely form inside.
+    we lure the enemy into casket made by concrete, welcoming them with gunfire.
+    we live in the casket made by concrete ,protect us form the threat outside
+    Our burial are those Mechanoid , Insectoid and of course, those social parasite
+    after we died , we will live in the casket made by concrete.
+  </description>
+  <modDependenciesByVersion>
+    <v1.3>
+      <li>
+        <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+        <displayName>Vanilla Expanded Framework</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+        <downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
+      </li>
+      <li>
+        <packageId>Aoba.Fortress.Industrial</packageId>
+        <displayName>Fortifications - Industrial</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2561619583</steamWorkshopUrl>
+      </li>
+    </v1.3>
+    <v1.4>
+      <li>
+        <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+        <displayName>Vanilla Expanded Framework</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+        <downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
+      </li>
+      <li>
+        <packageId>Aoba.Fortress.Industrial</packageId>
+        <displayName>Fortifications - Industrial</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2561619583</steamWorkshopUrl>
+      </li>
+    </v1.4>
+    <v1.5>
+      <li>
+        <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+        <displayName>Vanilla Expanded Framework</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+        <downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
+      </li>
+      <li>
+        <packageId>Aoba.Fortress.Industrial</packageId>
+        <displayName>Fortifications - Industrial</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2561619583</steamWorkshopUrl>
+      </li>
+    </v1.5>
+    <v1.6>
+      <li>
+        <packageId>Aoba.Fortress.Industrial</packageId>
+        <displayName>Fortifications - Industrial</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2561619583</steamWorkshopUrl>
+      </li>
+    </v1.6>
+  </modDependenciesByVersion>
   <loadAfter>
-	  <li>vanillaexpanded.achievements</li>
+    <li>vanillaexpanded.achievements</li>
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-	  <li>Aoba.Fortress.Industrial</li>
+    <li>Aoba.Fortress.Industrial</li>
   </loadAfter>
 </ModMetaData>

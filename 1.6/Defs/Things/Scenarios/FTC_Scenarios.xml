@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>  
-  <ScenarioDef ParentName="ScenarioBase">
+  <ScenarioDef ParentName="ScenarioBase" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
     <defName>FTC_LostFortress</defName>
     <label>Abandoned frontline</label>
     <description>You and the other two discovered this bunker while searching for a place to settle, the facility inside were relatively intact. No matter why the bunker was abandoned, you all decided to settle it here.</description>

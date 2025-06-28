@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
-
   <WorkGiverDef>
     <defName>FT_OperateFurnace</defName>
     <label>Operate furnace</label>
-    <giverClass>WorkGiver_DoBill</giverClass>
+    <giverClass>Fortified.WorkGiver_DoAutonomousBill</giverClass>
     <workType>Hauling</workType>
     <priorityInType>125</priorityInType>
     <fixedBillGiverDefs>
@@ -23,6 +22,8 @@
     <defName>FT_ArcFurnace</defName>
     <label>electirc arc furnace</label>
     <description>A heavy machinery that recycles all sort of metallic pieces into steel, will generates a lot of heat.</description>
+    <thingClass>Fortified.Building_WorkTableAutonomous</thingClass>
+    <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>Things/ArcFurnace/building</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -40,7 +41,7 @@
     <staticSunShadowHeight>0.50</staticSunShadowHeight>
     <costList>
       <Steel>750</Steel>
-	  <FT_ConcreteCompressed>16</FT_ConcreteCompressed>
+      <FT_ConcreteCompressed>16</FT_ConcreteCompressed>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <statBases>
@@ -49,12 +50,10 @@
       <Flammability>0</Flammability>
       <Cleanliness>-2</Cleanliness>
     </statBases>
-	  <recipes>
-		  <li>FT_ExtractSteelByJunks</li>
-		  <li>FT_ExtractSteelByJunksPlus</li>
-		  <!-- <li>FT_Make_ConcreteCompressed</li>	中世紀大修聯動,將鐵礦煉成鐵 -->
-		  <!-- <li>FT_Make_ConcreteCompressed</li>	中世紀大修聯動,將鐵煉成鋼鐵 -->
-	  </recipes>
+    <recipes>
+      <li>FT_ExtractSteelByJunks</li>
+      <li>FT_ExtractSteelByJunksPlus</li>
+    </recipes>
     <size>(4,4)</size>
     <pathCost>200</pathCost>
     <interactionCellOffset>(0,0,-2)</interactionCellOffset>
@@ -64,6 +63,7 @@
         <compClass>CompPowerTrader</compClass>
         <shortCircuitInRain>true</shortCircuitInRain>
         <basePowerConsumption>1200</basePowerConsumption>
+        <idlePowerDraw>250</idlePowerDraw>
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
@@ -72,7 +72,7 @@
     </comps>
     <researchPrerequisites>
       <li>Smithing</li>
-	    <li>Electricity</li>
+      <li>Electricity</li>
     </researchPrerequisites>
     <placeWorkers>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
@@ -82,7 +82,7 @@
   <WorkGiverDef>
     <defName>FT_OperateAutoChem</defName>
     <label>Operate pyrolysis plant</label>
-    <giverClass>WorkGiver_DoBill</giverClass>
+    <giverClass>Fortified.WorkGiver_DoAutonomousBill</giverClass>
     <workType>Hauling</workType>
     <priorityInType>145</priorityInType>
     <fixedBillGiverDefs>
@@ -100,6 +100,8 @@
     <defName>FT_HeavyChem</defName>
     <label>pyrolysis plant</label>
     <description>A heavy machinery that recycles all sort of organic pieces into chemfuel, will generates a lot of heat.</description>
+    <thingClass>Fortified.Building_WorkTableAutonomous</thingClass>
+    <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>Things/AutoChem/building</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -117,7 +119,7 @@
     <staticSunShadowHeight>0.50</staticSunShadowHeight>
     <costList>
       <Steel>500</Steel>
-	    <FT_ConcreteCompressed>12</FT_ConcreteCompressed>
+      <FT_ConcreteCompressed>12</FT_ConcreteCompressed>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <statBases>
@@ -126,11 +128,11 @@
       <Flammability>0</Flammability>
       <Cleanliness>-2</Cleanliness>
     </statBases>
-	  <recipes>
-		  <li>FT_ExtractChemFuelByJunks</li>
-		  <li>FT_ExtractChemFuelByJunksPlus</li>
+    <recipes>
+      <li>FT_ExtractChemFuelByJunks</li>
+      <li>FT_ExtractChemFuelByJunksPlus</li>
       <li>FT_ExtractChemFuelByCorpses</li>
-	  </recipes>
+    </recipes>
     <size>(4,4)</size>
     <pathCost>200</pathCost>
     <interactionCellOffset>(0,0,-2)</interactionCellOffset>
@@ -140,6 +142,7 @@
         <compClass>CompPowerTrader</compClass>
         <shortCircuitInRain>true</shortCircuitInRain>
         <basePowerConsumption>1500</basePowerConsumption>
+        <idlePowerDraw>250</idlePowerDraw>
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
@@ -147,7 +150,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-	    <li>Electricity</li>
+      <li>Electricity</li>
       <li>FT_Chemistry</li>
     </researchPrerequisites>
     <placeWorkers>
@@ -253,13 +256,13 @@
     <size>(7,3)</size>
     <building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
-	  <deconstructible>false</deconstructible>
-	  <claimable>true</claimable>
+      <deconstructible>false</deconstructible>
+      <claimable>true</claimable>
     </building>
     <costList>
       <Steel>200</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
-	  <FT_ConcreteCompressed>10</FT_ConcreteCompressed>	  
+      <FT_ConcreteCompressed>10</FT_ConcreteCompressed>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -277,12 +280,12 @@
             <li>Chemfuel</li>
           </thingDefs>
         </fuelFilter>
-		<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
-		<initialConfigurableTargetFuelLevel>600</initialConfigurableTargetFuelLevel>
-		<autoRefuelPercent>0.8</autoRefuelPercent>
-		<drawFuelGaugeInMap>true</drawFuelGaugeInMap>
-		<showFuelGizmo>true</showFuelGizmo>
-		<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <initialConfigurableTargetFuelLevel>600</initialConfigurableTargetFuelLevel>
+        <autoRefuelPercent>0.8</autoRefuelPercent>
+        <drawFuelGaugeInMap>true</drawFuelGaugeInMap>
+        <showFuelGizmo>true</showFuelGizmo>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>10</glowRadius>
@@ -292,7 +295,7 @@
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>30</heatPerSecond>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Breakdownable" />
       <li Class="CompProperties_Explosive">
         <explosiveRadius>0</explosiveRadius>
         <explosiveExpandPerFuel>0.005</explosiveExpandPerFuel>
@@ -329,8 +332,8 @@
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
-  
-   <ThingDef ParentName="BenchBase">
+
+  <ThingDef ParentName="BenchBase">
     <defName>FTC_FieldKitchen</defName>
     <label>field kitchen</label>
     <description>A mobile kitchen that can cook meal outside the field but it's only have few selection, require chemfuel or wood as fuel.</description>
@@ -405,12 +408,12 @@
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-		<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
-		<initialConfigurableTargetFuelLevel>50</initialConfigurableTargetFuelLevel>
-		<autoRefuelPercent>0.8</autoRefuelPercent>
-		<drawFuelGaugeInMap>true</drawFuelGaugeInMap>
-		<showFuelGizmo>true</showFuelGizmo>
-		<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <initialConfigurableTargetFuelLevel>50</initialConfigurableTargetFuelLevel>
+        <autoRefuelPercent>0.8</autoRefuelPercent>
+        <drawFuelGaugeInMap>true</drawFuelGaugeInMap>
+        <showFuelGizmo>true</showFuelGizmo>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
@@ -422,5 +425,5 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
   </ThingDef>
-  
+
 </Defs>	
