@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
+  <EffecterDef>
+    <defName>FTC_ProductionDone</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>Smoke</fleckDef>
+        <burstCount>4~9</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>0.5~1</scale>
+        <positionRadius>2</positionRadius>
+        <rotationRate>-5~5</rotationRate>
+        <speed>.1~.2</speed>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>FTC_Producting</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <moteDef>Mote_SparkThrown</moteDef>
+        <positionLerpFactor>0.49</positionLerpFactor>
+        <chancePerTick>0.1</chancePerTick>
+        <scale>0.24~0.5</scale>
+        <airTime>0.01~0.075</airTime>
+        <rotationRate>-240~240</rotationRate>
+        <speed>7.2~16</speed>
+        <angle>0~360</angle>
+        <positionRadius>0.02</positionRadius>
+        <spawnLocType>OnTarget</spawnLocType>
+      </li>
+    </children>
+  </EffecterDef>
+
   <WorkGiverDef>
     <defName>FT_OperateFurnace</defName>
     <label>Operate furnace</label>
@@ -77,6 +112,25 @@
     <placeWorkers>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
+    <modExtensions>
+      <li Class="Fortified.ModExtension_AutoWorkTable">
+        <workAmountPerStage>20000</workAmountPerStage>
+        <phaseEffecter_east>FTC_Producting</phaseEffecter_east>
+        <phaseEffecter_west>FTC_Producting</phaseEffecter_west>
+        <phaseEffecter_north>FTC_Producting</phaseEffecter_north>
+        <phaseEffecter_south>FTC_Producting</phaseEffecter_south>
+        <doneEffecter_east>FTC_ProductionDone</doneEffecter_east>
+        <doneEffecter_west>FTC_ProductionDone</doneEffecter_west>
+        <doneEffecter_north>FTC_ProductionDone</doneEffecter_north>
+        <doneEffecter_south>FTC_ProductionDone</doneEffecter_south>
+        <skills>
+          <li>
+            <key>Crafting</key>
+            <value>12</value>
+          </li>
+        </skills>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <WorkGiverDef>
@@ -156,6 +210,25 @@
     <placeWorkers>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
+    <modExtensions>
+      <li Class="Fortified.ModExtension_AutoWorkTable">
+        <workAmountPerStage>20000</workAmountPerStage>
+        <phaseEffecter_east>FTC_Producting</phaseEffecter_east>
+        <phaseEffecter_west>FTC_Producting</phaseEffecter_west>
+        <phaseEffecter_north>FTC_Producting</phaseEffecter_north>
+        <phaseEffecter_south>FTC_Producting</phaseEffecter_south>
+        <doneEffecter_east>FTC_ProductionDone</doneEffecter_east>
+        <doneEffecter_west>FTC_ProductionDone</doneEffecter_west>
+        <doneEffecter_north>FTC_ProductionDone</doneEffecter_north>
+        <doneEffecter_south>FTC_ProductionDone</doneEffecter_south>
+        <skills>
+          <li>
+            <key>Crafting</key>
+            <value>12</value>
+          </li>
+        </skills>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">

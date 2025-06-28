@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <Defs>
-
   <RecipeDef>
     <defName>FT_ExtractChemFuelByCorpses</defName>
     <label>pyrolyzing corpses (360)</label>
@@ -9,7 +7,7 @@
     <ingredientValueGetterClass>Fortified.IngredientValueGetter_Mass</ingredientValueGetterClass>
     <jobString>pyrolyzing chemfuel from material</jobString>
     <allowMixingIngredients>true</allowMixingIngredients>
-    <workAmount>400</workAmount>
+    <workAmount>20000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
@@ -51,7 +49,7 @@
     <ingredientValueGetterClass>Fortified.IngredientValueGetter_Mass</ingredientValueGetterClass>
     <jobString>pyrolyzing chemfuel from material</jobString>
     <allowMixingIngredients>true</allowMixingIngredients>
-    <workAmount>400</workAmount>
+    <workAmount>4000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
@@ -122,7 +120,7 @@
     <ingredientValueGetterClass>Fortified.IngredientValueGetter_Mass</ingredientValueGetterClass>
     <jobString>pyrolyzing chemfuel from material</jobString>
     <allowMixingIngredients>true</allowMixingIngredients>
-    <workAmount>400</workAmount>
+    <workAmount>28000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
@@ -189,7 +187,7 @@
     <ingredientValueGetterClass>Fortified.IngredientValueGetter_Mass</ingredientValueGetterClass>
     <jobString>extracting metal from material</jobString>
     <allowMixingIngredients>true</allowMixingIngredients>
-    <workAmount>400</workAmount>
+    <workAmount>9000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
@@ -205,6 +203,7 @@
           </disallowedCategories>
           <thingDefs>
             <li>ChunkSlagSteel</li>
+            <li>ChunkMechanoidSlag</li>
           </thingDefs>
         </filter>
         <count>8</count>
@@ -218,6 +217,7 @@
       </categories>
       <thingDefs>
         <li>ChunkSlagSteel</li>
+        <li>ChunkMechanoidSlag</li>
       </thingDefs>
       <specialFiltersToDisallow>
         <li>AllowNonSmeltableWeapons</li>
@@ -239,6 +239,7 @@
 			</disallowedCategories>
       <thingDefs>
         <li>ChunkSlagSteel</li>
+        <li>ChunkMechanoidSlag</li>
       </thingDefs>
       <disallowedThingDefs>
         <li>Apparel_ShieldBelt</li>
@@ -258,7 +259,7 @@
     <ingredientValueGetterClass>Fortified.IngredientValueGetter_Mass</ingredientValueGetterClass>
     <jobString>extracting metal from material</jobString>
     <allowMixingIngredients>true</allowMixingIngredients>
-    <workAmount>800</workAmount>
+    <workAmount>36000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
@@ -275,6 +276,7 @@
           </disallowedCategories>
           <thingDefs>
             <li>ChunkSlagSteel</li>
+            <li>ChunkMechanoidSlag</li>
           </thingDefs>
         </filter>
         <count>32</count>
@@ -288,6 +290,7 @@
       </categories>
       <thingDefs>
         <li>ChunkSlagSteel</li>
+        <li>ChunkMechanoidSlag</li>
       </thingDefs>
       <specialFiltersToDisallow>
         <li>AllowNonSmeltableWeapons</li>
@@ -308,6 +311,7 @@
 
       <thingDefs>
         <li>ChunkSlagSteel</li>
+        <li>ChunkMechanoidSlag</li>
       </thingDefs>
       <disallowedThingDefs>
         <li>Apparel_ShieldBelt</li>
