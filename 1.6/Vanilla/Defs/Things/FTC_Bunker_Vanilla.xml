@@ -616,7 +616,7 @@
   	</ThingDef>
 
 	<!-- Wall Mounted Flame Bunker -->
-	<ThingDef ParentName="FTC_BasePermanentBunker" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+	<ThingDef ParentName="FTC_BasePermanentBunker" MayRequireAnyOf="oskarpotocki.vanillafactionsexpanded.core,oskarpotocki.vanillafactionsexpanded.core_steam">
 		<defName>FTC_Wall_Flame</defName>
 		<label>flamethrower bunker</label>
 		<description>a manned stationary flame thrower bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
@@ -679,7 +679,7 @@
       		</li>
 		</comps>
   	</ThingDef>
- 	<ThingDef ParentName="BaseWeaponTurret" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+ 	<ThingDef ParentName="BaseWeaponTurret" MayRequireAnyOf="oskarpotocki.vanillafactionsexpanded.core,oskarpotocki.vanillafactionsexpanded.core_steam">
 		<defName>FTC_Wall_Flame_Gun</defName>
 		<label>flame thrower</label>
 		<description>flame thrower mounted inside the bunker.</description>
@@ -719,7 +719,7 @@
 		</verbs>
 	</ThingDef>
 
-	<VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+	<VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet" MayRequireAnyOf="oskarpotocki.vanillafactionsexpanded.core,oskarpotocki.vanillafactionsexpanded.core_steam">
 		<defName>FT_Bullet_InfernoSpewer</defName>
 		<label>inferno spewer shot</label>
 		<thingClass>VEF.Weapons.FlamethrowProjectile</thingClass>
