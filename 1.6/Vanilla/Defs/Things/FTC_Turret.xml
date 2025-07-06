@@ -192,6 +192,7 @@
 	<pathCost>50</pathCost>
 	<fillPercent>0.75</fillPercent>
 	<tickerType>Normal</tickerType>
+	<designationCategory>Security</designationCategory>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<placeWorkers>
 		<li>PlaceWorker_TurretTop</li>
