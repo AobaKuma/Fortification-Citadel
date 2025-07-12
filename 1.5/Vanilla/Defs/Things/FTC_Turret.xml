@@ -192,6 +192,7 @@
 	<pathCost>50</pathCost>
 	<fillPercent>0.75</fillPercent>
 	<tickerType>Normal</tickerType>
+	<designationCategory>Security</designationCategory>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<placeWorkers>
 		<li>PlaceWorker_TurretTop</li>
@@ -335,7 +336,7 @@
         <requireLineOfSight>true</requireLineOfSight>
         <isMortar>true</isMortar>
         <warmupTime>2</warmupTime>
-        <minRange>7.9</minRange>
+        <minRange>11.9</minRange>
         <ai_AvoidFriendlyFireRadius>4</ai_AvoidFriendlyFireRadius>
         <range>62</range>
         <burstShotCount>2</burstShotCount>
