@@ -4,7 +4,7 @@
 
     <!-- 碉堡類，進入後可控制指令，耗電 -->
   <ThingDef ParentName="FTC_BasePermanentTurret" Name="FTC_BasePermanentBunker" Abstract="True">
-  	<thingClass>Fortified.Building_TurretCapacityCE</thingClass>
+  	<thingClass>FortifiedCE.Building_TurretCapacityCE</thingClass>
     <stealable>false</stealable>
 	<passability>PassThroughOnly</passability>
 	<coversFloor>true</coversFloor>
