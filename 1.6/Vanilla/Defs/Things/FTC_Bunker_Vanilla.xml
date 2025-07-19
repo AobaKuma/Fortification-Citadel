@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-
     <!-- 碉堡類，進入後可控制指令，耗電 -->
   <ThingDef ParentName="FTC_BasePermanentTurret" Name="FTC_BasePermanentBunker" Abstract="True">
     <stealable>false</stealable>
@@ -21,7 +20,7 @@
 	</modExtensions>
   </ThingDef>
 
-<!-- MG Bunker -->
+	<!-- MG Bunker -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Bunker_Turret</defName>
 		<label>quad machinegun bunker</label>
@@ -218,7 +217,7 @@
 		</verbs>
 	</ThingDef>
 
-<!-- Anti Tank Turret Bunker -->
+	<!-- Anti Tank Turret Bunker -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_AntiTank_Turret</defName>
 		<label>Tank Bunker</label><!-- 戰車砲塔工事 -->
@@ -406,7 +405,7 @@
  	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Batterey_Gun</defName>
 		<label>coastal artillery</label>
-		<description>a navy gun turret, two operater is required to man this gun.</description>
+		<description>a navy gun turret. In the past era of sea power, the scope of a country's territorial waters was the maximum range of its coastal defense artillery.</description>
 		<graphicData>
 		<texPath>Things/CoastalArtillery/ArtilleryBunker_gun</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -480,7 +479,7 @@
 		</projectile>
   	</ThingDef>
 	
-<!-- Mortar Bunker -->
+	<!-- Mortar Bunker -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Mortar_Bunker</defName>
 		<label>mortar bunker</label>
@@ -853,7 +852,7 @@
 		</verbs>
 	</ThingDef>
 	
-<!-- AT Wall Mounted Bunker -->
+	<!-- AT Wall Mounted Bunker -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_AT</defName>
 		<label>ATgun bunker</label>
@@ -1039,7 +1038,6 @@
 			</li>-->
 		</comps>
   	</ThingDef>
-	
  	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Wall_Howitzer_Turret</defName>
 		<label>coastal artillery</label>
