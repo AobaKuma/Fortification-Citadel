@@ -84,7 +84,7 @@
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>0.7</recoilAmount>
+				<recoilAmount>0.41</recoilAmount>
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
@@ -175,7 +175,7 @@
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>1.5</recoilAmount>
+				<recoilAmount>0.3</recoilAmount>
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>True</hasStandardCommand>
 				<defaultProjectile>Bullet_20x110mmHispano_AP</defaultProjectile>
@@ -470,13 +470,15 @@
 		<graphicData>
 			<texPath>Things/RangeFinderStational/Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
 			<drawSize>6</drawSize>
 			<drawOffset>(0,0,0.1)</drawOffset>
 			<color>(160,160,160)</color>
 		</graphicData>
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<size>(5,5)</size>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
 		<pathCost>200</pathCost>
 		<statBases>
@@ -812,7 +814,7 @@
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>0.7</recoilAmount>
+				<recoilAmount>0.41</recoilAmount>
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
