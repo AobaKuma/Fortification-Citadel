@@ -16,7 +16,7 @@
 		<tickerType>Normal</tickerType>
 		<fillPercent>0.85</fillPercent>
 		<statBases>
-			<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>2.25</ShootingAccuracyTurret>
 			<AimingAccuracy>1.5</AimingAccuracy>
 		</statBases>
 		<comps>
@@ -57,8 +57,20 @@
 			<MaxHitPoints>2500</MaxHitPoints>
 			<WorkToBuild>7500</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>2.25</ShootingAccuracyTurret>
 		</statBases>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>0.3</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<costList>
 			<Steel>250</Steel>
 			<ComponentIndustrial>8</ComponentIndustrial>
@@ -68,8 +80,8 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_TwinMG_Gun</turretGunDef>
 			<turretTopDrawSize>3</turretTopDrawSize>		 
-			<turretBurstWarmupTime>0.20</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
-			<turretBurstCooldownTime>0.75</turretBurstCooldownTime>
+			<turretBurstWarmupTime>1</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstCooldownTime>0.09</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>FTC_TurretBunker</li>
@@ -88,7 +100,7 @@
 		<statBases>
 			<SightsEfficiency>2.5</SightsEfficiency>
 			<ShotSpread>0.15</ShotSpread>
-			<SwayFactor>1.55</SwayFactor>
+			<SwayFactor>0.78</SwayFactor>
 			<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -97,10 +109,8 @@
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-				<!--<warmupTime>4</warmupTime>-->
-				<warmupTime>2</warmupTime>
+				<warmupTime>1</warmupTime>
 				<range>67</range>
-				<!--<burstShotCount>20</burstShotCount>-->
 				<burstShotCount>25</burstShotCount>
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<soundCast>GunShotA</soundCast>
@@ -148,8 +158,20 @@
 			<MaxHitPoints>2500</MaxHitPoints>
 			<WorkToBuild>7500</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.98</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>2.25</ShootingAccuracyTurret>
 		</statBases>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>0.3</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<costList>
 			<Steel>275</Steel>
 			<ComponentIndustrial>5</ComponentIndustrial>
@@ -160,8 +182,8 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Autocannon_Gun</turretGunDef>
 			<turretTopDrawSize>3</turretTopDrawSize>		 
-			<turretBurstWarmupTime>0.20</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
-			<turretBurstCooldownTime>1.25</turretBurstCooldownTime>
+			<turretBurstWarmupTime>1.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstCooldownTime>0.30</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>FTC_TurretBunker</li>
@@ -180,7 +202,7 @@
 			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
 			<SightsEfficiency>2.5</SightsEfficiency>
 			<ShotSpread>0.01</ShotSpread>
-			<SwayFactor>1.20</SwayFactor>
+			<SwayFactor>0.6</SwayFactor>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -189,7 +211,7 @@
 				<hasStandardCommand>True</hasStandardCommand>
 				<defaultProjectile>Bullet_20x110mmHispano_AP</defaultProjectile>
 				<!--<warmupTime>5</warmupTime>-->
-				<warmupTime>2.5</warmupTime>
+				<warmupTime>1.25</warmupTime>
 				<range>90</range>
 				<!--<burstShotCount>8</burstShotCount>-->
 				<burstShotCount>6</burstShotCount>

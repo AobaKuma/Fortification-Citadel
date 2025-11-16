@@ -35,7 +35,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<speed>0</speed>
+			<speed>81</speed>
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>337</damageAmountBase>
 			<explosionRadius>4</explosionRadius>
@@ -59,6 +59,7 @@
 		<defName>Bullet_FT_132mmM13_HE</defName>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<flyOverhead>true</flyOverhead>
+			<speed>0</speed>
 			<shellingProps>
 				<iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
 				<tilesPerTick>0.35</tilesPerTick>

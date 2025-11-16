@@ -37,8 +37,8 @@
 		</comps>
 		<statBases>
 			<Bulk>1000</Bulk>
-			<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
-			<AimingAccuracy>1.0</AimingAccuracy>
+			<ShootingAccuracyTurret>4.5</ShootingAccuracyTurret>
+			<AimingAccuracy>1.5</AimingAccuracy>
 			<Beauty>-5</Beauty>
 		</statBases>
 		<building>
@@ -320,19 +320,26 @@
 			<li>FT_HeavyArtillery</li>
 		</researchPrerequisites>
 		<comps>
-			<li MayRequire="3HSTltd.Framework">
-				<compClass>BillDoorsFramework.CompTurretFix</compClass>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
 			</li>
-		</comps>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>0.167</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<statBases>
 			<MaxHitPoints>1000</MaxHitPoints>
 			<Flammability>0.2</Flammability>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-20</Beauty>
-			<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>1.5</ShootingAccuracyTurret>
 			<AimingAccuracy>1.0</AimingAccuracy>
 		</statBases>
-		<specialDisplayRadius>40</specialDisplayRadius>
+		<!--<specialDisplayRadius>40</specialDisplayRadius>-->
 		<costList>
 			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
 			<Steel>475</Steel>
@@ -340,7 +347,7 @@
 		</costList>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<building>
-			<turretBurstWarmupTime>2.0</turretBurstWarmupTime>
+			<turretBurstWarmupTime>1.5</turretBurstWarmupTime>
 			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
 			<turretTopDrawSize>4</turretTopDrawSize>	
 			<turretGunDef>FTC_Katyusha_Gun</turretGunDef>
@@ -358,26 +365,26 @@
 			<drawSize>(4,4)</drawSize>
   		</graphicData>
 		<statBases>
-			<SightsEfficiency>0.5</SightsEfficiency>
-			<ShotSpread>3</ShotSpread>
+			<SightsEfficiency>250</SightsEfficiency>
+			<ShotSpread>2</ShotSpread>
 			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass><!--射角最高45度-->
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
-				<defaultProjectile>Bullet_FT_132mmM13_HE</defaultProjectile>
-				<warmupTime>3</warmupTime>
-				<minRange>40</minRange>
-				<range>1000</range>
+				<defaultProjectile>Bullet_FT_132mmM13_HE_directfire</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<minRange>14.5</minRange>
+				<range>118.5</range>
 				<burstShotCount>16</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<soundCast>FT_NebelShot</soundCast>
 				<muzzleFlashScale>39</muzzleFlashScale>
 				<circularError>1.5</circularError>
-				<indirectFirePenalty>0.2</indirectFirePenalty>
+				<!--<indirectFirePenalty>0.2</indirectFirePenalty>-->
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -388,7 +395,7 @@
 				<magazineSize>16</magazineSize>
 				<reloadTime>3.75</reloadTime>
 				<reloadOneAtATime>true</reloadOneAtATime>
-				<ammoSet>AmmoSet_FT_132mmM13</ammoSet>      
+				<ammoSet>AmmoSet_FT_132mmM13_directfire</ammoSet>      
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
 				<aimedBurstShotCount>8</aimedBurstShotCount>
@@ -413,73 +420,12 @@
 				<burstSpeedRange>(1,1.5)</burstSpeedRange><!--Fleck的飛行速度隨機區間-->
 				<burstOffsetRange>(1,1.5)</burstOffsetRange> <!--Fleck的生成位置偏移旋轉中心點的距離區間-->
 			</li>
-			<li MayRequire="3HSTltd.Framework" Class="CombatExtended.CompProperties_FireModes">
-				<aiUseBurstMode>false</aiUseBurstMode>
-			</li>
-			<li MayRequire="3HSTltd.Framework" Class="BillDoorsFramework.CompProperties_SecondaryAmmo">
-				<secondaryVerb>
-					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofMortarCE</verbClass>
-					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-					<hasStandardCommand>true</hasStandardCommand>
-					<defaultProjectile>Bullet_FT_132mmM13_HE_directfire</defaultProjectile>
-					<warmupTime>3</warmupTime>
-					<minRange>20</minRange>
-					<range>1000</range>
-					<burstShotCount>16</burstShotCount>
-					<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
-					<soundCast>FT_NebelShot</soundCast>
-					<muzzleFlashScale>39</muzzleFlashScale>
-					<targetParams>
-						<canTargetLocations>true</canTargetLocations>
-					</targetParams>
-					<recoilPattern>Mounted</recoilPattern>
-					<recoilAmount>0.0</recoilAmount>
-					<indirectFirePenalty>0</indirectFirePenalty>
-					<!--<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>-->
-					<!--<requireLineOfSight>false</requireLineOfSight>-->
-				</secondaryVerb>
-				<secondaryAmmoProps>
-					<magazineSize>16</magazineSize>
-					<reloadTime>3.75</reloadTime>
-					<reloadOneAtATime>true</reloadOneAtATime>
-					<ammoSet>AmmoSet_FT_132mmM13_directfire</ammoSet>   
-				</secondaryAmmoProps>
-				<mainWeaponLabel>indirect fire</mainWeaponLabel>
-				<secondaryWeaponLabel>direct fire</secondaryWeaponLabel>
-				<description>switch firing mode</description>
-				<mainCommandIcon>Indirect</mainCommandIcon>
-				<secondaryCommandIcon>Direct</secondaryCommandIcon>
-				<secondaryWeaponChargeSpeeds>
-							<li>30</li>
-							<li>50</li>
-							<li>70</li>
-							<li>90</li>
-							<li>110</li>
-							<li>130</li>
-				</secondaryWeaponChargeSpeeds>
-			</li>
-			<li Class="CombatExtended.CompProperties_Charges">
-				<chargeSpeeds>
-							<li>30</li>
-							<li>50</li>
-							<li>70</li>
-							<li>90</li>
-							<li>110</li>
-							<li>130</li>
-				</chargeSpeeds>
-			</li>
 		</comps>
-		<modExtensions>
-            <li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof" MayRequire="3HSTltd.Framework">
-                <appliesInSecondaryMode>false</appliesInSecondaryMode>
-            </li>
-        </modExtensions>
   	</ThingDef>
 
 	<!-- 雙聯裝重型防空炮 -->
 	<ThingDef ParentName="FTC_BasePermanentTurret_Mannable">
 		<defName>FTC_TurretTwinHeavyFlak</defName>
-		<thingClass>CombatExtended.Building_CIWS_CE</thingClass>
 		<label>Twin Heavy flak gun</label>
 		<description>A pair of high caliber flak been lay flat to engage ground target.</description>
 		<graphicData>
@@ -508,9 +454,19 @@
 			<basePowerConsumption>1000</basePowerConsumption>
 		  </li>
 		  <li Class="CompProperties_Flickable"/>
-		</comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>0.167</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<building>
-			<turretBurstWarmupTime>3.0</turretBurstWarmupTime>
+			<turretBurstWarmupTime>1.5</turretBurstWarmupTime>
 			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretTopDrawSize>7</turretTopDrawSize>
@@ -553,8 +509,8 @@
 				<recoilAmount>0</recoilAmount>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_128x958mmR_HE</defaultProjectile>
-				<warmupTime>3</warmupTime>
-				<minRange>12</minRange>
+				<warmupTime>1.5</warmupTime>
+				<minRange>11.5</minRange>
 				<range>110</range>
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -565,21 +521,6 @@
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<recoilPattern>Mounted</recoilPattern>
-			</li>
-			<li Class="CombatExtended.VerbProperties_CIWSSkyfaller">
-				<verbClass>CombatExtended.VerbCIWSSkyfaller</verbClass>
-				<recoilAmount>0</recoilAmount>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_128x958mmR_HE</defaultProjectile>
-				<warmupTime>0.1</warmupTime>
-				<range>1000</range>
-				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-				<burstShotCount>2</burstShotCount>
-				<soundCast>120mm</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>32</muzzleFlashScale>
-				<recoilPattern>Mounted</recoilPattern>
-				<holdFireLabel>HoldCloseInSkyfallersFire</holdFireLabel>
 			</li>
 		</verbs>
 		<comps>

@@ -21,9 +21,13 @@
 			<li Class="Fortified.ForceTargetableExtension" />
 		</modExtensions>
 		<statBases>
-			<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>2.25</ShootingAccuracyTurret>
 			<AimingAccuracy>1.5</AimingAccuracy>
 		</statBases>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+		</placeWorkers>	
 	</ThingDef>
 
 	<!-- Quad MG Bunker -->
@@ -50,8 +54,20 @@
 			<MaxHitPoints>2000</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>2.25</ShootingAccuracyTurret>
 		</statBases>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>1</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<costList>
 			<Steel>250</Steel>
 			<ComponentIndustrial>9</ComponentIndustrial>
@@ -60,8 +76,8 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Bunker_Gun</turretGunDef>
-			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>
-			<turretBurstCooldownTime>0.75</turretBurstCooldownTime>
+			<turretBurstWarmupTime>0.5</turretBurstWarmupTime>
+			<turretBurstCooldownTime>0.07</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
@@ -80,7 +96,7 @@
 			<SightsEfficiency>1</SightsEfficiency>
 			<ShotSpread>0.2</ShotSpread>
 			<SwayFactor>1.67</SwayFactor>
-			<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.07</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -88,7 +104,7 @@
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-				<warmupTime>1</warmupTime>
+				<warmupTime>0.5</warmupTime>
 				<range>62</range>
 				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 				<burstShotCount>20</burstShotCount>
@@ -140,8 +156,20 @@
 			<MaxHitPoints>2000</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>2.25</ShootingAccuracyTurret>
 		</statBases>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>1.167</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<costList>
 			<Steel>275</Steel>
 			<ComponentIndustrial>6</ComponentIndustrial>
@@ -151,8 +179,8 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Autocannon_Bunker_Gun</turretGunDef>
-			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>
-			<turretBurstCooldownTime>1</turretBurstCooldownTime>
+			<turretBurstWarmupTime>0.63</turretBurstWarmupTime>
+			<turretBurstCooldownTime>0.25</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
@@ -171,7 +199,7 @@
 			<SightsEfficiency>1</SightsEfficiency>
 			<ShotSpread>0.01</ShotSpread>
 			<SwayFactor>1.26</SwayFactor>
-			<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.25</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -179,7 +207,7 @@
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>True</hasStandardCommand>
 				<defaultProjectile>Bullet_20x110mmHispano_AP</defaultProjectile>
-				<warmupTime>1.25</warmupTime>
+				<warmupTime>0.63</warmupTime>
 				<range>86</range>
 				<minRange>1.5</minRange>
 				<burstShotCount>6</burstShotCount>
@@ -227,8 +255,20 @@
 			<MaxHitPoints>2500</MaxHitPoints>
 			<WorkToBuild>7500</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>1.25</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>2.25</ShootingAccuracyTurret>
 		</statBases>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>0.4</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<costList>
 			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
 			<Steel>525</Steel>
@@ -238,8 +278,8 @@
 		<building>
 			<turretGunDef>FTC_AntiTank_Gun</turretGunDef>
 			<turretTopDrawSize>5</turretTopDrawSize>
-			<turretBurstWarmupTime>1.75</turretBurstWarmupTime>
-			<turretBurstCooldownTime>5.0</turretBurstCooldownTime>
+			<turretBurstWarmupTime>0.75</turretBurstWarmupTime>
+			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
 			<turretTopOffset>(0,0.1)</turretTopOffset>
 		</building>
 		<researchPrerequisites>
@@ -258,7 +298,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<RangedWeapon_Cooldown>5.3</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 			<SightsEfficiency>2.18</SightsEfficiency>
 			<ShotSpread>0.01</ShotSpread>
 			<SwayFactor>1.34</SwayFactor>
@@ -268,7 +308,7 @@
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_762x385mmRCannonShell_HE</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
+				<warmupTime>0.75</warmupTime>
 				<range>110</range>
 				<soundCast>FT_CannonLaunchA</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -277,7 +317,7 @@
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<recoilPattern>Mounted</recoilPattern>
-				<minRange>5.2</minRange>
+				<minRange>4.5</minRange>
 			</li>
 		</verbs>
 		<comps>
@@ -321,9 +361,20 @@
 			<MaxHitPoints>4000</MaxHitPoints>
 			<WorkToBuild>12500</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>1.85</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>2.25</ShootingAccuracyTurret>
 		</statBases>
-		<specialDisplayRadius>20</specialDisplayRadius>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>0.167</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<costList>
 			<Steel>600</Steel>
 			<ReinforcedBarrel>3</ReinforcedBarrel>
@@ -334,8 +385,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Batterey_Gun</turretGunDef>
 			<turretTopDrawSize>7</turretTopDrawSize>
-			<turretBurstWarmupTime>2.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間
-			================-->
+			<turretBurstWarmupTime>4</turretBurstWarmupTime>   <!--================冷卻與瞄準時間================-->
 			<turretBurstCooldownTime>7.5</turretBurstCooldownTime>
 		</building>
 		<placeWorkers Inherit="false">
@@ -347,9 +397,6 @@
 			<li>FTC_TurretBunker</li>
 		</researchPrerequisites>
 		<comps>
-			<li MayRequire="3HSTltd.Framework">
-				<compClass>BillDoorsFramework.CompTurretFix</compClass>
-			</li>
 		</comps>
 	</ThingDef>
 
@@ -369,12 +416,12 @@
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_FT_155mmHowitzerShell_HE_directfire</defaultProjectile>
+				<defaultProjectile>Bullet_FT_155mmHowitzerShell_HE</defaultProjectile>
 				<warmupTime>4</warmupTime>
-				<minRange>20</minRange>
+				<minRange>59.5</minRange>
 				<range>1000</range>
 				<soundCast>FT_CannonLaunchC</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -392,68 +439,26 @@
 				<magazineSize>25</magazineSize>
 				<reloadTime>4</reloadTime>
 				<reloadOneAtATime>true</reloadOneAtATime>
-				<ammoSet>AmmoSet_FT_155mmHowitzerShell_directfire</ammoSet>
+				<ammoSet>AmmoSet_FT_155mmHowitzerShell</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
 				<noSingleShot>false</noSingleShot>
 				<aiAimMode>AimedShot</aiAimMode>
 			</li>
-			<!--<li
-			Class="CombatExtended.CompProperties_Charges">
-				<chargeSpeeds>
-					<li>100</li>
-					<li>120</li>
-					<li>140</li>
-					<li>160</li>
-					<li>180</li>
-					<li>200</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds><!--105mm大约8段发射药包--><!--弹速下限30-->
+					<li>60</li><!--1-->
+					<li>80</li><!--2-->
+					<li>100</li><!--3-->
+					<li>120</li><!--4-->
+					<li>140</li><!--5-->
+					<li>160</li><!--6-->
+					<li>180</li><!--7-->
+					<li>200</li><!--8-->
 				</chargeSpeeds>
-			</li>-->
-			<li MayRequire="3HSTltd.Framework" Class="BillDoorsFramework.CompProperties_SecondaryAmmo">
-				<secondaryVerb>
-					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofMortarCE</verbClass>
-					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-					<hasStandardCommand>true</hasStandardCommand>
-					<defaultProjectile>Bullet_FT_155mmHowitzerShell_HE_directfire</defaultProjectile>
-					<warmupTime>4</warmupTime>
-					<minRange>14.9</minRange>
-					<range>1000</range>
-					<soundCast>FT_CannonLaunchC</soundCast>
-					<soundCastTail>GunTail_Heavy</soundCastTail>
-					<muzzleFlashScale>32</muzzleFlashScale>
-					<targetParams>
-						<canTargetLocations>true</canTargetLocations>
-					</targetParams>
-					<indirectFirePenalty>0</indirectFirePenalty>
-					<recoilPattern>Mounted</recoilPattern>
-					<recoilAmount>0.0</recoilAmount>
-				</secondaryVerb>
-				<secondaryAmmoProps>
-					<magazineSize>25</magazineSize>
-					<reloadTime>4</reloadTime>
-					<reloadOneAtATime>true</reloadOneAtATime>
-					<ammoSet>AmmoSet_FT_155mmHowitzerShell_directfire</ammoSet>
-				</secondaryAmmoProps>
-				<mainWeaponLabel>indirect fire</mainWeaponLabel>
-				<secondaryWeaponLabel>direct fire</secondaryWeaponLabel>
-				<description>switch firing mode</description>
-				<mainCommandIcon>Indirect</mainCommandIcon>
-				<secondaryCommandIcon>Direct</secondaryCommandIcon>
-				<!--<secondaryWeaponChargeSpeeds>
-					<li>100</li>
-					<li>120</li>
-					<li>140</li>
-					<li>160</li>
-					<li>180</li>
-					<li>200</li>
-				</secondaryWeaponChargeSpeeds>-->
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof"
-				MayRequire="3HSTltd.Framework">
-				<appliesInSecondaryMode>false</appliesInSecondaryMode>
-			</li>
 		</modExtensions>
 	</ThingDef>
 
@@ -485,9 +490,21 @@
 			<MaxHitPoints>4000</MaxHitPoints>
 			<WorkToBuild>12500</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>10</ShootingAccuracyTurret>
-			<AimingAccuracy>10</AimingAccuracy>
+			<ShootingAccuracyTurret>4.5</ShootingAccuracyTurret>
+			<AimingAccuracy>1.5</AimingAccuracy>
 		</statBases>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>0.5</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<costList>
 			<Steel>650</Steel>
 			<ComponentIndustrial>10</ComponentIndustrial>
@@ -497,9 +514,8 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_SpotterBunker_Gun</turretGunDef>
 			<turretTopDrawSize>7</turretTopDrawSize>
-			<turretBurstWarmupTime>2.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間
-			================-->
-			<turretBurstCooldownTime>7.5</turretBurstCooldownTime>
+			<turretBurstWarmupTime>4</turretBurstWarmupTime>   <!--================冷卻與瞄準時間================-->
+			<turretBurstCooldownTime>1</turretBurstCooldownTime>
 		</building>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
@@ -521,7 +537,7 @@
 		</graphicData>
 		<statBases>
 			<SightsEfficiency>5</SightsEfficiency>
-			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -530,7 +546,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
 				<defaultProjectile>Bullet_Dummy</defaultProjectile>
-				<warmupTime>5</warmupTime>
+				<warmupTime>4</warmupTime>
 				<range>1000</range>
 				<muzzleFlashScale>0</muzzleFlashScale>
 				<targetParams>
@@ -566,19 +582,29 @@
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
 		</statBases>
-		<specialDisplayRadius>30</specialDisplayRadius>
 		<costList>
 			<Steel>250</Steel>
 			<ReinforcedBarrel>1</ReinforcedBarrel>
 			<ComponentIndustrial>5</ComponentIndustrial>
 			<FT_ConcreteCompressed>5</FT_ConcreteCompressed>
 		</costList>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>1.25</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Bunker_Mortar</turretGunDef>
 			<turretTopDrawSize>1</turretTopDrawSize>
-			<turretBurstWarmupTime>3.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間
-			================-->
+			<turretBurstWarmupTime>3.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間================-->
 			<turretBurstCooldownTime>5</turretBurstCooldownTime>
 		</building>
 		<placeWorkers Inherit="false">
@@ -590,13 +616,6 @@
 			<li>FT_HeavyArtillery</li>
 		</researchPrerequisites>
 		<comps>
-			<!--<li
-			MayRequire="VanillaExpanded.VFESecurity"
-			Class="VFESecurity.CompProperties_LongRangeArtillery">
-			<worldTileRange>5</worldTileRange>
-			<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
-			<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
-			</li>-->
 		</comps>
 	</ThingDef>
 	<ThingDef ParentName="BaseWeaponTurret">
@@ -617,7 +636,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_81mmMortarShell_HE</defaultProjectile>
 				<warmupTime>3.5</warmupTime>
-				<minRange>30</minRange>
+				<minRange>29.5</minRange>
 				<range>1000</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>Mortar_LaunchA</soundCast>
@@ -642,11 +661,14 @@
 				<aiAimMode>AimedShot</aiAimMode>
 			</li>
 			<li Class="CombatExtended.CompProperties_Charges">
-				<chargeSpeeds>
-					<li>30</li>
-					<li>50</li>
-					<li>70</li>
-					<li>90</li>
+				<chargeSpeeds><!--81mm大约0~6个发射药圈--><!--弹速下限30-->
+					<li>35</li><!--0-->
+					<li>45</li><!--1-->
+					<li>55</li><!--2-->
+					<li>65</li><!--3-->
+					<li>75</li><!--4-->
+					<li>85</li><!--5-->
+					<li>95</li><!--6-->
 				</chargeSpeeds>
 			</li>
 		</comps>
@@ -670,6 +692,7 @@
 			<drawOffset>(0,0.01,0)</drawOffset>
 			<color>(160,160,160)</color>
 		</graphicData>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<size>(3,2)</size>
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
@@ -683,11 +706,23 @@
 			<ComponentIndustrial>3</ComponentIndustrial>
 			<FT_ConcreteCompressed>4</FT_ConcreteCompressed>
 		</costList>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>1.25</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Wall_Flame_Gun</turretGunDef>
-			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>
-			<turretBurstCooldownTime>0.5</turretBurstCooldownTime>
+			<turretBurstWarmupTime>0.5</turretBurstWarmupTime>
+			<turretBurstCooldownTime>0.17</turretBurstCooldownTime>
 		</building>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
@@ -709,14 +744,14 @@
 			<SightsEfficiency>1</SightsEfficiency>
 			<ShotSpread>1.0</ShotSpread>
 			<SwayFactor>1.0</SwayFactor>
-			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.17</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_FT_Flamethrower_Napalm</defaultProjectile>
-				<warmupTime>1</warmupTime>
+				<warmupTime>0.5</warmupTime>
 				<range>15.5</range>
 				<minRange>1.5</minRange>
 				<burstShotCount>10</burstShotCount>
@@ -769,6 +804,7 @@
 			<drawOffset>(0,0.01,0)</drawOffset>
 			<color>(160,160,160)</color>
 		</graphicData>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<size>(3,2)</size>
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
@@ -776,8 +812,20 @@
 			<MaxHitPoints>1750</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>2.25</ShootingAccuracyTurret>
 		</statBases>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>1.25</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<costList>
 			<Steel>250</Steel>
 			<ComponentIndustrial>9</ComponentIndustrial>
@@ -786,9 +834,8 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Wall_MG_Gun</turretGunDef>
-			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間
-			================-->
-			<turretBurstCooldownTime>0.75</turretBurstCooldownTime>
+			<turretBurstWarmupTime>0.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間================-->
+			<turretBurstCooldownTime>0.67</turretBurstCooldownTime>
 		</building>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
@@ -810,7 +857,7 @@
 			<SightsEfficiency>1</SightsEfficiency>
 			<ShotSpread>0.2</ShotSpread>
 			<SwayFactor>1.67</SwayFactor>
-			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.67</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -818,7 +865,7 @@
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-				<warmupTime>1</warmupTime>
+				<warmupTime>0.5</warmupTime>
 				<range>62</range>
 				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 				<burstShotCount>20</burstShotCount>
@@ -860,6 +907,7 @@
 			<drawOffset>(0,0.01,0)</drawOffset>
 			<color>(160,160,160)</color>
 		</graphicData>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<size>(3,2)</size>
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
@@ -867,8 +915,20 @@
 			<MaxHitPoints>1750</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>2.25</ShootingAccuracyTurret>
 		</statBases>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
+			</li>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>0.6</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 		<costList>
 			<Steel>350</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
@@ -878,9 +938,8 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Wall_AT_Gun</turretGunDef>
-			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>   <!--================冷卻與瞄準時間
-			================-->
-			<turretBurstCooldownTime>2</turretBurstCooldownTime>
+			<turretBurstWarmupTime>0.75</turretBurstWarmupTime>   <!--================冷卻與瞄準時間================-->
+			<turretBurstCooldownTime>1</turretBurstCooldownTime>
 		</building>
 		<placeWorkers Inherit="false">
 			<li>PlaceWorker_TurretTop</li>
@@ -901,7 +960,7 @@
 		</graphicData>
 		<statBases>
 			<SightsEfficiency>1</SightsEfficiency>
-			<RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 			<ShotSpread>0.01</ShotSpread>
 			<SwayFactor>1.05</SwayFactor>
 		</statBases>
@@ -910,7 +969,7 @@
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_FT_37x223mmR_Canister</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
+				<warmupTime>0.75</warmupTime>
 				<minRange>3.9</minRange>
 				<range>95</range>
 				<soundCast>FT_CannonLaunchA</soundCast>
@@ -953,7 +1012,7 @@
 			<drawSize>4</drawSize>
 			<drawOffset>(0,0.01,0)</drawOffset>
 		</graphicData>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<size>(3,2)</size>
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
@@ -963,7 +1022,7 @@
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
 		</statBases>
-		<specialDisplayRadius>30</specialDisplayRadius>
+		<!--<specialDisplayRadius>30</specialDisplayRadius>-->
 		<costList>
 			<FT_ConcreteCompressed>5</FT_ConcreteCompressed>
 			<Steel>500</Steel>
@@ -974,7 +1033,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Wall_Howitzer_Turret</turretGunDef>
 			<turretTopDrawSize>4</turretTopDrawSize>
-			<turretBurstWarmupTime>3.5</turretBurstWarmupTime>
+			<turretBurstWarmupTime>4</turretBurstWarmupTime>
 			<turretBurstCooldownTime>5</turretBurstCooldownTime>
 		</building>
 		<placeWorkers Inherit="false">
@@ -989,10 +1048,17 @@
 		</researchPrerequisites>
 		<comps>
 			<li Class="CompProperties_Flickable" />
-			<li MayRequire="3HSTltd.Framework">
-				<compClass>BillDoorsFramework.CompTurretFix</compClass>
+			<li Class="CombatExtended.CompProperties_FireArc">
+				<spanRange>10~360</spanRange>
+				<maxSpanDeviation>180</maxSpanDeviation>
 			</li>
-		</comps>
+        </comps>
+        <modExtensions>
+			<li Class="CombatExtended.NonSnapTurretExtension">
+				<speed>0.4</speed>
+				<angleWeightMultiplier>2</angleWeightMultiplier>
+			</li>
+        </modExtensions>
 	</ThingDef>
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Wall_Howitzer_Turret</defName>
@@ -1005,8 +1071,6 @@
 		<statBases>
 			<SightsEfficiency>2.5</SightsEfficiency>
 			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
-			<ShotSpread MayRequire="3HSTltd.Framework">0.01</ShotSpread>
-			<SwayFactor MayRequire="3HSTltd.Framework">0.05</SwayFactor>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -1016,7 +1080,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
 				<warmupTime>4</warmupTime>
-				<minRange>50</minRange>
+				<minRange>49.5</minRange>
 				<range>1000</range>
 				<soundCast>FT_CannonLaunchB</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -1036,60 +1100,13 @@
 				<reloadTime>3</reloadTime>
 				<ammoSet>AmmoSet_FT_105mmHowitzerShell</ammoSet>
 			</li>
-			<!--<li
-			Class="CombatExtended.CompProperties_Charges">
-				<chargeSpeeds>
-					<li>55</li>
-					<li>75</li>
-					<li>95</li>
-					<li>115</li>
-					<li>135</li>
-					<li>155</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds><!--105mm大约4种尺寸发射药包--><!--弹速下限30-->
+					<li>50</li><!--S-->
+					<li>80</li><!--M-->
+					<li>110</li><!--L-->
+					<li>140</li><!--XL-->
 				</chargeSpeeds>
-			</li>-->
-			<li MayRequire="3HSTltd.Framework" Class="CombatExtended.CompProperties_FireModes">
-				<aiUseBurstMode>false</aiUseBurstMode>
-			</li>
-			<li MayRequire="3HSTltd.Framework"
-				Class="BillDoorsFramework.CompProperties_SecondaryAmmo">
-				<secondaryVerb>
-					<verbClass>BillDoorsFramework.Verb_ShootNotUnderRoofMortarCE</verbClass>
-					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-					<hasStandardCommand>true</hasStandardCommand>
-					<requireLineOfSight>false</requireLineOfSight>
-					<defaultProjectile>Bullet_FT_105mmHowitzerShell_HE_directfire</defaultProjectile>
-					<warmupTime>4</warmupTime>
-					<minRange>14.9</minRange>
-					<range>1000</range>
-					<soundCast>FT_CannonLaunchB</soundCast>
-					<soundCastTail>GunTail_Heavy</soundCastTail>
-					<muzzleFlashScale>25</muzzleFlashScale>
-					<targetParams>
-						<canTargetLocations>true</canTargetLocations>
-					</targetParams>
-					<indirectFirePenalty>0</indirectFirePenalty>
-					<recoilPattern>Mounted</recoilPattern>
-					<recoilAmount>0.0</recoilAmount>
-				</secondaryVerb>
-				<secondaryAmmoProps>
-					<magazineSize>40</magazineSize>
-					<reloadOneAtATime>true</reloadOneAtATime>
-					<reloadTime>3</reloadTime>
-					<ammoSet>AmmoSet_FT_105mmHowitzerShell_directfire</ammoSet>
-				</secondaryAmmoProps>
-				<mainWeaponLabel>indirect fire</mainWeaponLabel>
-				<secondaryWeaponLabel>direct fire</secondaryWeaponLabel>
-				<description>switch firing mode</description>
-				<mainCommandIcon>Indirect</mainCommandIcon>
-				<secondaryCommandIcon>Direct</secondaryCommandIcon>
-				<!--<secondaryWeaponChargeSpeeds>
-					<li>55</li>
-					<li>75</li>
-					<li>95</li>
-					<li>115</li>
-					<li>135</li>
-					<li>155</li>
-				</secondaryWeaponChargeSpeeds>-->
 			</li>
 		</comps>
 		<modExtensions>
@@ -1099,10 +1116,6 @@
 				<offsets>
 					<li>(1.5,0)</li>
 				</offsets>
-			</li>
-			<li Class="BillDoorsFramework.ModExtension_VerbNotUnderRoof"
-				MayRequire="3HSTltd.Framework">
-				<appliesInSecondaryMode>false</appliesInSecondaryMode>
 			</li>
 		</modExtensions>
 	</ThingDef>
