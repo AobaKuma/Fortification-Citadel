@@ -101,7 +101,7 @@
 			<SightsEfficiency>2.5</SightsEfficiency>
 			<ShotSpread>0.15</ShotSpread>
 			<SwayFactor>0.78</SwayFactor>
-			<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.09</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -199,7 +199,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
 			<SightsEfficiency>2.5</SightsEfficiency>
 			<ShotSpread>0.01</ShotSpread>
 			<SwayFactor>0.6</SwayFactor>
