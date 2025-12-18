@@ -371,11 +371,11 @@
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<verbClass>CombatExtended.Verb_ShootCE</verbClass><!--射角最高45度-->
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass><!--射角最高45度-->
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
-				<defaultProjectile>Bullet_FT_132mmM13_HE_directfire</defaultProjectile>
+				<defaultProjectile>Bullet_FT_132mmM13_HE</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<minRange>14.5</minRange>
 				<range>118.5</range>
@@ -395,7 +395,7 @@
 				<magazineSize>16</magazineSize>
 				<reloadTime>3.75</reloadTime>
 				<reloadOneAtATime>true</reloadOneAtATime>
-				<ammoSet>AmmoSet_FT_132mmM13_directfire</ammoSet>      
+				<ammoSet>AmmoSet_FT_132mmM13</ammoSet>      
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
 				<aimedBurstShotCount>8</aimedBurstShotCount>
