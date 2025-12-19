@@ -299,8 +299,8 @@
 <!-- BM-13 -->
  	<ThingDef ParentName="FTC_BasePermanentTurret_Mannable">
 		<defName>FTC_Katyusha_Turret</defName>
-		<label>multi-railed rocket Launcher</label>
-		<description>A manned stationary rocket launcher with eight rails, each of which can attach 2 rockets, can shoot sixteen shells at one time, however, it's far from accurate and consumes a huge amount of chemfuel each time it fires.</description>
+		<label>multi-railed rocket launcher</label>
+		<description>A crew-served, stationary rocket artillery system featuring eight launch rails with dual-rocket mounts. Fires a sixteen-rocket saturation salvo before requiring a full reload.</description>
 		<graphicData>
 			<texPath>Things/TurretArtillery_Base</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -358,8 +358,8 @@
 
   	<ThingDef ParentName="BaseArtilleryWeapon"> 
 		<defName>FTC_Katyusha_Gun</defName>
-		<label>multi-railed rocket</label>
-		<description>A railed rocket launcher. Lobs rocket shells over walls. Very inaccurate but mass-amount.</description>
+		<label>multi-railed rocket launcher</label>
+		<description>Rail-mounted rocket launcher for indirect fire. Highly inaccurate, but devastating in large salvos.</description>
 	    <graphicData>
 			<texPath>Things/RailedLauncher</texPath>
 			<drawSize>(4,4)</drawSize>
@@ -375,7 +375,7 @@
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
-				<defaultProjectile>Bullet_FT_132mmM13_HE</defaultProjectile>
+				<defaultProjectile>Bullet_FT_132mmM13_HE_arty</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<minRange>14.5</minRange>
 				<range>118.5</range>
@@ -395,7 +395,7 @@
 				<magazineSize>16</magazineSize>
 				<reloadTime>3.75</reloadTime>
 				<reloadOneAtATime>true</reloadOneAtATime>
-				<ammoSet>AmmoSet_FT_132mmM13</ammoSet>      
+				<ammoSet>AmmoSet_FT_132mmM13_arty</ammoSet>      
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
 				<aimedBurstShotCount>8</aimedBurstShotCount>

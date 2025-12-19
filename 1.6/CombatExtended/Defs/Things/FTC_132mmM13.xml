@@ -6,7 +6,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_FT_132mmM13</defName>
-		<label>132mm M13 Rockets</label>
+		<label>132mm M13 rockets</label>
 		<ammoTypes>
 			<Ammo_132mmM13_HE>Bullet_FT_132mmM13_HE</Ammo_132mmM13_HE>
 		</ammoTypes>
@@ -14,22 +14,23 @@
 	</CombatExtended.AmmoSetDef>
 	
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_FT_132mmM13_directfire</defName>
-		<label>132mm M13 Rockets</label>
+		<defName>AmmoSet_FT_132mmM13_arty</defName>
+		<label>132mm M13 rockets</label>
 		<ammoTypes>
-			<Ammo_132mmM13_HE>Bullet_FT_132mmM13_HE_directfire</Ammo_132mmM13_HE>
+			<Ammo_132mmM13_HE>Bullet_FT_132mmM13_HE_arty</Ammo_132mmM13_HE>
 		</ammoTypes>
 		<isMortarAmmoSet>true</isMortarAmmoSet>
 	</CombatExtended.AmmoSetDef>
 
   <!-- ================== Projectiles ================== -->
   
-	<!-- direct fire-->
+	<!-- indirect fire (on map)-->
 	
 	<ThingDef Name="BaseFTBase132mmM13_HE" Class="CombatExtended.AmmoDef" ParentName="Base130mmType63">
-		<defName>Bullet_FT_132mmM13_HE_directfire</defName>
+		<defName>Bullet_FT_132mmM13_HE_arty</defName>
+		<description>132mm heavy rocket typically used in multi-rail rocket artillery launchers.</description>
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
-		<label>132mm M13 Rocket (HE)</label>
+		<label>132mm M13 rocket (HE-Frag)</label>
 		<graphicData>
 			<texPath>Things/Projectile/Rocket/132mmM13</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -40,20 +41,20 @@
 			<damageAmountBase>337</damageAmountBase>
 			<explosionRadius>4</explosionRadius>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			<flyOverhead>false</flyOverhead>
+			<flyOverhead>true</flyOverhead>
 			<gravityFactor>20</gravityFactor>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_Fragments">
 				<fragments>
-					<Fragment_Large>40</Fragment_Large>
-					<Fragment_Small>80</Fragment_Small>
+					<Fragment_Large>43</Fragment_Large>
+					<Fragment_Small>67</Fragment_Small>
 				</fragments>
 			</li>
 		</comps>
 	</ThingDef>
 	
-	<!-- indirect fire-->
+	<!-- indirect fire (off-map)-->
 	
 	<ThingDef ParentName="BaseFTBase132mmM13_HE">
 		<defName>Bullet_FT_132mmM13_HE</defName>
