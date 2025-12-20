@@ -63,7 +63,7 @@
 			<speed>0</speed>
 			<shellingProps>
 				<iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
-				<tilesPerTick>0.35</tilesPerTick>
+				<tilesPerTick>0.12</tilesPerTick>
 				<range>20</range>
 				<damage>0.23</damage>
 			</shellingProps>
