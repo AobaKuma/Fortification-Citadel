@@ -16,8 +16,8 @@
   <!-- SandBag -->
   <ThingDef ParentName="FTC_DecorationBase">
     <defName>FTC_SandBag1x2c</defName>
-    <label>stack sandbag (1x2)</label>
-    <description>A stockpile of sandbags, can provide a tough cover or be used as decoration in the colony.</description>
+    <label>stacked sandbags (1x2)</label>
+    <description>A neat stack of sandbags, can provide resilient cover or be used as decoration in the colony.</description>
     <surfaceType>Item</surfaceType>
     <graphicData>
       <texPath>Things/StackSandbag/1x2c</texPath>
@@ -64,8 +64,8 @@
   </ThingDef>
     <ThingDef ParentName="FTC_DecorationBase">
     <defName>FTC_SandBag2x2c</defName>
-    <label>stack sandbag (2x2)</label>
-    <description>A stockpile of sandbags, can provide a tough cover or be used as decoration in the colony.</description>
+    <label>stacked sandbags (2x2)</label>
+    <description>A neat stack of sandbags, can provide resilient cover or be used as decoration in the colony.</description>
     <surfaceType>Item</surfaceType>
     <graphicData>
       <texPath>Things/StackSandbag/2x2c</texPath>
@@ -114,7 +114,7 @@
   <ThingDef ParentName="PowerConduit">
     <defName>FTC_PowerConduit</defName>
     <label>facility conduit</label>
-    <description>A bundle of electrical cables for moving power around inside fortifications. it's tough and lay beneath the floor so it also looks fine to people.</description>
+    <description>A bundle of electrical cables for moving power around inside fortifications. Its tough and laid beneath the floor, and neutral in terms of looks.</description>
     <graphicData>
       <texPath>Things/CitadelCable</texPath>
     </graphicData>
@@ -146,7 +146,7 @@
   <ThingDef ParentName="BuildingBase" Name="FTC_FloorDeco">
     <defName>FTC_FloorDeco</defName>
     <label>mosaic</label>
-    <description>A staggered decorative floor tiles that can make the people living in the bunker feel a little more beautiful.</description>
+    <description>A staggered decorative floor tile for beautifying bunker interiors. They are pretty to look at, but takes slightly long time to construct.</description>
     <thingClass>Building</thingClass>
     <category>Building</category>
     <graphicData>

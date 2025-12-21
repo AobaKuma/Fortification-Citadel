@@ -4,9 +4,9 @@
 <!--次声波诱导装置-->
   <ThingDef ParentName="BuildingBase">
     <defName>FTC_InfrasonicDecoy</defName>
-    <label>infrasonic Decoy</label>
+    <label>infrasonic decoy</label>
     <!--一种能够发出人类听不见频段声播的大型设施,能够将愤怒的动物与虫群诱导到设施所在的地区从而保护周围殖民地的安全,需要供电来确保运行.-->
-    <description>a facility which generating infrasound waves that induces angry animals and insectroid to the area where the facility is located to keep surrounding colonies safe, requiring electricity to operate.</description>
+    <description>A device that generates infrasonic waves to agitate animals and insectoids, drawing them toward its location and away from nearby colonies. The signals may also attract other hostile entities. Requires electricity to operate.</description>
     <graphicData>
       <texPath>Things/DecoyFacility_AnimalEvent</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -123,7 +123,7 @@
     <defName>FTC_SignalDecoy</defName>
     <label>electromagnetic signal decoy</label>
     <!--在能源充足的状况下对外播送伪装通讯与转发广播的讯号塔.只要在本地建造一座就能够隐藏周围殖民地的位置使袭击队伍无法找到.但由于其张扬的讯号广播使得没有找到目标的袭击者们会转而攻击广播塔所在的地区.-->
-    <description>a facility which broadcasts disguised communications and forwards broadcasts. can hide the location of surrounding colonies from raid, requiring electricity to operate.</description>
+    <description>A facility that broadcasts disguised signals and relays false communications, obscuring the locations of nearby colonies from raiders and instead lures them to this current location. Requires electricity to operate.</description>
     <graphicData>
       <texPath>Things/DecoyFacility_IndustrialEvent</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -220,9 +220,9 @@
  <!--高能量讯号伪装装置-->
   <ThingDef ParentName="BuildingBase">
     <defName>FTC_EnegryDecoy</defName>
-    <label>enegry signal decoy</label>
+    <label>high-energy signal decoy</label>
     <!--能够人为制造高能量讯号使得依靠能量反映选择目标的敌意实体会将其判断为优先目标,从而保护周围的殖民地不受到威胁.-->
-    <description>a facility which artificially create high-energy signals allows hostile entities that rely on energy reflection to select targets to identify them as a priority target, thereby protecting surrounding colonies from threats. requiring electricity to operate.</description>
+    <description>A facility that artificially generates high-energy signals, causing hostile entities that rely on energy reflection to identify it as a priority target, drawing threats away from surrounding colonies. Requires electricity to operate.</description>
     <graphicData>
       <texPath>Things/DecoyFacility_SpacerEvent</texPath>
       <graphicClass>Graphic_Single</graphicClass>

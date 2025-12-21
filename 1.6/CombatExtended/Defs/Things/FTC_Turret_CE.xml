@@ -39,14 +39,14 @@
 <!-- Twin MG Bunker -->
 	<ThingDef ParentName="FTC_BasePermanentTurret">
 		<defName>FTC_TwinMG_Turret</defName>
-		<label>machinegun turret</label><!-- 機槍砲塔工事 -->
-		<description>a fixed machine gun turret mounting on a half-buried concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
+		<label>twin machinegun turret bunker</label><!-- 機槍砲塔工事 -->
+		<description>A twin-linked machinegun turret mounted on a half-buried bunker.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.</description>
 		<uiIconPath>Things/TankBunkerLight/Turret_machineGun_Icon</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<graphicData>
 			<texPath>Things/TankBunkerLight/base</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>2</drawSize>
+			<drawSize>3</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(200,200,200)</color>
 		</graphicData>
@@ -91,8 +91,8 @@
 	<!--<ThingDef ParentName="BaseAutoTurretGun">-->
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_TwinMG_Gun</defName>
-		<label>machine gun turret</label>
-		<description>Twin machine gun mounted on an armoured turret.</description>
+		<label>twin machine gun</label>
+		<description>Twin-linked machine gun mounted on an armoured turret.</description>
 		<graphicData>
 			<texPath>Things/TankBunkerLight/tankTurret_machineGun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -113,7 +113,7 @@
 				<range>67</range>
 				<burstShotCount>25</burstShotCount>
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-				<soundCast>GunShotA</soundCast>
+				<soundCast>MediumMG</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<targetParams>
@@ -125,8 +125,8 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>2250</magazineSize>
-          		<reloadTime>8</reloadTime>
+				<magazineSize>1200</magazineSize>
+          		<reloadTime>7</reloadTime>
          		<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
@@ -135,19 +135,27 @@
           		<noSingleShot>true</noSingleShot>
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.MultiBarrelExtension">
+				<offsets>
+				<li>(-0.14,1.3)</li>
+				<li>(0.14,1.3)</li>
+				</offsets>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 <!-- AutoCannon Bunker -->
 	<ThingDef ParentName="FTC_BasePermanentTurret">
 		<defName>FTC_Autocannon_Turret</defName>
-		<label>autocannon turret</label><!-- 機砲砲塔工事 -->
-		<description>a fixed autocannon gun turret mounting on a half-buried concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
+		<label>autocannon turret bunker</label><!-- 機砲砲塔工事 -->
+		<description>A single barrel autocannon turret mounted on a half-buried bunker.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.</description>
 		<uiIconPath>Things/TankBunkerLight/Turret_autoCannon_Icon</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<graphicData>
 			<texPath>Things/TankBunkerLight/base</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>2</drawSize>
+			<drawSize>3</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(200,200,200)</color>
 		</graphicData>
@@ -192,8 +200,8 @@
 	<!--<ThingDef ParentName="BaseAutoTurretGun">-->
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Autocannon_Gun</defName>
-		<label>autocannon turret</label>
-		<description>an autocannon mounted on an armoured turret.</description>
+		<label>autocannon</label>
+		<description>A 20mm autocannon mounted on an armoured turret.</description>
 		<graphicData>
 			<texPath>Things/TankBunkerLight/tankTurret_autoCannon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -225,7 +233,7 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>260</magazineSize>
+				<magazineSize>140</magazineSize>
         	 	<reloadTime>8</reloadTime>
          		<ammoSet>AmmoSet_20x138mmB</ammoSet>
 			</li>
