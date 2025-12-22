@@ -117,7 +117,7 @@
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<targetParams>
-					<canTargetLocations>true</canTargetLocations>
+				<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<recoilPattern>Mounted</recoilPattern>
 				<minRange>1.5</minRange>

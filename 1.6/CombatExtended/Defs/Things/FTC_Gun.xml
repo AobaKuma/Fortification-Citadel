@@ -360,6 +360,7 @@
 		<defName>FTC_Katyusha_Gun</defName>
 		<label>multi-railed rocket launcher</label>
 		<description>Rail-mounted rocket launcher for indirect fire. Highly inaccurate, but devastating in large salvos.</description>
+		<soundInteract>Artillery_ShellLoaded</soundInteract>
 	    <graphicData>
 			<texPath>Things/RailedLauncher</texPath>
 			<drawSize>(4,4)</drawSize>
@@ -380,7 +381,7 @@
 				<minRange>14.5</minRange>
 				<range>118.5</range>
 				<burstShotCount>16</burstShotCount>
-				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>32</ticksBetweenBurstShots>
 				<soundCast>FT_NebelShot</soundCast>
 				<muzzleFlashScale>39</muzzleFlashScale>
 				<circularError>1.5</circularError>
@@ -421,6 +422,20 @@
 				<burstOffsetRange>(1,1.5)</burstOffsetRange> <!--Fleck的生成位置偏移旋轉中心點的距離區間-->
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.MultiBarrelExtension">
+				<offsets>
+					<li>0.09,0.1</li>
+					<li>0.32,0.1</li>
+					<li>0.55,0.1</li>
+					<li>0.75,0.1</li>	
+					<li>-0.09,0.1</li>
+					<li>-0.32,0.1</li>
+					<li>-0.55,0.1</li>
+					<li>-0.75,0.1</li>						
+				</offsets>
+			</li>		
+		</modExtensions>
   	</ThingDef>
 
 	<!-- 雙聯裝重型防空炮 -->
