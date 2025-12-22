@@ -67,7 +67,7 @@
   <ResearchProjectDef>
     <defName>FTC_PermanentBunker</defName>
     <label>Permanent fortifications</label>
-    <description>Unlock the construction of permanent fortifications, these concrete facilities were designed to be very resilient but non-deconstructible stationary weapons platforms. \n\n Even if war disappears from this world, they will remain there as derelict paramount weapons, for future generations to witness the war of the past.</description>
+    <description>Unlock the construction of permanent fortifications, these concrete facilities were designed to be very resilient but non-deconstructible stationary weapons platforms. \n\n Even if war disappears from this world, they will remain there as derelict weapons, for future generations to witness the war of the past.</description>
     <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>
     <tab>HeavyIndustry</tab>

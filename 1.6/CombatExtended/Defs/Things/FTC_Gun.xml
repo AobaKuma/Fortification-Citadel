@@ -366,9 +366,9 @@
 			<drawSize>(4,4)</drawSize>
   		</graphicData>
 		<statBases>
-			<SightsEfficiency>250</SightsEfficiency>
-			<ShotSpread>2</ShotSpread>
-			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>5.5</ShotSpread>
+			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -377,18 +377,18 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
 				<defaultProjectile>Bullet_FT_132mmM13_HE_arty</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
+				<warmupTime>3.5</warmupTime>
 				<minRange>14.5</minRange>
 				<range>118.5</range>
 				<burstShotCount>16</burstShotCount>
 				<ticksBetweenBurstShots>32</ticksBetweenBurstShots>
 				<soundCast>FT_NebelShot</soundCast>
 				<muzzleFlashScale>39</muzzleFlashScale>
-				<circularError>1.5</circularError>
-				<!--<indirectFirePenalty>0.2</indirectFirePenalty>-->
+				<!-- <circularError>1</circularError> -->
+				<indirectFirePenalty>0.2</indirectFirePenalty>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
-				</targetParams>
+				</targetParams>				
 			</li>
 		</verbs>
 		<comps>
@@ -401,7 +401,15 @@
 			<li Class="CombatExtended.CompProperties_FireModes">
 				<aimedBurstShotCount>8</aimedBurstShotCount>
 				<aiUseBurstMode>True</aiUseBurstMode>
-				<aiAimMode>SuppressFire</aiAimMode>	
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>20</li>
+					<li>30</li>
+					<li>40</li>
+					<li>50</li>
+					<li>65</li>
+				</chargeSpeeds>
 			</li>
 			<li Class="Fortified.CompProperties_CastFlecker"><!-- 後方揚塵-->
 				<fleck>DustPuffThick</fleck>
