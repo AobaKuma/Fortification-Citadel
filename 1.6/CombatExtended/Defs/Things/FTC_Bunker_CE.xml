@@ -706,7 +706,7 @@
 		</costList>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireArc">
-				<spanRange>10~90</spanRange>
+				<spanRange>10~135</spanRange>
 				<maxSpanDeviation>135</maxSpanDeviation>
 			</li>
         </comps>
@@ -821,7 +821,7 @@
 		</statBases>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireArc">
-				<spanRange>10~90</spanRange>
+				<spanRange>10~135</spanRange>
 				<maxSpanDeviation>135</maxSpanDeviation>
 			</li>
         </comps>
@@ -938,7 +938,7 @@
 		</statBases>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireArc">
-				<spanRange>10~90</spanRange>
+				<spanRange>10~135</spanRange>
 				<maxSpanDeviation>135</maxSpanDeviation>
 			</li>
         </comps>
