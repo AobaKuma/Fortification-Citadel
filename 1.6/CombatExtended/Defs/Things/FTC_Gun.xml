@@ -591,13 +591,13 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<!-- Might mess with targeting -->
-			<li Class="CombatExtended.MultiBarrelExtension">
+			<!-- Messes with targeting vehicles from Vehicle Framework. Commented out until fixed on CE side -->
+			<!--  <li Class="CombatExtended.MultiBarrelExtension">
 				<offsets>
 					<li>-0.68,0.0</li>
 					<li>0.68,0.0</li>
 				</offsets>
-			</li>
+			</li> -->
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
 				<def>MF_StandardMuzzleFalshTwo</def>
 				<drawSize>(8,6)</drawSize>
