@@ -785,7 +785,7 @@
 		<modExtensions>
 			<li Class="CombatExtended.MultiBarrelExtension">
 				<offsets>
-					<li>0.0,0.5</li>
+					<li>0.0,0.1</li>
 				</offsets>
 			</li>
 		</modExtensions>
