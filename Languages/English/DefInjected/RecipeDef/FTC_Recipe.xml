@@ -2,28 +2,28 @@
 <LanguageData>
 
   <FT_ExtractChemFuelByCorpses.label>Pyrolyze corpses (360)</FT_ExtractChemFuelByCorpses.label>
-  <FT_ExtractChemFuelByCorpses.description>Pyrolyze 360 kilograms of corpses (about 6 grown-up humans) into chemfuel. Corpses must be non-mechanical in nature.</FT_ExtractChemFuelByCorpses.description>
-  <FT_ExtractChemFuelByCorpses.jobString>Pyrolyzing chemfuel from materials</FT_ExtractChemFuelByCorpses.jobString>
+  <FT_ExtractChemFuelByCorpses.description>Pyrolyze 360 kilograms of corpses (approximately 6 adult humans) into chemfuel. Corpses must be organic.</FT_ExtractChemFuelByCorpses.description>
+  <FT_ExtractChemFuelByCorpses.jobString>pyrolyzing chemfuel from organic matter</FT_ExtractChemFuelByCorpses.jobString>
 
   <FT_ExtractChemFuelByJunks.label>Pyrolyze junk (4)</FT_ExtractChemFuelByJunks.label>
-  <FT_ExtractChemFuelByJunks.description>Pyrolyze 4 kilograms of organic junk into 7 chemfuel. Junk must consist of non-smeltable and burnable materials.</FT_ExtractChemFuelByJunks.description>
-  <FT_ExtractChemFuelByJunks.jobString>Pyrolyzing chemfuel from materials</FT_ExtractChemFuelByJunks.jobString>
+  <FT_ExtractChemFuelByJunks.description>Pyrolyze 4 kilograms of various material into 7 chemfuel. Junk must consist of non-smeltable and burnable materials.</FT_ExtractChemFuelByJunks.description>
+  <FT_ExtractChemFuelByJunks.jobString>pyrolyzing chemfuel from various materials</FT_ExtractChemFuelByJunks.jobString>
 
   <FT_ExtractChemFuelByJunksPlus.label>Pyrolyze junk (28)</FT_ExtractChemFuelByJunksPlus.label>
-  <FT_ExtractChemFuelByJunksPlus.description>Pyrolyze 28 kilograms of organic into 35 chemfuel. Junk must consist of non-smeltable and burnable materials.</FT_ExtractChemFuelByJunksPlus.description>
-  <FT_ExtractChemFuelByJunksPlus.jobString>Pyrolyzing chemfuel from materials</FT_ExtractChemFuelByJunksPlus.jobString>
+  <FT_ExtractChemFuelByJunksPlus.description>Pyrolyze 28 kilograms of various material into 35 chemfuel. Junk must consist of non-smeltable and burnable materials.</FT_ExtractChemFuelByJunksPlus.description>
+  <FT_ExtractChemFuelByJunksPlus.jobString>pyrolyzing chemfuel from various materials</FT_ExtractChemFuelByJunksPlus.jobString>
 
   <FT_ExtractSteelByJunks.label>Recycle junk (8)</FT_ExtractSteelByJunks.label>
   <FT_ExtractSteelByJunks.description>Smelt 8 kilograms of junk and extract resources. Junk must consist of smeltable materials.</FT_ExtractSteelByJunks.description>
-  <FT_ExtractSteelByJunks.jobString>Recycling metal from materials</FT_ExtractSteelByJunks.jobString>
+  <FT_ExtractSteelByJunks.jobString>recycling steel from materials</FT_ExtractSteelByJunks.jobString>
 
   <FT_ExtractSteelByJunksPlus.label>Recycle junk (32)</FT_ExtractSteelByJunksPlus.label>
   <FT_ExtractSteelByJunksPlus.description>Recycle 32 kilograms of junk and extract resources. Junk must consist of smeltable materials.</FT_ExtractSteelByJunksPlus.description>
-  <FT_ExtractSteelByJunksPlus.jobString>Recycling metal from materials</FT_ExtractSteelByJunksPlus.jobString>
+  <FT_ExtractSteelByJunksPlus.jobString>recycling steel from materials</FT_ExtractSteelByJunksPlus.jobString>
 
   <FTC_KitchenCookMealSimple.label>Cook simple meal x8</FTC_KitchenCookMealSimple.label>
   <FTC_KitchenCookMealSimple.description>Cook 8 simple meals from one ingredient.</FTC_KitchenCookMealSimple.description>
-  <FTC_KitchenCookMealSimple.jobString>Cooking simple meal</FTC_KitchenCookMealSimple.jobString>
+  <FTC_KitchenCookMealSimple.jobString>cooking 8 simple stews</FTC_KitchenCookMealSimple.jobString>
 
 
 </LanguageData>

@@ -88,7 +88,7 @@
 	<ThingDef ParentName="FTC_Palisade_Base">
 		<defName>FT_Stony_Palisade</defName>
 		<label>exterior wall</label>
-		<description>...</description>	
+		<description>A tough impassable fence made out of stony materials and reinforced with concrete. Slow to build and incapable of holding a roof.</description>	
 		<graphicData>
 			<texPath>Things/ConcreteWall/FT_Wall</texPath>
 		</graphicData>
@@ -105,12 +105,15 @@
 			<WorkToBuild>800</WorkToBuild>
 		</statBases>
 		<costStuffCount>8</costStuffCount>
+		<costList>
+			<FT_BlocksConcrete>2</FT_BlocksConcrete>
+		</costList>
 	</ThingDef>
 	
 	<ThingDef ParentName="FTC_Palisade_Base">
 		<defName>FT_Stony_Palisade_Corner</defName>
 		<label>diagonal exterior wall</label>
-		<description>...</description>	
+		<description>A tough impassable fence made out of stony materials and reinforced with concrete. Slow to build and incapable of holding a roof.</description>	
 		<graphicData>
 			<texPath>Things/ConcreteWall/FT_Wall_Corner</texPath>
 		</graphicData>
@@ -127,12 +130,15 @@
 			<WorkToBuild>1000</WorkToBuild>
 		</statBases>
 		<costStuffCount>8</costStuffCount>
+		<costList>
+			<FT_BlocksConcrete>2</FT_BlocksConcrete>
+		</costList>
 	</ThingDef>
 	
 	<ThingDef ParentName="FTC_Palisade_Base">
 		<defName>FT_Stony_Palisade_Embrasures</defName>
 		<label>exterior embrasure</label>
-		<description>...</description>	
+		<description>A tough impassable fence made out of stony materials and reinforced with concrete. Slow to build and incapable of holding a roof. Has tactical holes to allow shooting from relative safety.</description>	
 		<graphicData>
 			<texPath>Things/ConcreteWall/FT_Wall_Embrasures</texPath>
 		</graphicData>
@@ -149,13 +155,16 @@
 			<WorkToBuild>1000</WorkToBuild>
 		</statBases>
 		<costStuffCount>8</costStuffCount>
+		<costList>
+			<FT_BlocksConcrete>2</FT_BlocksConcrete>
+		</costList>
 		<fillPercent>0.65</fillPercent>
 	</ThingDef>
 	
 	<ThingDef ParentName="FTC_Palisade_Base">
 		<defName>FT_Stony_Palisade_CornerEmbrasures</defName>
 		<label>diagonal exterior embrasure</label>
-		<description>...</description>	
+		<description>A tough impassable fence made out of stony materials and reinforced with concrete. Slow to build and incapable of holding a roof. Has tactical holes to allow shooting from relative safety.</description>	
 		<graphicData>
 			<texPath>Things/ConcreteWall/FT_Wall_Corner_Embrasures</texPath>
 		</graphicData>
@@ -172,7 +181,10 @@
 			<WorkToBuild>1000</WorkToBuild>
 		</statBases>
 		<costStuffCount>8</costStuffCount>
-		<fillPercent>0.65</fillPercent>
+		<costList>
+			<FT_BlocksConcrete>2</FT_BlocksConcrete>
+		</costList>
+		<fillPercent>0.7</fillPercent>
 	</ThingDef>
 	 
 </Defs>	
