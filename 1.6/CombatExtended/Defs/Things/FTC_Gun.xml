@@ -401,8 +401,9 @@
 			<li Class="CombatExtended.CompProperties_FireModes">
 				<aimedBurstShotCount>8</aimedBurstShotCount>
 				<aiUseBurstMode>True</aiUseBurstMode>
+				<aiAimMode>SuppressFire</aiAimMode>
 			</li>
-			<li Class="CombatExtended.CompProperties_Charges">
+			<!-- <li Class="CombatExtended.CompProperties_Charges">
 				<chargeSpeeds>
 					<li>20</li>
 					<li>30</li>
@@ -410,7 +411,7 @@
 					<li>50</li>
 					<li>65</li>
 				</chargeSpeeds>
-			</li>
+			</li> -->
 			<li Class="Fortified.CompProperties_CastFlecker"><!-- 後方揚塵-->
 				<fleck>DustPuffThick</fleck>
 				<burstAmount>15</burstAmount>
@@ -433,14 +434,14 @@
 		<modExtensions>
 			<li Class="CombatExtended.MultiBarrelExtension">
 				<offsets>
-					<li>0.09,0.1</li>
-					<li>0.32,0.1</li>
-					<li>0.55,0.1</li>
-					<li>0.75,0.1</li>	
-					<li>-0.09,0.1</li>
-					<li>-0.32,0.1</li>
-					<li>-0.55,0.1</li>
-					<li>-0.75,0.1</li>						
+					<li>0.09,0.4</li>
+					<li>0.32,0.4</li>
+					<li>0.55,0.4</li>
+					<li>0.75,0.4</li>	
+					<li>-0.09,0.4</li>
+					<li>-0.32,0.4</li>
+					<li>-0.55,0.4</li>
+					<li>-0.75,0.4</li>						
 				</offsets>
 			</li>		
 		</modExtensions>
@@ -591,13 +592,13 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<!-- Messes with targeting vehicles from Vehicle Framework. Commented out until fixed on CE side -->
-			<!--  <li Class="CombatExtended.MultiBarrelExtension">
+			<!-- Might mess with targeting -->
+			<li Class="CombatExtended.MultiBarrelExtension">
 				<offsets>
 					<li>-0.68,0.0</li>
 					<li>0.68,0.0</li>
 				</offsets>
-			</li> -->
+			</li>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
 				<def>MF_StandardMuzzleFalshTwo</def>
 				<drawSize>(8,6)</drawSize>
