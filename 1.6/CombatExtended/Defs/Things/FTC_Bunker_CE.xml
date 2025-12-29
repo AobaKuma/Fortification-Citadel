@@ -34,7 +34,7 @@
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Bunker_Turret</defName>
 		<label>quad machinegun bunker</label>
-		<description>a manned stationary machinegun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<description>A quad-mounted machinegun firing full powered rifle cartridges inside a half-buried bunker. Has very high ammo capacity.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.</description>
 		<uiIconPath>Things/FortifiedBunker/QuadMGBunker_north</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
@@ -86,8 +86,8 @@
 
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Bunker_Gun</defName>
-		<label>quad machine gun</label>
-		<description>four machinegun mounted inside the bunker.</description>
+		<label>quadruple machine gun</label>
+		<description>Four machineguns mounted inside the bunker.</description>
 		<graphicData>
 			<texPath>None</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -117,7 +117,7 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>2400</magazineSize>
+				<magazineSize>1200</magazineSize>
 				<reloadTime>10</reloadTime>
 				<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
 			</li>
@@ -135,7 +135,7 @@
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Autocannon_Bunker</defName>
 		<label>autocannon bunker</label>
-		<description>a manned stationary autocannon bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<description>A 20mm autocannon emplaced within a half-buried bunker.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.</description>
 		<uiIconPath>Things/Wall_Bunker/Citadel_Autocannon_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -160,8 +160,8 @@
 		</statBases>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireArc">
-				<spanRange>10~360</spanRange>
-				<maxSpanDeviation>180</maxSpanDeviation>
+				<spanRange>10~75</spanRange>
+				<maxSpanDeviation>80</maxSpanDeviation>
 			</li>
         </comps>
         <modExtensions>
@@ -189,8 +189,8 @@
 
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Autocannon_Bunker_Gun</defName>
-		<label>autocannon bunker gun</label>
-		<description>an autocannon mounted inside the bunker.</description>
+		<label>autocannon</label>
+		<description>A 20mm autocannon mounted inside the bunker.</description>
 		<graphicData>
 			<texPath>None</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -220,8 +220,8 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>330</magazineSize>
-				<reloadTime>10</reloadTime>
+				<magazineSize>120</magazineSize>
+				<reloadTime>7.8</reloadTime>
 				<ammoSet>AmmoSet_20x138mmB</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
@@ -235,8 +235,8 @@
 	<!-- Anti Tank Turret Bunker -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_AntiTank_Turret</defName>
-		<label>Tank Bunker</label><!-- 戰車砲塔工事 -->
-		<description>a fixed tank turret mounting on a half-buried concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
+		<label>tank bunker</label><!-- 戰車砲塔工事 -->
+		<description>A 76mm tank cannon mounted on a half-buried bunker.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.</description>
 		<uiIconPath>Things/TankTurretBunker_icon</uiIconPath>
 		<uiIconScale>1.05</uiIconScale>
 		<passability>PassThroughOnly</passability>
@@ -291,8 +291,8 @@
 
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_AntiTank_Gun</defName>
-		<label>anti tank cannon turret</label>
-		<description>an anti tank cannon mounted on an armoured turret.</description>
+		<label>tank cannon</label>
+		<description>A 76mm tank cannon mounted on an armored turret.</description>
 		<graphicData>
 			<texPath>Things/TurretBunker_AntiTankTurret</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -338,8 +338,8 @@
 	<!-- 原版打大口徑砲彈,CE打155 -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Batterey_Turret</defName>
-		<label>coastal batterey</label>
-		<description>A heavy navy gun mounted on a large concrete bunker can effectively destroy enemies within range. n\n as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<label>coastal artillery</label>
+		<description>A large bunker with a mounted 155mm naval gun turret. Purpose built for defending coastlines against maritime threats such as amphibious landing forces and naval warships.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.\nRequires electricity to power on its large electric turret drives.</description>
 		<uiIconPath>Things/CoastalArtillery/ArtilleryBunker_icon</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
@@ -403,7 +403,7 @@
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Batterey_Gun</defName>
 		<label>coastal artillery</label>
-		<description>a navy gun turret. In the past era of sea power, the scope of a country's territorial waters was the maximum range of its coastal defense artillery.</description>
+		<description>A 155mm naval gun mounted in a reinforced housing.</description>
 		<graphicData>
 			<texPath>Things/CoastalArtillery/ArtilleryBunker_gun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -465,8 +465,8 @@
 	<!-- 測距塔 -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_SpotterBunker</defName>
-		<label>artillery spotter</label>
-		<description>artillery spotter</description>
+		<label>artillery rangefinder</label>
+		<description>A large bunker mounted with a towering device used to accurately measure the distance to a target, enabling precise artillery strikes by feeding target calculation data to indirect fire weapon systems.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.</description>
 		<uiIconPath>Things/RangeFinderStational/RangeFinderStational_Icon</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
@@ -485,6 +485,7 @@
 		<size>(5,5)</size>
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
+		<blockWind>true</blockWind>
 		<pathCost>200</pathCost>
 		<statBases>
 			<MaxHitPoints>4000</MaxHitPoints>
@@ -528,8 +529,8 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_SpotterBunker_Gun</defName>
-		<label>artillery spotter</label>
-		<description>A manned artillery scope with radio. Useful to coordinate artillery strikes.\n\nUsing this on a target will mark it, removing the indirect fire penalty from any artillery pieces targeting it. Additionally, any directed fire will use the aiming accuracy and efficiency of the spotter, rather than the artillery operator to determine final accuracy.</description>
+		<label>artillery rangefinder</label>
+		<description>A manned artillery rangefinder with radio. Useful to coordinate artillery strikes.\n\nUsing this on a target will mark it, removing the indirect fire penalty from any artillery pieces targeting it. Additionally, any directed fire will use the aiming accuracy and efficiency of the spotter, rather than the artillery operator to determine final accuracy.</description>
 		<graphicData>
 			<texPath>Things/RangeFinderStational/Gun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -560,8 +561,8 @@
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Mortar_Bunker</defName>
 		<label>81mm mortar bunker</label>
-		<description>a mortar bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
-		<uiIconPath>Things/Mortar_Bunker</uiIconPath>
+		<description>An 81mm mortar mounted on a half-buried bunker.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.</description>
+		<uiIconPath>Things/Mortar_Bunker_UI</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -603,7 +604,7 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Bunker_Mortar</turretGunDef>
-			<turretTopDrawSize>1</turretTopDrawSize>
+			<turretTopDrawSize>3</turretTopDrawSize>
 			<turretBurstWarmupTime>3.5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間================-->
 			<turretBurstCooldownTime>5</turretBurstCooldownTime>
 		</building>
@@ -620,11 +621,12 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Bunker_Mortar</defName>
-		<label>81mm mortar</label>
-		<description>a mortar mounted inside the bunker.</description>
+		<label>81mm mortar turret</label>
+		<description>An 81mm mortar turret mounted on the bunker.</description>
 		<graphicData>
-			<texPath>None</texPath>
+			<texPath>Things/Mortar_Turret</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
 		</graphicData>
 		<statBases>
 			<SightsEfficiency>0.5</SightsEfficiency>
@@ -651,14 +653,10 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>50</magazineSize>
+				<magazineSize>32</magazineSize>
 				<reloadOneAtATime>true</reloadOneAtATime>
 				<reloadTime>2</reloadTime>
 				<ammoSet>AmmoSet_81mmMortarShell</ammoSet>
-			</li>
-			<li Class="CombatExtended.CompProperties_FireModes">
-				<noSingleShot>false</noSingleShot>
-				<aiAimMode>AimedShot</aiAimMode>
 			</li>
 			<li Class="CombatExtended.CompProperties_Charges">
 				<chargeSpeeds><!--81mm大约0~6个发射药圈--><!--弹速下限30-->
@@ -678,8 +676,8 @@
 
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_Flame</defName>
-		<label>flamethrower bunker</label>
-		<description>a manned stationary flame thrower bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<label>flamethrower citadel bunker</label>
+		<description>A flamethrower mounted inside a half-buried bunker.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.\nCitadel bunkers must be placed on walls, indicated by the blue indicator.</description>
 		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Flame_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
@@ -708,8 +706,8 @@
 		</costList>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireArc">
-				<spanRange>10~360</spanRange>
-				<maxSpanDeviation>180</maxSpanDeviation>
+				<spanRange>10~135</spanRange>
+				<maxSpanDeviation>135</maxSpanDeviation>
 			</li>
         </comps>
         <modExtensions>
@@ -734,33 +732,33 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Wall_Flame_Gun</defName>
-		<label>flame thrower</label>
-		<description>flame thrower mounted inside the bunker.</description>
+		<label>flamethrower</label>
+		<description>A flamethrower mounted inside the bunker.</description>
 		<graphicData>
 			<texPath>None</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
 			<SightsEfficiency>1</SightsEfficiency>
-			<ShotSpread>1.0</ShotSpread>
+			<ShotSpread>0.5</ShotSpread>
 			<SwayFactor>1.0</SwayFactor>
-			<RangedWeapon_Cooldown>0.17</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.47</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<recoilAmount>0.76</recoilAmount>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_FT_Flamethrower_Napalm</defaultProjectile>
 				<warmupTime>0.5</warmupTime>
-				<range>15.5</range>
+				<range>28</range>
 				<minRange>1.5</minRange>
-				<burstShotCount>10</burstShotCount>
-				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Shot_MiniFlameblaster</soundCast>
-				<muzzleFlashScale>50</muzzleFlashScale>
+				<burstShotCount>15</burstShotCount>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<soundCast>HissFlamethrower</soundCast>
+				<muzzleFlashScale>16</muzzleFlashScale>
 				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
 				<recoilPattern>Mounted</recoilPattern>
-				<indirectFirePenalty>0</indirectFirePenalty>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -773,8 +771,8 @@
 				</chargeSpeeds>
 			</li>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>300</magazineSize>
-				<reloadTime>0.05</reloadTime>
+				<magazineSize>320</magazineSize>
+				<reloadTime>0.5</reloadTime>
 				<reloadOneAtATime>true</reloadOneAtATime>
 				<ammoSet>AmmoSet_FT_Flamethrower</ammoSet>
 			</li>
@@ -784,14 +782,21 @@
 				<noSingleShot>true</noSingleShot>
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.MultiBarrelExtension">
+				<offsets>
+					<li>0.0,0.1</li>
+				</offsets>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Wall Mounted MG Bunker -->
 
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_MG</defName>
-		<label>machinegun bunker</label>
-		<description>a manned stationary machinegun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<label>machinegun citadel bunker</label>
+		<description>A medium machine gun mounted inside a half-buried bunker.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.\nCitadel bunkers must be placed on walls, indicated by the blue indicator.</description>
 		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
@@ -816,8 +821,8 @@
 		</statBases>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireArc">
-				<spanRange>10~360</spanRange>
-				<maxSpanDeviation>180</maxSpanDeviation>
+				<spanRange>10~135</spanRange>
+				<maxSpanDeviation>135</maxSpanDeviation>
 			</li>
         </comps>
         <modExtensions>
@@ -848,7 +853,7 @@
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Wall_MG_Gun</defName>
 		<label>machine gun</label>
-		<description>a machinegun mounted inside the bunker.</description>
+		<description>A 7.62x51mm machine gun mounted inside the bunker.</description>
 		<graphicData>
 			<texPath>None</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -878,7 +883,7 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>2400</magazineSize>
+				<magazineSize>1200</magazineSize>
 				<reloadTime>10</reloadTime>
 				<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
 			</li>
@@ -888,13 +893,27 @@
 				<aimedBurstShotCount>10</aimedBurstShotCount>
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.MultiBarrelExtension">
+				<offsets>
+					<li>0.0,1.2</li>
+				</offsets>
+			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(2,2)</drawSize>
+				<offsets>
+					<li>(1.2,0.0)</li>
+				</offsets>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- 37mmAT Wall Mounted Bunker -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_AT</defName>
-		<label>37mm ATgun bunker</label>
-		<description>a manned stationary 37mm ATgun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<label>37mm AT gun citadel bunker</label>
+		<description>A manned, stationary 37mm anti-tank gun in a half-buried bunker.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.\nCitadel bunkers must be placed on walls, indicated by the blue indicator.</description>
 		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_AT_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<passability>Impassable</passability>
@@ -919,8 +938,8 @@
 		</statBases>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireArc">
-				<spanRange>10~360</spanRange>
-				<maxSpanDeviation>180</maxSpanDeviation>
+				<spanRange>10~135</spanRange>
+				<maxSpanDeviation>135</maxSpanDeviation>
 			</li>
         </comps>
         <modExtensions>
@@ -952,8 +971,8 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Wall_AT_Gun</defName>
-		<label>37mm ATgun</label>
-		<description>a 37mm ATgun mounted inside the bunker.</description>
+		<label>37mm anti-tank gun</label>
+		<description>A 37mm anti-tank gun mounted inside the bunker.</description>
 		<graphicData>
 			<texPath>None</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -993,13 +1012,27 @@
 				<aiAimMode>AimedShot</aiAimMode>
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.MultiBarrelExtension">
+				<offsets>
+					<li>0.0,1.2</li>
+				</offsets>
+			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(3,3)</drawSize>
+				<offsets>
+					<li>(1.2,0.0)</li>
+				</offsets>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- 105mm Artillery Wall Mounted Bunker -->
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_Howitzer</defName>
-		<label>105mm howitzer bunker</label>
-		<description>a fixed artillery turret mounting on a concrete box. n\n As a turret fortification, the gunner could operate the weapon internally until it was destroyed, but could not receive direct orders.\n\n This is a permanent structure, site wisely.</description>
+		<label>105mm howitzer citadel bunker</label>
+		<description>A fixed 105mm artillery piece mounted on a concrete box.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.\nCitadel bunkers must be placed on walls, indicated by the blue indicator.</description>
 		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Howitzer_Icon</uiIconPath>
 		<uiIconScale>1.5</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
@@ -1062,8 +1095,8 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Wall_Howitzer_Turret</defName>
-		<label>105mm howitzer bunker</label>
-		<description>an howitzer mounted on an armoured turret.</description>
+		<label>105mm howitzer</label>
+		<description>A 105mm howitzer mounted on an armoured turret.</description>
 		<graphicData>
 			<texPath>Things/Duke_Gun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

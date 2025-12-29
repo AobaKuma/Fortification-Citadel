@@ -20,64 +20,67 @@
     <defName>Bullet_FT_Flamethrower_Napalm</defName>
     <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
     <label>jellied chemfuel stream</label>
-    <projectile Class="CombatExtended.ProjectilePropertiesCE">
-      <damageDef>Flame</damageDef>
-      <damageAmountBase>1</damageAmountBase>
-      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
-      <preExplosionSpawnChance>0.33</preExplosionSpawnChance>
-      <soundExplode>CE_FlamethrowerExplosion</soundExplode>
-      <explosionRadius>0.5</explosionRadius>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
-      <screenShakeFactor>0</screenShakeFactor>
-	    <flyOverhead>false</flyOverhead>
-	    <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-      <speed>0</speed>
-      <gravityFactor>25</gravityFactor>
-	  <spreadMult>5</spreadMult>
-	  <pelletCount>10</pelletCount>
-    </projectile>
-  </ThingDef>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>3</damageAmountBase>
+			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.33</preExplosionSpawnChance>
+			<soundExplode>CE_FlamethrowerExplosion</soundExplode>
+			<explosionRadius>1.0</explosionRadius>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<screenShakeFactor>0</screenShakeFactor>
+			<!--custom FTC projectile stats-->
+			<flyOverhead>false</flyOverhead>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<speed>0</speed>
+			<gravityFactor>25</gravityFactor>
+			<spreadMult>5</spreadMult>
+			<pelletCount>5</pelletCount>
+		</projectile>
+	</ThingDef>
 
   <ThingDef ParentName="BaseFlamethrowerBullet">
     <defName>Bullet_FT_Flamethrower_Prometheum</defName>
     <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
     <label>jellied prometheum stream</label>
-    <projectile Class="CombatExtended.ProjectilePropertiesCE">
-      <damageDef>PrometheumFlame</damageDef>
-      <damageAmountBase>2</damageAmountBase>
-      <preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
-      <preExplosionSpawnChance>0.67</preExplosionSpawnChance>
-      <soundExplode>CE_FlamethrowerExplosion</soundExplode>
-      <explosionRadius>0.5</explosionRadius>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
-      <screenShakeFactor>0</screenShakeFactor>
-	    <flyOverhead>false</flyOverhead>
-	    <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-      <speed>0</speed>
-      <gravityFactor>25</gravityFactor>
-	  <spreadMult>5</spreadMult>
-	  <pelletCount>10</pelletCount>
-    </projectile>
-  </ThingDef>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>PrometheumFlame</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.67</preExplosionSpawnChance>
+			<soundExplode>CE_FlamethrowerExplosion</soundExplode>
+			<explosionRadius>1.2</explosionRadius>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<screenShakeFactor>0</screenShakeFactor>
+			<!--custom FTC projectile stats-->
+			<flyOverhead>false</flyOverhead>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<speed>0</speed>
+			<gravityFactor>25</gravityFactor>
+			<spreadMult>5</spreadMult>
+			<pelletCount>5</pelletCount>
+		</projectile>
+	</ThingDef>
   
   <ThingDef ParentName="BaseFlamethrowerBullet" MayRequire="Ludeon.Rimworld.Anomaly">
     <defName>Bullet_FT_Flamethrower_Bioferrite</defName>
     <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
-    <label>jellied prometheum stream</label>
-    <projectile Class="CombatExtended.ProjectilePropertiesCE">
-		<damageDef>BioferriteFlame</damageDef>
-		<damageAmountBase>2</damageAmountBase>
-		<soundExplode>CE_FlamethrowerExplosion</soundExplode>
-		<explosionRadius>0.5</explosionRadius>
-		<ai_IsIncendiary>true</ai_IsIncendiary>
-		<screenShakeFactor>0</screenShakeFactor>
-	    <flyOverhead>false</flyOverhead>
-	    <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-      <speed>0</speed>
-      <gravityFactor>25</gravityFactor>
-	  <spreadMult>5</spreadMult>
-	  <pelletCount>10</pelletCount>
-    </projectile>
-  </ThingDef>
+    <label>infused chemfuel stream</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>BioferriteFlame</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+			<soundExplode>CE_FlamethrowerExplosion</soundExplode>
+			<explosionRadius>1.2</explosionRadius>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<screenShakeFactor>0</screenShakeFactor>
+			<!--custom FTC projectile stats-->
+			<flyOverhead>false</flyOverhead>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<speed>0</speed>
+			<gravityFactor>25</gravityFactor>
+			<spreadMult>5</spreadMult>
+			<pelletCount>5</pelletCount>
+		</projectile>
+	</ThingDef>
 
 </Defs>

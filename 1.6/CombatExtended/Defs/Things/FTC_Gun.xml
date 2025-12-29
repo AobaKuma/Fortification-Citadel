@@ -299,8 +299,8 @@
 <!-- BM-13 -->
  	<ThingDef ParentName="FTC_BasePermanentTurret_Mannable">
 		<defName>FTC_Katyusha_Turret</defName>
-		<label>multi-railed rocket Launcher</label>
-		<description>A manned stationary rocket launcher with eight rails, each of which can attach 2 rockets, can shoot sixteen shells at one time, however, it's far from accurate and consumes a huge amount of chemfuel each time it fires.</description>
+		<label>multi-railed rocket launcher</label>
+		<description>A crew-served, stationary rocket artillery system featuring eight launch rails with dual-rocket mounts. Fires a sixteen-rocket saturation salvo before requiring a full reload.</description>
 		<graphicData>
 			<texPath>Things/TurretArtillery_Base</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -358,16 +358,17 @@
 
   	<ThingDef ParentName="BaseArtilleryWeapon"> 
 		<defName>FTC_Katyusha_Gun</defName>
-		<label>multi-railed rocket</label>
-		<description>A railed rocket launcher. Lobs rocket shells over walls. Very inaccurate but mass-amount.</description>
+		<label>multi-railed rocket launcher</label>
+		<description>Rail-mounted rocket launcher for indirect fire. Highly inaccurate, but devastating in large salvos.</description>
+		<soundInteract>Artillery_ShellLoaded</soundInteract>
 	    <graphicData>
 			<texPath>Things/RailedLauncher</texPath>
 			<drawSize>(4,4)</drawSize>
   		</graphicData>
 		<statBases>
-			<SightsEfficiency>250</SightsEfficiency>
-			<ShotSpread>2</ShotSpread>
-			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>5.5</ShotSpread>
+			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -375,19 +376,19 @@
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
-				<defaultProjectile>Bullet_FT_132mmM13_HE</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
+				<defaultProjectile>Bullet_FT_132mmM13_HE_arty</defaultProjectile>
+				<warmupTime>3.5</warmupTime>
 				<minRange>14.5</minRange>
 				<range>118.5</range>
 				<burstShotCount>16</burstShotCount>
-				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>32</ticksBetweenBurstShots>
 				<soundCast>FT_NebelShot</soundCast>
 				<muzzleFlashScale>39</muzzleFlashScale>
-				<circularError>1.5</circularError>
-				<!--<indirectFirePenalty>0.2</indirectFirePenalty>-->
+				<!-- <circularError>1</circularError> -->
+				<indirectFirePenalty>0.2</indirectFirePenalty>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
-				</targetParams>
+				</targetParams>				
 			</li>
 		</verbs>
 		<comps>
@@ -395,13 +396,22 @@
 				<magazineSize>16</magazineSize>
 				<reloadTime>3.75</reloadTime>
 				<reloadOneAtATime>true</reloadOneAtATime>
-				<ammoSet>AmmoSet_FT_132mmM13</ammoSet>      
+				<ammoSet>AmmoSet_FT_132mmM13_arty</ammoSet>      
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
 				<aimedBurstShotCount>8</aimedBurstShotCount>
 				<aiUseBurstMode>True</aiUseBurstMode>
-				<aiAimMode>SuppressFire</aiAimMode>	
+				<aiAimMode>SuppressFire</aiAimMode>
 			</li>
+			<!-- <li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>20</li>
+					<li>30</li>
+					<li>40</li>
+					<li>50</li>
+					<li>65</li>
+				</chargeSpeeds>
+			</li> -->
 			<li Class="Fortified.CompProperties_CastFlecker"><!-- 後方揚塵-->
 				<fleck>DustPuffThick</fleck>
 				<burstAmount>15</burstAmount>
@@ -421,13 +431,27 @@
 				<burstOffsetRange>(1,1.5)</burstOffsetRange> <!--Fleck的生成位置偏移旋轉中心點的距離區間-->
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.MultiBarrelExtension">
+				<offsets>
+					<li>0.09,0.4</li>
+					<li>0.32,0.4</li>
+					<li>0.55,0.4</li>
+					<li>0.75,0.4</li>	
+					<li>-0.09,0.4</li>
+					<li>-0.32,0.4</li>
+					<li>-0.55,0.4</li>
+					<li>-0.75,0.4</li>						
+				</offsets>
+			</li>		
+		</modExtensions>
   	</ThingDef>
 
 	<!-- 雙聯裝重型防空炮 -->
-	<ThingDef ParentName="FTC_BasePermanentTurret_Mannable">
+	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_TurretTwinHeavyFlak</defName>
-		<label>Twin Heavy flak gun</label>
-		<description>A pair of high caliber flak been lay flat to engage ground target.</description>
+		<label>twin heavy flak gun</label>
+		<description>>A large bunker mounted with twin-mounted, old school heavy anti-aircraft guns. Ineffective against modern aviation but still popular in pre-industrial worlds against hardened targets like bunkers and vehicles.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal defensive structures and gunners are completely safe from enemy fire until this structure is destroyed.</description>
 		<graphicData>
 			<texPath>Things/CoastalArtillery/ArtilleryBunker</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -449,11 +473,6 @@
 			<AimingAccuracy>1.25</AimingAccuracy>
 		</statBases>
 		<comps>
-		  <li Class="CompProperties_Power">
-			<compClass>CompPowerTrader</compClass>
-			<basePowerConsumption>1000</basePowerConsumption>
-		  </li>
-		  <li Class="CompProperties_Flickable"/>
 			<li Class="CombatExtended.CompProperties_FireArc">
 				<spanRange>10~360</spanRange>
 				<maxSpanDeviation>180</maxSpanDeviation>
@@ -479,15 +498,20 @@
 			<ReinforcedBarrel>4</ReinforcedBarrel>
 			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
 		</costList>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
 		<researchPrerequisites>
+			<li>FTC_PermanentBunker</li>
 			<li>FT_HeavyArtillery</li>
 		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>FTC_Gun_TurretTwinHeavyFlak</defName>
-		<label>Twin Heavy Flak gun</label>
-		<description>A pair of high caliber flak cannon lay flat to engage ground target.</description>
+		<label>twin heavy flak gun</label>
+		<description>Twin-mounted 128mm Flak cannons mounted on a large bunker.</description>
 		<graphicData>
 			<texPath>Things/CoastalArtillery/Gun_Flak40_Sec</texPath>
 			<drawOffset>(0,0,0)</drawOffset>
@@ -525,7 +549,7 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>2</magazineSize>
+				<magazineSize>24</magazineSize>
 				<reloadOneAtATime>true</reloadOneAtATime>
 				<reloadTime>2</reloadTime>
 				<ammoSet>AmmoSet_128x958mmR</ammoSet>
@@ -568,13 +592,13 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<!-- will mass with targeting -->
-			<!--<li Class="CombatExtended.MultiBarrelExtension">
+			<!-- Might mess with targeting -->
+			<li Class="CombatExtended.MultiBarrelExtension">
 				<offsets>
 					<li>-0.68,0.0</li>
 					<li>0.68,0.0</li>
 				</offsets>
-			</li>-->
+			</li>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
 				<def>MF_StandardMuzzleFalshTwo</def>
 				<drawSize>(8,6)</drawSize>
@@ -582,6 +606,7 @@
 					<li>(4.2,0.68)</li>
 					<li>(4.2,-0.68)</li>
 				</offsets>
+				<isAlternately>true</isAlternately>
 			</li>
 			<li Class="CombatExtended.GunDrawExtension">
 				<CasingAngleOffset>140</CasingAngleOffset> <!-- 拋彈方向 -->
