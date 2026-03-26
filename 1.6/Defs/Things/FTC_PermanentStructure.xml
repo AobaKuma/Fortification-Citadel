@@ -21,7 +21,7 @@
 		<blockWind>true</blockWind>
 		<statBases>
 			<MaxHitPoints>600</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
+			<WorkToBuild>600</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
 		<building>
@@ -277,7 +277,7 @@
 	<ThingDef ParentName="FTC_BasePermanentStructure" Name="FTC_CitadelWall">	
 		<defName>FTC_CitadelWall</defName>
 		<label>citadel wall</label>
-		<description>An impassable wall with extra protection from siege, designed for industrial fortress structure. Capable of holding up a roof.\n\n This is a permanent structure, site wisely.</description>		
+		<description>An extremely resistant impassable wall reinforced with concrete and steel plates, designed to take continuous heavy punishment from large caliber artillery, for use in industrial fortress infrastructure. Capable of holding up a roof.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal structures.</description>		
 		<uiIconPath>Things/FT_CitadelWall_Icon</uiIconPath>
 		<uiIconPathsStuff Inherit="false">
 		  <li>
@@ -331,6 +331,7 @@
     	<drawStyleCategory>Walls</drawStyleCategory>
 		<costList>
 		  <Steel>2</Steel>
+		  <FT_BlocksConcrete>2</FT_BlocksConcrete>
 		</costList>
 		<stuffCategories>
 		  <li>Metallic</li>
@@ -368,7 +369,7 @@
 		<graphicData>
 			<texPath>Things/CitadelWall_Embrasure</texPath>
 		</graphicData>
-		<fillPercent>0.75</fillPercent>
+		<fillPercent>0.7</fillPercent>
 		<building>
 		 	<blueprintGraphicData>
 				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>

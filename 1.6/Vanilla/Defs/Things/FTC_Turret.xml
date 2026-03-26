@@ -5,8 +5,8 @@
 <!-- 噴煙者加強版 -->
  	<ThingDef ParentName="BuildingBase">
 		<defName>FTC_Katyusha_Turret</defName>
-		<label>multi-railed rocket Launcher</label>
-		<description>A manned stationary rocket launcher with eight rails, each of which can attach 2 rockets, can shoot sixteen shells at one time, however, it's far from accurate and consumes a huge amount of chemfuel each time it fires.</description>
+		<label>multi-railed rocket launcher</label>
+		<description>A manned, stationary rocket artillery launcher with eight rails, each mounting two rockets. Capable of firing a sixteen-rocket salvo in a single launch. However, it's far from accurate and consumes a huge amount of chemfuel each time it fires.</description>
 		<graphicData>
 			<texPath>Things/TurretArtillery_Base</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -110,8 +110,8 @@
  	 </ThingDef>
   	<ThingDef ParentName="BaseArtilleryWeapon"> 
 		<defName>FTC_Katyusha_Gun</defName>
-		<label>multi-railed rocket</label>
-		<description>A railed rocket launcher. Lobs rocket shells over walls. Very inaccurate but mass-amount.</description>
+		<label>multi-railed rocket launcher</label>
+		<description>A rail-mounted rocket launcher that lobs explosive shells over walls. Extremely inaccurate, but capable of delivering devastating saturation fire.</description>
 		<recoilPower>6</recoilPower>
 	    <graphicData>
 			<texPath>Things/RailedLauncher</texPath>

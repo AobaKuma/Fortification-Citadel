@@ -55,8 +55,8 @@
 
   <ThingDef ParentName="FT_BenchBase">
     <defName>FT_ArcFurnace</defName>
-    <label>electirc arc furnace</label>
-    <description>A heavy machinery that recycles all sort of metallic pieces into steel, will generates a lot of heat.</description>
+    <label>electric arc furnace</label>
+    <description>A specialized furnace that uses electric arcs between graphite electrodes to melt all kinds of scrap metal using intense heat into steel for recycling. Generates a significant amount of heat while operating.</description>
     <thingClass>Fortified.Building_WorkTableAutonomous</thingClass>
     <tickerType>Normal</tickerType>
     <graphicData>
@@ -153,7 +153,7 @@
   <ThingDef ParentName="FT_BenchBase">
     <defName>FT_HeavyChem</defName>
     <label>pyrolysis plant</label>
-    <description>A heavy machinery that recycles all sort of organic pieces into chemfuel, will generates a lot of heat.</description>
+    <description>An industrial machine that thermally decomposes matter in a low-oxygen environment to break them down into valuable products such as chemfuel. Generates significant amount of heat while operating.</description>
     <thingClass>Fortified.Building_WorkTableAutonomous</thingClass>
     <tickerType>Normal</tickerType>
     <graphicData>
@@ -299,8 +299,8 @@
 
   <ThingDef ParentName="FTC_BasePermanentStructure">
     <defName>FT_CitadelGenerator</defName>
-    <label>stationary chemfuel generator</label>
-    <description>A chemfuel generator suitable for use in large fortresses, which is highly integrated into the ground structure in exchange for excellent safety, and fuel capacity but can be a hassle to deconstruct.</description>
+	<label>citadel chemfuel generator</label>
+	<description>A heavily reinforced industrial-scale chemfuel generator designed for permanent fortress installations. Embedded deep into the ground for exceptional safety, stability, and fuel capacity.\n\nThis is a permanent structure, meaning it cannot be deconstructed once built. However, it is much tougher than normal structures.</description>
     <thingClass>Building</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
@@ -409,7 +409,7 @@
   <ThingDef ParentName="BenchBase">
     <defName>FTC_FieldKitchen</defName>
     <label>field kitchen</label>
-    <description>A mobile kitchen that can cook meal outside the field but it's only have few selection, require chemfuel or wood as fuel.</description>
+    <description>A mobile kitchen setup that can provide meals to troops in remote or frontline locations. Can only cook basic meals. Must be periodically refueled with wood or chemfuel.</description>
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <graphicData>
       <texPath>Things/FieldKitchen/building</texPath>
@@ -454,6 +454,11 @@
       <li>CookMealSimple</li>
       <li>CookMealSimpleBulk</li>
       <li>FTC_KitchenCookMealSimple</li>
+	  <!-- Vanilla Cooking Expanded Integrations -->	
+	  <li MayRequire="VanillaExpanded.VCookE">VCE_DeepFryMeats</li>
+	  <li MayRequire="VanillaExpanded.VCookE">VCE_DeepFryVegetables</li>
+	  <li MayRequire="VanillaExpanded.VCookE">VCE_CookGrillSimple</li>
+	  <li MayRequire="VanillaExpanded.VCookE">VCE_CookGrillSimpleBulk</li>  
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -487,6 +492,7 @@
         <drawFuelGaugeInMap>true</drawFuelGaugeInMap>
         <showFuelGizmo>true</showFuelGizmo>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+		<functionsInVacuum>false</functionsInVacuum>
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
