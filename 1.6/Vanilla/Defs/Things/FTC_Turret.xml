@@ -70,6 +70,7 @@
 			<Flammability>0.2</Flammability>
 			<WorkToBuild>3000</WorkToBuild>
 			<Beauty>-20</Beauty>
+			<Mass>750</Mass>
 		</statBases>
 		<costList>
 			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
@@ -117,11 +118,15 @@
 			<texPath>Things/RailedLauncher</texPath>
 			<drawSize>(4,4)</drawSize>
   		</graphicData>
+        <statBases>
+            <RangedWeapon_Cooldown>128.0</RangedWeapon_Cooldown>
+            <Mass>250</Mass>
+        </statBases>
 		<verbs>
 		<li>
 			<verbClass>Fortified.Verb_MultiShoot</verbClass>
 			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-			<warmupTime>84.0</warmupTime>
+			<warmupTime>8.4</warmupTime>
 			<forcedMissRadius>10</forcedMissRadius>
 			<forcedMissRadiusClassicMortars>10</forcedMissRadiusClassicMortars>
 			<isMortar>true</isMortar>
