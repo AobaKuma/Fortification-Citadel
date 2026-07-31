@@ -59,7 +59,7 @@
 		<defName>Bullet_FT_132mmM13_HE</defName>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<flyOverhead>true</flyOverhead>
-			<speed>0</speed>
+			<speed>81</speed>
 			<shellingProps>
 				<iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
 				<tilesPerTick>0.35</tilesPerTick>

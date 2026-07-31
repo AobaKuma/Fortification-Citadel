@@ -51,7 +51,7 @@
 			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
 		</building>
 		<damageMultipliers>
-		<li>
+		  <li>
 			<damageDef>Cut</damageDef>
 			<multiplier>0.1</multiplier>
 		  </li>
@@ -201,7 +201,35 @@
 				<damageDef>NociosphereVaporize</damageDef>
 				<multiplier>0.25</multiplier>
 			</li>
-<!--==========-->
+<!--Odyssey DLC -->
+			<li MayRequire="Ludeon.RimWorld.Odyssey">
+				<damageDef>PorcupineBite</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">
+				<damageDef>PorcupineScratch</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">
+				<damageDef>VacuumBurn</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">
+				<damageDef>MiningBomb</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">
+				<damageDef>Bullet_TraitTox</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">
+				<damageDef>Bullet_TraitIncendiary</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">
+				<damageDef>BeamBypassShields</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
 <!-- Combat Extended -->
 			<li MayRequire="CETeam.CombatExtended">
 				<damageDef>Beanbag</damageDef>
@@ -263,7 +291,6 @@
 				<damageDef>BioferriteFlame</damageDef>
 				<multiplier>0.25</multiplier>
 			</li>
-<!--==========-->
 <!--3HSTltd Plasma Weapons-->
 			<li MayRequire="3HSTltd.Weapons.Plasma">
 				<damageDef>LizionExplosion</damageDef>
@@ -277,7 +304,6 @@
 				<damageDef>LizionPlasmaFlamer</damageDef>
 				<multiplier>0.25</multiplier>
 			</li>
-<!--==========-->
 <!--3HSTltd Rail Guns-->
 			<li MayRequire="3HSTltd.Weapons.Base">
 				<damageDef>DamageDef_Shockwave</damageDef>
@@ -287,12 +313,134 @@
 				<damageDef>BDRG_HighCalRailgun</damageDef>
 				<multiplier>0.25</multiplier>
 			</li>
-<!--==========-->
 <!--FT HESH-->
 			<li MayRequire="CETeam.CombatExtended">
-			<damageDef>HESH_ShockWave</damageDef>
-			<multiplier>0.25</multiplier>
-		  </li>
+				<damageDef>HESH_ShockWave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+<!--Kiiro Race-->
+			<li MayRequire="Ancot.KiiroRace">
+				<damageDef>Kiiro_ParalyticPoison</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+			<li MayRequire="Ancot.KiiroRace">
+				<damageDef>Kiiro_DeadlyPoison</damageDef>
+				<multiplier>0.1</multiplier>
+			</li>
+<!--Kiiro CE-->
+			<li MayRequire="Lemontea.KiiroCEPatch">
+				<damageDef>KiiroBullet</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+<!--Milira Race-->
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_SlashCharged</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_ParticleBomb</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_ParticleBombBig</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_ParticleBullet</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_PlasmaBomb</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_PlasmaBombBig</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_PlasmaBullet</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_PlasmaBullet_Vulnerable</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_PlasmaBomb_TwoHandSword</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_RailGunBullet</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_KineticBomb</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="Ancot.MiliraRace">
+				<damageDef>Milira_Ray</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+<!--Milira Addon: Fianchetto Variation-->
+			<li MayRequire="rabiosus.funnelmilian">
+				<damageDef>Milira_FunnelBit_C_HeavyLaser</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="rabiosus.funnelmilian">
+				<damageDef>Milira_FunnelBit_C_SuperLaser</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="rabiosus.funnelmilian">
+				<damageDef>Milira_FunnelBit_D_cut</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+<!--NewRatkinPlus-->
+			<li MayRequire="Solaris.RatkinRaceMod">
+				<damageDef>RK_EMP</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li MayRequire="Solaris.RatkinRaceMod">
+				<damageDef>RK_Damage_PickaxeStab</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+<!--Ratkin Anomaly+-->
+			<li MayRequire="fxz.ratkinanomaly.update">
+				<damageDef>RA_Scissors</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="fxz.ratkinanomaly.update">
+				<damageDef>RA_WatchDamage</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+<!--Monolyn Race-->
+			<li MayRequire="ASEL.MonolynRace">
+				<damageDef>MNElctricalBurn</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="ASEL.MonolynRace">
+				<damageDef>MNPurification</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="ASEL.MonolynRace">
+				<damageDef>PurificationBurn</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="ASEL.MonolynRace">
+				<damageDef>MNVaporize</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="ASEL.MonolynRace">
+				<damageDef>MNBlunt</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li MayRequire="ASEL.MonolynRace">
+				<damageDef>MNGravityBlunt</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li MayRequire="ASEL.MonolynRace">
+				<damageDef>MNGravityInertial</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
 		</damageMultipliers>
 	</ThingDef>
 	
@@ -347,7 +495,7 @@
 		</costList>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<building>
-			<turretBurstWarmupTime>1.5</turretBurstWarmupTime>
+			<turretBurstWarmupTime>4</turretBurstWarmupTime>
 			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
 			<turretTopDrawSize>4</turretTopDrawSize>	
 			<turretGunDef>FTC_Katyusha_Gun</turretGunDef>
@@ -366,7 +514,7 @@
   		</graphicData>
 		<statBases>
 			<SightsEfficiency>250</SightsEfficiency>
-			<ShotSpread>2</ShotSpread>
+			<ShotSpread>5.5</ShotSpread>
 			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
@@ -376,15 +524,15 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
 				<defaultProjectile>Bullet_FT_132mmM13_HE</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
-				<minRange>14.5</minRange>
-				<range>118.5</range>
+				<warmupTime>4</warmupTime>
+				<minRange>29.9</minRange>
+				<range>1000</range>
 				<burstShotCount>16</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<soundCast>FT_NebelShot</soundCast>
 				<muzzleFlashScale>39</muzzleFlashScale>
-				<circularError>1.5</circularError>
-				<!--<indirectFirePenalty>0.2</indirectFirePenalty>-->
+				<!--<circularError>1.5</circularError>-->
+				<indirectFirePenalty>0.2</indirectFirePenalty>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
