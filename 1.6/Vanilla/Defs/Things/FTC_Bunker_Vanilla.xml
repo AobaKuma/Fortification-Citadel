@@ -998,7 +998,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>FTC_Wall_Howitzer_Turret</turretGunDef>	 
 			<turretTopDrawSize>4</turretTopDrawSize>
-			<turretBurstWarmupTime>5</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
+			<turretBurstWarmupTime>4</turretBurstWarmupTime>   <!--================冷卻與瞄準時間 ================-->
 			<turretBurstCooldownTime>10</turretBurstCooldownTime>			
 		</building>
 		<placeWorkers Inherit="false">
@@ -1059,7 +1059,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<defaultProjectile>FT_Test_HowitzerShell_AB</defaultProjectile>
-				<warmupTime>5</warmupTime>
+				<warmupTime>4</warmupTime>
 				<range>500.0</range>
 				<requireLineOfSight>false</requireLineOfSight>
 				<minRange>11.9</minRange>
