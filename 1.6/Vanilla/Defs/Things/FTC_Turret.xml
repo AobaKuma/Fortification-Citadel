@@ -104,10 +104,6 @@
 				<damageDef>MechBandShockwave</damageDef>
 				<multiplier>0</multiplier>
 		  </li>
-		  <li MayRequire="CETeam.CombatExtended">
-				<damageDef>Electrical</damageDef>
-				<multiplier>0</multiplier>
-		  </li>
 	</damageMultipliers>
  	 </ThingDef>
   	<ThingDef ParentName="BaseArtilleryWeapon"> 
@@ -277,10 +273,6 @@
 		  </li>
 		  <li MayRequire="Ludeon.RimWorld.Biotech">
 				<damageDef>MechBandShockwave</damageDef>
-				<multiplier>0</multiplier>
-		  </li>
-		  <li MayRequire="CETeam.CombatExtended">
-				<damageDef>Electrical</damageDef>
 				<multiplier>0</multiplier>
 		  </li>
 	</damageMultipliers>
