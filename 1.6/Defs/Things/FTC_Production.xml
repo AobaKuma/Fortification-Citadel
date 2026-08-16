@@ -109,9 +109,6 @@
       <li>Smithing</li>
       <li>Electricity</li>
     </researchPrerequisites>
-    <placeWorkers>
-      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
-    </placeWorkers>
     <modExtensions>
       <li Class="Fortified.ModExtension_AutoWorkTable">
         <workAmountPerStage>20000</workAmountPerStage>
@@ -207,9 +204,6 @@
       <li>Electricity</li>
       <li>FT_Chemistry</li>
     </researchPrerequisites>
-    <placeWorkers>
-      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
-    </placeWorkers>
     <modExtensions>
       <li Class="Fortified.ModExtension_AutoWorkTable">
         <workAmountPerStage>20000</workAmountPerStage>
