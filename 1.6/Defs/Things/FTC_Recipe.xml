@@ -2,8 +2,8 @@
 <Defs>
   <RecipeDef>
     <defName>FT_ExtractChemFuelByCorpses</defName>
-    <label>pyrolyzing corpses (360)</label>
-    <description>pyrolyzing 360 kilograms of corpses(about 6 human) and extract into 125 chemfuel. corpses must be biological.</description>
+    <label>pyrolyze corpses (360)</label>
+    <description>Pyrolyze 360 kilograms of corpses (approximately 6 adult humans) into chemfuel. Corpses must be organic.</description>
     <ingredientValueGetterClass>Fortified.IngredientValueGetter_Mass</ingredientValueGetterClass>
     <jobString>pyrolyzing chemfuel from material</jobString>
     <allowMixingIngredients>true</allowMixingIngredients>

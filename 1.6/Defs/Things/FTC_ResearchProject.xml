@@ -2,7 +2,7 @@
 <Defs>
   <ResearchProjectDef>
     <defName>FTC_Decoy</defName>
-    <label>Data:Strategic deception</label>
+    <label>Data: strategic deception</label>
     <description>[Data decryption completed] \n To protect those settlements that really matter to us, we need a stronghold, a fortified citadel that took everyone's attention.\n\n whatever, a place... that no one could ignore___Interstellar Industries Complex Nara</description>
     <baseCost>2000</baseCost>
     <techLevel>Industrial</techLevel>
@@ -36,7 +36,7 @@
   <ResearchProjectDef>
     <defName>FTC_PermanentStructure</defName>
     <label>Permanent structures</label>
-    <description>Unlock the construction of Permanent structures, these concrete structures were designed to be a non-deconstructible buildings. \n\n Even if war disappears from this world,they will remain there, as a silenced concreted stele, for future generations to witness the war of the past.</description>
+    <description>Unlock the construction of permanent structures, these concrete structures were designed to be very resilient but non-deconstructible buildings. \n\n Even if war disappears from this world, they will remain there as silent concrete monuments of what has been, for future generations to witness the war of the past.</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <tab>HeavyIndustry</tab>
@@ -67,7 +67,7 @@
   <ResearchProjectDef>
     <defName>FTC_PermanentBunker</defName>
     <label>Permanent fortifications</label>
-    <description>Unlock the construction of Permanent fortifications, these concrete facilities were designed to be a non-deconstructible weapon platform. \n\n Even if war disappears from this world, they will remain there disarmed, as a silenced remain, for future generations to witness the war of the past.</description>
+    <description>Unlock the construction of permanent fortifications, these concrete facilities were designed to be very resilient but non-deconstructible stationary weapons platforms. \n\n Even if war disappears from this world, they will remain there as derelict weapons, for future generations to witness the war of the past.</description>
     <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>
     <tab>HeavyIndustry</tab>
@@ -98,8 +98,8 @@
   
   <ResearchProjectDef>
     <defName>FTC_TurretBunker</defName>
-    <label>Tank Bunker</label>
-    <description>The installation of a tank turret in a semi-buried concrete structure can provide strong firepower and a safe shooting environment, but it can only execute simple orders because it cannot receive communications.</description>
+    <label>tank bunker</label>
+    <description>The installation of tank turrets in half-buried bunkers can provide strong firepower and a safe shooting environment.</description>
     <baseCost>750</baseCost>
     <techLevel>Industrial</techLevel>
     <tab>HeavyIndustry</tab>

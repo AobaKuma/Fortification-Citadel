@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <FT_OperateFurnace.label>Operate ArcFurnace</FT_OperateFurnace.label>
-  <FT_OperateFurnace.verb>Operate</FT_OperateFurnace.verb>
-  <FT_OperateFurnace.gerund>Operating at</FT_OperateFurnace.gerund>
+  <FT_OperateFurnace.label>operate arc furnace</FT_OperateFurnace.label>
+  <FT_OperateFurnace.verb>operate</FT_OperateFurnace.verb>
+  <FT_OperateFurnace.gerund>operating at</FT_OperateFurnace.gerund>
 
-  <FT_OperateAutoChem.label>Operate pyrolysis plant</FT_OperateAutoChem.label>
-  <FT_OperateAutoChem.verb>Operate</FT_OperateAutoChem.verb>
-  <FT_OperateAutoChem.gerund>Operating at</FT_OperateAutoChem.gerund>
+  <FT_OperateAutoChem.label>operate pyrolysis plant</FT_OperateAutoChem.label>
+  <FT_OperateAutoChem.verb>operate</FT_OperateAutoChem.verb>
+  <FT_OperateAutoChem.gerund>operating at</FT_OperateAutoChem.gerund>
 
   <FT_OperateKitchen.label>cook at kitchen</FT_OperateKitchen.label>
-  <FT_OperateKitchen.verb>Cook</FT_OperateKitchen.verb>
+  <FT_OperateKitchen.verb>cook</FT_OperateKitchen.verb>
   <FT_OperateKitchen.gerund>cooking at</FT_OperateKitchen.gerund>
 
 
