@@ -9,6 +9,7 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <packageId>Aoba.Fortress.Industrial.Citadel</packageId>
   <description>
@@ -66,6 +67,13 @@
         <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2561619583</steamWorkshopUrl>
       </li>
     </v1.6>
+    <v1.7>
+      <li>
+        <packageId>Aoba.Fortress.Industrial</packageId>
+        <displayName>Fortifications - Industrial</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2561619583</steamWorkshopUrl>
+      </li>
+    </v1.7>
   </modDependenciesByVersion>
   <loadAfter>
     <li>vanillaexpanded.achievements</li>
